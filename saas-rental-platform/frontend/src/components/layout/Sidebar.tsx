@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import {
   LayoutDashboard, Package, FolderOpen, Users, FileText, Receipt,
-  UserCheck, BarChart3, Settings, Zap, LogOut
+  UserCheck, BarChart3, CalendarDays, Zap, LogOut
 } from 'lucide-react';
 import { useAuth } from '@/contexts/AuthContext';
 
@@ -9,6 +9,7 @@ const navItems = [
   { to: '/app/dashboard', icon: LayoutDashboard, label: 'Dashboard' },
   { to: '/app/equipment', icon: Package, label: 'Equipment' },
   { to: '/app/projects', icon: FolderOpen, label: 'Projects' },
+  { to: '/app/calendar', icon: CalendarDays, label: 'Calendar' },
   { to: '/app/crew', icon: UserCheck, label: 'Crew' },
   { to: '/app/clients', icon: Users, label: 'Clients' },
   { to: '/app/quotes', icon: FileText, label: 'Quotes' },
@@ -20,7 +21,7 @@ export default function Sidebar() {
   const { user, logout } = useAuth();
 
   return (
-    <aside className="w-64 bg-primary-500 flex flex-col min-h-screen fixed left-0 top-0 z-40">
+    <aside className="w-64 bg-primary-500 flex flex-col min-h-screen fixed left-0 top-0 z-40 no-print">
       {/* Logo */}
       <div className="p-6 border-b border-white/10">
         <div className="flex items-center gap-2">

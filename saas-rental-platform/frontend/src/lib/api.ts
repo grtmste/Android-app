@@ -118,3 +118,9 @@ export const notificationsApi = {
   markRead: (id: string) => api.put(`/notifications/${id}/read`),
   markAllRead: () => api.put('/notifications/mark-all-read'),
 };
+
+// Email
+export const emailApi = {
+  send: (data: { to: string; subject: string; message: string; documentType?: string; documentId?: string }) =>
+    api.post('/email/send', data),
+};

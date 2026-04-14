@@ -64,3 +64,52 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #94a3b8;
 }
+
+/* ============================================================
+   PRINT / PDF STYLES
+   Hide all UI chrome; only the document card is visible
+   ============================================================ */
+@media print {
+  /* Hide sidebar, topbar, nav buttons, action bars */
+  .no-print {
+    display: none !important;
+  }
+
+  /* Remove the sidebar offset so content fills the page */
+  .ml-64 {
+    margin-left: 0 !important;
+  }
+
+  /* Remove app shell background */
+  body, html {
+    background: #fff !important;
+  }
+
+  /* Remove padding from main content wrapper */
+  main {
+    padding: 0 !important;
+  }
+
+  /* The document card should take full width and remove box shadow */
+  .print-wrapper {
+    max-width: 100% !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .print-wrapper .rounded-2xl,
+  .print-wrapper .rounded-xl,
+  .print-wrapper [class*="shadow"] {
+    box-shadow: none !important;
+    border-radius: 0 !important;
+  }
+
+  /* Page margins for print */
+  @page {
+    margin: 12mm 16mm;
+    size: A4;
+  }
+}

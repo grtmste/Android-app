@@ -21,7 +21,7 @@ export default function TopBar({ title }: { title?: string }) {
   });
 
   return (
-    <header className="h-16 bg-white border-b border-gray-200 flex items-center justify-between px-6 sticky top-0 z-30">
+    <header className="h-16 bg-white border-b border-gray-200 flex items-center justify-between px-6 sticky top-0 z-30 no-print">
       <div className="flex items-center gap-4">
         <h1 className="text-xl font-semibold text-gray-900">{title}</h1>
       </div>

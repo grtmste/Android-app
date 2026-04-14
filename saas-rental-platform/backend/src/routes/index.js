@@ -12,5 +12,6 @@ router.use('/quotes', authenticate, require('./quotes'));
 router.use('/invoices', authenticate, require('./invoices'));
 router.use('/analytics', authenticate, require('./analytics'));
 router.use('/notifications', authenticate, require('./notifications'));
+router.use('/email', authenticate, require('./email'));
 
 module.exports = router;

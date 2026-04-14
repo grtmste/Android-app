@@ -11,6 +11,7 @@ const titleMap: Record<string, string> = {
   '/app/quotes': 'Quotes',
   '/app/invoices': 'Invoices',
   '/app/analytics': 'Analytics & Reports',
+  '/app/calendar': 'Calendar',
 };
 
 export default function AppLayout() {

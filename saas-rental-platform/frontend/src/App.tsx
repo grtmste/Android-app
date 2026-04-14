@@ -22,6 +22,7 @@ import QuoteDetailPage from './pages/app/QuoteDetailPage';
 import InvoicesPage from './pages/app/InvoicesPage';
 import InvoiceDetailPage from './pages/app/InvoiceDetailPage';
 import AnalyticsPage from './pages/app/AnalyticsPage';
+import CalendarPage from './pages/app/CalendarPage';
 
 function ProtectedRoute({ children }: { children: React.ReactNode }) {
   const { user, isLoading } = useAuth();
@@ -69,6 +70,7 @@ function AppRoutes() {
         <Route path="invoices" element={<InvoicesPage />} />
         <Route path="invoices/:id" element={<InvoiceDetailPage />} />
         <Route path="analytics" element={<AnalyticsPage />} />
+        <Route path="calendar" element={<CalendarPage />} />
       </Route>
 
       {/* Fallback */}
