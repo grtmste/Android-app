@@ -1,6 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
+const path = require('path');
 const routes = require('./routes');
 const errorHandler = require('./middleware/errorHandler');
 
@@ -29,8 +30,12 @@ app.use('/api', routes);
 // Health check
 app.get('/health', (req, res) => res.json({ status: 'ok', timestamp: new Date().toISOString() }));
 
-// 404 handler
-app.use((req, res) => res.status(404).json({ error: 'Route not found' }));
+// Serve built React frontend in production
+const frontendDist = path.join(__dirname, '../public');
+app.use(express.static(frontendDist));
+app.get('*', (req, res) => {
+  res.sendFile(path.join(frontendDist, 'index.html'));
+});
 
 // Error handler
 app.use(errorHandler);
