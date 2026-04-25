@@ -309,6 +309,52 @@
       max-width: 560px;
     }
 
+    /* ─── STATS BAR ─── */
+    .stats {
+      background: var(--accent);
+      padding: 40px 24px;
+    }
+
+    .stats__inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0;
+      flex-wrap: wrap;
+    }
+
+    .stat {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+      padding: 12px 48px;
+      text-align: center;
+    }
+
+    .stat__num {
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: var(--white);
+      line-height: 1;
+    }
+
+    .stat__label {
+      font-size: 0.8rem;
+      font-weight: 400;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.75);
+    }
+
+    .stat__divider {
+      width: 1px;
+      height: 48px;
+      background: rgba(255,255,255,0.3);
+    }
+
     /* ─── ABOUT ─── */
     .about__body {
       font-size: 1rem;
@@ -665,6 +711,26 @@
       </div>
     </div>
   </section>
+
+  <!-- STATS BAR -->
+  <div class="stats">
+    <div class="stats__inner">
+      <div class="stat">
+        <span class="stat__num">50+</span>
+        <span class="stat__label">Õnnelikku klienti</span>
+      </div>
+      <div class="stat__divider"></div>
+      <div class="stat">
+        <span class="stat__num">3+</span>
+        <span class="stat__label">Aastat kogemust</span>
+      </div>
+      <div class="stat__divider"></div>
+      <div class="stat">
+        <span class="stat__num">100%</span>
+        <span class="stat__label">Pühendumust igale projektile</span>
+      </div>
+    </div>
+  </div>
 
   <!-- ABOUT -->
   <section class="section" id="minust">
