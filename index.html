@@ -82,17 +82,31 @@
     }
 
     .nav__links a {
+      position: relative;
       font-size: 0.875rem;
       font-weight: 400;
       letter-spacing: 0.02em;
       color: var(--text);
-      transition: opacity 0.2s;
+      padding-bottom: 2px;
     }
 
-    .nav__links a:hover { opacity: 0.55; }
+    .nav__links a::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      width: 0;
+      height: 1.5px;
+      background: var(--accent);
+      transition: width 0.28s ease;
+    }
+
+    .nav__links a:hover::after { width: 100%; }
 
     .btn {
-      display: inline-block;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
       padding: 11px 24px;
       border: 1.5px solid var(--black);
       background: var(--black);
@@ -102,11 +116,19 @@
       font-weight: 500;
       letter-spacing: 0.04em;
       cursor: pointer;
-      transition: background 0.2s, color 0.2s;
+      transition: background 0.22s, color 0.22s, gap 0.22s;
       white-space: nowrap;
     }
 
+    .btn::after {
+      content: '→';
+      font-size: 1rem;
+      line-height: 1;
+      transition: transform 0.22s;
+    }
+
     .btn:hover { background: var(--white); color: var(--black); }
+    .btn:hover::after { transform: translateX(4px); }
 
     .btn--outline {
       background: transparent;
