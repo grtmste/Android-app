@@ -6,7 +6,7 @@
   <title>Digiplaneerimine – Kristina Piltjai</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -30,7 +30,7 @@
     }
 
     h1, h2, h3, h4 {
-      font-family: 'Playfair Display', serif;
+      font-family: 'DM Sans', sans-serif;
       line-height: 1.2;
     }
 
@@ -62,7 +62,7 @@
       display: flex;
       align-items: center;
       gap: 10px;
-      font-family: 'Playfair Display', serif;
+      font-family: 'DM Sans', sans-serif;
       font-size: 1.2rem;
       font-weight: 700;
       letter-spacing: 0.02em;
@@ -244,13 +244,6 @@
     }
 
     /* ─── ABOUT ─── */
-    .about__grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 80px;
-      align-items: center;
-    }
-
     .about__body {
       font-size: 1rem;
       color: var(--muted);
@@ -258,13 +251,6 @@
     }
 
     .about__body p + p { margin-top: 16px; }
-
-    .about__img {
-      width: 100%;
-      aspect-ratio: 4/5;
-      object-fit: cover;
-      object-position: top;
-    }
 
     /* ─── SERVICES ─── */
     .services__grid {
@@ -280,7 +266,7 @@
     }
 
     .service-card__num {
-      font-family: 'Playfair Display', serif;
+      font-family: 'DM Sans', sans-serif;
       font-size: 2rem;
       color: var(--beige-dark);
       margin-bottom: 16px;
@@ -312,7 +298,7 @@
     }
 
     .testimonial-card__quote {
-      font-family: 'Playfair Display', serif;
+      font-family: 'DM Sans', sans-serif;
       font-size: 2.5rem;
       color: var(--beige-dark);
       line-height: 1;
@@ -423,7 +409,7 @@
     }
 
     .footer__logo {
-      font-family: 'Playfair Display', serif;
+      font-family: 'DM Sans', sans-serif;
       font-size: 1.2rem;
       font-weight: 700;
     }
@@ -505,10 +491,7 @@
       .hero { padding: 56px 24px 0; }
       .hero__img { max-height: 400px; width: 100%; }
 
-      .about__grid { grid-template-columns: 1fr; gap: 40px; }
-      .about__img { max-height: 380px; }
-
-      .services__grid { grid-template-columns: 1fr; gap: 2px; }
+.services__grid { grid-template-columns: 1fr; gap: 2px; }
       .testimonials__grid { grid-template-columns: 1fr; gap: 16px; }
       .contact__grid { grid-template-columns: 1fr; gap: 48px; }
 
@@ -601,25 +584,15 @@
   <!-- ABOUT -->
   <section class="section" id="minust">
     <div class="section__inner">
-      <div class="about__grid">
-        <div>
-          <p class="section__label">Minust</p>
-          <h2 class="section__title">Tere, olen Kristina!</h2>
-          <div class="about__body">
-            <p>Olen virtuaalne assistent ja digistrateg, kelle südameasjaks on aidata ettevõtjatel ja väikeettevõtetel kasvada – ilma bürokraatia ja igapäevase operatiivkoormuseta.</p>
-            <p>Mul on kogemus sotsiaalmeedia halduse, e-posti turunduse, sisu loomise ja protsesside automatiseerimise valdkonnas. Usun, et iga ettevõtja väärib abilist, kes mõistab nende visiooni ja toetab seda konkreetsete tulemustega.</p>
-            <p>Kui soovid pühendada oma aja sellele, mis sind päriselt huvitab, olen siin, et hoolt kanda ülejäänu eest.</p>
-          </div>
-          <a href="http://zcal.co/kristinapiltjai/konsultatsioon" class="btn" style="margin-top:32px;" target="_blank" rel="noopener">Broneeri tasuta konsultatsioon</a>
+      <div style="max-width:640px;">
+        <p class="section__label">Minust</p>
+        <h2 class="section__title">Tere, olen Kristina!</h2>
+        <div class="about__body">
+          <p>Olen virtuaalne assistent ja digistrateg, kelle südameasjaks on aidata ettevõtjatel ja väikeettevõtetel kasvada – ilma bürokraatia ja igapäevase operatiivkoormuseta.</p>
+          <p>Mul on kogemus sotsiaalmeedia halduse, e-posti turunduse, sisu loomise ja protsesside automatiseerimise valdkonnas. Usun, et iga ettevõtja väärib abilist, kes mõistab nende visiooni ja toetab seda konkreetsete tulemustega.</p>
+          <p>Kui soovid pühendada oma aja sellele, mis sind päriselt huvitab, olen siin, et hoolt kanda ülejäänu eest.</p>
         </div>
-        <div>
-          <img
-            src="https://digiplaneerimine.ee/wp-content/uploads/2025/02/20241026-IMG_0884-scaled.jpg"
-            alt="Kristina Piltjai"
-            class="about__img"
-            loading="lazy"
-          />
-        </div>
+        <a href="http://zcal.co/kristinapiltjai/konsultatsioon" class="btn" style="margin-top:32px;" target="_blank" rel="noopener">Broneeri tasuta konsultatsioon</a>
       </div>
     </div>
   </section>
