@@ -424,12 +424,19 @@
     .testimonial-card {
       background: var(--beige);
       padding: 36px 32px;
+      transition: transform 0.25s;
+    }
+
+    .testimonial-card:hover { transform: translateY(-4px); }
+
+    .testimonial-card--dark {
+      background: var(--black);
     }
 
     .testimonial-card__quote {
-      font-family: 'DM Sans', sans-serif;
-      font-size: 2.5rem;
-      color: var(--beige-dark);
+      font-size: 3rem;
+      font-weight: 700;
+      color: var(--accent);
       line-height: 1;
       margin-bottom: 12px;
     }
@@ -442,17 +449,23 @@
       margin-bottom: 24px;
     }
 
+    .testimonial-card--dark .testimonial-card__text { color: rgba(255,255,255,0.7); }
+
     .testimonial-card__author {
       font-size: 0.85rem;
-      font-weight: 500;
+      font-weight: 600;
       color: var(--black);
       letter-spacing: 0.04em;
     }
+
+    .testimonial-card--dark .testimonial-card__author { color: var(--white); }
 
     .testimonial-card__role {
       font-size: 0.8rem;
       color: var(--muted);
     }
+
+    .testimonial-card--dark .testimonial-card__role { color: rgba(255,255,255,0.4); }
 
     /* ─── CONTACT ─── */
     .contact__grid {
@@ -513,6 +526,47 @@
       resize: vertical;
       min-height: 140px;
     }
+
+    /* ─── CTA STRIP ─── */
+    .cta-strip {
+      background: var(--beige);
+      border-top: 3px solid var(--accent);
+      padding: 72px 24px;
+    }
+
+    .cta-strip__inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .cta-strip__title {
+      font-size: clamp(1.8rem, 3vw, 2.6rem);
+      font-weight: 700;
+      color: var(--black);
+      margin-bottom: 8px;
+    }
+
+    .cta-strip__sub {
+      font-size: 0.95rem;
+      color: var(--muted);
+      max-width: 480px;
+    }
+
+    .btn--cta {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: var(--white);
+      padding: 15px 32px;
+      font-size: 1rem;
+      flex-shrink: 0;
+    }
+
+    .btn--cta:hover { background: var(--black); border-color: var(--black); color: var(--white); }
 
     /* ─── FOOTER ─── */
     .footer {
@@ -797,7 +851,7 @@
       <p class="section__label">Tagasiside</p>
       <h2 class="section__title">Mida kliendid ütlevad</h2>
       <div class="testimonials__grid">
-        <div class="testimonial-card">
+        <div class="testimonial-card testimonial-card--dark">
           <div class="testimonial-card__quote">"</div>
           <p class="testimonial-card__text">Kristina on olnud hindamatu abi – ta lahendab asju kiiresti, professionaalselt ja alati positiivse hoiakuga. Tunnen, et mul on tõeline tiimiliige.</p>
           <div class="testimonial-card__author">Anna K.</div>
@@ -809,7 +863,7 @@
           <div class="testimonial-card__author">Mart L.</div>
           <div class="testimonial-card__role">Konsultant, Tartu</div>
         </div>
-        <div class="testimonial-card">
+        <div class="testimonial-card testimonial-card--dark">
           <div class="testimonial-card__quote">"</div>
           <p class="testimonial-card__text">Usaldasin Kristinale oma e-posti turunduse ja tulemused ületasid ootused. Avamismäär tõusis märkimisväärselt juba esimese kuuga.</p>
           <div class="testimonial-card__author">Liis T.</div>
@@ -849,6 +903,17 @@
           </form>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- CTA STRIP -->
+  <section class="cta-strip">
+    <div class="cta-strip__inner">
+      <div>
+        <h2 class="cta-strip__title">Valmis alustama?</h2>
+        <p class="cta-strip__sub">Broneeri tasuta 30-minutiline konsultatsioon – vaatame koos, kuidas saan sinu äri toetada.</p>
+      </div>
+      <a href="http://zcal.co/kristinapiltjai/konsultatsioon" class="btn btn--cta" target="_blank" rel="noopener">Broneeri kohtumine</a>
     </div>
   </section>
 
