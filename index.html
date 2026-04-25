@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digiplaneerimine – Kristina Piltjai</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --black: #000000;
+      --white: #ffffff;
+      --beige: #f9f5f0;
+      --beige-dark: #ede8e0;
+      --text: #1a1a1a;
+      --muted: #555555;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--white);
+      color: var(--text);
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Playfair Display', serif;
+      line-height: 1.2;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    img { display: block; max-width: 100%; }
+
+    /* ─── NAV ─── */
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--white);
+      border-bottom: 1px solid var(--beige-dark);
+    }
+
+    .nav__inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+      height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .nav__logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      white-space: nowrap;
+      color: var(--black);
+    }
+
+    .nav__links {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      list-style: none;
+    }
+
+    .nav__links a {
+      font-size: 0.875rem;
+      font-weight: 400;
+      letter-spacing: 0.02em;
+      color: var(--text);
+      transition: opacity 0.2s;
+    }
+
+    .nav__links a:hover { opacity: 0.55; }
+
+    .btn {
+      display: inline-block;
+      padding: 11px 24px;
+      border: 1.5px solid var(--black);
+      background: var(--black);
+      color: var(--white);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.875rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s;
+      white-space: nowrap;
+    }
+
+    .btn:hover { background: var(--white); color: var(--black); }
+
+    .btn--outline {
+      background: transparent;
+      color: var(--black);
+    }
+
+    .btn--outline:hover { background: var(--black); color: var(--white); }
+
+    .btn--beige {
+      background: var(--beige);
+      border-color: var(--beige);
+      color: var(--black);
+    }
+
+    .btn--beige:hover { background: var(--beige-dark); border-color: var(--beige-dark); }
+
+    /* hamburger */
+    .nav__burger {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      width: 32px;
+      height: 32px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 2px;
+    }
+
+    .nav__burger span {
+      display: block;
+      height: 1.5px;
+      background: var(--black);
+      transition: transform 0.25s, opacity 0.25s;
+    }
+
+    .nav__burger.open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+    .nav__burger.open span:nth-child(2) { opacity: 0; }
+    .nav__burger.open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+
+    .nav__mobile {
+      display: none;
+      flex-direction: column;
+      gap: 0;
+      background: var(--white);
+      border-top: 1px solid var(--beige-dark);
+      padding: 16px 24px 20px;
+    }
+
+    .nav__mobile.open { display: flex; }
+
+    .nav__mobile a {
+      padding: 10px 0;
+      font-size: 1rem;
+      border-bottom: 1px solid var(--beige-dark);
+    }
+
+    .nav__mobile .btn {
+      margin-top: 16px;
+      text-align: center;
+    }
+
+    /* ─── HERO ─── */
+    .hero {
+      background: var(--beige);
+      padding: 80px 24px;
+    }
+
+    .hero__inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: center;
+    }
+
+    .hero__tag {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 20px;
+    }
+
+    .hero__title {
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 700;
+      margin-bottom: 20px;
+      color: var(--black);
+    }
+
+    .hero__sub {
+      font-size: 1.05rem;
+      color: var(--muted);
+      max-width: 460px;
+      margin-bottom: 36px;
+      line-height: 1.8;
+    }
+
+    .hero__img {
+      width: 100%;
+      aspect-ratio: 3/4;
+      object-fit: cover;
+      object-position: top center;
+    }
+
+    /* ─── SECTION BASE ─── */
+    .section {
+      padding: 96px 24px;
+    }
+
+    .section--alt { background: var(--beige); }
+
+    .section__inner {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .section__label {
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+
+    .section__title {
+      font-size: clamp(1.6rem, 3vw, 2.2rem);
+      font-weight: 600;
+      margin-bottom: 32px;
+      max-width: 560px;
+    }
+
+    /* ─── ABOUT ─── */
+    .about__grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+    }
+
+    .about__body {
+      font-size: 1rem;
+      color: var(--muted);
+      line-height: 1.9;
+    }
+
+    .about__body p + p { margin-top: 16px; }
+
+    .about__img {
+      width: 100%;
+      aspect-ratio: 4/5;
+      object-fit: cover;
+      object-position: top;
+    }
+
+    /* ─── SERVICES ─── */
+    .services__grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2px;
+    }
+
+    .service-card {
+      background: var(--white);
+      padding: 40px 32px;
+      border: 1px solid var(--beige-dark);
+    }
+
+    .service-card__num {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      color: var(--beige-dark);
+      margin-bottom: 16px;
+    }
+
+    .service-card__title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+      color: var(--black);
+    }
+
+    .service-card__text {
+      font-size: 0.9rem;
+      color: var(--muted);
+      line-height: 1.8;
+    }
+
+    /* ─── TESTIMONIALS ─── */
+    .testimonials__grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .testimonial-card {
+      background: var(--beige);
+      padding: 36px 32px;
+    }
+
+    .testimonial-card__quote {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      color: var(--beige-dark);
+      line-height: 1;
+      margin-bottom: 12px;
+    }
+
+    .testimonial-card__text {
+      font-size: 0.95rem;
+      color: var(--text);
+      line-height: 1.8;
+      font-style: italic;
+      margin-bottom: 24px;
+    }
+
+    .testimonial-card__author {
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--black);
+      letter-spacing: 0.04em;
+    }
+
+    .testimonial-card__role {
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    /* ─── CONTACT ─── */
+    .contact__grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: start;
+    }
+
+    .contact__info p {
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin-bottom: 24px;
+      line-height: 1.8;
+    }
+
+    .contact__detail {
+      font-size: 0.9rem;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+
+    .contact__detail span { color: var(--muted); }
+
+    .form__group {
+      margin-bottom: 20px;
+    }
+
+    .form__label {
+      display: block;
+      font-size: 0.8rem;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    .form__input,
+    .form__textarea {
+      width: 100%;
+      padding: 13px 16px;
+      border: 1.5px solid var(--beige-dark);
+      background: var(--beige);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.95rem;
+      color: var(--text);
+      outline: none;
+      transition: border-color 0.2s;
+      -webkit-appearance: none;
+      border-radius: 0;
+    }
+
+    .form__input:focus,
+    .form__textarea:focus { border-color: var(--black); }
+
+    .form__textarea {
+      resize: vertical;
+      min-height: 140px;
+    }
+
+    /* ─── FOOTER ─── */
+    .footer {
+      background: var(--black);
+      color: var(--white);
+      padding: 56px 24px 32px;
+    }
+
+    .footer__inner {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .footer__top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 24px;
+      margin-bottom: 40px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .footer__logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+
+    .footer__nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px 32px;
+      list-style: none;
+    }
+
+    .footer__nav a {
+      font-size: 0.875rem;
+      color: rgba(255,255,255,0.6);
+      transition: color 0.2s;
+    }
+
+    .footer__nav a:hover { color: var(--white); }
+
+    .footer__bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .footer__copy {
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.4);
+    }
+
+    /* ─── COOKIE BANNER ─── */
+    .cookie {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 999;
+      background: var(--black);
+      color: var(--white);
+      padding: 18px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .cookie.hidden { display: none; }
+
+    .cookie__text {
+      font-size: 0.875rem;
+      color: rgba(255,255,255,0.8);
+      max-width: 680px;
+    }
+
+    .cookie__btn {
+      padding: 9px 22px;
+      background: var(--white);
+      color: var(--black);
+      border: none;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.875rem;
+      font-weight: 500;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: opacity 0.2s;
+    }
+
+    .cookie__btn:hover { opacity: 0.85; }
+
+    /* ─── RESPONSIVE ─── */
+    @media (max-width: 900px) {
+      .nav__links, .nav__cta { display: none; }
+      .nav__burger { display: flex; }
+
+      .hero__inner { grid-template-columns: 1fr; gap: 40px; }
+      .hero { padding: 56px 24px 0; }
+      .hero__img { max-height: 400px; width: 100%; }
+
+      .about__grid { grid-template-columns: 1fr; gap: 40px; }
+      .about__img { max-height: 380px; }
+
+      .services__grid { grid-template-columns: 1fr; gap: 2px; }
+      .testimonials__grid { grid-template-columns: 1fr; gap: 16px; }
+      .contact__grid { grid-template-columns: 1fr; gap: 48px; }
+
+      .footer__top { flex-direction: column; align-items: flex-start; }
+    }
+
+    @media (max-width: 600px) {
+      .section { padding: 64px 20px; }
+      .footer { padding: 40px 20px 24px; }
+      .footer__bottom { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#avaleht" class="nav__logo">Digiplaneerimine</a>
+
+      <nav aria-label="Peamine navigatsioon">
+        <ul class="nav__links">
+          <li><a href="#avaleht">Avaleht</a></li>
+          <li><a href="#minust">Minust</a></li>
+          <li><a href="#teenused">Teenused</a></li>
+          <li><a href="#blogi">Blogi</a></li>
+          <li><a href="#tehtud-tood">Tehtud tööd</a></li>
+          <li><a href="#tagasiside">Tagasiside</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <a href="http://zcal.co/kristinapiltjai/konsultatsioon" class="btn nav__cta" target="_blank" rel="noopener">Broneeri kohtumine</a>
+
+      <button class="nav__burger" id="burger" aria-label="Menüü avamine" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="nav__mobile" id="mobileMenu" role="navigation" aria-label="Mobiilmenüü">
+      <a href="#avaleht">Avaleht</a>
+      <a href="#minust">Minust</a>
+      <a href="#teenused">Teenused</a>
+      <a href="#blogi">Blogi</a>
+      <a href="#tehtud-tood">Tehtud tööd</a>
+      <a href="#tagasiside">Tagasiside</a>
+      <a href="#kontakt">Kontakt</a>
+      <a href="http://zcal.co/kristinapiltjai/konsultatsioon" class="btn" target="_blank" rel="noopener">Broneeri kohtumine</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="avaleht">
+    <div class="hero__inner">
+      <div class="hero__content">
+        <span class="hero__tag">Virtuaalne assistent &amp; digistrateg</span>
+        <h1 class="hero__title">Virtuaalne assistent – Kristina Piltjai</h1>
+        <p class="hero__sub">Aitan ettevõtjatel ja tegevjuhtidel vabastada aega, korrastada protsesse ning viia digitegevused järgmisele tasemele – ilma et peaksid kõike ise tegema.</p>
+        <a href="#teenused" class="btn">Tutvu minu teenustega</a>
+      </div>
+      <div class="hero__media">
+        <img
+          src="https://digiplaneerimine.ee/wp-content/uploads/2025/02/20241026-IMG_0884-scaled.jpg"
+          alt="Kristina Piltjai – virtuaalne assistent"
+          class="hero__img"
+          loading="eager"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="minust">
+    <div class="section__inner">
+      <div class="about__grid">
+        <div>
+          <p class="section__label">Minust</p>
+          <h2 class="section__title">Tere, olen Kristina!</h2>
+          <div class="about__body">
+            <p>Olen virtuaalne assistent ja digistrateg, kelle südameasjaks on aidata ettevõtjatel ja väikeettevõtetel kasvada – ilma bürokraatia ja igapäevase operatiivkoormuseta.</p>
+            <p>Mul on kogemus sotsiaalmeedia halduse, e-posti turunduse, sisu loomise ja protsesside automatiseerimise valdkonnas. Usun, et iga ettevõtja väärib abilist, kes mõistab nende visiooni ja toetab seda konkreetsete tulemustega.</p>
+            <p>Kui soovid pühendada oma aja sellele, mis sind päriselt huvitab, olen siin, et hoolt kanda ülejäänu eest.</p>
+          </div>
+          <a href="http://zcal.co/kristinapiltjai/konsultatsioon" class="btn" style="margin-top:32px;" target="_blank" rel="noopener">Broneeri tasuta konsultatsioon</a>
+        </div>
+        <div>
+          <img
+            src="https://digiplaneerimine.ee/wp-content/uploads/2025/02/20241026-IMG_0884-scaled.jpg"
+            alt="Kristina Piltjai"
+            class="about__img"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section section--alt" id="teenused">
+    <div class="section__inner">
+      <p class="section__label">Teenused</p>
+      <h2 class="section__title">Mida ma sinu jaoks teen?</h2>
+      <div class="services__grid">
+        <div class="service-card">
+          <div class="service-card__num">01</div>
+          <h3 class="service-card__title">Virtuaalne assistent</h3>
+          <p class="service-card__text">E-kirjad, kalendri haldus, kohtumiste koordineerimine ja igapäevased administratiivsed ülesanded – delegeeri need mulle ja keskendu ise olulisele.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__num">02</div>
+          <h3 class="service-card__title">Sotsiaalmeedia haldus</h3>
+          <p class="service-card__text">Sisuplaan, postituste koostamine ja avaldamine, kommentaaridele vastamine – kõik, mida vajad püsiva ja professionaalse veebikohalolu loomiseks.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__num">03</div>
+          <h3 class="service-card__title">Digiturundus &amp; strateegia</h3>
+          <p class="service-card__text">E-posti kampaaniad, sihtlehed ja automatiseeritud turunduslahendused, mis töötavad sinu eest ööpäevaringselt.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG placeholder -->
+  <section class="section" id="blogi">
+    <div class="section__inner">
+      <p class="section__label">Blogi</p>
+      <h2 class="section__title">Viimased artiklid</h2>
+      <p style="color:var(--muted);font-size:.95rem;max-width:560px;">Peagi jõuavad siia praktilised näpunäited ettevõtjatele sotsiaalmeedia, ajaplaneerimise ja digistrateegia teemadel. Jälgi mind, et midagi vahele ei jääks!</p>
+    </div>
+  </section>
+
+  <!-- TEHTUD TÖÖD placeholder -->
+  <section class="section section--alt" id="tehtud-tood">
+    <div class="section__inner">
+      <p class="section__label">Tehtud tööd</p>
+      <h2 class="section__title">Mõned näited minu projektidest</h2>
+      <p style="color:var(--muted);font-size:.95rem;max-width:560px;">Portfoolio on loomisel – peagi saan jagada oma klientide edukaid projekte ja koostöönäiteid.</p>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section" id="tagasiside">
+    <div class="section__inner">
+      <p class="section__label">Tagasiside</p>
+      <h2 class="section__title">Mida kliendid ütlevad</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__quote">"</div>
+          <p class="testimonial-card__text">Kristina on olnud hindamatu abi – ta lahendab asju kiiresti, professionaalselt ja alati positiivse hoiakuga. Tunnen, et mul on tõeline tiimiliige.</p>
+          <div class="testimonial-card__author">Anna K.</div>
+          <div class="testimonial-card__role">Väikeettevõtja, Tallinn</div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__quote">"</div>
+          <p class="testimonial-card__text">Tänu Kristinale saan lõpuks pühenduda sellele, milles olen tugev. Sotsiaalmeedia on korras ja kliendid tulevad ise. Soovitan kõigile!</p>
+          <div class="testimonial-card__author">Mart L.</div>
+          <div class="testimonial-card__role">Konsultant, Tartu</div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__quote">"</div>
+          <p class="testimonial-card__text">Usaldasin Kristinale oma e-posti turunduse ja tulemused ületasid ootused. Avamismäär tõusis märkimisväärselt juba esimese kuuga.</p>
+          <div class="testimonial-card__author">Liis T.</div>
+          <div class="testimonial-card__role">Koolitaja, Pärnu</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section--alt" id="kontakt">
+    <div class="section__inner">
+      <div class="contact__grid">
+        <div class="contact__info">
+          <p class="section__label">Kontakt</p>
+          <h2 class="section__title">Võtame ühendust</h2>
+          <p>Kas soovid teada, kuidas saaksin sinu ettevõtet toetada? Kirjuta mulle või broneeri tasuta 30-minutiline konsultatsiooniaeg.</p>
+          <p class="contact__detail"><span>E-post: </span>kristina@digiplaneerimine.ee</p>
+          <p class="contact__detail"><span>Asukoht: </span>Tallinn, Eesti</p>
+          <a href="http://zcal.co/kristinapiltjai/konsultatsioon" class="btn" style="margin-top:8px;" target="_blank" rel="noopener">Broneeri kohtumine</a>
+        </div>
+        <div class="contact__form">
+          <form id="contactForm" novalidate>
+            <div class="form__group">
+              <label class="form__label" for="name">Nimi</label>
+              <input class="form__input" type="text" id="name" name="name" placeholder="Sinu nimi" required />
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="email">E-post</label>
+              <input class="form__input" type="email" id="email" name="email" placeholder="sinu@email.ee" required />
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="message">Sõnum</label>
+              <textarea class="form__textarea" id="message" name="message" placeholder="Kirjuta oma küsimusest..." required></textarea>
+            </div>
+            <button type="submit" class="btn" style="width:100%;">Saada sõnum</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__top">
+        <div class="footer__logo">Digiplaneerimine</div>
+        <nav aria-label="Jaluse navigatsioon">
+          <ul class="footer__nav">
+            <li><a href="#avaleht">Avaleht</a></li>
+            <li><a href="#minust">Minust</a></li>
+            <li><a href="#teenused">Teenused</a></li>
+            <li><a href="#blogi">Blogi</a></li>
+            <li><a href="#tehtud-tood">Tehtud tööd</a></li>
+            <li><a href="#tagasiside">Tagasiside</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">© 2026 Digiplaneerimine OÜ. Kõik õigused kaitstud.</p>
+        <p class="footer__copy">Virtuaalne assistent Eestis</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- COOKIE BANNER -->
+  <div class="cookie" id="cookieBanner" role="alert" aria-live="polite">
+    <p class="cookie__text">Kasutame küpsiseid, et parandada sinu veebilehe kogemust. Jätkates nõustud meie küpsiste kasutamisega.</p>
+    <button class="cookie__btn" id="cookieAccept">Nõustun</button>
+  </div>
+
+  <script>
+    // ── Hamburger menu ──
+    const burger = document.getElementById('burger');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    burger.addEventListener('click', function () {
+      const isOpen = mobileMenu.classList.toggle('open');
+      burger.classList.toggle('open', isOpen);
+      burger.setAttribute('aria-expanded', isOpen);
+    });
+
+    mobileMenu.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        mobileMenu.classList.remove('open');
+        burger.classList.remove('open');
+        burger.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    // ── Smooth scroll ──
+    document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
+      anchor.addEventListener('click', function (e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (!target) return;
+        e.preventDefault();
+        const navHeight = document.getElementById('nav').offsetHeight;
+        const top = target.getBoundingClientRect().top + window.scrollY - navHeight;
+        window.scrollTo({ top: top, behavior: 'smooth' });
+      });
+    });
+
+    // ── Cookie banner ──
+    var cookieBanner = document.getElementById('cookieBanner');
+    var cookieAccept = document.getElementById('cookieAccept');
+
+    if (localStorage.getItem('cookiesAccepted')) {
+      cookieBanner.classList.add('hidden');
+    }
+
+    cookieAccept.addEventListener('click', function () {
+      localStorage.setItem('cookiesAccepted', '1');
+      cookieBanner.classList.add('hidden');
+    });
+
+    // ── Contact form (basic feedback) ──
+    document.getElementById('contactForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var btn = this.querySelector('button[type="submit"]');
+      btn.textContent = 'Saadetud!';
+      btn.disabled = true;
+      btn.style.opacity = '0.7';
+    });
+  </script>
+</body>
+</html>
