@@ -11,12 +11,14 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --black: #000000;
+      --black: #0a0a0a;
       --white: #ffffff;
       --beige: #f9f5f0;
       --beige-dark: #ede8e0;
+      --accent: #c4724e;
+      --accent-light: #f0e0d6;
       --text: #1a1a1a;
-      --muted: #555555;
+      --muted: #666666;
     }
 
     html { scroll-behavior: smooth; }
@@ -121,6 +123,14 @@
 
     .btn--beige:hover { background: var(--beige-dark); border-color: var(--beige-dark); }
 
+    .btn--hero {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: var(--white);
+    }
+
+    .btn--hero:hover { background: transparent; color: var(--accent); }
+
     /* hamburger */
     .nav__burger {
       display: none;
@@ -169,9 +179,15 @@
     }
 
     /* ─── HERO ─── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(28px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
     .hero {
-      background: var(--beige);
-      padding: 80px 24px;
+      background: var(--black);
+      padding: 0 24px;
+      overflow: hidden;
     }
 
     .hero__inner {
@@ -180,32 +196,50 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 64px;
-      align-items: center;
+      align-items: end;
+    }
+
+    .hero__content {
+      padding: 96px 0 96px;
+      animation: fadeUp 0.8s ease both;
     }
 
     .hero__tag {
       display: inline-block;
-      font-size: 0.75rem;
+      font-size: 0.7rem;
       font-weight: 500;
-      letter-spacing: 0.12em;
+      letter-spacing: 0.14em;
       text-transform: uppercase;
-      color: var(--muted);
-      margin-bottom: 20px;
+      color: var(--accent);
+      background: rgba(196,114,78,0.12);
+      padding: 5px 12px;
+      margin-bottom: 24px;
     }
 
     .hero__title {
-      font-size: clamp(2rem, 4vw, 3rem);
+      font-size: clamp(2.2rem, 4.5vw, 3.4rem);
       font-weight: 700;
       margin-bottom: 20px;
-      color: var(--black);
+      color: var(--white);
+      line-height: 1.15;
+    }
+
+    .hero__title em {
+      font-style: normal;
+      color: var(--accent);
     }
 
     .hero__sub {
-      font-size: 1.05rem;
-      color: var(--muted);
-      max-width: 460px;
-      margin-bottom: 36px;
-      line-height: 1.8;
+      font-size: 1rem;
+      color: rgba(255,255,255,0.55);
+      max-width: 440px;
+      margin-bottom: 40px;
+      line-height: 1.85;
+    }
+
+    .hero__img-wrap {
+      position: relative;
+      animation: fadeUp 0.8s 0.2s ease both;
     }
 
     .hero__img {
@@ -213,6 +247,16 @@
       aspect-ratio: 3/4;
       object-fit: cover;
       object-position: top center;
+      display: block;
+    }
+
+    .hero__img-wrap::before {
+      content: '';
+      position: absolute;
+      inset: -12px -12px 12px 12px;
+      border: 1.5px solid var(--accent);
+      z-index: -1;
+      opacity: 0.5;
     }
 
     /* ─── SECTION BASE ─── */
@@ -487,9 +531,11 @@
       .nav__links, .nav__cta { display: none; }
       .nav__burger { display: flex; }
 
-      .hero__inner { grid-template-columns: 1fr; gap: 40px; }
-      .hero { padding: 56px 24px 0; }
-      .hero__img { max-height: 400px; width: 100%; }
+      .hero__inner { grid-template-columns: 1fr; gap: 32px; }
+      .hero { padding: 0 24px; }
+      .hero__content { padding: 56px 0 0; }
+      .hero__img { max-height: 420px; width: 100%; }
+      .hero__img-wrap::before { display: none; }
 
 .services__grid { grid-template-columns: 1fr; gap: 2px; }
       .testimonials__grid { grid-template-columns: 1fr; gap: 16px; }
@@ -568,9 +614,9 @@
         <span class="hero__tag">Virtuaalne assistent &amp; digistrateg</span>
         <h1 class="hero__title">Virtuaalne assistent – Kristina Piltjai</h1>
         <p class="hero__sub">Aitan ettevõtjatel ja tegevjuhtidel vabastada aega, korrastada protsesse ning viia digitegevused järgmisele tasemele – ilma et peaksid kõike ise tegema.</p>
-        <a href="#teenused" class="btn">Tutvu minu teenustega</a>
+        <a href="#teenused" class="btn btn--hero">Tutvu minu teenustega</a>
       </div>
-      <div class="hero__media">
+      <div class="hero__img-wrap">
         <img
           src="https://digiplaneerimine.ee/wp-content/uploads/2025/02/20241026-IMG_0884-scaled.jpg"
           alt="Kristina Piltjai – virtuaalne assistent"
