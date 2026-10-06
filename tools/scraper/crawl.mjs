@@ -339,7 +339,10 @@ async function main() {
   for (const u of fromSitemaps) enqueue(u);
 
   // 2. crawl
-  const browser = await chromium.launch({ executablePath: EXEC });
+  // Honour an outbound proxy (corporate networks, sandboxed CI): Chromium does not read HTTPS_PROXY by itself.
+  const proxyUrl = process.env.HTTPS_PROXY || process.env.https_proxy;
+  const proxy = proxyUrl ? { server: proxyUrl, bypass: (process.env.NO_PROXY || process.env.no_proxy || '').split(',').filter((h) => h && !h.includes('/')).join(',') } : undefined;
+  const browser = await chromium.launch({ executablePath: EXEC, proxy });
   const desktop = await browser.newContext({ viewport: { width: 1440, height: 900 }, userAgent: `${UA} Chrome`, deviceScaleFactor: 1 });
   const mobile = await browser.newContext({ ...devices['iPhone 13'], viewport: { width: 390, height: 844 } });
   const pages = [];
