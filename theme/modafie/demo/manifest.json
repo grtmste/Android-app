@@ -1,8 +1,8 @@
 {
  "version": 1,
  "generator": "tools/demo/build-demo.mjs",
- "generatedAt": "2026-10-06T19:59:27.774Z",
- "source": "placeholder",
+ "generatedAt": "2026-10-06T21:44:17.985Z",
+ "source": "client-supplied",
  "site": {
   "title": "Modafie"
  },
@@ -16,251 +16,220 @@
  },
  "media": [
   {
-   "key": "6bbb5b4158d8b2b7",
-   "file": "media/images/hero-studio.jpg",
-   "alt": "",
-   "title": "hero studio",
-   "bytes": 42215
+   "key": "aba44b67a9b0c710",
+   "file": "media/images/hero-video-sequins-sewing.jpg",
+   "alt": "Hero video: sequins / sewing close-up",
+   "title": "hero video sequins sewing",
+   "bytes": 42223
   },
   {
-   "key": "8f2b4e51e6b9879b",
-   "file": "media/images/card-1.jpg",
-   "alt": "Placeholder image 1",
-   "title": "card 1",
-   "bytes": 16164
+   "key": "21cdb907467d6841",
+   "file": "media/images/view-our-services-brush.jpg",
+   "alt": "Orange brush strokes",
+   "title": "view our services brush",
+   "bytes": 43610
   },
   {
-   "key": "3db0988374e80a02",
-   "file": "media/images/card-2.jpg",
-   "alt": "Placeholder image 2",
-   "title": "card 2",
-   "bytes": 17998
+   "key": "c89e186945c55634",
+   "file": "media/images/design-mockup-concept.jpg",
+   "alt": "Design mockup & concept",
+   "title": "design mockup concept",
+   "bytes": 19354
   },
   {
-   "key": "86eb475354920e6e",
-   "file": "media/images/card-3.jpg",
-   "alt": "Placeholder image 3",
-   "title": "card 3",
-   "bytes": 17270
+   "key": "13eb84fe6cdd8b32",
+   "file": "media/images/tech-pack-creation.jpg",
+   "alt": "Tech pack creation",
+   "title": "tech pack creation",
+   "bytes": 16743
   },
   {
-   "key": "b3f4b88aa505b979",
-   "file": "media/images/card-4.jpg",
-   "alt": "Placeholder image 4",
-   "title": "card 4",
-   "bytes": 15934
+   "key": "02eb3ca7bc259ef3",
+   "file": "media/images/sampling-prototyping.jpg",
+   "alt": "Sampling & prototyping",
+   "title": "sampling prototyping",
+   "bytes": 18948
   },
   {
-   "key": "6f59cfea094eb057",
-   "file": "media/images/card-5.jpg",
-   "alt": "Placeholder image 5",
-   "title": "card 5",
-   "bytes": 16131
+   "key": "b484fa426afa384f",
+   "file": "media/images/bulk-production.jpg",
+   "alt": "Bulk production",
+   "title": "bulk production",
+   "bytes": 18048
   },
   {
-   "key": "1ad53c38e40967a1",
-   "file": "media/images/card-6.jpg",
-   "alt": "Placeholder image 6",
-   "title": "card 6",
-   "bytes": 17744
+   "key": "81e724550d804ea7",
+   "file": "media/images/custom-packaging-labeling.jpg",
+   "alt": "Custom packaging & labeling",
+   "title": "custom packaging labeling",
+   "bytes": 19876
   },
   {
-   "key": "32e3291c3cbec0d7",
-   "file": "media/images/tile-one.jpg",
-   "alt": "Category one",
-   "title": "tile one",
-   "bytes": 26795
+   "key": "321099e6f6625a8d",
+   "file": "media/images/product-photography.jpg",
+   "alt": "Product photography & lookbook",
+   "title": "product photography",
+   "bytes": 20451
   },
   {
-   "key": "5bf92f3703e3bed3",
-   "file": "media/images/tile-two.jpg",
-   "alt": "Category two",
-   "title": "tile two",
-   "bytes": 23264
+   "key": "696ac4b73c057015",
+   "file": "media/images/black-garments-on-rail.jpg",
+   "alt": "Black garments on a rail",
+   "title": "black garments on rail",
+   "bytes": 33973
   },
   {
-   "key": "a400d1f9fa42fb3f",
-   "file": "media/images/tile-three.jpg",
-   "alt": "Category three",
-   "title": "tile three",
-   "bytes": 28697
+   "key": "ac5481a27c4bee6b",
+   "file": "media/images/juki-sewing-machine.jpg",
+   "alt": "Sewing at the Juki machine",
+   "title": "juki sewing machine",
+   "bytes": 35452
   },
   {
-   "key": "6af88559b744dfd5",
-   "file": "media/images/split-1.jpg",
-   "alt": "Placeholder story image",
-   "title": "split 1",
-   "bytes": 27994
+   "key": "d4e4af416b9e86cc",
+   "file": "media/images/fashion-wear-apparel.jpg",
+   "alt": "Fashion wear & apparel (grey joggers)",
+   "title": "fashion wear apparel",
+   "bytes": 20630
   },
   {
-   "key": "f951564c1c696ace",
-   "file": "media/images/editorial-wide.jpg",
-   "alt": "",
-   "title": "editorial wide",
-   "bytes": 44320
+   "key": "f2f399880d17fac9",
+   "file": "media/images/custom-tote-bags.jpg",
+   "alt": "Custom tote bag",
+   "title": "custom tote bags",
+   "bytes": 16590
   },
   {
-   "key": "8c9ad1c3c6804411",
-   "file": "media/svg/icon-quality.svg",
-   "alt": "",
-   "title": "icon quality",
-   "bytes": 273
+   "key": "6b0bf238ac73bb15",
+   "file": "media/images/sustainable-exotic-fabrics.jpg",
+   "alt": "Exotic fabric rolls",
+   "title": "sustainable exotic fabrics",
+   "bytes": 16748
   },
   {
-   "key": "6f8bde7f13a2aca9",
-   "file": "media/svg/icon-delivery.svg",
-   "alt": "",
-   "title": "icon delivery",
-   "bytes": 299
+   "key": "49efcfc18799ba18",
+   "file": "media/images/portfolio-embroidered-sweatshirt.jpg",
+   "alt": "Portfolio: embroidered sweatshirt",
+   "title": "portfolio embroidered sweatshirt",
+   "bytes": 19851
   },
   {
-   "key": "a0e1a5282a534cb8",
-   "file": "media/svg/icon-returns.svg",
-   "alt": "",
-   "title": "icon returns",
-   "bytes": 244
+   "key": "fc3b173276520eb6",
+   "file": "media/images/portfolio-beige-sweatshirt.jpg",
+   "alt": "Portfolio: beige cropped sweatshirt",
+   "title": "portfolio beige sweatshirt",
+   "bytes": 19842
   },
   {
-   "key": "abe7ac67d7fafaa7",
-   "file": "media/svg/icon-community.svg",
-   "alt": "",
-   "title": "icon community",
-   "bytes": 356
+   "key": "9addea3bb2f6535b",
+   "file": "media/images/portfolio-white-tracksuit.jpg",
+   "alt": "Portfolio: white zip hoodie & trousers",
+   "title": "portfolio white tracksuit",
+   "bytes": 19885
   },
   {
-   "key": "6902ff6d43977359",
-   "file": "media/images/about-hero.jpg",
-   "alt": "",
-   "title": "about hero",
-   "bytes": 40379
+   "key": "37bc2abb0d08d1c7",
+   "file": "media/images/portfolio-piece-4.jpg",
+   "alt": "Portfolio: next piece",
+   "title": "portfolio piece 4",
+   "bytes": 16856
   },
   {
-   "key": "7ab171713943db40",
-   "file": "media/images/split-2.jpg",
-   "alt": "Placeholder image",
-   "title": "split 2",
-   "bytes": 27353
+   "key": "55f4cde775b7f73b",
+   "file": "media/images/black-tees-on-hangers.jpg",
+   "alt": "Black tees on grey hangers",
+   "title": "black tees on hangers",
+   "bytes": 35452
   },
   {
-   "key": "fa9e67aa9c50d756",
-   "file": "media/images/split-3.jpg",
-   "alt": "Placeholder image",
-   "title": "split 3",
-   "bytes": 31258
+   "key": "dd2d61d583ed3f79",
+   "file": "media/images/pattern-cutting.jpg",
+   "alt": "Pattern cutting on the table",
+   "title": "pattern cutting",
+   "bytes": 15472
   },
   {
-   "key": "62a8e1ed8caa324b",
-   "file": "media/images/collections-hero.jpg",
-   "alt": "",
-   "title": "collections hero",
-   "bytes": 37741
+   "key": "6bcf856aa8474db8",
+   "file": "media/images/client-story-video.jpg",
+   "alt": "Video: designer story",
+   "title": "client story video",
+   "bytes": 28571
   },
   {
-   "key": "b405978f8427bdfa",
-   "file": "media/images/journal-1.jpg",
-   "alt": "Journal placeholder 1",
-   "title": "journal 1",
-   "bytes": 15243
+   "key": "ae1346e2d0ebb042",
+   "file": "media/images/atelier-team.jpg",
+   "alt": "The atelier / the team",
+   "title": "atelier team",
+   "bytes": 28669
   },
   {
-   "key": "53bd75ef9202839e",
-   "file": "media/images/journal-2.jpg",
-   "alt": "Journal placeholder 2",
-   "title": "journal 2",
-   "bytes": 16273
-  },
-  {
-   "key": "b4fe7d82acba5d41",
-   "file": "media/images/journal-3.jpg",
-   "alt": "Journal placeholder 3",
-   "title": "journal 3",
-   "bytes": 14292
+   "key": "c40c50d701276169",
+   "file": "media/images/brand-marketing-launch.jpg",
+   "alt": "Brand marketing & launch",
+   "title": "brand marketing launch",
+   "bytes": 19271
   }
  ],
  "pages": [
   {
    "slug": "home",
-   "title": "Home",
+   "title": "Low MOQ Clothing Manufacturer in Europe",
    "file": "pages/home.json",
    "template": "elementor_header_footer",
    "isFront": true,
    "order": 0,
    "meta": {
-    "description": "Placeholder home page for the Modafie theme demo."
+    "description": "We produce high-end clothing for fashion brands from just 30 pieces — with zero costly mistakes, delays, or factory risks."
    },
    "sourceUrl": "https://www.modafie.io/"
   },
   {
-   "slug": "about",
-   "title": "About",
-   "file": "pages/about.json",
+   "slug": "about-us",
+   "title": "About us",
+   "file": "pages/about-us.json",
    "template": "elementor_header_footer",
    "isFront": false,
    "order": 1,
    "meta": {
-    "description": "Placeholder about page."
+    "description": "Why Modafie starts at 30 pieces — a letter from our founder, Monagni."
    },
-   "sourceUrl": "https://www.modafie.io/about"
+   "sourceUrl": "https://www.modafie.io/about-us"
   },
   {
-   "slug": "collections",
-   "title": "Collections",
-   "file": "pages/collections.json",
+   "slug": "what-we-do",
+   "title": "What we do",
+   "file": "pages/what-we-do.json",
    "template": "elementor_header_footer",
    "isFront": false,
    "order": 2,
    "meta": {
-    "description": "Placeholder collections overview."
+    "description": "Mockups, tech packs, sampling, bulk production from 30 pieces, packaging, photography and launch support — under one roof."
    },
-   "sourceUrl": "https://www.modafie.io/collections"
+   "sourceUrl": "https://www.modafie.io/what-we-do"
   },
   {
-   "slug": "journal",
-   "title": "Journal",
-   "file": "pages/journal.json",
+   "slug": "faq",
+   "title": "Frequently Asked Questions",
+   "file": "pages/faq.json",
    "template": "elementor_header_footer",
    "isFront": false,
    "order": 3,
    "meta": {
-    "description": "Placeholder journal."
-   },
-   "sourceUrl": "https://www.modafie.io/journal"
-  },
-  {
-   "slug": "faq",
-   "title": "FAQ",
-   "file": "pages/faq.json",
-   "template": "elementor_header_footer",
-   "isFront": false,
-   "order": 4,
-   "meta": {
-    "description": "Placeholder FAQ."
+    "description": "Minimum order quantity, location, services, tech packs, sampling times and sustainable fabrics — answered."
    },
    "sourceUrl": "https://www.modafie.io/faq"
   },
   {
-   "slug": "contact",
-   "title": "Contact",
-   "file": "pages/contact.json",
+   "slug": "get-an-offer",
+   "title": "Get an offer",
+   "file": "pages/get-an-offer.json",
    "template": "elementor_header_footer",
    "isFront": false,
-   "order": 5,
+   "order": 4,
    "meta": {
-    "description": "Placeholder contact page."
+    "description": "Tell us what you want to produce — from 30 pieces per style — and get a tailored offer within 24 hours."
    },
-   "sourceUrl": "https://www.modafie.io/contact"
-  },
-  {
-   "slug": "privacy-policy",
-   "title": "Privacy Policy",
-   "file": "pages/privacy-policy.json",
-   "template": "elementor_header_footer",
-   "isFront": false,
-   "order": 6,
-   "meta": {
-    "description": "Placeholder privacy policy."
-   },
-   "sourceUrl": "https://www.modafie.io/privacy-policy"
+   "sourceUrl": "https://www.modafie.io/get-an-offer"
   }
  ],
  "templates": [
@@ -272,147 +241,207 @@
   },
   {
    "key": "home-1-hero",
-   "title": "Modafie · Home · Hero",
+   "title": "Modafie · Low MOQ Clothing Manufacturer in Europe · Hero",
    "file": "templates/home-1-hero.json",
    "pattern": "hero"
   },
   {
-   "key": "home-2-marquee",
-   "title": "Modafie · Home · Marquee strip",
-   "file": "templates/home-2-marquee.json",
-   "pattern": "marquee"
-  },
-  {
-   "key": "home-3-carousel",
-   "title": "Modafie · Home · Card carousel",
-   "file": "templates/home-3-carousel.json",
+   "key": "home-2-carousel",
+   "title": "Modafie · Low MOQ Clothing Manufacturer in Europe · Card carousel",
+   "file": "templates/home-2-carousel.json",
    "pattern": "carousel"
   },
   {
-   "key": "home-4-tiles",
-   "title": "Modafie · Home · Category tiles",
-   "file": "templates/home-4-tiles.json",
-   "pattern": "tiles"
-  },
-  {
-   "key": "home-5-split",
-   "title": "Modafie · Home · Split image/text",
-   "file": "templates/home-5-split.json",
-   "pattern": "split"
-  },
-  {
-   "key": "home-6-editorial",
-   "title": "Modafie · Home · Editorial image",
-   "file": "templates/home-6-editorial.json",
+   "key": "home-3-editorial",
+   "title": "Modafie · Low MOQ Clothing Manufacturer in Europe · Editorial image",
+   "file": "templates/home-3-editorial.json",
    "pattern": "editorial"
   },
   {
-   "key": "home-7-features",
-   "title": "Modafie · Home · Feature row",
-   "file": "templates/home-7-features.json",
-   "pattern": "features"
+   "key": "home-4-marquee",
+   "title": "Modafie · Low MOQ Clothing Manufacturer in Europe · Marquee strip",
+   "file": "templates/home-4-marquee.json",
+   "pattern": "marquee"
   },
   {
-   "key": "home-8-statement",
-   "title": "Modafie · Home · Statement",
-   "file": "templates/home-8-statement.json",
-   "pattern": "statement"
-  },
-  {
-   "key": "home-9-newsletter",
-   "title": "Modafie · Home · Newsletter",
-   "file": "templates/home-9-newsletter.json",
-   "pattern": "newsletter"
-  },
-  {
-   "key": "about-1-hero",
-   "title": "Modafie · About · Hero",
-   "file": "templates/about-1-hero.json",
-   "pattern": "hero"
-  },
-  {
-   "key": "about-2-statement",
-   "title": "Modafie · About · Statement",
-   "file": "templates/about-2-statement.json",
-   "pattern": "statement"
-  },
-  {
-   "key": "about-3-split",
-   "title": "Modafie · About · Split image/text",
-   "file": "templates/about-3-split.json",
-   "pattern": "split"
-  },
-  {
-   "key": "about-4-split",
-   "title": "Modafie · About · Split image/text",
-   "file": "templates/about-4-split.json",
-   "pattern": "split"
-  },
-  {
-   "key": "about-6-editorial",
-   "title": "Modafie · About · Editorial image",
-   "file": "templates/about-6-editorial.json",
+   "key": "home-5-editorial",
+   "title": "Modafie · Low MOQ Clothing Manufacturer in Europe · Editorial image",
+   "file": "templates/home-5-editorial.json",
    "pattern": "editorial"
   },
   {
-   "key": "collections-1-hero",
-   "title": "Modafie · Collections · Hero",
-   "file": "templates/collections-1-hero.json",
-   "pattern": "hero"
+   "key": "home-6-carousel",
+   "title": "Modafie · Low MOQ Clothing Manufacturer in Europe · Card carousel",
+   "file": "templates/home-6-carousel.json",
+   "pattern": "carousel"
   },
   {
-   "key": "collections-4-newsletter",
-   "title": "Modafie · Collections · Newsletter",
-   "file": "templates/collections-4-newsletter.json",
-   "pattern": "newsletter"
+   "key": "home-7-carousel",
+   "title": "Modafie · Low MOQ Clothing Manufacturer in Europe · Card carousel",
+   "file": "templates/home-7-carousel.json",
+   "pattern": "carousel"
   },
   {
-   "key": "journal-1-title",
-   "title": "Modafie · Journal · Page title",
-   "file": "templates/journal-1-title.json",
+   "key": "home-8-editorial",
+   "title": "Modafie · Low MOQ Clothing Manufacturer in Europe · Editorial image",
+   "file": "templates/home-8-editorial.json",
+   "pattern": "editorial"
+  },
+  {
+   "key": "home-9-marquee",
+   "title": "Modafie · Low MOQ Clothing Manufacturer in Europe · Marquee strip",
+   "file": "templates/home-9-marquee.json",
+   "pattern": "marquee"
+  },
+  {
+   "key": "home-10-split",
+   "title": "Modafie · Low MOQ Clothing Manufacturer in Europe · Split image/text",
+   "file": "templates/home-10-split.json",
+   "pattern": "split"
+  },
+  {
+   "key": "home-11-wideimage",
+   "title": "Modafie · Low MOQ Clothing Manufacturer in Europe · Wide image",
+   "file": "templates/home-11-wideimage.json",
+   "pattern": "wideimage"
+  },
+  {
+   "key": "home-12-generic",
+   "title": "Modafie · Low MOQ Clothing Manufacturer in Europe · Content",
+   "file": "templates/home-12-generic.json",
+   "pattern": "generic"
+  },
+  {
+   "key": "home-13-cta",
+   "title": "Modafie · Low MOQ Clothing Manufacturer in Europe · Call to action",
+   "file": "templates/home-13-cta.json",
+   "pattern": "cta"
+  },
+  {
+   "key": "about-us-1-title",
+   "title": "Modafie · About us · Page title",
+   "file": "templates/about-us-1-title.json",
    "pattern": "title"
   },
   {
-   "key": "journal-2-grid",
-   "title": "Modafie · Journal · Editorial grid",
-   "file": "templates/journal-2-grid.json",
-   "pattern": "grid"
+   "key": "about-us-2-generic",
+   "title": "Modafie · About us · Content",
+   "file": "templates/about-us-2-generic.json",
+   "pattern": "generic"
+  },
+  {
+   "key": "about-us-3-statement",
+   "title": "Modafie · About us · Statement",
+   "file": "templates/about-us-3-statement.json",
+   "pattern": "statement"
+  },
+  {
+   "key": "about-us-4-generic",
+   "title": "Modafie · About us · Content",
+   "file": "templates/about-us-4-generic.json",
+   "pattern": "generic"
+  },
+  {
+   "key": "about-us-5-split",
+   "title": "Modafie · About us · Split image/text",
+   "file": "templates/about-us-5-split.json",
+   "pattern": "split"
+  },
+  {
+   "key": "about-us-6-statement",
+   "title": "Modafie · About us · Statement",
+   "file": "templates/about-us-6-statement.json",
+   "pattern": "statement"
+  },
+  {
+   "key": "about-us-7-generic",
+   "title": "Modafie · About us · Content",
+   "file": "templates/about-us-7-generic.json",
+   "pattern": "generic"
+  },
+  {
+   "key": "about-us-8-cta",
+   "title": "Modafie · About us · Call to action",
+   "file": "templates/about-us-8-cta.json",
+   "pattern": "cta"
+  },
+  {
+   "key": "what-we-do-1-title",
+   "title": "Modafie · What we do · Page title",
+   "file": "templates/what-we-do-1-title.json",
+   "pattern": "title"
+  },
+  {
+   "key": "what-we-do-2-split",
+   "title": "Modafie · What we do · Split image/text",
+   "file": "templates/what-we-do-2-split.json",
+   "pattern": "split"
+  },
+  {
+   "key": "what-we-do-3-split",
+   "title": "Modafie · What we do · Split image/text",
+   "file": "templates/what-we-do-3-split.json",
+   "pattern": "split"
+  },
+  {
+   "key": "what-we-do-4-split",
+   "title": "Modafie · What we do · Split image/text",
+   "file": "templates/what-we-do-4-split.json",
+   "pattern": "split"
+  },
+  {
+   "key": "what-we-do-5-split",
+   "title": "Modafie · What we do · Split image/text",
+   "file": "templates/what-we-do-5-split.json",
+   "pattern": "split"
+  },
+  {
+   "key": "what-we-do-6-split",
+   "title": "Modafie · What we do · Split image/text",
+   "file": "templates/what-we-do-6-split.json",
+   "pattern": "split"
+  },
+  {
+   "key": "what-we-do-7-split",
+   "title": "Modafie · What we do · Split image/text",
+   "file": "templates/what-we-do-7-split.json",
+   "pattern": "split"
+  },
+  {
+   "key": "what-we-do-8-split",
+   "title": "Modafie · What we do · Split image/text",
+   "file": "templates/what-we-do-8-split.json",
+   "pattern": "split"
   },
   {
    "key": "faq-1-title",
-   "title": "Modafie · FAQ · Page title",
+   "title": "Modafie · Frequently Asked Questions · Page title",
    "file": "templates/faq-1-title.json",
    "pattern": "title"
   },
   {
    "key": "faq-2-faq",
-   "title": "Modafie · FAQ · FAQ",
+   "title": "Modafie · Frequently Asked Questions · FAQ",
    "file": "templates/faq-2-faq.json",
    "pattern": "faq"
   },
   {
    "key": "faq-3-cta",
-   "title": "Modafie · FAQ · Call to action",
+   "title": "Modafie · Frequently Asked Questions · Call to action",
    "file": "templates/faq-3-cta.json",
    "pattern": "cta"
   },
   {
-   "key": "contact-1-title",
-   "title": "Modafie · Contact · Page title",
-   "file": "templates/contact-1-title.json",
+   "key": "get-an-offer-1-title",
+   "title": "Modafie · Get an offer · Page title",
+   "file": "templates/get-an-offer-1-title.json",
    "pattern": "title"
   },
   {
-   "key": "contact-2-contact",
-   "title": "Modafie · Contact · Contact",
-   "file": "templates/contact-2-contact.json",
+   "key": "get-an-offer-2-contact",
+   "title": "Modafie · Get an offer · Contact",
+   "file": "templates/get-an-offer-2-contact.json",
    "pattern": "contact"
-  },
-  {
-   "key": "privacy-policy-1-generic",
-   "title": "Modafie · Privacy Policy · Content",
-   "file": "templates/privacy-policy-1-generic.json",
-   "pattern": "generic"
   }
  ],
  "menus": {
@@ -420,43 +449,55 @@
    "name": "Modafie Primary",
    "items": [
     {
-     "title": "Collections",
-     "page": "collections",
+     "title": "Home",
+     "page": "home"
+    },
+    {
+     "title": "WhatsApp",
+     "url": "{{mf-home}}/whatsapp"
+    },
+    {
+     "title": "About us",
+     "page": "about-us"
+    },
+    {
+     "title": "What we do",
+     "page": "what-we-do",
      "children": [
       {
-       "title": "Category one",
-       "page": "collections"
+       "title": "Mockups & design",
+       "page": "what-we-do"
       },
       {
-       "title": "Category two",
-       "page": "collections"
+       "title": "Tech packs",
+       "page": "what-we-do"
       },
       {
-       "title": "Category three",
-       "page": "collections"
+       "title": "Sampling & prototyping",
+       "page": "what-we-do"
       },
       {
-       "title": "New in",
-       "page": "collections"
+       "title": "Bulk production",
+       "page": "what-we-do"
+      },
+      {
+       "title": "Packaging & labeling",
+       "page": "what-we-do"
+      },
+      {
+       "title": "Photography",
+       "page": "what-we-do"
+      },
+      {
+       "title": "Marketing & launch",
+       "page": "what-we-do"
       }
      ],
      "classes": "mf-mega"
     },
     {
-     "title": "About",
-     "page": "about"
-    },
-    {
-     "title": "Journal",
-     "page": "journal"
-    },
-    {
      "title": "FAQ",
      "page": "faq"
-    },
-    {
-     "title": "Contact",
-     "page": "contact"
     }
    ]
   },
@@ -464,75 +505,67 @@
    "name": "Modafie Footer",
    "items": [
     {
-     "title": "Shop",
+     "title": "Explore",
      "url": "#",
      "children": [
       {
-       "title": "Collections",
-       "page": "collections"
+       "title": "Home",
+       "page": "home"
       },
       {
-       "title": "New in",
-       "page": "collections"
-      }
-     ]
-    },
-    {
-     "title": "Help",
-     "url": "#",
-     "children": [
+       "title": "About us",
+       "page": "about-us"
+      },
+      {
+       "title": "What we do",
+       "page": "what-we-do"
+      },
       {
        "title": "FAQ",
        "page": "faq"
-      },
-      {
-       "title": "Contact",
-       "page": "contact"
       }
      ]
     },
     {
-     "title": "Company",
+     "title": "Work with us",
      "url": "#",
      "children": [
       {
-       "title": "About",
-       "page": "about"
+       "title": "Get an offer",
+       "page": "get-an-offer"
       },
       {
-       "title": "Journal",
-       "page": "journal"
+       "title": "WhatsApp us",
+       "url": "{{mf-home}}/whatsapp"
       }
      ]
     },
     {
-     "title": "Legal",
+     "title": "Follow",
      "url": "#",
      "children": [
       {
-       "title": "Privacy policy",
-       "page": "privacy-policy"
+       "title": "Instagram",
+       "url": "{{mf-home}}/instagram"
+      },
+      {
+       "title": "WhatsApp",
+       "url": "{{mf-home}}/whatsapp"
       }
      ]
-    }
-   ]
-  },
-  "legal": {
-   "name": "Modafie Legal",
-   "items": [
-    {
-     "title": "Privacy policy",
-     "page": "privacy-policy"
     }
    ]
   }
  },
  "theme_mods": {
   "modafie_announcement_enabled": true,
-  "modafie_announcement_text": "Free shipping placeholder\nReturns placeholder\nNew arrivals weekly\nMembers get early access",
+  "modafie_announcement_text": "Production from 30 pieces per style\nEuropean quality standards\nSampling in 3–4 weeks\nWe respond within 24 hours",
   "modafie_header_hide_on_scroll": true,
   "modafie_header_transparent": false,
-  "modafie_header_cta_text": ""
+  "modafie_header_cta_text": "Get an offer",
+  "modafie_announcement_link": "{{mf-page:get-an-offer}}",
+  "modafie_header_cta_url": "{{mf-page:get-an-offer}}",
+  "modafie_header_search": false
  },
  "footer_template": "site-footer"
 }

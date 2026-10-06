@@ -18,7 +18,7 @@
   {
    "_id": "accent",
    "title": "Accent",
-   "color": "#3B5BFF"
+   "color": "#EC5000"
   }
  ],
  "custom_colors": [
@@ -386,7 +386,7 @@
   "button_typography_typography": "globals/typography?id=accent",
   "button_text_color": "globals/colors?id=mfwhite",
   "button_background_color": "globals/colors?id=primary",
-  "button_hover_text_color": "globals/colors?id=mfwhite",
+  "button_hover_text_color": "globals/colors?id=primary",
   "button_hover_background_color": "globals/colors?id=primary"
  },
  "button_background_background": "classic",

@@ -1,6 +1,6 @@
 [
  {
-  "id": "5606ad3",
+  "id": "dacba70",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -68,9 +68,9 @@
     "background_color": "globals/colors?id=mfdark"
    },
    "background_image": {
-    "url": "{{mf-media:6bbb5b4158d8b2b7:url}}",
-    "id": "{{mf-media:6bbb5b4158d8b2b7:id}}",
-    "alt": "",
+    "url": "{{mf-media:aba44b67a9b0c710:url}}",
+    "id": "{{mf-media:aba44b67a9b0c710:id}}",
+    "alt": "Hero video: sequins / sewing close-up",
     "source": "library",
     "size": ""
    },
@@ -78,32 +78,15 @@
   },
   "elements": [
    {
-    "id": "c532fe7",
-    "elType": "widget",
-    "widgetType": "text-editor",
-    "isInner": false,
-    "settings": {
-     "editor": "<p>New season</p>",
-     "__globals__": {
-      "typography_typography": "globals/typography?id=mfeyebrow",
-      "text_color": "globals/colors?id=mfwhite"
-     },
-     "_css_classes": "mf-eyebrow",
-     "_animation": "fadeIn",
-     "_animation_delay": 0
-    },
-    "elements": []
-   },
-   {
-    "id": "03e246c",
+    "id": "89be630",
     "elType": "widget",
     "widgetType": "heading",
     "isInner": false,
     "settings": {
-     "title": "Your story starts here",
+     "title": "Low MOQ Clothing Manufacturer in Europe",
      "header_size": "h1",
      "__globals__": {
-      "typography_typography": "globals/typography?id=mfdisplay",
+      "typography_typography": "globals/typography?id=primary",
       "title_color": "globals/colors?id=mfwhite"
      },
      "mf_motion": "reveal"
@@ -111,12 +94,12 @@
     "elements": []
    },
    {
-    "id": "d6cc423",
+    "id": "b241b2f",
     "elType": "widget",
     "widgetType": "text-editor",
     "isInner": false,
     "settings": {
-     "editor": "<p>This is placeholder copy. Every word and image on this page is editable in Elementor.</p>",
+     "editor": "<p>We produce high-end clothing for fashion brands from just 30 pieces — with zero costly mistakes, delays, or factory risks.</p>",
      "_element_width": "initial",
      "_element_custom_width": {
       "unit": "px",
@@ -138,7 +121,7 @@
     "elements": []
    },
    {
-    "id": "dacba70",
+    "id": "c423b8e",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -164,14 +147,14 @@
     },
     "elements": [
      {
-      "id": "f72d65e",
+      "id": "5c7f27b",
       "elType": "widget",
       "widgetType": "button",
       "isInner": false,
       "settings": {
-       "text": "Shop now",
+       "text": "Get an offer",
        "link": {
-        "url": "{{mf-page:collections}}",
+        "url": "{{mf-page:get-an-offer}}",
         "is_external": "",
         "nofollow": "",
         "custom_attributes": ""
@@ -191,14 +174,14 @@
       "elements": []
      },
      {
-      "id": "3afdac8",
+      "id": "f72d65e",
       "elType": "widget",
       "widgetType": "button",
       "isInner": false,
       "settings": {
-       "text": "Discover",
+       "text": "WhatsApp us",
        "link": {
-        "url": "{{mf-page:about}}",
+        "url": "{{mf-home}}/whatsapp",
         "is_external": "",
         "nofollow": "",
         "custom_attributes": ""

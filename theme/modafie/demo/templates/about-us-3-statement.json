@@ -1,0 +1,70 @@
+[
+ {
+  "id": "67f5af1",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "boxed",
+   "flex_direction": "column",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "128",
+    "right": "40",
+    "bottom": "128",
+    "left": "40",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "72",
+    "right": "24",
+    "bottom": "72",
+    "left": "24",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "80",
+    "right": "16",
+    "bottom": "80",
+    "left": "16",
+    "isLinked": false
+   },
+   "flex_align_items": "center",
+   "flex_gap": {
+    "unit": "px",
+    "size": 24,
+    "column": "24",
+    "row": "24",
+    "isLinked": true
+   },
+   "boxed_width": {
+    "unit": "px",
+    "size": 1100,
+    "sizes": []
+   },
+   "_title": "Statement"
+  },
+  "elements": [
+   {
+    "id": "00f3fcf",
+    "elType": "widget",
+    "widgetType": "heading",
+    "isInner": false,
+    "settings": {
+     "title": "High MOQs aren't a sign of quality. They're a transfer of risk.",
+     "header_size": "h2",
+     "__globals__": {
+      "typography_typography": "globals/typography?id=mfstatement"
+     },
+     "align": "center",
+     "title_align": "center",
+     "mf_motion": "reveal"
+    },
+    "elements": []
+   }
+  ]
+ }
+]

@@ -63,10 +63,10 @@ const instant = (y) => window.scrollTo({ top: y, behavior: 'instant' });
   await page.close();
 }
 
-// Contact form (AJAX)
+// Offer form (AJAX)
 {
   const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
-  await page.goto(`${BASE}/contact/`, { waitUntil: 'networkidle' });
+  await page.goto(`${BASE}/get-an-offer/`, { waitUntil: 'networkidle' });
   const form = page.locator('[data-mf-form]').first();
   await form.locator('button[type=submit]').click();
   await page.waitForTimeout(300);
@@ -76,12 +76,16 @@ const instant = (y) => window.scrollTo({ top: y, behavior: 'instant' });
   for (let i = 0; i < await fields.count(); i++) {
     const f = fields.nth(i);
     const type = await f.getAttribute('type');
-    await f.fill(type === 'email' ? 'test@example.com' : 'Playwright test message');
+    await f.fill(type === 'email' ? 'test@example.com' : type === 'tel' ? '+372 5555 5555' : 'Playwright test message');
   }
+  const selects = form.locator('select.mf-input');
+  for (let i = 0; i < await selects.count(); i++) await selects.nth(i).selectOption({ index: 1 });
+  const boxes = form.locator('input[type=checkbox]');
+  for (let i = 0; i < await boxes.count(); i++) await boxes.nth(i).check();
   await form.locator('button[type=submit]').click();
   await page.waitForSelector('.mf-form__status.is-success, .mf-form__status.is-error', { timeout: 15000 });
   const status = await form.locator('.mf-form__status').innerText();
-  check('contact form submits via AJAX', await form.locator('.mf-form__status.is-success').count() > 0, status);
+  check('offer form submits via AJAX', await form.locator('.mf-form__status.is-success').count() > 0, status);
   await page.close();
 }
 

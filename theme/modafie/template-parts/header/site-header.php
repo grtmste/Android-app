@@ -80,12 +80,10 @@ endif;
 				);
 			}
 			?>
-			<button type="button" class="mf-header__icon" aria-controls="mf-search" aria-expanded="false" data-mf-search-toggle>
-				<?php modafie_the_icon( 'search' ); ?><span class="screen-reader-text"><?php esc_html_e( 'Search', 'modafie' ); ?></span>
-			</button>
-			<?php if ( class_exists( 'WooCommerce' ) ) : ?>
-				<a class="mf-header__icon" href="<?php echo esc_url( wc_get_page_permalink( 'myaccount' ) ); ?>"><?php modafie_the_icon( 'user', __( 'Account', 'modafie' ) ); ?></a>
-				<a class="mf-header__icon mf-header__cart" href="<?php echo esc_url( wc_get_cart_url() ); ?>"><?php modafie_the_icon( 'bag', __( 'Bag', 'modafie' ) ); ?><span class="mf-header__count"><?php echo esc_html( WC()->cart ? WC()->cart->get_cart_contents_count() : 0 ); ?></span></a>
+			<?php if ( get_theme_mod( 'modafie_header_search', false ) ) : ?>
+				<button type="button" class="mf-header__icon" aria-controls="mf-search" aria-expanded="false" data-mf-search-toggle>
+					<?php modafie_the_icon( 'search' ); ?><span class="screen-reader-text"><?php esc_html_e( 'Search', 'modafie' ); ?></span>
+				</button>
 			<?php endif; ?>
 			<?php if ( $modafie_cta_text && $modafie_cta_url ) : ?>
 				<a class="mf-btn mf-btn--sm mf-header__cta" href="<?php echo esc_url( $modafie_cta_url ); ?>"><?php echo esc_html( $modafie_cta_text ); ?></a>
@@ -93,9 +91,11 @@ endif;
 		</div>
 	</div>
 
-	<div class="mf-search" id="mf-search" hidden>
-		<div class="mf-search__inner"><?php get_search_form(); ?></div>
-	</div>
+	<?php if ( get_theme_mod( 'modafie_header_search', false ) ) : ?>
+		<div class="mf-search" id="mf-search" hidden>
+			<div class="mf-search__inner"><?php get_search_form(); ?></div>
+		</div>
+	<?php endif; ?>
 </header>
 
 <div class="mf-offcanvas" id="mf-offcanvas" aria-hidden="true" data-mf-offcanvas>

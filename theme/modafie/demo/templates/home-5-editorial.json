@@ -1,0 +1,84 @@
+[
+ {
+  "id": "f4ed4bb",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "boxed",
+   "flex_direction": "column",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "96",
+    "right": "40",
+    "bottom": "96",
+    "left": "40",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "72",
+    "right": "24",
+    "bottom": "72",
+    "left": "24",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "56",
+    "right": "16",
+    "bottom": "56",
+    "left": "16",
+    "isLinked": false
+   },
+   "flex_justify_content": "center",
+   "flex_align_items": "center",
+   "flex_gap": {
+    "unit": "px",
+    "size": 24,
+    "column": "24",
+    "row": "24",
+    "isLinked": true
+   },
+   "min_height": {
+    "unit": "vh",
+    "size": 90,
+    "sizes": []
+   },
+   "min_height_mobile": {
+    "unit": "vh",
+    "size": 70,
+    "sizes": []
+   },
+   "background_background": "classic",
+   "background_position": "center center",
+   "background_size": "cover",
+   "background_overlay_background": "classic",
+   "background_overlay_color": "#000000",
+   "background_overlay_opacity": {
+    "unit": "px",
+    "size": 0.35,
+    "sizes": []
+   },
+   "mf_motion": "parallax-bg",
+   "mf_parallax_speed": {
+    "unit": "px",
+    "size": 0.25,
+    "sizes": []
+   },
+   "__globals__": {
+    "background_color": "globals/colors?id=mfdark"
+   },
+   "background_image": {
+    "url": "{{mf-media:ac5481a27c4bee6b:url}}",
+    "id": "{{mf-media:ac5481a27c4bee6b:id}}",
+    "alt": "Sewing at the Juki machine",
+    "source": "library",
+    "size": ""
+   },
+   "_title": "Sewing image"
+  },
+  "elements": []
+ }
+]

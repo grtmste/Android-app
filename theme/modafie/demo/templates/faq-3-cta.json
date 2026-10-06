@@ -1,6 +1,6 @@
 [
  {
-  "id": "2009dba",
+  "id": "e2de3dc",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -35,25 +35,30 @@
    "flex_align_items": "center",
    "flex_gap": {
     "unit": "px",
-    "size": 24,
-    "column": "24",
-    "row": "24",
+    "size": 20,
+    "column": "20",
+    "row": "20",
     "isLinked": true
+   },
+   "boxed_width": {
+    "unit": "px",
+    "size": 1000,
+    "sizes": []
    },
    "background_background": "classic",
    "__globals__": {
     "background_color": "globals/colors?id=mfsurface"
    },
-   "_title": "Call to action"
+   "_title": "Offer CTA"
   },
   "elements": [
    {
-    "id": "cc5550e",
+    "id": "d53b6de",
     "elType": "widget",
     "widgetType": "heading",
     "isInner": false,
     "settings": {
-     "title": "Still have questions?",
+     "title": "Still deciding?",
      "header_size": "h2",
      "align": "center",
      "title_align": "center",
@@ -62,24 +67,105 @@
     "elements": []
    },
    {
-    "id": "0202cf8",
+    "id": "4415076",
     "elType": "widget",
-    "widgetType": "button",
+    "widgetType": "text-editor",
     "isInner": false,
     "settings": {
-     "text": "Contact us",
-     "link": {
-      "url": "{{mf-page:contact}}",
-      "is_external": "",
-      "nofollow": "",
-      "custom_attributes": ""
+     "editor": "<p>Tell us what you want to make and get a tailored offer — or message us on WhatsApp.</p>",
+     "__globals__": {
+      "typography_typography": "globals/typography?id=text",
+      "text_color": "globals/colors?id=secondary"
      },
-     "size": "md",
-     "_animation": "fadeInUp",
-     "_animation_delay": 150,
-     "align": "center"
+     "align": "center",
+     "text_align": "center",
+     "_animation": "fadeIn",
+     "_animation_delay": 100
     },
     "elements": []
+   },
+   {
+    "id": "d3c5d11",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "row",
+     "flex_wrap": "wrap",
+     "flex_justify_content": "center",
+     "flex_gap": {
+      "unit": "px",
+      "size": 12,
+      "column": "12",
+      "row": "12",
+      "isLinked": true
+     },
+     "padding": {
+      "unit": "px",
+      "top": "8",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+     }
+    },
+    "elements": [
+     {
+      "id": "64bb964",
+      "elType": "widget",
+      "widgetType": "button",
+      "isInner": false,
+      "settings": {
+       "text": "Get an offer",
+       "link": {
+        "url": "{{mf-page:get-an-offer}}",
+        "is_external": "",
+        "nofollow": "",
+        "custom_attributes": ""
+       },
+       "size": "md",
+       "_animation": "fadeInUp",
+       "_animation_delay": 230
+      },
+      "elements": []
+     },
+     {
+      "id": "9d44e7b",
+      "elType": "widget",
+      "widgetType": "button",
+      "isInner": false,
+      "settings": {
+       "text": "WhatsApp us",
+       "link": {
+        "url": "{{mf-home}}/whatsapp",
+        "is_external": "",
+        "nofollow": "",
+        "custom_attributes": ""
+       },
+       "size": "md",
+       "_animation": "fadeInUp",
+       "_animation_delay": 310,
+       "background_background": "classic",
+       "background_color": "rgba(0,0,0,0)",
+       "border_border": "solid",
+       "border_width": {
+        "unit": "px",
+        "top": "2",
+        "right": "2",
+        "bottom": "2",
+        "left": "2",
+        "isLinked": false
+       },
+       "__globals__": {
+        "button_text_color": "globals/colors?id=primary",
+        "border_color": "globals/colors?id=primary"
+       },
+       "_css_classes": "mf-btn-outline"
+      },
+      "elements": []
+     }
+    ]
    }
   ]
  }

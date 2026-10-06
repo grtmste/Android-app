@@ -1,0 +1,214 @@
+[
+ {
+  "id": "fa0e247",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "full",
+   "flex_direction": "row",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "flex_direction_mobile": "column",
+   "flex_gap": {
+    "unit": "px",
+    "size": 0,
+    "column": "0",
+    "row": "0",
+    "isLinked": true
+   },
+   "flex_align_items": "stretch",
+   "_title": "01 Mockups",
+   "_element_id": "mockups"
+  },
+  "elements": [
+   {
+    "id": "f94a055",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 50,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+     },
+     "css_classes": "mf-split-media"
+    },
+    "elements": [
+     {
+      "id": "978ae8e",
+      "elType": "widget",
+      "widgetType": "image",
+      "isInner": false,
+      "settings": {
+       "image": {
+        "url": "{{mf-media:c89e186945c55634:url}}",
+        "id": "{{mf-media:c89e186945c55634:id}}",
+        "alt": "Design mockup & concept",
+        "source": "library",
+        "size": ""
+       },
+       "image_size": "full",
+       "width": {
+        "unit": "%",
+        "size": 100,
+        "sizes": []
+       },
+       "height": {
+        "unit": "vh",
+        "size": 86,
+        "sizes": []
+       },
+       "object-fit": "cover",
+       "object_fit": "cover",
+       "height_mobile": {
+        "unit": "vh",
+        "size": 64,
+        "sizes": []
+       },
+       "mf_motion": "parallax"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "f321f4c",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 50,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "flex_justify_content": "center",
+     "flex_gap": {
+      "unit": "px",
+      "size": 20,
+      "column": "20",
+      "row": "20",
+      "isLinked": true
+     },
+     "padding": {
+      "unit": "px",
+      "top": "80",
+      "right": "96",
+      "bottom": "80",
+      "left": "96",
+      "isLinked": false
+     },
+     "padding_tablet": {
+      "unit": "px",
+      "top": "56",
+      "right": "40",
+      "bottom": "56",
+      "left": "40",
+      "isLinked": false
+     },
+     "padding_mobile": {
+      "unit": "px",
+      "top": "48",
+      "right": "16",
+      "bottom": "56",
+      "left": "16",
+      "isLinked": false
+     },
+     "animation": "fadeIn",
+     "animation_delay": 0
+    },
+    "elements": [
+     {
+      "id": "ca0eb9e",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>01</p>",
+       "__globals__": {
+        "typography_typography": "globals/typography?id=mfeyebrow",
+        "text_color": "globals/colors?id=secondary"
+       },
+       "_css_classes": "mf-eyebrow"
+      },
+      "elements": []
+     },
+     {
+      "id": "5605e09",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Mockups &amp; Design Development",
+       "header_size": "h2",
+       "mf_motion": "reveal"
+      },
+      "elements": []
+     },
+     {
+      "id": "05d53f8",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>Maybe you have detailed sketches. Maybe you have a mood board covered in tears and magazine cutouts. Maybe just a feeling you can't shake.</p><p>That's enough. Bring it here.</p><p>Our design team sits with you (virtually or in person) and turns that fuzzy dream into a clean digital mockup. We play with fabrics, colours, silhouettes until you make that sound—you know the one. The \"oh yes, that's it\" sound.</p><p>Then we tweak it. Again. And again. Until it's yours.</p><p><strong>What lands in your inbox:</strong></p><ul><li>Beautiful digital mockups from your scribbles</li><li>Fabric suggestions that won't break the bank</li><li>A design you actually want to wear</li></ul><p>You can either design yourself or hire our service. This service is 30-50 euro onwards, sometimes free!</p>",
+       "__globals__": {
+        "typography_typography": "globals/typography?id=text"
+       },
+       "_animation": "fadeIn",
+       "_animation_delay": 0
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,64 +1,48 @@
 [
   {
     "name": "home",
-    "id": 81,
-    "widgets": 49,
+    "id": 100,
+    "widgets": 50,
     "editable": true,
     "panelTitle": "Edit Heading",
     "errors": []
   },
   {
-    "name": "about",
-    "id": 82,
-    "widgets": 16,
+    "name": "about-us",
+    "id": 101,
+    "widgets": 12,
     "editable": true,
     "panelTitle": "Edit Heading",
     "errors": []
   },
   {
-    "name": "collections",
-    "id": 83,
-    "widgets": 32,
-    "editable": true,
-    "panelTitle": "Edit Heading",
-    "errors": []
-  },
-  {
-    "name": "journal",
-    "id": 84,
-    "widgets": 14,
+    "name": "what-we-do",
+    "id": 102,
+    "widgets": 37,
     "editable": true,
     "panelTitle": "Edit Heading",
     "errors": []
   },
   {
     "name": "faq",
-    "id": 85,
-    "widgets": 9,
+    "id": 103,
+    "widgets": 13,
     "editable": true,
     "panelTitle": "Edit Heading",
     "errors": []
   },
   {
-    "name": "contact",
-    "id": 86,
-    "widgets": 5,
-    "editable": true,
-    "panelTitle": "Edit Heading",
-    "errors": []
-  },
-  {
-    "name": "privacy-policy",
-    "id": 3,
-    "widgets": 6,
+    "name": "get-an-offer",
+    "id": 104,
+    "widgets": 8,
     "editable": true,
     "panelTitle": "Edit Heading",
     "errors": []
   },
   {
     "name": "template-site-footer",
-    "id": 31,
-    "widgets": 10,
+    "id": 30,
+    "widgets": 9,
     "editable": true,
     "panelTitle": "Edit Heading",
     "errors": []

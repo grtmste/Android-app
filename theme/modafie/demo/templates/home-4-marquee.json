@@ -1,0 +1,84 @@
+[
+ {
+  "id": "2461a00",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "full",
+   "flex_direction": "column",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "background_background": "classic",
+   "__globals__": {
+    "background_color": "globals/colors?id=mfwhite"
+   },
+   "_title": "Brand marquee"
+  },
+  "elements": [
+   {
+    "id": "1cf39fa",
+    "elType": "widget",
+    "widgetType": "mf-marquee",
+    "isInner": false,
+    "settings": {
+     "items": [
+      {
+       "_id": "0efd32b",
+       "text": "MODAFIE"
+      }
+     ],
+     "separator": "",
+     "speed": 70,
+     "direction": "left",
+     "pause_on_hover": "yes",
+     "padding": {
+      "unit": "px",
+      "top": "20",
+      "right": "0",
+      "bottom": "20",
+      "left": "0",
+      "isLinked": false
+     },
+     "gap": {
+      "unit": "px",
+      "size": 20,
+      "sizes": []
+     },
+     "__globals__": {
+      "color": "globals/colors?id=accent",
+      "separator_color": "globals/colors?id=accent"
+     },
+     "typography_typography": "custom",
+     "typography_font_family": "Barlow Condensed",
+     "typography_font_weight": "800",
+     "typography_font_style": "italic",
+     "typography_text_transform": "uppercase",
+     "typography_font_size": {
+      "unit": "px",
+      "size": 36,
+      "sizes": []
+     },
+     "typography_font_size_mobile": {
+      "unit": "px",
+      "size": 26,
+      "sizes": []
+     },
+     "typography_line_height": {
+      "unit": "em",
+      "size": 1.1,
+      "sizes": []
+     }
+    },
+    "elements": []
+   }
+  ]
+ }
+]

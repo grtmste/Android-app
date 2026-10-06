@@ -559,3 +559,13 @@ textarea.mf-input { min-height: 140px; resize: vertical; }
 .mf-offcanvas button.mf-submenu-toggle:hover, .mf-offcanvas button.mf-submenu-toggle:focus { background: var(--mf-surface); color: var(--mf-primary); }
 .mf-header button.mf-header__burger:focus, .mf-header button.mf-header__icon:focus, .mf-offcanvas button.mf-header__icon:focus { background: transparent; color: inherit; }
 .mf-header button.mf-header__burger:focus-visible, .mf-header button.mf-header__icon:focus-visible, .mf-offcanvas button.mf-header__icon:focus-visible { background: var(--mf-surface); }
+
+/* Split sections with long copy: the image stays in view while the text scrolls (desktop) */
+@media (min-width: 1025px) {
+	.e-con.mf-split-media { position: sticky; top: var(--mf-header-h); align-self: flex-start; }
+}
+
+/* Theme buttons/links outrank Elementor Kit link colours (kit CSS loads after the theme) */
+body a.mf-btn, body a.mf-btn:hover, body a.mf-btn:focus-visible { color: var(--mf-white); }
+body a.mf-btn.mf-btn-light, body .mf-btn-light a.mf-btn { color: var(--mf-primary); }
+body .mf-announcement a, body .mf-announcement a:hover { color: var(--mf-white); }

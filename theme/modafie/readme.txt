@@ -7,7 +7,7 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-A lightweight, Elementor-first theme for Modafie with a one-click demo importer.
+A lightweight, Elementor-first theme for Modafie's offer-style site (no shop), with a one-click demo importer.
 
 == Description ==
 
@@ -28,6 +28,9 @@ See README.md in the theme folder for the full guide.
 
 = Do I need Elementor Pro? =
 No. Everything uses free Elementor widgets plus two theme widgets (Modafie Form, Modafie Marquee).
+
+= How do the WhatsApp buttons work? =
+They all link to /whatsapp/. Set your number in Appearance → Customize → Modafie Header & Footer → WhatsApp number and every button opens that chat. Until it is set, /whatsapp/ opens the Get an offer page.
 
 = Where do form submissions go? =
 They are e-mailed to the address set in the widget (default: the site admin) and listed under Appearance → Form submissions.

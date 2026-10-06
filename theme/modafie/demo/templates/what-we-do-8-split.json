@@ -1,0 +1,214 @@
+[
+ {
+  "id": "8a7afd8",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "full",
+   "flex_direction": "row",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "flex_direction_mobile": "column",
+   "flex_gap": {
+    "unit": "px",
+    "size": 0,
+    "column": "0",
+    "row": "0",
+    "isLinked": true
+   },
+   "flex_align_items": "stretch",
+   "_title": "07 Marketing",
+   "_element_id": "marketing"
+  },
+  "elements": [
+   {
+    "id": "b54376d",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 50,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+     },
+     "css_classes": "mf-split-media"
+    },
+    "elements": [
+     {
+      "id": "ed7e76e",
+      "elType": "widget",
+      "widgetType": "image",
+      "isInner": false,
+      "settings": {
+       "image": {
+        "url": "{{mf-media:c40c50d701276169:url}}",
+        "id": "{{mf-media:c40c50d701276169:id}}",
+        "alt": "Brand marketing & launch",
+        "source": "library",
+        "size": ""
+       },
+       "image_size": "full",
+       "width": {
+        "unit": "%",
+        "size": 100,
+        "sizes": []
+       },
+       "height": {
+        "unit": "vh",
+        "size": 86,
+        "sizes": []
+       },
+       "object-fit": "cover",
+       "object_fit": "cover",
+       "height_mobile": {
+        "unit": "vh",
+        "size": 64,
+        "sizes": []
+       },
+       "mf_motion": "parallax"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "59ed202",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 50,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "flex_justify_content": "center",
+     "flex_gap": {
+      "unit": "px",
+      "size": 20,
+      "column": "20",
+      "row": "20",
+      "isLinked": true
+     },
+     "padding": {
+      "unit": "px",
+      "top": "80",
+      "right": "96",
+      "bottom": "80",
+      "left": "96",
+      "isLinked": false
+     },
+     "padding_tablet": {
+      "unit": "px",
+      "top": "56",
+      "right": "40",
+      "bottom": "56",
+      "left": "40",
+      "isLinked": false
+     },
+     "padding_mobile": {
+      "unit": "px",
+      "top": "48",
+      "right": "16",
+      "bottom": "56",
+      "left": "16",
+      "isLinked": false
+     },
+     "animation": "fadeIn",
+     "animation_delay": 0
+    },
+    "elements": [
+     {
+      "id": "bffcfef",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>07</p>",
+       "__globals__": {
+        "typography_typography": "globals/typography?id=mfeyebrow",
+        "text_color": "globals/colors?id=secondary"
+       },
+       "_css_classes": "mf-eyebrow"
+      },
+      "elements": []
+     },
+     {
+      "id": "3bc2394",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Brand Marketing &amp; Launch Support",
+       "header_size": "h2",
+       "mf_motion": "reveal"
+      },
+      "elements": []
+     },
+     {
+      "id": "2889947",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>Here's a secret: amazing products fail all the time. Not because they weren't good. Because no one knew they existed.</p><p>We don't want that to be you.</p><p>Our marketing team helps you sound like yourself (but clearer). We plan your launch so it feels like an event, not a whisper. We help you find the first customers who'll become your biggest fans.</p><p>You built the collection. Let us help the world discover it.</p><p><strong>What you get:</strong></p><ul><li>Words that actually sound like you</li><li>In-depth growth marketing specialist who will work with meta suits, google ad, SEO optimisation etc</li><li>A launch plan that doesn't stress you out</li><li>Constructive guidance towards assured success</li><li>A nudge in the right direction when you're stuck</li></ul>",
+       "__globals__": {
+        "typography_typography": "globals/typography?id=text"
+       },
+       "_animation": "fadeIn",
+       "_animation_delay": 0
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,752 @@
+[
+ {
+  "id": "cbf2ae4",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "boxed",
+   "flex_direction": "column",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "120",
+    "right": "40",
+    "bottom": "48",
+    "left": "40",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "96",
+    "right": "24",
+    "bottom": "40",
+    "left": "24",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "72",
+    "right": "16",
+    "bottom": "32",
+    "left": "16",
+    "isLinked": false
+   },
+   "flex_gap": {
+    "unit": "px",
+    "size": 16,
+    "column": "16",
+    "row": "16",
+    "isLinked": true
+   },
+   "_title": "Page title"
+  },
+  "elements": [
+   {
+    "id": "9895881",
+    "elType": "widget",
+    "widgetType": "text-editor",
+    "isInner": false,
+    "settings": {
+     "editor": "<p>A letter from our founder</p>",
+     "__globals__": {
+      "typography_typography": "globals/typography?id=mfeyebrow",
+      "text_color": "globals/colors?id=secondary"
+     },
+     "_css_classes": "mf-eyebrow"
+    },
+    "elements": []
+   },
+   {
+    "id": "c0a8d25",
+    "elType": "widget",
+    "widgetType": "heading",
+    "isInner": false,
+    "settings": {
+     "title": "About Us",
+     "header_size": "h1",
+     "mf_motion": "reveal"
+    },
+    "elements": []
+   }
+  ]
+ },
+ {
+  "id": "e424b86",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "boxed",
+   "flex_direction": "column",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "96",
+    "right": "40",
+    "bottom": "96",
+    "left": "40",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "72",
+    "right": "24",
+    "bottom": "72",
+    "left": "24",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "56",
+    "right": "16",
+    "bottom": "56",
+    "left": "16",
+    "isLinked": false
+   },
+   "flex_gap": {
+    "unit": "px",
+    "size": 20,
+    "column": "20",
+    "row": "20",
+    "isLinked": true
+   },
+   "boxed_width": {
+    "unit": "px",
+    "size": 760,
+    "sizes": []
+   },
+   "_title": "Letter — part 1"
+  },
+  "elements": [
+   {
+    "id": "dcc5681",
+    "elType": "widget",
+    "widgetType": "text-editor",
+    "isInner": false,
+    "settings": {
+     "editor": "<p>My name is Monagni. For years, I stood beside friends, colleagues, and strangers with fire in their eyes and sketches in their hands—only to watch that fire dim when they met reality.</p><p>They'd approach factories with 50-unit orders. Laughter.</p><p>They'd beg for 100 pieces. \"Come back when you have 500.\"</p><p>And the ones who compromised? They'd receive garments that looked nothing like their samples. Terrible communication. Zero accountability. And a mountain of inventory they couldn't sell.</p><p>Here's the truth the industry won't tell you:</p>",
+     "__globals__": {
+      "typography_typography": "globals/typography?id=text"
+     },
+     "_animation": "fadeIn",
+     "_animation_delay": 0
+    },
+    "elements": []
+   }
+  ]
+ },
+ {
+  "id": "67f5af1",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "boxed",
+   "flex_direction": "column",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "128",
+    "right": "40",
+    "bottom": "128",
+    "left": "40",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "72",
+    "right": "24",
+    "bottom": "72",
+    "left": "24",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "80",
+    "right": "16",
+    "bottom": "80",
+    "left": "16",
+    "isLinked": false
+   },
+   "flex_align_items": "center",
+   "flex_gap": {
+    "unit": "px",
+    "size": 24,
+    "column": "24",
+    "row": "24",
+    "isLinked": true
+   },
+   "boxed_width": {
+    "unit": "px",
+    "size": 1100,
+    "sizes": []
+   },
+   "_title": "Statement"
+  },
+  "elements": [
+   {
+    "id": "00f3fcf",
+    "elType": "widget",
+    "widgetType": "heading",
+    "isInner": false,
+    "settings": {
+     "title": "High MOQs aren't a sign of quality. They're a transfer of risk.",
+     "header_size": "h2",
+     "__globals__": {
+      "typography_typography": "globals/typography?id=mfstatement"
+     },
+     "align": "center",
+     "title_align": "center",
+     "mf_motion": "reveal"
+    },
+    "elements": []
+   }
+  ]
+ },
+ {
+  "id": "cbba187",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "boxed",
+   "flex_direction": "column",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "96",
+    "right": "40",
+    "bottom": "96",
+    "left": "40",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "72",
+    "right": "24",
+    "bottom": "72",
+    "left": "24",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "56",
+    "right": "16",
+    "bottom": "56",
+    "left": "16",
+    "isLinked": false
+   },
+   "flex_gap": {
+    "unit": "px",
+    "size": 20,
+    "column": "20",
+    "row": "20",
+    "isLinked": true
+   },
+   "boxed_width": {
+    "unit": "px",
+    "size": 760,
+    "sizes": []
+   },
+   "_title": "Letter — part 2"
+  },
+  "elements": [
+   {
+    "id": "6b11de0",
+    "elType": "widget",
+    "widgetType": "text-editor",
+    "isInner": false,
+    "settings": {
+     "editor": "<p>They push the burden onto you—the designer—while they collect their cheque. You're left sitting on boxes of unsold stock, praying you guessed right on sizes, colours, and trends. One wrong bet? Your brand is finished before it started.</p><p>It felt unfair. It felt unnecessary. It felt broken.</p><p>So I built Modafie differently.</p><p>Here, your minimum order quantity doesn't determine your potential. It determines your freedom.</p><p><strong>Start with 30 pieces.</strong> Test the market. See what sells. Gather feedback. Then reinvest.</p><p>Sell out in a week? Great—we'll run your next 30. Or 300. Or 3,000.</p><p>The model is simple:</p><ul><li><strong>Low MOQ</strong> means <strong>low inventory risk</strong></li><li><strong>Low risk</strong> means <strong>faster profit</strong></li><li><strong>Fast profit</strong> means <strong>more collections</strong></li><li><strong>More collections</strong> means <strong>an excited audience that never gets bored</strong></li></ul><p>You're not guessing what your customers want. You're listening. Adapting. Growing. One small batch at a time.</p><p>And because you can launch limited-edition drops every few weeks, your brand stays fresh. Your audience stays hungry. And you're never stuck with last season's mistakes.</p>",
+     "__globals__": {
+      "typography_typography": "globals/typography?id=text"
+     },
+     "_animation": "fadeIn",
+     "_animation_delay": 0
+    },
+    "elements": []
+   }
+  ]
+ },
+ {
+  "id": "e7b9856",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "full",
+   "flex_direction": "row",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "flex_direction_mobile": "column",
+   "flex_gap": {
+    "unit": "px",
+    "size": 0,
+    "column": "0",
+    "row": "0",
+    "isLinked": true
+   },
+   "flex_align_items": "stretch",
+   "_title": "One table"
+  },
+  "elements": [
+   {
+    "id": "467f348",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 50,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+     },
+     "css_classes": "mf-split-media"
+    },
+    "elements": [
+     {
+      "id": "7fe94fa",
+      "elType": "widget",
+      "widgetType": "image",
+      "isInner": false,
+      "settings": {
+       "image": {
+        "url": "{{mf-media:ae1346e2d0ebb042:url}}",
+        "id": "{{mf-media:ae1346e2d0ebb042:id}}",
+        "alt": "The atelier / the team",
+        "source": "library",
+        "size": ""
+       },
+       "image_size": "full",
+       "width": {
+        "unit": "%",
+        "size": 100,
+        "sizes": []
+       },
+       "height": {
+        "unit": "vh",
+        "size": 86,
+        "sizes": []
+       },
+       "object-fit": "cover",
+       "object_fit": "cover",
+       "height_mobile": {
+        "unit": "vh",
+        "size": 64,
+        "sizes": []
+       },
+       "mf_motion": "parallax"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "a501497",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 50,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "flex_justify_content": "center",
+     "flex_gap": {
+      "unit": "px",
+      "size": 20,
+      "column": "20",
+      "row": "20",
+      "isLinked": true
+     },
+     "padding": {
+      "unit": "px",
+      "top": "80",
+      "right": "96",
+      "bottom": "80",
+      "left": "96",
+      "isLinked": false
+     },
+     "padding_tablet": {
+      "unit": "px",
+      "top": "56",
+      "right": "40",
+      "bottom": "56",
+      "left": "40",
+      "isLinked": false
+     },
+     "padding_mobile": {
+      "unit": "px",
+      "top": "48",
+      "right": "16",
+      "bottom": "56",
+      "left": "16",
+      "isLinked": false
+     },
+     "animation": "fadeIn",
+     "animation_delay": 0
+    },
+    "elements": [
+     {
+      "id": "5aa8dcc",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>Yes, we offer 360° services—from the first sketch to the last shipment.</p><p>Yes, we maintain European standards that rival luxury houses.</p><p>But here's what truly sets us apart:</p><p><strong>Whether you're producing your first 30 pieces or your 30,000th, you get the same attention. The same quality. The same partnership.</strong></p><p>We don't have a \"small client\" table and a \"big client\" table. There's just one table. And you never graduate from it—you grow at it.</p><p>From the emerging designer testing their first drop to the established brand scaling their tenth collection, the experience is identical. The care is identical. The obsession with your success? Identical.</p><p>Because we believe something the old factories forgot:</p>",
+       "__globals__": {
+        "typography_typography": "globals/typography?id=text"
+       },
+       "_animation": "fadeIn",
+       "_animation_delay": 0
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "5150733",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "boxed",
+   "flex_direction": "column",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "128",
+    "right": "40",
+    "bottom": "128",
+    "left": "40",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "72",
+    "right": "24",
+    "bottom": "72",
+    "left": "24",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "80",
+    "right": "16",
+    "bottom": "80",
+    "left": "16",
+    "isLinked": false
+   },
+   "flex_align_items": "center",
+   "flex_gap": {
+    "unit": "px",
+    "size": 24,
+    "column": "24",
+    "row": "24",
+    "isLinked": true
+   },
+   "boxed_width": {
+    "unit": "px",
+    "size": 1100,
+    "sizes": []
+   },
+   "_title": "Statement 2"
+  },
+  "elements": [
+   {
+    "id": "313064b",
+    "elType": "widget",
+    "widgetType": "heading",
+    "isInner": false,
+    "settings": {
+     "title": "A brand that starts with 30 today could be the brand ordering 3,000 tomorrow. And we want to be there for both moments.",
+     "header_size": "h2",
+     "__globals__": {
+      "typography_typography": "globals/typography?id=mfh2"
+     },
+     "align": "center",
+     "title_align": "center",
+     "mf_motion": "reveal"
+    },
+    "elements": []
+   }
+  ]
+ },
+ {
+  "id": "8981218",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "boxed",
+   "flex_direction": "column",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "96",
+    "right": "40",
+    "bottom": "96",
+    "left": "40",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "72",
+    "right": "24",
+    "bottom": "72",
+    "left": "24",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "56",
+    "right": "16",
+    "bottom": "56",
+    "left": "16",
+    "isLinked": false
+   },
+   "flex_gap": {
+    "unit": "px",
+    "size": 20,
+    "column": "20",
+    "row": "20",
+    "isLinked": true
+   },
+   "boxed_width": {
+    "unit": "px",
+    "size": 760,
+    "sizes": []
+   },
+   "_title": "Signature"
+  },
+  "elements": [
+   {
+    "id": "9ae174c",
+    "elType": "widget",
+    "widgetType": "text-editor",
+    "isInner": false,
+    "settings": {
+     "editor": "<p><strong>Cheers,</strong></p><p><strong>Monagni</strong></p>",
+     "__globals__": {
+      "typography_typography": "globals/typography?id=text"
+     },
+     "_animation": "fadeIn",
+     "_animation_delay": 0
+    },
+    "elements": []
+   }
+  ]
+ },
+ {
+  "id": "b0b29a7",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "boxed",
+   "flex_direction": "column",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "96",
+    "right": "40",
+    "bottom": "96",
+    "left": "40",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "72",
+    "right": "24",
+    "bottom": "72",
+    "left": "24",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "56",
+    "right": "16",
+    "bottom": "56",
+    "left": "16",
+    "isLinked": false
+   },
+   "flex_align_items": "center",
+   "flex_gap": {
+    "unit": "px",
+    "size": 20,
+    "column": "20",
+    "row": "20",
+    "isLinked": true
+   },
+   "boxed_width": {
+    "unit": "px",
+    "size": 1000,
+    "sizes": []
+   },
+   "background_background": "classic",
+   "__globals__": {
+    "background_color": "globals/colors?id=primary"
+   },
+   "_title": "Offer CTA"
+  },
+  "elements": [
+   {
+    "id": "f918279",
+    "elType": "widget",
+    "widgetType": "heading",
+    "isInner": false,
+    "settings": {
+     "title": "Start with 30 pieces.",
+     "header_size": "h2",
+     "__globals__": {
+      "title_color": "globals/colors?id=mfwhite"
+     },
+     "align": "center",
+     "title_align": "center",
+     "mf_motion": "reveal"
+    },
+    "elements": []
+   },
+   {
+    "id": "c45363b",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "row",
+     "flex_wrap": "wrap",
+     "flex_justify_content": "center",
+     "flex_gap": {
+      "unit": "px",
+      "size": 12,
+      "column": "12",
+      "row": "12",
+      "isLinked": true
+     },
+     "padding": {
+      "unit": "px",
+      "top": "8",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+     }
+    },
+    "elements": [
+     {
+      "id": "608dcd4",
+      "elType": "widget",
+      "widgetType": "button",
+      "isInner": false,
+      "settings": {
+       "text": "Get an offer",
+       "link": {
+        "url": "{{mf-page:get-an-offer}}",
+        "is_external": "",
+        "nofollow": "",
+        "custom_attributes": ""
+       },
+       "size": "md",
+       "_animation": "fadeInUp",
+       "_animation_delay": 230,
+       "background_background": "classic",
+       "__globals__": {
+        "background_color": "globals/colors?id=mfwhite",
+        "button_text_color": "globals/colors?id=primary",
+        "button_background_hover_color": "globals/colors?id=mfwhite",
+        "hover_color": "globals/colors?id=mfwhite"
+       },
+       "_css_classes": "mf-btn-light"
+      },
+      "elements": []
+     },
+     {
+      "id": "b628350",
+      "elType": "widget",
+      "widgetType": "button",
+      "isInner": false,
+      "settings": {
+       "text": "WhatsApp us",
+       "link": {
+        "url": "{{mf-home}}/whatsapp",
+        "is_external": "",
+        "nofollow": "",
+        "custom_attributes": ""
+       },
+       "size": "md",
+       "_animation": "fadeInUp",
+       "_animation_delay": 310,
+       "background_background": "classic",
+       "background_color": "rgba(0,0,0,0)",
+       "border_border": "solid",
+       "border_width": {
+        "unit": "px",
+        "top": "2",
+        "right": "2",
+        "bottom": "2",
+        "left": "2",
+        "isLinked": false
+       },
+       "__globals__": {
+        "button_text_color": "globals/colors?id=mfwhite",
+        "border_color": "globals/colors?id=mfwhite"
+       },
+       "_css_classes": "mf-btn-outline-light"
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ }
+]

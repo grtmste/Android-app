@@ -1,6 +1,6 @@
 [
  {
-  "id": "8e72bb0",
+  "id": "d52d5f9",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -46,7 +46,7 @@
   },
   "elements": [
    {
-    "id": "cc1ae84",
+    "id": "3d8e3fe",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -55,7 +55,7 @@
      "flex_direction": "column",
      "grid_columns_grid": {
       "unit": "fr",
-      "size": 5,
+      "size": 4,
       "sizes": []
      },
      "grid_columns_grid_tablet": {
@@ -90,7 +90,7 @@
     },
     "elements": [
      {
-      "id": "e5195e8",
+      "id": "68f96b6",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -115,7 +115,7 @@
       },
       "elements": [
        {
-        "id": "a0985d8",
+        "id": "23abe37",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
@@ -133,11 +133,25 @@
          }
         },
         "elements": []
+       },
+       {
+        "id": "73ad7a2",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>Low MOQ clothing manufacturer in Europe — high-end production from 30 pieces per style.</p>",
+         "__globals__": {
+          "typography_typography": "globals/typography?id=text",
+          "text_color": "globals/colors?id=secondary"
+         }
+        },
+        "elements": []
        }
       ]
      },
      {
-      "id": "18d59fa",
+      "id": "fca1100",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -162,12 +176,12 @@
       },
       "elements": [
        {
-        "id": "63dac5c",
+        "id": "88d1a86",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
         "settings": {
-         "title": "Shop",
+         "title": "Explore",
          "header_size": "h2",
          "__globals__": {
           "typography_typography": "globals/typography?id=mfeyebrow",
@@ -177,105 +191,56 @@
         "elements": []
        },
        {
-        "id": "b7040f3",
+        "id": "ea4c930",
         "elType": "widget",
         "widgetType": "icon-list",
         "isInner": false,
         "settings": {
          "icon_list": [
           {
-           "_id": "61e1aeb",
-           "text": "Collections",
+           "_id": "d7df743",
+           "text": "Home",
            "selected_icon": {
             "value": "",
             "library": ""
            },
            "link": {
-            "url": "{{mf-page:collections}}",
+            "url": "{{mf-home}}/",
             "is_external": "",
             "nofollow": "",
             "custom_attributes": ""
            }
           },
           {
-           "_id": "17aba99",
-           "text": "New in",
+           "_id": "5669732",
+           "text": "About us",
            "selected_icon": {
             "value": "",
             "library": ""
            },
            "link": {
-            "url": "{{mf-page:collections}}",
+            "url": "{{mf-page:about-us}}",
             "is_external": "",
             "nofollow": "",
             "custom_attributes": ""
            }
-          }
-         ],
-         "view": "traditional",
-         "space_between": {
-          "unit": "px",
-          "size": 8,
-          "sizes": []
-         },
-         "__globals__": {
-          "text_color": "globals/colors?id=secondary"
-         },
-         "_css_classes": "mf-footer-links"
-        },
-        "elements": []
-       }
-      ]
-     },
-     {
-      "id": "1acf17f",
-      "elType": "container",
-      "isInner": true,
-      "settings": {
-       "container_type": "flex",
-       "content_width": "full",
-       "flex_direction": "column",
-       "flex_gap": {
-        "unit": "px",
-        "size": 16,
-        "column": "16",
-        "row": "16",
-        "isLinked": true
-       },
-       "padding": {
-        "unit": "px",
-        "top": "0",
-        "right": "0",
-        "bottom": "0",
-        "left": "0",
-        "isLinked": false
-       }
-      },
-      "elements": [
-       {
-        "id": "8f56a35",
-        "elType": "widget",
-        "widgetType": "heading",
-        "isInner": false,
-        "settings": {
-         "title": "Help",
-         "header_size": "h2",
-         "__globals__": {
-          "typography_typography": "globals/typography?id=mfeyebrow",
-          "title_color": "globals/colors?id=primary"
-         }
-        },
-        "elements": []
-       },
-       {
-        "id": "b18dda6",
-        "elType": "widget",
-        "widgetType": "icon-list",
-        "isInner": false,
-        "settings": {
-         "icon_list": [
+          },
           {
-           "_id": "a3db63d",
+           "_id": "b587b24",
+           "text": "What we do",
+           "selected_icon": {
+            "value": "",
+            "library": ""
+           },
+           "link": {
+            "url": "{{mf-page:what-we-do}}",
+            "is_external": "",
+            "nofollow": "",
+            "custom_attributes": ""
+           }
+          },
+          {
+           "_id": "2c8f61d",
            "text": "FAQ",
            "selected_icon": {
             "value": "",
@@ -287,20 +252,6 @@
             "nofollow": "",
             "custom_attributes": ""
            }
-          },
-          {
-           "_id": "732fe08",
-           "text": "Contact",
-           "selected_icon": {
-            "value": "",
-            "library": ""
-           },
-           "link": {
-            "url": "{{mf-page:contact}}",
-            "is_external": "",
-            "nofollow": "",
-            "custom_attributes": ""
-           }
           }
          ],
          "view": "traditional",
@@ -319,7 +270,7 @@
       ]
      },
      {
-      "id": "dc8fc06",
+      "id": "37cc6ce",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -344,12 +295,12 @@
       },
       "elements": [
        {
-        "id": "227623a",
+        "id": "d3af49e",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
         "settings": {
-         "title": "Company",
+         "title": "Work with us",
          "header_size": "h2",
          "__globals__": {
           "typography_typography": "globals/typography?id=mfeyebrow",
@@ -359,35 +310,35 @@
         "elements": []
        },
        {
-        "id": "6940094",
+        "id": "2c1741e",
         "elType": "widget",
         "widgetType": "icon-list",
         "isInner": false,
         "settings": {
          "icon_list": [
           {
-           "_id": "e084d81",
-           "text": "About",
+           "_id": "2fd4c49",
+           "text": "Get an offer",
            "selected_icon": {
             "value": "",
             "library": ""
            },
            "link": {
-            "url": "{{mf-page:about}}",
+            "url": "{{mf-page:get-an-offer}}",
             "is_external": "",
             "nofollow": "",
             "custom_attributes": ""
            }
           },
           {
-           "_id": "78fe202",
-           "text": "Journal",
+           "_id": "686b200",
+           "text": "WhatsApp us",
            "selected_icon": {
             "value": "",
             "library": ""
            },
            "link": {
-            "url": "{{mf-page:journal}}",
+            "url": "{{mf-home}}/whatsapp",
             "is_external": "",
             "nofollow": "",
             "custom_attributes": ""
@@ -410,7 +361,7 @@
       ]
      },
      {
-      "id": "af5a12c",
+      "id": "2bc32cc",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -435,12 +386,12 @@
       },
       "elements": [
        {
-        "id": "2a72e84",
+        "id": "3639243",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
         "settings": {
-         "title": "Legal",
+         "title": "Follow",
          "header_size": "h2",
          "__globals__": {
           "typography_typography": "globals/typography?id=mfeyebrow",
@@ -450,21 +401,35 @@
         "elements": []
        },
        {
-        "id": "ca0b939",
+        "id": "66d98c3",
         "elType": "widget",
         "widgetType": "icon-list",
         "isInner": false,
         "settings": {
          "icon_list": [
           {
-           "_id": "686fb30",
-           "text": "Privacy policy",
+           "_id": "ea0d31f",
+           "text": "Instagram",
            "selected_icon": {
             "value": "",
             "library": ""
            },
            "link": {
-            "url": "{{mf-page:privacy-policy}}",
+            "url": "{{mf-home}}/instagram",
+            "is_external": "",
+            "nofollow": "",
+            "custom_attributes": ""
+           }
+          },
+          {
+           "_id": "f2abf2e",
+           "text": "WhatsApp",
+           "selected_icon": {
+            "value": "",
+            "library": ""
+           },
+           "link": {
+            "url": "{{mf-home}}/whatsapp",
             "is_external": "",
             "nofollow": "",
             "custom_attributes": ""
@@ -489,7 +454,7 @@
     ]
    },
    {
-    "id": "b92087d",
+    "id": "95d7427",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -528,12 +493,12 @@
     },
     "elements": [
      {
-      "id": "cd5fece",
+      "id": "c0ed5e7",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,
       "settings": {
-       "editor": "<p>© Modafie. All rights reserved.</p>",
+       "editor": "<p>© 2026 Modafie</p>",
        "__globals__": {
         "typography_typography": "globals/typography?id=mfsmall",
         "text_color": "globals/colors?id=secondary"

@@ -1,0 +1,186 @@
+[
+ {
+  "id": "e7b9856",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "full",
+   "flex_direction": "row",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "flex_direction_mobile": "column",
+   "flex_gap": {
+    "unit": "px",
+    "size": 0,
+    "column": "0",
+    "row": "0",
+    "isLinked": true
+   },
+   "flex_align_items": "stretch",
+   "_title": "One table"
+  },
+  "elements": [
+   {
+    "id": "467f348",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 50,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+     },
+     "css_classes": "mf-split-media"
+    },
+    "elements": [
+     {
+      "id": "7fe94fa",
+      "elType": "widget",
+      "widgetType": "image",
+      "isInner": false,
+      "settings": {
+       "image": {
+        "url": "{{mf-media:ae1346e2d0ebb042:url}}",
+        "id": "{{mf-media:ae1346e2d0ebb042:id}}",
+        "alt": "The atelier / the team",
+        "source": "library",
+        "size": ""
+       },
+       "image_size": "full",
+       "width": {
+        "unit": "%",
+        "size": 100,
+        "sizes": []
+       },
+       "height": {
+        "unit": "vh",
+        "size": 86,
+        "sizes": []
+       },
+       "object-fit": "cover",
+       "object_fit": "cover",
+       "height_mobile": {
+        "unit": "vh",
+        "size": 64,
+        "sizes": []
+       },
+       "mf_motion": "parallax"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "a501497",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 50,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "flex_justify_content": "center",
+     "flex_gap": {
+      "unit": "px",
+      "size": 20,
+      "column": "20",
+      "row": "20",
+      "isLinked": true
+     },
+     "padding": {
+      "unit": "px",
+      "top": "80",
+      "right": "96",
+      "bottom": "80",
+      "left": "96",
+      "isLinked": false
+     },
+     "padding_tablet": {
+      "unit": "px",
+      "top": "56",
+      "right": "40",
+      "bottom": "56",
+      "left": "40",
+      "isLinked": false
+     },
+     "padding_mobile": {
+      "unit": "px",
+      "top": "48",
+      "right": "16",
+      "bottom": "56",
+      "left": "16",
+      "isLinked": false
+     },
+     "animation": "fadeIn",
+     "animation_delay": 0
+    },
+    "elements": [
+     {
+      "id": "5aa8dcc",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>Yes, we offer 360° services—from the first sketch to the last shipment.</p><p>Yes, we maintain European standards that rival luxury houses.</p><p>But here's what truly sets us apart:</p><p><strong>Whether you're producing your first 30 pieces or your 30,000th, you get the same attention. The same quality. The same partnership.</strong></p><p>We don't have a \"small client\" table and a \"big client\" table. There's just one table. And you never graduate from it—you grow at it.</p><p>From the emerging designer testing their first drop to the established brand scaling their tenth collection, the experience is identical. The care is identical. The obsession with your success? Identical.</p><p>Because we believe something the old factories forgot:</p>",
+       "__globals__": {
+        "typography_typography": "globals/typography?id=text"
+       },
+       "_animation": "fadeIn",
+       "_animation_delay": 0
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ }
+]

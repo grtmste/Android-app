@@ -1,6 +1,6 @@
 [
  {
-  "id": "6d7d1a4",
+  "id": "7ab6a11",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -43,12 +43,12 @@
   },
   "elements": [
    {
-    "id": "99f9158",
+    "id": "63dac5c",
     "elType": "widget",
     "widgetType": "heading",
     "isInner": false,
     "settings": {
-     "title": "Frequently asked questions",
+     "title": "Frequently Asked Questions",
      "header_size": "h1",
      "mf_motion": "reveal"
     },

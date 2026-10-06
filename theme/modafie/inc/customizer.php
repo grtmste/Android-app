@@ -43,6 +43,16 @@ function modafie_sanitize_checkbox( $value ) {
 }
 
 /**
+ * Keep digits and a leading plus.
+ *
+ * @param string $value Value.
+ */
+function modafie_sanitize_phone( $value ) {
+	$value = trim( (string) $value );
+	return ( 0 === strpos( $value, '+' ) ? '+' : '' ) . preg_replace( '/\D+/', '', $value );
+}
+
+/**
  * Register Customizer settings.
  *
  * @param WP_Customize_Manager $wp_customize Manager.
@@ -65,6 +75,10 @@ function modafie_customize_register( $wp_customize ) {
 		'modafie_header_transparent'    => array( false, 'modafie_sanitize_checkbox', 'checkbox', esc_html__( 'Transparent header over the homepage hero', 'modafie' ) ),
 		'modafie_header_cta_text'       => array( '', 'sanitize_text_field', 'text', esc_html__( 'Header button text (optional)', 'modafie' ) ),
 		'modafie_header_cta_url'        => array( '', 'esc_url_raw', 'url', esc_html__( 'Header button link', 'modafie' ) ),
+		'modafie_header_search'         => array( false, 'modafie_sanitize_checkbox', 'checkbox', esc_html__( 'Show the search icon in the header', 'modafie' ) ),
+		'modafie_whatsapp_number'       => array( '', 'modafie_sanitize_phone', 'text', esc_html__( 'WhatsApp number in international format, e.g. +37255512345. Every "WhatsApp us" button links to /whatsapp/, which opens this chat.', 'modafie' ) ),
+		'modafie_whatsapp_message'      => array( '', 'sanitize_text_field', 'text', esc_html__( 'Pre-filled WhatsApp message (optional)', 'modafie' ) ),
+		'modafie_instagram_url'         => array( '', 'esc_url_raw', 'url', esc_html__( 'Instagram profile URL (the /instagram/ link opens it)', 'modafie' ) ),
 		'modafie_footer_copyright'      => array( '', 'wp_kses_post', 'textarea', esc_html__( 'Footer copyright line (built-in footer). Use {year} and {site}.', 'modafie' ) ),
 	);
 	foreach ( $settings as $id => $s ) {

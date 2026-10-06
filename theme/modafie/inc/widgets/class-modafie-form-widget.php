@@ -324,6 +324,9 @@ class Modafie_Form_Widget extends Widget_Base {
 					printf( '<textarea class="mf-input" id="%1$s" name="mf_fields[%2$s]" rows="5" placeholder="%3$s"%4$s></textarea>', esc_attr( $id ), esc_attr( $key ), esc_attr( $placeholder ), $req_attr ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 				} elseif ( 'select' === $type ) {
 					printf( '<select class="mf-input" id="%1$s" name="mf_fields[%2$s]"%3$s>', esc_attr( $id ), esc_attr( $key ), $req_attr ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+					if ( $required ) {
+						printf( '<option value="">%s</option>', esc_html__( 'Select…', 'modafie' ) );
+					}
 					foreach ( array_filter( array_map( 'trim', preg_split( '/\r\n|\r|\n/', (string) ( $f['field_options'] ?? '' ) ) ) ) as $opt ) {
 						printf( '<option value="%1$s">%1$s</option>', esc_attr( $opt ) );
 					}

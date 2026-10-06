@@ -1,0 +1,295 @@
+[
+ {
+  "id": "bae5ddc",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "boxed",
+   "flex_direction": "row",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "48",
+    "right": "40",
+    "bottom": "120",
+    "left": "40",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "72",
+    "right": "24",
+    "bottom": "72",
+    "left": "24",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "56",
+    "right": "16",
+    "bottom": "56",
+    "left": "16",
+    "isLinked": false
+   },
+   "flex_direction_tablet": "column",
+   "flex_gap": {
+    "unit": "px",
+    "size": 64,
+    "column": "64",
+    "row": "64",
+    "isLinked": true
+   },
+   "flex_align_items": "flex-start",
+   "_title": "Offer form"
+  },
+  "elements": [
+   {
+    "id": "a5663ef",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 40,
+      "sizes": []
+     },
+     "width_tablet": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "flex_gap": {
+      "unit": "px",
+      "size": 20,
+      "column": "20",
+      "row": "20",
+      "isLinked": true
+     },
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+     }
+    },
+    "elements": [
+     {
+      "id": "55b391f",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "How it works",
+       "header_size": "h2",
+       "mf_motion": "reveal"
+      },
+      "elements": []
+     },
+     {
+      "id": "2d10fbf",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<ul><li><strong>Mockups &amp; design development</strong> — or bring your own design</li><li><strong>Tech pack</strong> — every measurement and stitch written down</li><li><strong>Sampling &amp; prototyping</strong> — 3 to 4 weeks from tech pack approval</li><li><strong>Bulk production from 30 pieces</strong> — 4-8 weeks after sample sign-off</li><li><strong>Packaging, labelling and shipping</strong> included in the bulk order</li></ul>",
+       "__globals__": {
+        "typography_typography": "globals/typography?id=text"
+       }
+      },
+      "elements": []
+     },
+     {
+      "id": "d3e0d23",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>Prefer to chat? WhatsApp us directly. We respond within 24 hours.</p>",
+       "__globals__": {
+        "typography_typography": "globals/typography?id=text"
+       },
+       "_animation": "fadeIn",
+       "_animation_delay": 0
+      },
+      "elements": []
+     },
+     {
+      "id": "a79b06f",
+      "elType": "widget",
+      "widgetType": "button",
+      "isInner": false,
+      "settings": {
+       "text": "WhatsApp us",
+       "link": {
+        "url": "{{mf-home}}/whatsapp",
+        "is_external": "",
+        "nofollow": "",
+        "custom_attributes": ""
+       },
+       "size": "md",
+       "_animation": "fadeInUp",
+       "_animation_delay": 100
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "99fc637",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 60,
+      "sizes": []
+     },
+     "width_tablet": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "padding": {
+      "unit": "px",
+      "top": "40",
+      "right": "40",
+      "bottom": "40",
+      "left": "40",
+      "isLinked": false
+     },
+     "padding_mobile": {
+      "unit": "px",
+      "top": "24",
+      "right": "16",
+      "bottom": "24",
+      "left": "16",
+      "isLinked": false
+     },
+     "background_background": "classic",
+     "__globals__": {
+      "background_color": "globals/colors?id=mfsurface"
+     },
+     "animation": "fadeInUp",
+     "animation_delay": 150
+    },
+    "elements": [
+     {
+      "id": "45ba0a3",
+      "elType": "widget",
+      "widgetType": "mf-form",
+      "isInner": false,
+      "settings": {
+       "form_name": "Contact",
+       "layout": "stacked",
+       "fields": [
+        {
+         "_id": "45f63bb",
+         "field_type": "text",
+         "field_label": "Your name",
+         "field_name": "name",
+         "placeholder": "Your name",
+         "required": "yes",
+         "width": "50",
+         "field_options": ""
+        },
+        {
+         "_id": "3410be1",
+         "field_type": "email",
+         "field_label": "Email",
+         "field_name": "email",
+         "placeholder": "you@brand.com",
+         "required": "yes",
+         "width": "50",
+         "field_options": ""
+        },
+        {
+         "_id": "916c742",
+         "field_type": "text",
+         "field_label": "Brand name",
+         "field_name": "brand",
+         "placeholder": "Brand name",
+         "required": "",
+         "width": "50",
+         "field_options": ""
+        },
+        {
+         "_id": "d08bb3d",
+         "field_type": "tel",
+         "field_label": "WhatsApp / phone",
+         "field_name": "whatsapp",
+         "placeholder": "+00 000 000 000",
+         "required": "",
+         "width": "50",
+         "field_options": ""
+        },
+        {
+         "_id": "20ef0bc",
+         "field_type": "select",
+         "field_label": "What would you like to produce?",
+         "field_name": "product",
+         "placeholder": "",
+         "required": "yes",
+         "width": "100",
+         "field_options": "Fashion wear & apparel\nCustom tote bags\nSustainable exotic fabric collection\nSomething else"
+        },
+        {
+         "_id": "79fb621",
+         "field_type": "select",
+         "field_label": "Quantity per style",
+         "field_name": "quantity",
+         "placeholder": "",
+         "required": "yes",
+         "width": "100",
+         "field_options": "30-50 pieces\n50-100 pieces\n100-300 pieces\n300+ pieces\nNot sure yet"
+        },
+        {
+         "_id": "6bd31ed",
+         "field_type": "select",
+         "field_label": "What do you need?",
+         "field_name": "services",
+         "placeholder": "",
+         "required": "",
+         "width": "100",
+         "field_options": "Everything — from design to delivery\nMockups & design development\nTech pack\nSampling & prototyping\nBulk production\nPackaging & labeling\nProduct photography\nBrand marketing & launch support"
+        },
+        {
+         "_id": "acebdc8",
+         "field_type": "textarea",
+         "field_label": "Tell us about your project",
+         "field_name": "project",
+         "placeholder": "Garment types, fabrics, timeline, links to sketches or mood boards…",
+         "required": "yes",
+         "width": "100",
+         "field_options": ""
+        },
+        {
+         "_id": "5bb09d8",
+         "field_type": "checkbox",
+         "field_label": "I agree that Modafie may contact me about this request.",
+         "field_name": "consent",
+         "placeholder": "",
+         "required": "yes",
+         "width": "100",
+         "field_options": ""
+        }
+       ],
+       "show_labels": "yes",
+       "submit_text": "Request my offer",
+       "success_message": "Thanks, we will get back to you soon."
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ }
+]

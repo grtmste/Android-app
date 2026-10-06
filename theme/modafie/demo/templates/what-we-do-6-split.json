@@ -1,0 +1,214 @@
+[
+ {
+  "id": "313d1ef",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "full",
+   "flex_direction": "row",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "flex_direction_mobile": "column",
+   "flex_gap": {
+    "unit": "px",
+    "size": 0,
+    "column": "0",
+    "row": "0",
+    "isLinked": true
+   },
+   "flex_align_items": "stretch",
+   "_title": "05 Packaging",
+   "_element_id": "packaging"
+  },
+  "elements": [
+   {
+    "id": "328167d",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 50,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+     },
+     "css_classes": "mf-split-media"
+    },
+    "elements": [
+     {
+      "id": "01e01b2",
+      "elType": "widget",
+      "widgetType": "image",
+      "isInner": false,
+      "settings": {
+       "image": {
+        "url": "{{mf-media:81e724550d804ea7:url}}",
+        "id": "{{mf-media:81e724550d804ea7:id}}",
+        "alt": "Custom packaging & labeling",
+        "source": "library",
+        "size": ""
+       },
+       "image_size": "full",
+       "width": {
+        "unit": "%",
+        "size": 100,
+        "sizes": []
+       },
+       "height": {
+        "unit": "vh",
+        "size": 86,
+        "sizes": []
+       },
+       "object-fit": "cover",
+       "object_fit": "cover",
+       "height_mobile": {
+        "unit": "vh",
+        "size": 64,
+        "sizes": []
+       },
+       "mf_motion": "parallax"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "fd164b7",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 50,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "flex_justify_content": "center",
+     "flex_gap": {
+      "unit": "px",
+      "size": 20,
+      "column": "20",
+      "row": "20",
+      "isLinked": true
+     },
+     "padding": {
+      "unit": "px",
+      "top": "80",
+      "right": "96",
+      "bottom": "80",
+      "left": "96",
+      "isLinked": false
+     },
+     "padding_tablet": {
+      "unit": "px",
+      "top": "56",
+      "right": "40",
+      "bottom": "56",
+      "left": "40",
+      "isLinked": false
+     },
+     "padding_mobile": {
+      "unit": "px",
+      "top": "48",
+      "right": "16",
+      "bottom": "56",
+      "left": "16",
+      "isLinked": false
+     },
+     "animation": "fadeIn",
+     "animation_delay": 0
+    },
+    "elements": [
+     {
+      "id": "d76e911",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>05</p>",
+       "__globals__": {
+        "typography_typography": "globals/typography?id=mfeyebrow",
+        "text_color": "globals/colors?id=secondary"
+       },
+       "_css_classes": "mf-eyebrow"
+      },
+      "elements": []
+     },
+     {
+      "id": "4a7310a",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Custom Packaging &amp; Labeling",
+       "header_size": "h2",
+       "mf_motion": "reveal"
+      },
+      "elements": []
+     },
+     {
+      "id": "728f1aa",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>You know that feeling when you open something beautiful? The paper crinkles just right. The box smells expensive. The little details make you smile.</p><p>That should be your brand.</p><p>We make your labels (woven, printed, whatever feels right). Your hang tags. Your care instructions. Your boxes and bags if you want.</p><p>Sustainable materials if that's your thing. Premium finishes if that's your vibe. Just... you.</p><p><strong>What you get:</strong></p><ul><li>Labels that don't fall off after one wash</li><li>Packaging that makes people take photos</li><li>Details that scream &quot;this is a real brand&quot;</li></ul><p>The bulk order already will include price of packaging, labelling, shipping.</p>",
+       "__globals__": {
+        "typography_typography": "globals/typography?id=text"
+       },
+       "_animation": "fadeIn",
+       "_animation_delay": 0
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ }
+]

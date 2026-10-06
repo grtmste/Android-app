@@ -1,6 +1,6 @@
 [
  {
-  "id": "157d2d9",
+  "id": "8e72bb0",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -48,20 +48,20 @@
   },
   "elements": [
    {
-    "id": "f697b92",
+    "id": "91f42bd",
     "elType": "widget",
     "widgetType": "nested-accordion",
     "isInner": false,
     "elements": [
      {
-      "id": "fa7741d",
+      "id": "7f269c1",
       "elType": "container",
       "isInner": true,
       "settings": {
        "container_type": "flex",
        "content_width": "full",
        "flex_direction": "column",
-       "_title": "How long does delivery take?",
+       "_title": "What is the minimum order quantity at Modafie?",
        "padding": {
         "unit": "px",
         "top": "0",
@@ -73,12 +73,12 @@
       },
       "elements": [
        {
-        "id": "fcd0701",
+        "id": "24ffc64",
         "elType": "widget",
         "widgetType": "text-editor",
         "isInner": false,
         "settings": {
-         "editor": "<p>Placeholder answer. Replace with modafie's answer to this question.</p>",
+         "editor": "<p>We accept orders from as few as 30 pieces per style. This makes us ideal for emerging brands, designers testing new collections, or startups who want to produce small runs without large factory minimums.</p>",
          "__globals__": {
           "typography_typography": "globals/typography?id=text"
          },
@@ -90,14 +90,14 @@
       ]
      },
      {
-      "id": "3246e58",
+      "id": "39b1ab2",
       "elType": "container",
       "isInner": true,
       "settings": {
        "container_type": "flex",
        "content_width": "full",
        "flex_direction": "column",
-       "_title": "What is your returns policy?",
+       "_title": "Where is Modafie located?",
        "padding": {
         "unit": "px",
         "top": "0",
@@ -109,12 +109,12 @@
       },
       "elements": [
        {
-        "id": "d3c0647",
+        "id": "c77d2ee",
         "elType": "widget",
         "widgetType": "text-editor",
         "isInner": false,
         "settings": {
-         "editor": "<p>Placeholder answer. Replace with modafie's answer to this question.</p>",
+         "editor": "<p>Modafie is based in Europe. We produce to EU quality standards and ship internationally.</p>",
          "__globals__": {
           "typography_typography": "globals/typography?id=text"
          },
@@ -126,14 +126,14 @@
       ]
      },
      {
-      "id": "d04fc0e",
+      "id": "46fdf87",
       "elType": "container",
       "isInner": true,
       "settings": {
        "container_type": "flex",
        "content_width": "full",
        "flex_direction": "column",
-       "_title": "How do I find my size?",
+       "_title": "What services does Modafie offer?",
        "padding": {
         "unit": "px",
         "top": "0",
@@ -145,12 +145,12 @@
       },
       "elements": [
        {
-        "id": "000028c",
+        "id": "127ecb9",
         "elType": "widget",
         "widgetType": "text-editor",
         "isInner": false,
         "settings": {
-         "editor": "<p>Placeholder answer. Replace with modafie's answer to this question.</p>",
+         "editor": "<p>We provide end-to-end clothing manufacturing including: design mockups, tech pack creation, sample making, bulk production, custom tags and labeling, packaging, shipping, and product photography.</p>",
          "__globals__": {
           "typography_typography": "globals/typography?id=text"
          },
@@ -162,14 +162,14 @@
       ]
      },
      {
-      "id": "0b78815",
+      "id": "1acf17f",
       "elType": "container",
       "isInner": true,
       "settings": {
        "container_type": "flex",
        "content_width": "full",
        "flex_direction": "column",
-       "_title": "Do you ship internationally?",
+       "_title": "Can Modafie help with tech packs?",
        "padding": {
         "unit": "px",
         "top": "0",
@@ -181,12 +181,12 @@
       },
       "elements": [
        {
-        "id": "8e63970",
+        "id": "b13284c",
         "elType": "widget",
         "widgetType": "text-editor",
         "isInner": false,
         "settings": {
-         "editor": "<p>Placeholder answer. Replace with modafie's answer to this question.</p>",
+         "editor": "<p>Yes. We create professional tech packs covering measurements, materials, stitching, trims, and construction details so your sample is made correctly the first time.</p>",
          "__globals__": {
           "typography_typography": "globals/typography?id=text"
          },
@@ -198,14 +198,14 @@
       ]
      },
      {
-      "id": "36f0ed5",
+      "id": "5baad95",
       "elType": "container",
       "isInner": true,
       "settings": {
        "container_type": "flex",
        "content_width": "full",
        "flex_direction": "column",
-       "_title": "How can I contact you?",
+       "_title": "How long does sampling take?",
        "padding": {
         "unit": "px",
         "top": "0",
@@ -217,12 +217,84 @@
       },
       "elements": [
        {
-        "id": "f01b36b",
+        "id": "d549b4e",
         "elType": "widget",
         "widgetType": "text-editor",
         "isInner": false,
         "settings": {
-         "editor": "<p>Placeholder answer. Replace with modafie's answer to this question.</p>",
+         "editor": "<p>Sampling typically takes 3 to 4 weeks from tech pack approval.</p>",
+         "__globals__": {
+          "typography_typography": "globals/typography?id=text"
+         },
+         "_animation": "fadeIn",
+         "_animation_delay": 0
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "fc110d0",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "_title": "Does Modafie work with sustainable fabrics?",
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "24",
+        "left": "0",
+        "isLinked": false
+       }
+      },
+      "elements": [
+       {
+        "id": "d30e4e9",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>Yes. We have a unique collection of sustainable exotic fabrics made from lotus, bamboo, aloe vera, eucalyptus, banana, and rose fibers.</p>",
+         "__globals__": {
+          "typography_typography": "globals/typography?id=text"
+         },
+         "_animation": "fadeIn",
+         "_animation_delay": 0
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "4d95077",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "_title": "How do I get started?",
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "24",
+        "left": "0",
+        "isLinked": false
+       }
+      },
+      "elements": [
+       {
+        "id": "5975857",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>WhatsApp us directly. We respond within 24 hours.</p>",
          "__globals__": {
           "typography_typography": "globals/typography?id=text"
          },
@@ -237,28 +309,38 @@
     "settings": {
      "items": [
       {
-       "_id": "6054752",
-       "item_title": "How long does delivery take?",
+       "_id": "77ceefc",
+       "item_title": "What is the minimum order quantity at Modafie?",
        "element_css_id": ""
       },
       {
-       "_id": "2fe7e6c",
-       "item_title": "What is your returns policy?",
+       "_id": "e091972",
+       "item_title": "Where is Modafie located?",
        "element_css_id": ""
       },
       {
-       "_id": "85d65a2",
-       "item_title": "How do I find my size?",
+       "_id": "a18f0b3",
+       "item_title": "What services does Modafie offer?",
        "element_css_id": ""
       },
       {
-       "_id": "c158f99",
-       "item_title": "Do you ship internationally?",
+       "_id": "8c9007a",
+       "item_title": "Can Modafie help with tech packs?",
        "element_css_id": ""
       },
       {
-       "_id": "d3acb34",
-       "item_title": "How can I contact you?",
+       "_id": "8ee92da",
+       "item_title": "How long does sampling take?",
+       "element_css_id": ""
+      },
+      {
+       "_id": "280d342",
+       "item_title": "Does Modafie work with sustainable fabrics?",
+       "element_css_id": ""
+      },
+      {
+       "_id": "6030a35",
+       "item_title": "How do I get started?",
        "element_css_id": ""
       }
      ],

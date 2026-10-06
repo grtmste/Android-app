@@ -1,0 +1,167 @@
+[
+ {
+  "id": "251e6a4",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "boxed",
+   "flex_direction": "column",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "120",
+    "right": "40",
+    "bottom": "48",
+    "left": "40",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "96",
+    "right": "24",
+    "bottom": "40",
+    "left": "24",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "72",
+    "right": "16",
+    "bottom": "32",
+    "left": "16",
+    "isLinked": false
+   },
+   "flex_gap": {
+    "unit": "px",
+    "size": 16,
+    "column": "16",
+    "row": "16",
+    "isLinked": true
+   },
+   "_title": "Page title"
+  },
+  "elements": [
+   {
+    "id": "9d51913",
+    "elType": "widget",
+    "widgetType": "heading",
+    "isInner": false,
+    "settings": {
+     "title": "What we do",
+     "header_size": "h1",
+     "mf_motion": "reveal"
+    },
+    "elements": []
+   },
+   {
+    "id": "6ffca9c",
+    "elType": "widget",
+    "widgetType": "text-editor",
+    "isInner": false,
+    "settings": {
+     "editor": "<p>Look, we could give you a boring list of services with corporate jargon and stock photos of people shaking hands.</p>",
+     "_element_width": "initial",
+     "_element_custom_width": {
+      "unit": "px",
+      "size": 640,
+      "sizes": []
+     },
+     "_element_custom_width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "__globals__": {
+      "typography_typography": "globals/typography?id=text",
+      "text_color": "globals/colors?id=secondary"
+     },
+     "_animation": "fadeIn",
+     "_animation_delay": 200
+    },
+    "elements": []
+   },
+   {
+    "id": "cc9c9dc",
+    "elType": "widget",
+    "widgetType": "text-editor",
+    "isInner": false,
+    "settings": {
+     "editor": "<p>But that's not who we are.</p>",
+     "_element_width": "initial",
+     "_element_custom_width": {
+      "unit": "px",
+      "size": 640,
+      "sizes": []
+     },
+     "_element_custom_width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "__globals__": {
+      "typography_typography": "globals/typography?id=text",
+      "text_color": "globals/colors?id=secondary"
+     },
+     "_animation": "fadeIn",
+     "_animation_delay": 200
+    },
+    "elements": []
+   },
+   {
+    "id": "80cc5ea",
+    "elType": "widget",
+    "widgetType": "text-editor",
+    "isInner": false,
+    "settings": {
+     "editor": "<p>At Modafie, we're the humans behind the machines. The ones who actually get excited when you send us a napkin sketch. The ones who believe your 30-piece dream deserves the same love as a 3,000-piece order.</p>",
+     "_element_width": "initial",
+     "_element_custom_width": {
+      "unit": "px",
+      "size": 640,
+      "sizes": []
+     },
+     "_element_custom_width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "__globals__": {
+      "typography_typography": "globals/typography?id=text",
+      "text_color": "globals/colors?id=secondary"
+     },
+     "_animation": "fadeIn",
+     "_animation_delay": 200
+    },
+    "elements": []
+   },
+   {
+    "id": "d5e34df",
+    "elType": "widget",
+    "widgetType": "text-editor",
+    "isInner": false,
+    "settings": {
+     "editor": "<p>So here's what we actually do. No fluff. Just honest talk about making your brand real.</p>",
+     "_element_width": "initial",
+     "_element_custom_width": {
+      "unit": "px",
+      "size": 640,
+      "sizes": []
+     },
+     "_element_custom_width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "__globals__": {
+      "typography_typography": "globals/typography?id=text",
+      "text_color": "globals/colors?id=secondary"
+     },
+     "_animation": "fadeIn",
+     "_animation_delay": 200
+    },
+    "elements": []
+   }
+  ]
+ }
+]

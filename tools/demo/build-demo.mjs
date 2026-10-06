@@ -152,7 +152,7 @@ function formWidget(b, { inline = false, onDark = false, name = 'Form' } = {}) {
     field_name: (f.name || f.label || `field_${i + 1}`).toLowerCase().replace(/[^a-z0-9_-]+/g, '-').slice(0, 40),
     placeholder: f.placeholder || '',
     required: f.required ? 'yes' : '',
-    width: !inline && b.fields.length > 3 && ['text', 'email', 'tel'].includes(f.type) && i < 2 ? '50' : '100',
+    width: !inline && b.fields.length > 3 && ['text', 'email', 'tel'].includes(f.type) ? '50' : '100',
     field_options: (f.options || []).join('\n'),
   }));
   return widget('mf-form', {
@@ -169,7 +169,7 @@ function blockWidget(b, ctx = {}) {
     case 'paragraph': return b.role === 'eyebrow' ? text(esc(b.text), { classes: 'mf-eyebrow', typo: 'mfeyebrow', color: ctx.dark ? 'mfwhite' : 'secondary' }) : text(`<p>${rewriteHtml(b.html || esc(b.text))}</p>`, { color: ctx.dark ? 'mfwhite' : null, animation: 'fadeIn' });
     case 'link': return heading(b.text, { tag: 'span', href: b.href, classes: 'mf-link' });
     case 'button': return button(b.text, b.href, { variant: ctx.dark ? 'light' : 'dark', animation: 'fadeInUp', delay: 100 });
-    case 'list': return b.items.some((i) => i && i.href) ? iconList(b.items, { color: ctx.dark ? 'mfwhite' : null }) : text(`<${b.ordered ? 'ol' : 'ul'}>${b.items.map((i) => `<li>${esc(typeof i === 'string' ? i : i.text)}</li>`).join('')}</${b.ordered ? 'ol' : 'ul'}>`);
+    case 'list': return b.items.some((i) => i && i.href) ? iconList(b.items, { color: ctx.dark ? 'mfwhite' : null }) : text(`<${b.ordered ? 'ol' : 'ul'}>${b.items.map((i) => `<li>${typeof i === 'string' ? esc(i) : (i.html ? rewriteHtml(i.html) : esc(i.text))}</li>`).join('')}</${b.ordered ? 'ol' : 'ul'}>`);
     case 'image': return image(b.mediaId, b.alt, { href: b.link, classes: 'mf-zoom', animation: 'fadeIn' });
     case 'svg': return image(b.mediaId, '', { size: 'full', extra: {} });
     case 'video': case 'embed': return videoWidget(b);
@@ -186,7 +186,7 @@ function blockWidget(b, ctx = {}) {
 const compact = (arr) => arr.filter(Boolean);
 
 // ------------------------------------------------------------------ section analysis
-function cardsOf(blocks) {
+function cardsOf(blocks, allowBare = false) {
   // A card = image followed by a heading (and optionally eyebrow/paragraph/button) before the next image.
   const cards = [];
   let cur = null;
@@ -194,9 +194,10 @@ function cardsOf(blocks) {
     if (b.type === 'image' && b.role !== 'background') { cur = { image: b, rest: [] }; cards.push(cur); continue; }
     if (cur) cur.rest.push(b);
   }
-  return cards.filter((c) => c.rest.some((b) => b.type === 'heading'));
+  return allowBare ? cards : cards.filter((c) => c.rest.some((b) => b.type === 'heading'));
 }
 function classify(section, index, page) {
+  if (section.pattern && builders[section.pattern]) return section.pattern;
   const B = section.blocks;
   const has = (t) => B.some((b) => b.type === t);
   const count = (t) => B.filter((b) => b.type === t).length;
@@ -270,7 +271,7 @@ const builders = {
     let btnIndex = 0;
     let delay = 200;
     for (const b of B) {
-      if (b.type === 'heading') kids.push(heading(b.text, { tag: kids.some((k) => k.widgetType === 'heading' && k.settings.header_size === 'h1') ? 'h2' : 'h1', typo: isHome ? 'mfdisplay' : 'primary', color: 'mfwhite', motion: 'reveal' }));
+      if (b.type === 'heading') kids.push(heading(b.text, { tag: kids.some((k) => k.widgetType === 'heading' && k.settings.header_size === 'h1') ? 'h2' : 'h1', typo: isHome && b.text.length <= 24 ? 'mfdisplay' : 'primary', color: 'mfwhite', motion: 'reveal' }));
       else if (b.type === 'paragraph' && b.role === 'eyebrow') kids.push(text(esc(b.text), { classes: 'mf-eyebrow', typo: 'mfeyebrow', color: 'mfwhite', animation: 'fadeIn' }));
       else if (b.type === 'paragraph') kids.push(text(`<p>${rewriteHtml(b.html || esc(b.text))}</p>`, { color: 'mfwhite', animation: 'fadeInUp', delay: (delay += 150), extra: { _element_width: 'initial', _element_custom_width: px(560), _element_custom_width_mobile: px(100, '%') } }));
       else if (b.type === 'button') { kids.push({ btn: button(b.text, b.href, { variant: btnIndex++ === 0 ? 'light' : 'outline-light', animation: 'fadeInUp', delay: (delay += 100) }) }); }
@@ -304,14 +305,27 @@ const builders = {
   marquee(section) {
     const txt = section.blocks.map((b) => b.text || '').join(' ✦ ');
     const items = txt.split(/\s*[✦•|·]\s*/).filter(Boolean).map((t) => ({ _id: idFor('m'), text: esc(t) }));
-    return container({ html_tag: 'section', content_width: 'full', padding: box(0, 0, 0, 0), background_background: 'classic', __globals__: { background_color: G('primary') } },
-      [widget('mf-marquee', { items, separator: '✦', speed: 70, direction: 'left', pause_on_hover: 'yes', padding: box(20, 0, 20, 0, 'px'), __globals__: { color: G('mfwhite'), separator_color: G('accent'), typography_typography: T('primary') } })]);
+    const v = section.variant || 'dark';
+    // dark: white on black · accent: brand-colour wordmark on white · small: thin black ticker on white
+    const colors = { dark: ['primary', 'mfwhite'], accent: ['mfwhite', 'accent'], small: ['mfwhite', 'primary'] }[v] || ['primary', 'mfwhite'];
+    const settings = { items, separator: v === 'dark' ? '✦' : '', speed: v === 'small' ? 40 : 70, direction: v === 'small' ? 'right' : 'left', pause_on_hover: 'yes', padding: box(v === 'small' ? 10 : 20, 0, v === 'small' ? 10 : 20, 0, 'px'),
+      gap: px(v === 'dark' ? 48 : 20), __globals__: { color: G(colors[1]), separator_color: G('accent'), typography_typography: T('primary') } };
+    // Local typography only applies without a global font reference, so these variants use custom typography.
+    if (v !== 'dark') delete settings.__globals__.typography_typography;
+    if (v === 'accent') Object.assign(settings, { typography_typography: 'custom', typography_font_family: 'Barlow Condensed', typography_font_weight: '800', typography_font_style: 'italic', typography_text_transform: 'uppercase', typography_font_size: px(36), typography_font_size_mobile: px(26), typography_line_height: px(1.1, 'em') });
+    if (v === 'small') Object.assign(settings, { typography_typography: 'custom', typography_font_family: 'Barlow Condensed', typography_font_weight: '800', typography_font_style: 'italic', typography_text_transform: 'uppercase', typography_font_size: px(14), typography_letter_spacing: px(1), typography_line_height: px(1.2, 'em') });
+    return container({ html_tag: 'section', content_width: 'full', padding: box(0, 0, 0, 0), background_background: 'classic', __globals__: { background_color: G(colors[0]) } }, [widget('mf-marquee', settings)]);
+  },
+
+  wideimage(section) {
+    const kids = section.blocks.map((b) => (b.type === 'image' ? image(b.mediaId, b.alt, { height: px(80, 'vh'), heightMobile: px(60, 'vh'), size: 'full', motion: 'parallax', animation: 'fadeIn' }) : blockWidget(b)));
+    return container(sectionBase({ flex_gap: gap(16), padding: box(24, 40, 24, 40), padding_tablet: box(16, 24, 16, 24), padding_mobile: box(8, 16, 8, 16) }), compact(kids));
   },
 
   carousel(section, ctx) {
     const B = [...section.blocks];
     const head = takeHeaderRow(B);
-    const cards = cardsOf(B);
+    const cards = cardsOf(B, true);
     const consumed = new Set();
     const slides = cards.map((c, i) => {
       consumed.add(c.image);
@@ -383,7 +397,7 @@ const builders = {
   split(section, ctx) {
     const B = [...section.blocks];
     const img = B.find((b) => b.type === 'image');
-    const reverse = ctx.splitCount++ % 2 === 1;
+    const reverse = section.reverse !== undefined ? !!section.reverse : ctx.splitCount++ % 2 === 1;
     const textKids = [];
     for (const b of B) {
       if (b === img) continue;
@@ -400,7 +414,7 @@ const builders = {
     }
     const imgWidget = img ? image(img.mediaId, img.alt, { height: px(86, 'vh'), heightMobile: px(64, 'vh'), motion: 'parallax', size: 'full' }) : null;
     return container(sectionBase({ content_width: 'full', flex_direction: reverse ? 'row-reverse' : 'row', flex_direction_mobile: 'column', flex_gap: gap(0), flex_align_items: 'stretch', padding: box(0, 0, 0, 0), padding_tablet: box(0, 0, 0, 0), padding_mobile: box(0, 0, 0, 0) }), compact([
-      container({ content_width: 'full', width: px(50, '%'), width_mobile: px(100, '%'), padding: box(0, 0, 0, 0) }, compact([imgWidget]), true),
+      container({ content_width: 'full', width: px(50, '%'), width_mobile: px(100, '%'), padding: box(0, 0, 0, 0), css_classes: 'mf-split-media' }, compact([imgWidget]), true),
       container({ content_width: 'full', width: px(50, '%'), width_mobile: px(100, '%'), flex_justify_content: 'center', flex_gap: gap(20), padding: box(80, 96, 80, 96), padding_tablet: box(56, 40, 56, 40), padding_mobile: box(48, 16, 56, 16), ...anim('fadeIn', 0, '') }, merged, true),
     ]));
   },
@@ -412,11 +426,14 @@ const builders = {
     const kids = [];
     for (const b of B) {
       if (b === bgBlock) continue;
-      if (b.type === 'heading') kids.push(heading(b.text, { tag: 'h2', typo: 'mfdisplay', color: 'mfwhite', align: 'center', motion: 'reveal' }));
+      const left = section.variant === 'left';
+      if (b.type === 'heading') kids.push(heading(b.text, { tag: 'h2', typo: left ? 'mfh2' : 'mfdisplay', color: 'mfwhite', align: left ? null : 'center', motion: 'reveal', extra: left ? { _element_width: 'initial', _element_custom_width: px(760), _element_custom_width_mobile: px(100, '%') } : {} }));
       else if (b.type === 'button') kids.push(button(b.text, b.href, { variant: 'light', animation: 'fadeInUp', delay: 300 }));
+      else if (b.type === 'paragraph' && b.role !== 'eyebrow') kids.push(text(`<p>${rewriteHtml(b.html || esc(b.text))}</p>`, { color: 'mfwhite', align: left ? null : 'center', animation: 'fadeIn', delay: 200, extra: { _element_width: 'initial', _element_custom_width: px(620), _element_custom_width_mobile: px(100, '%') } }));
       else kids.push(blockWidget(b, { dark: true }));
     }
-    const s = sectionBase({ content_width: 'boxed', flex_justify_content: 'center', flex_align_items: 'center', flex_gap: gap(24), min_height: px(90, 'vh'), min_height_mobile: px(70, 'vh'),
+    const leftAligned = section.variant === 'left';
+    const s = sectionBase({ content_width: 'boxed', flex_justify_content: leftAligned ? 'flex-end' : 'center', flex_align_items: leftAligned ? 'flex-start' : 'center', flex_gap: gap(leftAligned ? 16 : 24), min_height: px(90, 'vh'), min_height_mobile: px(70, 'vh'),
       background_background: 'classic', background_position: 'center center', background_size: 'cover', background_overlay_background: 'classic', background_overlay_color: '#000000', background_overlay_opacity: px(0.35), mf_motion: 'parallax-bg', mf_parallax_speed: px(0.25), __globals__: { background_color: G('mfdark') } });
     const img = media(bgId);
     if (img) s.background_image = img;
@@ -447,18 +464,33 @@ const builders = {
 
   statement(section) {
     const kids = section.blocks.map((b) => (b.type === 'quote' || b.type === 'heading'
-      ? heading(b.text, { tag: 'h2', typo: 'mfstatement', align: 'center', motion: 'reveal', href: b.link })
+      ? heading(b.text, { tag: 'h2', typo: b.text.length > 90 ? 'mfh2' : 'mfstatement', align: 'center', motion: 'reveal', href: b.link })
       : blockWidget(b)));
     return container(sectionBase({ flex_align_items: 'center', flex_gap: gap(24), padding: box(128, 40, 128, 40), padding_mobile: box(80, 16, 80, 16), boxed_width: px(1100) }), compact(kids));
   },
 
   cta(section) {
-    const kids = section.blocks.map((b) => (b.type === 'heading' ? heading(b.text, { tag: 'h2', align: 'center', motion: 'reveal' }) : b.type === 'button' ? button(b.text, b.href, { align: 'center', animation: 'fadeInUp', delay: 150 }) : blockWidget(b)));
-    return container(sectionBase({ flex_align_items: 'center', flex_gap: gap(24), background_background: 'classic', __globals__: { background_color: G('mfsurface') } }), compact(kids));
+    const dark = section.variant === 'dark';
+    const kids = [];
+    let row = null;
+    let bi = 0;
+    for (const b of section.blocks) {
+      if (b.type === 'button') {
+        const btn = button(b.text, b.href, { variant: dark ? (bi++ ? 'outline-light' : 'light') : (bi++ ? 'outline' : 'dark'), animation: 'fadeInUp', delay: 150 + bi * 80 });
+        if (!row) { row = container({ content_width: 'full', flex_direction: 'row', flex_wrap: 'wrap', flex_justify_content: 'center', flex_gap: gap(12), padding: box(8, 0, 0, 0) }, [], true); kids.push(row); }
+        row.elements.push(btn);
+        continue;
+      }
+      row = null;
+      if (b.type === 'heading') kids.push(heading(b.text, { tag: 'h2', align: 'center', motion: 'reveal', color: dark ? 'mfwhite' : null }));
+      else if (b.type === 'paragraph') kids.push(text(`<p>${rewriteHtml(b.html || esc(b.text))}</p>`, { align: 'center', color: dark ? 'mfwhite' : 'secondary', animation: 'fadeIn', delay: 100 }));
+      else kids.push(blockWidget(b, { dark }));
+    }
+    return container(sectionBase({ flex_align_items: 'center', flex_gap: gap(20), boxed_width: px(1000), background_background: 'classic', __globals__: { background_color: G(dark ? 'primary' : 'mfsurface') } }), compact(kids));
   },
 
   title(section) {
-    const kids = section.blocks.map((b) => (b.type === 'heading' ? heading(b.text, { tag: `h${b.level || 1}`, motion: 'reveal' }) : b.type === 'paragraph' ? text(`<p>${rewriteHtml(b.html || esc(b.text))}</p>`, { color: 'secondary', animation: 'fadeIn', delay: 200, extra: { _element_width: 'initial', _element_custom_width: px(640), _element_custom_width_mobile: px(100, '%') } }) : blockWidget(b)));
+    const kids = section.blocks.map((b) => (b.type === 'heading' ? heading(b.text, { tag: `h${b.level || 1}`, motion: 'reveal' }) : b.type === 'paragraph' && b.role !== 'eyebrow' ? text(`<p>${rewriteHtml(b.html || esc(b.text))}</p>`, { color: 'secondary', animation: 'fadeIn', delay: 200, extra: { _element_width: 'initial', _element_custom_width: px(640), _element_custom_width_mobile: px(100, '%') } }) : blockWidget(b)));
     return container(sectionBase({ flex_gap: gap(16), padding: box(120, 40, 48, 40), padding_tablet: box(96, 24, 40, 24), padding_mobile: box(72, 16, 32, 16) }), compact(kids));
   },
 
@@ -495,7 +527,8 @@ const builders = {
   contact(section) {
     const B = [...section.blocks];
     const form = B.find((b) => b.type === 'form');
-    const left = B.filter((b) => b !== form).map((b) => (b.type === 'list' ? iconList(b.items.map((i) => (typeof i === 'string' && /@/.test(i) ? { text: i, href: `mailto:${i}` } : typeof i === 'string' && /^\+?[\d\s()-]{7,}$/.test(i) ? { text: i, href: `tel:${i.replace(/[^\d+]/g, '')}` } : i))) : b.type === 'heading' ? heading(b.text, { tag: 'h2', motion: 'reveal' }) : blockWidget(b)));
+    const contactish = (b) => b.items.some((i) => typeof i === 'string' && (/@/.test(i) || /^\+?[\d\s()-]{7,}$/.test(i)));
+    const left = B.filter((b) => b !== form).map((b) => (b.type === 'list' && contactish(b) ? iconList(b.items.map((i) => (typeof i === 'string' && /@/.test(i) ? { text: i, href: `mailto:${i}` } : typeof i === 'string' && /^\+?[\d\s()-]{7,}$/.test(i) ? { text: i, href: `tel:${i.replace(/[^\d+]/g, '')}` } : i))) : b.type === 'heading' ? heading(b.text, { tag: 'h2', motion: 'reveal' }) : blockWidget(b)));
     return container(sectionBase({ flex_direction: 'row', flex_direction_tablet: 'column', flex_gap: gap(64), flex_align_items: 'flex-start', padding: box(48, 40, 120, 40) }), [
       container({ content_width: 'full', width: px(40, '%'), width_tablet: px(100, '%'), flex_gap: gap(20), padding: box(0, 0, 0, 0) }, compact(left), true),
       container({ content_width: 'full', width: px(60, '%'), width_tablet: px(100, '%'), padding: box(40, 40, 40, 40), padding_mobile: box(24, 16, 24, 16), background_background: 'classic', __globals__: { background_color: G('mfsurface') }, ...anim('fadeInUp', 150, '') }, [formWidget(form, { name: 'Contact' })], true),
@@ -522,7 +555,7 @@ const builders = {
   },
 };
 
-const PATTERN_NAMES = { hero: 'Hero', marquee: 'Marquee strip', carousel: 'Card carousel', tiles: 'Category tiles', grid: 'Editorial grid', split: 'Split image/text', editorial: 'Editorial image', features: 'Feature row', statement: 'Statement', cta: 'Call to action', title: 'Page title', faq: 'FAQ', newsletter: 'Newsletter', contact: 'Contact', video: 'Video', generic: 'Content' };
+const PATTERN_NAMES = { wideimage: 'Wide image', hero: 'Hero', marquee: 'Marquee strip', carousel: 'Card carousel', tiles: 'Category tiles', grid: 'Editorial grid', split: 'Split image/text', editorial: 'Editorial image', features: 'Feature row', statement: 'Statement', cta: 'Call to action', title: 'Page title', faq: 'FAQ', newsletter: 'Newsletter', contact: 'Contact', video: 'Video', generic: 'Content' };
 
 // ------------------------------------------------------------------ kit
 function luminance(hex) {
@@ -642,7 +675,7 @@ function menuItem(n) {
   return item;
 }
 function buildMenus() {
-  const nav = (content.site.nav || []).filter((n) => n.text && n.text.length < 40 && !/^(home|menu|close|search|cart|bag|account|log ?in)$/i.test(n.text));
+  const nav = (content.site.nav || []).filter((n) => n.text && n.text.length < 40 && !/^(menu|close|search|cart|bag|account|log ?in)$/i.test(n.text));
   const navItems = nav.length ? nav.map(menuItem) : content.pages.filter((p) => p.slug !== 'home' && !/privacy|terms|cookie|legal/.test(p.slug)).slice(0, 6).map((p) => ({ title: (p.title || p.slug).split('|')[0].trim(), page: p.slug }));
   const footer = (content.site.footer || []).filter((g) => g.links.length).map((g) => ({ title: g.heading || 'Links', url: '#', children: g.links.map((l) => menuItem({ text: l.text, href: l.href })) }));
   const legalLinks = (content.site.footer || []).flatMap((g) => g.links).filter((l) => /privacy|terms|cookie|legal|imprint|impressum/i.test(l.href + l.text));
@@ -691,7 +724,9 @@ orderedPages.forEach((page, pi) => {
     const pattern = classify(section, si, page);
     patterns.push(pattern);
     const el = builders[pattern](section, ctx);
-    if (!el.settings._title) el.settings._title = `${PATTERN_NAMES[pattern]}`;
+    if (!el.settings._title) el.settings._title = section.title || `${PATTERN_NAMES[pattern]}`;
+    if (section.anchor) el.settings._element_id = section.anchor;
+    if (section.boxed) el.settings.boxed_width = px(section.boxed);
     elements.push(el);
     // Reusable template (deduplicated by content)
     const hash = crypto.createHash('md5').update(JSON.stringify(el).replace(/"id":"[0-9a-f]{7}"/g, '')).digest('hex');
@@ -724,6 +759,7 @@ manifest.theme_mods = {
   modafie_header_hide_on_scroll: true,
   modafie_header_transparent: false,
   modafie_header_cta_text: '',
+  ...(content.site.theme_mods || {}),
 };
 
 // logo / favicon

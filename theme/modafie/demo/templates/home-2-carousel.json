@@ -1,0 +1,639 @@
+[
+ {
+  "id": "af2e005",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "full",
+   "flex_direction": "column",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "96",
+    "right": "0",
+    "bottom": "96",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "72",
+    "right": "0",
+    "bottom": "72",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "56",
+    "right": "0",
+    "bottom": "56",
+    "left": "0",
+    "isLinked": false
+   },
+   "flex_gap": {
+    "unit": "px",
+    "size": 0,
+    "column": "0",
+    "row": "0",
+    "isLinked": true
+   },
+   "_title": "Services rail"
+  },
+  "elements": [
+   {
+    "id": "3e699df",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "row",
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "40",
+      "bottom": "0",
+      "left": "40",
+      "isLinked": false
+     },
+     "padding_tablet": {
+      "unit": "px",
+      "top": "0",
+      "right": "24",
+      "bottom": "0",
+      "left": "24",
+      "isLinked": false
+     },
+     "padding_mobile": {
+      "unit": "px",
+      "top": "0",
+      "right": "16",
+      "bottom": "0",
+      "left": "16",
+      "isLinked": false
+     },
+     "mf_motion": "carousel",
+     "flex_wrap": "nowrap",
+     "flex_gap": {
+      "unit": "px",
+      "size": 16,
+      "column": "16",
+      "row": "16",
+      "isLinked": true
+     }
+    },
+    "elements": [
+     {
+      "id": "f657b5f",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "css_classes": "mf-card-item mf-zoom",
+       "animation": "fadeInUp",
+       "animation_delay": 0
+      },
+      "elements": [
+       {
+        "id": "8f6cfb0",
+        "elType": "widget",
+        "widgetType": "image",
+        "isInner": false,
+        "settings": {
+         "image": {
+          "url": "{{mf-media:21cdb907467d6841:url}}",
+          "id": "{{mf-media:21cdb907467d6841:id}}",
+          "alt": "View our services",
+          "source": "library",
+          "size": ""
+         },
+         "image_size": "large",
+         "width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+         },
+         "link_to": "custom",
+         "link": {
+          "url": "{{mf-page:what-we-do}}",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "742d3cf",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "View our services →",
+         "header_size": "h3",
+         "__globals__": {
+          "typography_typography": "globals/typography?id=mfcardtitle"
+         },
+         "link": {
+          "url": "{{mf-page:what-we-do}}",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         }
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "c3b3d9d",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "css_classes": "mf-card-item mf-zoom",
+       "animation": "fadeInUp",
+       "animation_delay": 100
+      },
+      "elements": [
+       {
+        "id": "48a5ff5",
+        "elType": "widget",
+        "widgetType": "image",
+        "isInner": false,
+        "settings": {
+         "image": {
+          "url": "{{mf-media:c89e186945c55634:url}}",
+          "id": "{{mf-media:c89e186945c55634:id}}",
+          "alt": "Design Mockup & Concept",
+          "source": "library",
+          "size": ""
+         },
+         "image_size": "large",
+         "width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+         },
+         "link_to": "custom",
+         "link": {
+          "url": "{{mf-page:what-we-do}}#mockups",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "6ff0e21",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Design Mockup &amp; Concept",
+         "header_size": "h3",
+         "__globals__": {
+          "typography_typography": "globals/typography?id=mfcardtitle"
+         },
+         "link": {
+          "url": "{{mf-page:what-we-do}}#mockups",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         }
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "5981f75",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "css_classes": "mf-card-item mf-zoom",
+       "animation": "fadeInUp",
+       "animation_delay": 200
+      },
+      "elements": [
+       {
+        "id": "4453cc6",
+        "elType": "widget",
+        "widgetType": "image",
+        "isInner": false,
+        "settings": {
+         "image": {
+          "url": "{{mf-media:13eb84fe6cdd8b32:url}}",
+          "id": "{{mf-media:13eb84fe6cdd8b32:id}}",
+          "alt": "Tech Pack Creation",
+          "source": "library",
+          "size": ""
+         },
+         "image_size": "large",
+         "width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+         },
+         "link_to": "custom",
+         "link": {
+          "url": "{{mf-page:what-we-do}}#tech-packs",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "1757984",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Tech Pack Creation",
+         "header_size": "h3",
+         "__globals__": {
+          "typography_typography": "globals/typography?id=mfcardtitle"
+         },
+         "link": {
+          "url": "{{mf-page:what-we-do}}#tech-packs",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         }
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "e5627e4",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "css_classes": "mf-card-item mf-zoom",
+       "animation": "fadeInUp",
+       "animation_delay": 300
+      },
+      "elements": [
+       {
+        "id": "110a6a3",
+        "elType": "widget",
+        "widgetType": "image",
+        "isInner": false,
+        "settings": {
+         "image": {
+          "url": "{{mf-media:02eb3ca7bc259ef3:url}}",
+          "id": "{{mf-media:02eb3ca7bc259ef3:id}}",
+          "alt": "Sampling & Prototyping",
+          "source": "library",
+          "size": ""
+         },
+         "image_size": "large",
+         "width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+         },
+         "link_to": "custom",
+         "link": {
+          "url": "{{mf-page:what-we-do}}#sampling",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "89286e6",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Sampling &amp; Prototyping",
+         "header_size": "h3",
+         "__globals__": {
+          "typography_typography": "globals/typography?id=mfcardtitle"
+         },
+         "link": {
+          "url": "{{mf-page:what-we-do}}#sampling",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         }
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "d08c4b8",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "css_classes": "mf-card-item mf-zoom"
+      },
+      "elements": [
+       {
+        "id": "8581434",
+        "elType": "widget",
+        "widgetType": "image",
+        "isInner": false,
+        "settings": {
+         "image": {
+          "url": "{{mf-media:b484fa426afa384f:url}}",
+          "id": "{{mf-media:b484fa426afa384f:id}}",
+          "alt": "Bulk Production",
+          "source": "library",
+          "size": ""
+         },
+         "image_size": "large",
+         "width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+         },
+         "link_to": "custom",
+         "link": {
+          "url": "{{mf-page:what-we-do}}#production",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "02d0eae",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Bulk Production",
+         "header_size": "h3",
+         "__globals__": {
+          "typography_typography": "globals/typography?id=mfcardtitle"
+         },
+         "link": {
+          "url": "{{mf-page:what-we-do}}#production",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         }
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "c85b0df",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "css_classes": "mf-card-item mf-zoom"
+      },
+      "elements": [
+       {
+        "id": "a6dbe31",
+        "elType": "widget",
+        "widgetType": "image",
+        "isInner": false,
+        "settings": {
+         "image": {
+          "url": "{{mf-media:81e724550d804ea7:url}}",
+          "id": "{{mf-media:81e724550d804ea7:id}}",
+          "alt": "Custom Packaging & Labeling",
+          "source": "library",
+          "size": ""
+         },
+         "image_size": "large",
+         "width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+         },
+         "link_to": "custom",
+         "link": {
+          "url": "{{mf-page:what-we-do}}#packaging",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "62a5d6f",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Custom Packaging &amp; Labeling",
+         "header_size": "h3",
+         "__globals__": {
+          "typography_typography": "globals/typography?id=mfcardtitle"
+         },
+         "link": {
+          "url": "{{mf-page:what-we-do}}#packaging",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         }
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "69fa21a",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "css_classes": "mf-card-item mf-zoom"
+      },
+      "elements": [
+       {
+        "id": "2d85b91",
+        "elType": "widget",
+        "widgetType": "image",
+        "isInner": false,
+        "settings": {
+         "image": {
+          "url": "{{mf-media:321099e6f6625a8d:url}}",
+          "id": "{{mf-media:321099e6f6625a8d:id}}",
+          "alt": "Product Photography",
+          "source": "library",
+          "size": ""
+         },
+         "image_size": "large",
+         "width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+         },
+         "link_to": "custom",
+         "link": {
+          "url": "{{mf-page:what-we-do}}#photography",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "03cf584",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Product Photography",
+         "header_size": "h3",
+         "__globals__": {
+          "typography_typography": "globals/typography?id=mfcardtitle"
+         },
+         "link": {
+          "url": "{{mf-page:what-we-do}}#photography",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         }
+        },
+        "elements": []
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

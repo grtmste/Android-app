@@ -1,6 +1,6 @@
 # Modafie: WordPress theme for Elementor
 
-A lightweight, Elementor-first theme with an athletic-editorial look: bold condensed caps, a monochrome palette with one brand accent, a sticky hide-on-scroll header with mega menu, and scroll animations you switch on with a CSS class. It ships with a **one-click importer** that rebuilds the whole Modafie site as normal, editable Elementor pages.
+A lightweight, Elementor-first theme for an offer-style site (no shop) with an athletic-editorial look: bold condensed caps, a monochrome palette with one brand accent, a sticky hide-on-scroll header with mega menu, and scroll animations you switch on with a CSS class. It ships with a **one-click importer** that rebuilds the whole Modafie site as normal, editable Elementor pages.
 
 - WordPress 6.5+ (tested on 7.1.3), PHP 8.1+ (tested on 8.2)
 - Elementor **free** (tested on 4.0). Elementor Pro is optional and never required.
@@ -20,9 +20,9 @@ A lightweight, Elementor-first theme with an athletic-editorial look: bold conde
 | Site Settings | Writes global colours, global fonts, button style, container width and breakpoints into the active **Elementor Kit**, and turns on Flexbox containers, inline SVG icons, optimized markup and lazy-loading |
 | Media | Imports every image, SVG icon and video into the Media Library (in batches, so it won't time out) |
 | Templates | Saves every section, plus the site footer, to **Templates → Saved Templates** |
-| Pages | Creates every page as Elementor content (`Elementor Full Width` template) and sets **Home** as the static front page |
-| Menus | Builds the *Primary*, *Footer* and *Legal* menus and assigns them to their locations |
-| Finish | Sets the footer template and announcement bar, then regenerates Elementor's CSS |
+| Pages | Creates every page (Home, About us, What we do, FAQ, Get an offer) as Elementor content (`Elementor Full Width` template) and sets **Home** as the static front page |
+| Menus | Builds the *Primary* menu (Home · WhatsApp · About us · What we do, whose mega menu links to each service · FAQ) and the *Footer* menu |
+| Finish | Sets the footer template, announcement bar and "Get an offer" header button, then regenerates Elementor's CSS |
 
 **Safe to re-run.** Pages, media and templates are matched by an internal key, so running the import again updates them in place and never creates duplicates. Content you created yourself is never touched.
 
@@ -111,15 +111,29 @@ Add a class under **Advanced → CSS Classes** on any widget or container, or ch
 
 ---
 
-## 5. WooCommerce
+## 5. Offers, WhatsApp and Instagram (no shop)
 
-If WooCommerce is active, the theme adds support for it plus product-grid styling: 4 columns, 4:5 images on grey, a second image on hover, sale badge, a sticky summary on the product page, pill buttons, and a bag count in the header. Nothing loads when WooCommerce isn't installed.
+The site generates leads instead of selling online.
+
+- **Get an offer** (`/get-an-offer/`): a quote request form (Modafie Form widget) asking for name, email, brand, WhatsApp/phone, product type, quantity per style, services needed, project details and consent. Each request is e-mailed (to the address in the widget, or the site admin by default) and listed under **Appearance → Form submissions**. Edit the fields, recipient and thank-you message by clicking the form in Elementor.
+- **Header button:** "Get an offer" (Customize → Modafie Header & Footer → Header button).
+- **WhatsApp:** every "WhatsApp us" button and the *WhatsApp* menu item link to **`/whatsapp/`**. Set the number once in **Customize → Modafie Header & Footer → WhatsApp number** (international format, e.g. `+37255512345`), optionally with a pre-filled message, and every link opens that chat. **Until a number is set, `/whatsapp/` sends visitors to the Get an offer page.**
+- **Instagram:** `/instagram/` opens the profile URL set in the same Customizer section.
 
 ---
 
 ## 6. Rebuilding the demo from modafie.io
 
-The demo package in `demo/` is generated, not hand-written. From the project repository:
+The demo package in `demo/` is generated, not hand-written. The current build uses the copy from modafie.io's pages, supplied by Modafie (`tools/demo/manual_seed.py`). Its photos and videos are **labelled stand-ins**: each one says which original image belongs there (for example "Sewing at the Juki machine"). Replace them in Elementor (click the image, or a container's background), or let the scraper fetch the originals.
+
+Rebuild from the client copy:
+
+```bash
+cd tools
+python3 -I demo/manual_seed.py ../scrape && npm run build-demo && npm run zip
+```
+
+Or from a live crawl of modafie.io, which needs `www.modafie.io` and `cdn.shopify.com` reachable:
 
 ```bash
 cd tools

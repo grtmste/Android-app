@@ -17,11 +17,8 @@ require MODAFIE_DIR . '/inc/class-modafie-walker-nav.php';
 require MODAFIE_DIR . '/inc/enqueue.php';
 require MODAFIE_DIR . '/inc/customizer.php';
 require MODAFIE_DIR . '/inc/forms.php';
+require MODAFIE_DIR . '/inc/contact-links.php';
 require MODAFIE_DIR . '/inc/elementor.php';
-
-if ( class_exists( 'WooCommerce' ) ) {
-	require MODAFIE_DIR . '/inc/woocommerce.php';
-}
 
 if ( is_admin() || ( defined( 'WP_CLI' ) && WP_CLI ) ) {
 	require MODAFIE_DIR . '/inc/importer/class-modafie-importer.php';

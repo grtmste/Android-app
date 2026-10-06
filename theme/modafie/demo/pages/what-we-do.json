@@ -1,0 +1,1832 @@
+[
+ {
+  "id": "251e6a4",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "boxed",
+   "flex_direction": "column",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "120",
+    "right": "40",
+    "bottom": "48",
+    "left": "40",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "96",
+    "right": "24",
+    "bottom": "40",
+    "left": "24",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "72",
+    "right": "16",
+    "bottom": "32",
+    "left": "16",
+    "isLinked": false
+   },
+   "flex_gap": {
+    "unit": "px",
+    "size": 16,
+    "column": "16",
+    "row": "16",
+    "isLinked": true
+   },
+   "_title": "Page title"
+  },
+  "elements": [
+   {
+    "id": "9d51913",
+    "elType": "widget",
+    "widgetType": "heading",
+    "isInner": false,
+    "settings": {
+     "title": "What we do",
+     "header_size": "h1",
+     "mf_motion": "reveal"
+    },
+    "elements": []
+   },
+   {
+    "id": "6ffca9c",
+    "elType": "widget",
+    "widgetType": "text-editor",
+    "isInner": false,
+    "settings": {
+     "editor": "<p>Look, we could give you a boring list of services with corporate jargon and stock photos of people shaking hands.</p>",
+     "_element_width": "initial",
+     "_element_custom_width": {
+      "unit": "px",
+      "size": 640,
+      "sizes": []
+     },
+     "_element_custom_width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "__globals__": {
+      "typography_typography": "globals/typography?id=text",
+      "text_color": "globals/colors?id=secondary"
+     },
+     "_animation": "fadeIn",
+     "_animation_delay": 200
+    },
+    "elements": []
+   },
+   {
+    "id": "cc9c9dc",
+    "elType": "widget",
+    "widgetType": "text-editor",
+    "isInner": false,
+    "settings": {
+     "editor": "<p>But that's not who we are.</p>",
+     "_element_width": "initial",
+     "_element_custom_width": {
+      "unit": "px",
+      "size": 640,
+      "sizes": []
+     },
+     "_element_custom_width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "__globals__": {
+      "typography_typography": "globals/typography?id=text",
+      "text_color": "globals/colors?id=secondary"
+     },
+     "_animation": "fadeIn",
+     "_animation_delay": 200
+    },
+    "elements": []
+   },
+   {
+    "id": "80cc5ea",
+    "elType": "widget",
+    "widgetType": "text-editor",
+    "isInner": false,
+    "settings": {
+     "editor": "<p>At Modafie, we're the humans behind the machines. The ones who actually get excited when you send us a napkin sketch. The ones who believe your 30-piece dream deserves the same love as a 3,000-piece order.</p>",
+     "_element_width": "initial",
+     "_element_custom_width": {
+      "unit": "px",
+      "size": 640,
+      "sizes": []
+     },
+     "_element_custom_width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "__globals__": {
+      "typography_typography": "globals/typography?id=text",
+      "text_color": "globals/colors?id=secondary"
+     },
+     "_animation": "fadeIn",
+     "_animation_delay": 200
+    },
+    "elements": []
+   },
+   {
+    "id": "d5e34df",
+    "elType": "widget",
+    "widgetType": "text-editor",
+    "isInner": false,
+    "settings": {
+     "editor": "<p>So here's what we actually do. No fluff. Just honest talk about making your brand real.</p>",
+     "_element_width": "initial",
+     "_element_custom_width": {
+      "unit": "px",
+      "size": 640,
+      "sizes": []
+     },
+     "_element_custom_width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "__globals__": {
+      "typography_typography": "globals/typography?id=text",
+      "text_color": "globals/colors?id=secondary"
+     },
+     "_animation": "fadeIn",
+     "_animation_delay": 200
+    },
+    "elements": []
+   }
+  ]
+ },
+ {
+  "id": "fa0e247",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "full",
+   "flex_direction": "row",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "flex_direction_mobile": "column",
+   "flex_gap": {
+    "unit": "px",
+    "size": 0,
+    "column": "0",
+    "row": "0",
+    "isLinked": true
+   },
+   "flex_align_items": "stretch",
+   "_title": "01 Mockups",
+   "_element_id": "mockups"
+  },
+  "elements": [
+   {
+    "id": "f94a055",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 50,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+     },
+     "css_classes": "mf-split-media"
+    },
+    "elements": [
+     {
+      "id": "978ae8e",
+      "elType": "widget",
+      "widgetType": "image",
+      "isInner": false,
+      "settings": {
+       "image": {
+        "url": "{{mf-media:c89e186945c55634:url}}",
+        "id": "{{mf-media:c89e186945c55634:id}}",
+        "alt": "Design mockup & concept",
+        "source": "library",
+        "size": ""
+       },
+       "image_size": "full",
+       "width": {
+        "unit": "%",
+        "size": 100,
+        "sizes": []
+       },
+       "height": {
+        "unit": "vh",
+        "size": 86,
+        "sizes": []
+       },
+       "object-fit": "cover",
+       "object_fit": "cover",
+       "height_mobile": {
+        "unit": "vh",
+        "size": 64,
+        "sizes": []
+       },
+       "mf_motion": "parallax"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "f321f4c",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 50,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "flex_justify_content": "center",
+     "flex_gap": {
+      "unit": "px",
+      "size": 20,
+      "column": "20",
+      "row": "20",
+      "isLinked": true
+     },
+     "padding": {
+      "unit": "px",
+      "top": "80",
+      "right": "96",
+      "bottom": "80",
+      "left": "96",
+      "isLinked": false
+     },
+     "padding_tablet": {
+      "unit": "px",
+      "top": "56",
+      "right": "40",
+      "bottom": "56",
+      "left": "40",
+      "isLinked": false
+     },
+     "padding_mobile": {
+      "unit": "px",
+      "top": "48",
+      "right": "16",
+      "bottom": "56",
+      "left": "16",
+      "isLinked": false
+     },
+     "animation": "fadeIn",
+     "animation_delay": 0
+    },
+    "elements": [
+     {
+      "id": "ca0eb9e",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>01</p>",
+       "__globals__": {
+        "typography_typography": "globals/typography?id=mfeyebrow",
+        "text_color": "globals/colors?id=secondary"
+       },
+       "_css_classes": "mf-eyebrow"
+      },
+      "elements": []
+     },
+     {
+      "id": "5605e09",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Mockups &amp; Design Development",
+       "header_size": "h2",
+       "mf_motion": "reveal"
+      },
+      "elements": []
+     },
+     {
+      "id": "05d53f8",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>Maybe you have detailed sketches. Maybe you have a mood board covered in tears and magazine cutouts. Maybe just a feeling you can't shake.</p><p>That's enough. Bring it here.</p><p>Our design team sits with you (virtually or in person) and turns that fuzzy dream into a clean digital mockup. We play with fabrics, colours, silhouettes until you make that sound—you know the one. The \"oh yes, that's it\" sound.</p><p>Then we tweak it. Again. And again. Until it's yours.</p><p><strong>What lands in your inbox:</strong></p><ul><li>Beautiful digital mockups from your scribbles</li><li>Fabric suggestions that won't break the bank</li><li>A design you actually want to wear</li></ul><p>You can either design yourself or hire our service. This service is 30-50 euro onwards, sometimes free!</p>",
+       "__globals__": {
+        "typography_typography": "globals/typography?id=text"
+       },
+       "_animation": "fadeIn",
+       "_animation_delay": 0
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "4451c08",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "full",
+   "flex_direction": "row-reverse",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "flex_direction_mobile": "column",
+   "flex_gap": {
+    "unit": "px",
+    "size": 0,
+    "column": "0",
+    "row": "0",
+    "isLinked": true
+   },
+   "flex_align_items": "stretch",
+   "_title": "02 Tech packs",
+   "_element_id": "tech-packs"
+  },
+  "elements": [
+   {
+    "id": "e894538",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 50,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+     },
+     "css_classes": "mf-split-media"
+    },
+    "elements": [
+     {
+      "id": "e4862d3",
+      "elType": "widget",
+      "widgetType": "image",
+      "isInner": false,
+      "settings": {
+       "image": {
+        "url": "{{mf-media:13eb84fe6cdd8b32:url}}",
+        "id": "{{mf-media:13eb84fe6cdd8b32:id}}",
+        "alt": "Tech pack creation",
+        "source": "library",
+        "size": ""
+       },
+       "image_size": "full",
+       "width": {
+        "unit": "%",
+        "size": 100,
+        "sizes": []
+       },
+       "height": {
+        "unit": "vh",
+        "size": 86,
+        "sizes": []
+       },
+       "object-fit": "cover",
+       "object_fit": "cover",
+       "height_mobile": {
+        "unit": "vh",
+        "size": 64,
+        "sizes": []
+       },
+       "mf_motion": "parallax"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "3f95597",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 50,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "flex_justify_content": "center",
+     "flex_gap": {
+      "unit": "px",
+      "size": 20,
+      "column": "20",
+      "row": "20",
+      "isLinked": true
+     },
+     "padding": {
+      "unit": "px",
+      "top": "80",
+      "right": "96",
+      "bottom": "80",
+      "left": "96",
+      "isLinked": false
+     },
+     "padding_tablet": {
+      "unit": "px",
+      "top": "56",
+      "right": "40",
+      "bottom": "56",
+      "left": "40",
+      "isLinked": false
+     },
+     "padding_mobile": {
+      "unit": "px",
+      "top": "48",
+      "right": "16",
+      "bottom": "56",
+      "left": "16",
+      "isLinked": false
+     },
+     "animation": "fadeIn",
+     "animation_delay": 0
+    },
+    "elements": [
+     {
+      "id": "571603b",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>02 — Tech Packs</p>",
+       "__globals__": {
+        "typography_typography": "globals/typography?id=mfeyebrow",
+        "text_color": "globals/colors?id=secondary"
+       },
+       "_css_classes": "mf-eyebrow"
+      },
+      "elements": []
+     },
+     {
+      "id": "28c7636",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "The Boring Stuff That Saves Your Sanity",
+       "header_size": "h2",
+       "mf_motion": "reveal"
+      },
+      "elements": []
+     },
+     {
+      "id": "4fb5208",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>Okay, this part isn't sexy. But neither is getting a sample back that looks nothing like your drawing.</p><p>A tech pack is basically a recipe for your garment. Every measurement, every stitch, every tiny detail written down so there's zero confusion between \"what you imagined\" and \"what arrives at your door.\"</p><p>Its important to have techpack because if there is an error in the production, you can hold the factory accountable to fix it.</p><p>Don't have one? We build it with you.<br>Have a messy one? We clean it up.<br>Just want to understand what the hell a tech pack even is? We'll explain like humans.</p><p><strong>What you get:</strong></p><ul><li>Measurements that actually make sense</li><li>Construction details so specific your grandma could sew it</li><li>No more &quot;lost in translation&quot; moments</li></ul><p><em>From €60-120. Cheap insurance against disasters. €50 or less for Tshirt.</em></p>",
+       "__globals__": {
+        "typography_typography": "globals/typography?id=text"
+       },
+       "_animation": "fadeIn",
+       "_animation_delay": 0
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "677bbff",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "full",
+   "flex_direction": "row",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "flex_direction_mobile": "column",
+   "flex_gap": {
+    "unit": "px",
+    "size": 0,
+    "column": "0",
+    "row": "0",
+    "isLinked": true
+   },
+   "flex_align_items": "stretch",
+   "_title": "03 Sampling",
+   "_element_id": "sampling"
+  },
+  "elements": [
+   {
+    "id": "b907197",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 50,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+     },
+     "css_classes": "mf-split-media"
+    },
+    "elements": [
+     {
+      "id": "d3d7ade",
+      "elType": "widget",
+      "widgetType": "image",
+      "isInner": false,
+      "settings": {
+       "image": {
+        "url": "{{mf-media:02eb3ca7bc259ef3:url}}",
+        "id": "{{mf-media:02eb3ca7bc259ef3:id}}",
+        "alt": "Sampling & prototyping",
+        "source": "library",
+        "size": ""
+       },
+       "image_size": "full",
+       "width": {
+        "unit": "%",
+        "size": 100,
+        "sizes": []
+       },
+       "height": {
+        "unit": "vh",
+        "size": 86,
+        "sizes": []
+       },
+       "object-fit": "cover",
+       "object_fit": "cover",
+       "height_mobile": {
+        "unit": "vh",
+        "size": 64,
+        "sizes": []
+       },
+       "mf_motion": "parallax"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "f7d4111",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 50,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "flex_justify_content": "center",
+     "flex_gap": {
+      "unit": "px",
+      "size": 20,
+      "column": "20",
+      "row": "20",
+      "isLinked": true
+     },
+     "padding": {
+      "unit": "px",
+      "top": "80",
+      "right": "96",
+      "bottom": "80",
+      "left": "96",
+      "isLinked": false
+     },
+     "padding_tablet": {
+      "unit": "px",
+      "top": "56",
+      "right": "40",
+      "bottom": "56",
+      "left": "40",
+      "isLinked": false
+     },
+     "padding_mobile": {
+      "unit": "px",
+      "top": "48",
+      "right": "16",
+      "bottom": "56",
+      "left": "16",
+      "isLinked": false
+     },
+     "animation": "fadeIn",
+     "animation_delay": 0
+    },
+    "elements": [
+     {
+      "id": "0866997",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>03</p>",
+       "__globals__": {
+        "typography_typography": "globals/typography?id=mfeyebrow",
+        "text_color": "globals/colors?id=secondary"
+       },
+       "_css_classes": "mf-eyebrow"
+      },
+      "elements": []
+     },
+     {
+      "id": "9b8ede6",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Sampling &amp; Prototyping",
+       "header_size": "h2",
+       "mf_motion": "reveal"
+      },
+      "elements": []
+     },
+     {
+      "id": "af02de2",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>This is my favourite part. Watching a designer hold their sample for the first time.</p><p>We craft your piece with the same care as if it were for our own brand. Then we send it to you. Try it on. Show your mum. Find what's wrong with it (there's always something).</p><p>Then we fix it together. Once, twice, three times if needed. Until you'd wear it to a party and lie when people ask where you bought it.</p><p><strong>What you get:</strong></p><ul><li>A real, wearable sample</li><li>2-3 rounds of tweaks (we're patient)</li><li>That butterflies-in-stomach feeling</li></ul><p><em>*From €depends on the complexity of design so we know how much our pattern maker needs to work. 1-3 weeks. Worth every day.*</em></p>",
+       "__globals__": {
+        "typography_typography": "globals/typography?id=text"
+       },
+       "_animation": "fadeIn",
+       "_animation_delay": 0
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "a542474",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "full",
+   "flex_direction": "row-reverse",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "flex_direction_mobile": "column",
+   "flex_gap": {
+    "unit": "px",
+    "size": 0,
+    "column": "0",
+    "row": "0",
+    "isLinked": true
+   },
+   "flex_align_items": "stretch",
+   "_title": "04 Bulk production",
+   "_element_id": "production"
+  },
+  "elements": [
+   {
+    "id": "bb914c5",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 50,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+     },
+     "css_classes": "mf-split-media"
+    },
+    "elements": [
+     {
+      "id": "f13d0a4",
+      "elType": "widget",
+      "widgetType": "image",
+      "isInner": false,
+      "settings": {
+       "image": {
+        "url": "{{mf-media:b484fa426afa384f:url}}",
+        "id": "{{mf-media:b484fa426afa384f:id}}",
+        "alt": "Bulk production",
+        "source": "library",
+        "size": ""
+       },
+       "image_size": "full",
+       "width": {
+        "unit": "%",
+        "size": 100,
+        "sizes": []
+       },
+       "height": {
+        "unit": "vh",
+        "size": 86,
+        "sizes": []
+       },
+       "object-fit": "cover",
+       "object_fit": "cover",
+       "height_mobile": {
+        "unit": "vh",
+        "size": 64,
+        "sizes": []
+       },
+       "mf_motion": "parallax"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "6d7d1a4",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 50,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "flex_justify_content": "center",
+     "flex_gap": {
+      "unit": "px",
+      "size": 20,
+      "column": "20",
+      "row": "20",
+      "isLinked": true
+     },
+     "padding": {
+      "unit": "px",
+      "top": "80",
+      "right": "96",
+      "bottom": "80",
+      "left": "96",
+      "isLinked": false
+     },
+     "padding_tablet": {
+      "unit": "px",
+      "top": "56",
+      "right": "40",
+      "bottom": "56",
+      "left": "40",
+      "isLinked": false
+     },
+     "padding_mobile": {
+      "unit": "px",
+      "top": "48",
+      "right": "16",
+      "bottom": "56",
+      "left": "16",
+      "isLinked": false
+     },
+     "animation": "fadeIn",
+     "animation_delay": 0
+    },
+    "elements": [
+     {
+      "id": "6338fe2",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>04</p>",
+       "__globals__": {
+        "typography_typography": "globals/typography?id=mfeyebrow",
+        "text_color": "globals/colors?id=secondary"
+       },
+       "_css_classes": "mf-eyebrow"
+      },
+      "elements": []
+     },
+     {
+      "id": "511dbe5",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Bulk Production — From 30 Pieces or No MOQ",
+       "header_size": "h2",
+       "mf_motion": "reveal"
+      },
+      "elements": []
+     },
+     {
+      "id": "29d301d",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>Here's where most factories break your heart.</p><p>\"Come back when you have 500 pieces.\" \"We don't do small orders.\" \"You're not ready for us.\"</p><p>We've heard it a thousand times from designers who came to us crying. So we built something different.</p><p>At Modafie, you start at 30 pieces. Not 300. Not 500. Thirty.</p><p>Same quality as the big guys get. Same attention. Same machines. Just... less risk. Less inventory sitting in your bedroom. Less praying you guessed right on sizes.</p><p>Sell out in a week? Brilliant. We'll run your next 30. Or 300. Or 3,000. You grow at your pace, not ours.</p><p><strong>What you get:</strong></p><ul><li>Production from 30 pieces (yes, really)</li><li>European quality that doesn't embarrass you</li><li>Room to make mistakes and learn</li><li>Reorders that don't require a second mortgage</li></ul><p><em>*From €depends on what we are creating. Production 4-8 weeks after sample sign-off.</em></p>",
+       "__globals__": {
+        "typography_typography": "globals/typography?id=text"
+       },
+       "_animation": "fadeIn",
+       "_animation_delay": 0
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "313d1ef",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "full",
+   "flex_direction": "row",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "flex_direction_mobile": "column",
+   "flex_gap": {
+    "unit": "px",
+    "size": 0,
+    "column": "0",
+    "row": "0",
+    "isLinked": true
+   },
+   "flex_align_items": "stretch",
+   "_title": "05 Packaging",
+   "_element_id": "packaging"
+  },
+  "elements": [
+   {
+    "id": "328167d",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 50,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+     },
+     "css_classes": "mf-split-media"
+    },
+    "elements": [
+     {
+      "id": "01e01b2",
+      "elType": "widget",
+      "widgetType": "image",
+      "isInner": false,
+      "settings": {
+       "image": {
+        "url": "{{mf-media:81e724550d804ea7:url}}",
+        "id": "{{mf-media:81e724550d804ea7:id}}",
+        "alt": "Custom packaging & labeling",
+        "source": "library",
+        "size": ""
+       },
+       "image_size": "full",
+       "width": {
+        "unit": "%",
+        "size": 100,
+        "sizes": []
+       },
+       "height": {
+        "unit": "vh",
+        "size": 86,
+        "sizes": []
+       },
+       "object-fit": "cover",
+       "object_fit": "cover",
+       "height_mobile": {
+        "unit": "vh",
+        "size": 64,
+        "sizes": []
+       },
+       "mf_motion": "parallax"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "fd164b7",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 50,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "flex_justify_content": "center",
+     "flex_gap": {
+      "unit": "px",
+      "size": 20,
+      "column": "20",
+      "row": "20",
+      "isLinked": true
+     },
+     "padding": {
+      "unit": "px",
+      "top": "80",
+      "right": "96",
+      "bottom": "80",
+      "left": "96",
+      "isLinked": false
+     },
+     "padding_tablet": {
+      "unit": "px",
+      "top": "56",
+      "right": "40",
+      "bottom": "56",
+      "left": "40",
+      "isLinked": false
+     },
+     "padding_mobile": {
+      "unit": "px",
+      "top": "48",
+      "right": "16",
+      "bottom": "56",
+      "left": "16",
+      "isLinked": false
+     },
+     "animation": "fadeIn",
+     "animation_delay": 0
+    },
+    "elements": [
+     {
+      "id": "d76e911",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>05</p>",
+       "__globals__": {
+        "typography_typography": "globals/typography?id=mfeyebrow",
+        "text_color": "globals/colors?id=secondary"
+       },
+       "_css_classes": "mf-eyebrow"
+      },
+      "elements": []
+     },
+     {
+      "id": "4a7310a",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Custom Packaging &amp; Labeling",
+       "header_size": "h2",
+       "mf_motion": "reveal"
+      },
+      "elements": []
+     },
+     {
+      "id": "728f1aa",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>You know that feeling when you open something beautiful? The paper crinkles just right. The box smells expensive. The little details make you smile.</p><p>That should be your brand.</p><p>We make your labels (woven, printed, whatever feels right). Your hang tags. Your care instructions. Your boxes and bags if you want.</p><p>Sustainable materials if that's your thing. Premium finishes if that's your vibe. Just... you.</p><p><strong>What you get:</strong></p><ul><li>Labels that don't fall off after one wash</li><li>Packaging that makes people take photos</li><li>Details that scream &quot;this is a real brand&quot;</li></ul><p>The bulk order already will include price of packaging, labelling, shipping.</p>",
+       "__globals__": {
+        "typography_typography": "globals/typography?id=text"
+       },
+       "_animation": "fadeIn",
+       "_animation_delay": 0
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "74aa393",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "full",
+   "flex_direction": "row-reverse",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "flex_direction_mobile": "column",
+   "flex_gap": {
+    "unit": "px",
+    "size": 0,
+    "column": "0",
+    "row": "0",
+    "isLinked": true
+   },
+   "flex_align_items": "stretch",
+   "_title": "06 Photography",
+   "_element_id": "photography"
+  },
+  "elements": [
+   {
+    "id": "b1930be",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 50,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+     },
+     "css_classes": "mf-split-media"
+    },
+    "elements": [
+     {
+      "id": "69bbc73",
+      "elType": "widget",
+      "widgetType": "image",
+      "isInner": false,
+      "settings": {
+       "image": {
+        "url": "{{mf-media:321099e6f6625a8d:url}}",
+        "id": "{{mf-media:321099e6f6625a8d:id}}",
+        "alt": "Product photography & lookbook",
+        "source": "library",
+        "size": ""
+       },
+       "image_size": "full",
+       "width": {
+        "unit": "%",
+        "size": 100,
+        "sizes": []
+       },
+       "height": {
+        "unit": "vh",
+        "size": 86,
+        "sizes": []
+       },
+       "object-fit": "cover",
+       "object_fit": "cover",
+       "height_mobile": {
+        "unit": "vh",
+        "size": 64,
+        "sizes": []
+       },
+       "mf_motion": "parallax"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "95fa1db",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 50,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "flex_justify_content": "center",
+     "flex_gap": {
+      "unit": "px",
+      "size": 20,
+      "column": "20",
+      "row": "20",
+      "isLinked": true
+     },
+     "padding": {
+      "unit": "px",
+      "top": "80",
+      "right": "96",
+      "bottom": "80",
+      "left": "96",
+      "isLinked": false
+     },
+     "padding_tablet": {
+      "unit": "px",
+      "top": "56",
+      "right": "40",
+      "bottom": "56",
+      "left": "40",
+      "isLinked": false
+     },
+     "padding_mobile": {
+      "unit": "px",
+      "top": "48",
+      "right": "16",
+      "bottom": "56",
+      "left": "16",
+      "isLinked": false
+     },
+     "animation": "fadeIn",
+     "animation_delay": 0
+    },
+    "elements": [
+     {
+      "id": "09ad9d9",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>06 — Only if you need</p>",
+       "__globals__": {
+        "typography_typography": "globals/typography?id=mfeyebrow",
+        "text_color": "globals/colors?id=secondary"
+       },
+       "_css_classes": "mf-eyebrow"
+      },
+      "elements": []
+     },
+     {
+      "id": "a5864db",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Product Photography &amp; Lookbook Shoots",
+       "header_size": "h2",
+       "mf_motion": "reveal"
+      },
+      "elements": []
+     },
+     {
+      "id": "c605a5d",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>You just spent months making something beautiful. Don't let it die in bad lighting.</p><p>Our photography team treats your garments like art. Flat lays that stop the scroll. Model shots that make people ask \"where can I get that?\" Detail close-ups that prove you didn't cut corners.</p><p>No renting studios. No hunting for photographers. No \"can you just edit this to not look orange?\"</p><p>Just stunning images, ready for your website, your Instagram, your \"oh my god we launched\" moment.</p><p><strong>What you get:</strong></p><ul><li>Flat lays that actually sell</li><li>Real humans wearing your stuff</li><li>Close-ups that show off the stitching you're proud of</li><li>20-30 images that make you look like you've done this before</li></ul>",
+       "__globals__": {
+        "typography_typography": "globals/typography?id=text"
+       },
+       "_animation": "fadeIn",
+       "_animation_delay": 0
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "8a7afd8",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "full",
+   "flex_direction": "row",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "flex_direction_mobile": "column",
+   "flex_gap": {
+    "unit": "px",
+    "size": 0,
+    "column": "0",
+    "row": "0",
+    "isLinked": true
+   },
+   "flex_align_items": "stretch",
+   "_title": "07 Marketing",
+   "_element_id": "marketing"
+  },
+  "elements": [
+   {
+    "id": "b54376d",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 50,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+     },
+     "css_classes": "mf-split-media"
+    },
+    "elements": [
+     {
+      "id": "ed7e76e",
+      "elType": "widget",
+      "widgetType": "image",
+      "isInner": false,
+      "settings": {
+       "image": {
+        "url": "{{mf-media:c40c50d701276169:url}}",
+        "id": "{{mf-media:c40c50d701276169:id}}",
+        "alt": "Brand marketing & launch",
+        "source": "library",
+        "size": ""
+       },
+       "image_size": "full",
+       "width": {
+        "unit": "%",
+        "size": 100,
+        "sizes": []
+       },
+       "height": {
+        "unit": "vh",
+        "size": 86,
+        "sizes": []
+       },
+       "object-fit": "cover",
+       "object_fit": "cover",
+       "height_mobile": {
+        "unit": "vh",
+        "size": 64,
+        "sizes": []
+       },
+       "mf_motion": "parallax"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "59ed202",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 50,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "flex_justify_content": "center",
+     "flex_gap": {
+      "unit": "px",
+      "size": 20,
+      "column": "20",
+      "row": "20",
+      "isLinked": true
+     },
+     "padding": {
+      "unit": "px",
+      "top": "80",
+      "right": "96",
+      "bottom": "80",
+      "left": "96",
+      "isLinked": false
+     },
+     "padding_tablet": {
+      "unit": "px",
+      "top": "56",
+      "right": "40",
+      "bottom": "56",
+      "left": "40",
+      "isLinked": false
+     },
+     "padding_mobile": {
+      "unit": "px",
+      "top": "48",
+      "right": "16",
+      "bottom": "56",
+      "left": "16",
+      "isLinked": false
+     },
+     "animation": "fadeIn",
+     "animation_delay": 0
+    },
+    "elements": [
+     {
+      "id": "bffcfef",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>07</p>",
+       "__globals__": {
+        "typography_typography": "globals/typography?id=mfeyebrow",
+        "text_color": "globals/colors?id=secondary"
+       },
+       "_css_classes": "mf-eyebrow"
+      },
+      "elements": []
+     },
+     {
+      "id": "3bc2394",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Brand Marketing &amp; Launch Support",
+       "header_size": "h2",
+       "mf_motion": "reveal"
+      },
+      "elements": []
+     },
+     {
+      "id": "2889947",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>Here's a secret: amazing products fail all the time. Not because they weren't good. Because no one knew they existed.</p><p>We don't want that to be you.</p><p>Our marketing team helps you sound like yourself (but clearer). We plan your launch so it feels like an event, not a whisper. We help you find the first customers who'll become your biggest fans.</p><p>You built the collection. Let us help the world discover it.</p><p><strong>What you get:</strong></p><ul><li>Words that actually sound like you</li><li>In-depth growth marketing specialist who will work with meta suits, google ad, SEO optimisation etc</li><li>A launch plan that doesn't stress you out</li><li>Constructive guidance towards assured success</li><li>A nudge in the right direction when you're stuck</li></ul>",
+       "__globals__": {
+        "typography_typography": "globals/typography?id=text"
+       },
+       "_animation": "fadeIn",
+       "_animation_delay": 0
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "4ea9a00",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "boxed",
+   "flex_direction": "column",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "96",
+    "right": "40",
+    "bottom": "96",
+    "left": "40",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "72",
+    "right": "24",
+    "bottom": "72",
+    "left": "24",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "56",
+    "right": "16",
+    "bottom": "56",
+    "left": "16",
+    "isLinked": false
+   },
+   "flex_align_items": "center",
+   "flex_gap": {
+    "unit": "px",
+    "size": 20,
+    "column": "20",
+    "row": "20",
+    "isLinked": true
+   },
+   "boxed_width": {
+    "unit": "px",
+    "size": 1000,
+    "sizes": []
+   },
+   "background_background": "classic",
+   "__globals__": {
+    "background_color": "globals/colors?id=primary"
+   },
+   "_title": "Offer CTA"
+  },
+  "elements": [
+   {
+    "id": "3337620",
+    "elType": "widget",
+    "widgetType": "heading",
+    "isInner": false,
+    "settings": {
+     "title": "Start with 30 pieces.",
+     "header_size": "h2",
+     "__globals__": {
+      "title_color": "globals/colors?id=mfwhite"
+     },
+     "align": "center",
+     "title_align": "center",
+     "mf_motion": "reveal"
+    },
+    "elements": []
+   },
+   {
+    "id": "b3e8000",
+    "elType": "widget",
+    "widgetType": "text-editor",
+    "isInner": false,
+    "settings": {
+     "editor": "<p>Test the market. See what sells. Gather feedback. Then reinvest.</p>",
+     "__globals__": {
+      "typography_typography": "globals/typography?id=text",
+      "text_color": "globals/colors?id=mfwhite"
+     },
+     "align": "center",
+     "text_align": "center",
+     "_animation": "fadeIn",
+     "_animation_delay": 100
+    },
+    "elements": []
+   },
+   {
+    "id": "c2dbd72",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "row",
+     "flex_wrap": "wrap",
+     "flex_justify_content": "center",
+     "flex_gap": {
+      "unit": "px",
+      "size": 12,
+      "column": "12",
+      "row": "12",
+      "isLinked": true
+     },
+     "padding": {
+      "unit": "px",
+      "top": "8",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+     }
+    },
+    "elements": [
+     {
+      "id": "6229406",
+      "elType": "widget",
+      "widgetType": "button",
+      "isInner": false,
+      "settings": {
+       "text": "Get an offer",
+       "link": {
+        "url": "{{mf-page:get-an-offer}}",
+        "is_external": "",
+        "nofollow": "",
+        "custom_attributes": ""
+       },
+       "size": "md",
+       "_animation": "fadeInUp",
+       "_animation_delay": 230,
+       "background_background": "classic",
+       "__globals__": {
+        "background_color": "globals/colors?id=mfwhite",
+        "button_text_color": "globals/colors?id=primary",
+        "button_background_hover_color": "globals/colors?id=mfwhite",
+        "hover_color": "globals/colors?id=mfwhite"
+       },
+       "_css_classes": "mf-btn-light"
+      },
+      "elements": []
+     },
+     {
+      "id": "23902a0",
+      "elType": "widget",
+      "widgetType": "button",
+      "isInner": false,
+      "settings": {
+       "text": "WhatsApp us",
+       "link": {
+        "url": "{{mf-home}}/whatsapp",
+        "is_external": "",
+        "nofollow": "",
+        "custom_attributes": ""
+       },
+       "size": "md",
+       "_animation": "fadeInUp",
+       "_animation_delay": 310,
+       "background_background": "classic",
+       "background_color": "rgba(0,0,0,0)",
+       "border_border": "solid",
+       "border_width": {
+        "unit": "px",
+        "top": "2",
+        "right": "2",
+        "bottom": "2",
+        "left": "2",
+        "isLinked": false
+       },
+       "__globals__": {
+        "button_text_color": "globals/colors?id=mfwhite",
+        "border_color": "globals/colors?id=mfwhite"
+       },
+       "_css_classes": "mf-btn-outline-light"
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ }
+]
