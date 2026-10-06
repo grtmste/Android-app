@@ -33,7 +33,14 @@ add_action( 'admin_menu', 'modafie_import_menu' );
  * Activation notice.
  */
 function modafie_import_notice() {
-	if ( ! current_user_can( 'manage_options' ) || get_option( Modafie_Importer::DONE ) || get_option( 'modafie_import_notice_dismissed' ) ) {
+	if ( ! current_user_can( 'manage_options' ) ) {
+		return;
+	}
+	$modafie_update = ( new Modafie_Importer() )->update_available();
+	if ( ! $modafie_update && ( get_option( Modafie_Importer::DONE ) || get_option( 'modafie_import_notice_dismissed' ) ) ) {
+		return;
+	}
+	if ( $modafie_update && get_option( 'modafie_update_notice_dismissed' ) === ( new Modafie_Importer() )->demo_id() ) {
 		return;
 	}
 	$screen = get_current_screen();
@@ -42,8 +49,13 @@ function modafie_import_notice() {
 	}
 	?>
 	<div class="notice notice-info is-dismissible mf-import-notice" data-mf-dismiss="<?php echo esc_attr( wp_create_nonce( 'modafie_dismiss' ) ); ?>">
-		<p><strong><?php esc_html_e( 'Welcome to Modafie!', 'modafie' ); ?></strong> <?php esc_html_e( 'Import the full Modafie site (pages, images, menus, Elementor global styles) in one click. Every text and image stays editable in Elementor.', 'modafie' ); ?></p>
-		<p><a class="button button-primary" href="<?php echo esc_url( admin_url( 'themes.php?page=modafie-import' ) ); ?>"><?php esc_html_e( 'Import Modafie demo content', 'modafie' ); ?></a></p>
+		<?php if ( $modafie_update ) : ?>
+			<p><strong><?php esc_html_e( 'New Modafie content is included in this theme version.', 'modafie' ); ?></strong> <?php esc_html_e( 'Your pages still show the previously imported demo. Re-run the import to update Home, About us, What we do, FAQ and Get an offer (pages from the older demo are moved to the trash; your own pages are not touched).', 'modafie' ); ?></p>
+			<p><a class="button button-primary" href="<?php echo esc_url( admin_url( 'themes.php?page=modafie-import' ) ); ?>"><?php esc_html_e( 'Update Modafie content', 'modafie' ); ?></a></p>
+		<?php else : ?>
+			<p><strong><?php esc_html_e( 'Welcome to Modafie!', 'modafie' ); ?></strong> <?php esc_html_e( 'Import the full Modafie site (pages, images, menus, Elementor global styles) in one click. Every text and image stays editable in Elementor.', 'modafie' ); ?></p>
+			<p><a class="button button-primary" href="<?php echo esc_url( admin_url( 'themes.php?page=modafie-import' ) ); ?>"><?php esc_html_e( 'Import Modafie demo content', 'modafie' ); ?></a></p>
+		<?php endif; ?>
 	</div>
 	<script>
 	document.addEventListener('click', function (e) {
@@ -66,7 +78,12 @@ add_action( 'admin_notices', 'modafie_import_notice' );
 function modafie_dismiss_import_notice() {
 	check_ajax_referer( 'modafie_dismiss' );
 	if ( current_user_can( 'manage_options' ) ) {
-		update_option( 'modafie_import_notice_dismissed', 1 );
+		$importer = new Modafie_Importer();
+		if ( $importer->update_available() ) {
+			update_option( 'modafie_update_notice_dismissed', $importer->demo_id() );
+		} else {
+			update_option( 'modafie_import_notice_dismissed', 1 );
+		}
 	}
 	wp_send_json_success();
 }
@@ -131,6 +148,9 @@ function modafie_import_page() {
 			);
 			?>
 		</p>
+		<?php if ( $importer->update_available() ) : ?>
+			<div class="notice notice-info inline"><p><strong><?php esc_html_e( 'This theme version contains newer Modafie content than what is currently imported.', 'modafie' ); ?></strong> <?php esc_html_e( 'Click the button below to update your pages.', 'modafie' ); ?></p></div>
+		<?php endif; ?>
 		<?php if ( 'placeholder' === $status['source'] ) : ?>
 			<div class="notice notice-warning inline"><p>
 				<?php esc_html_e( 'This copy of the theme ships with PLACEHOLDER demo content (the live modafie.io site could not be scraped when the theme was built). Layout, styles and animations are final; to swap in the real copy and images, run the scraper and rebuild the demo (see README.md → "Rebuilding the demo from modafie.io"), or simply edit the pages in Elementor.', 'modafie' ); ?>

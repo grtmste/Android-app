@@ -3,7 +3,7 @@ Contributors: modafie
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,6 +36,10 @@ They all link to /whatsapp/. Set your number in Appearance → Customize → Mod
 They are e-mailed to the address set in the widget (default: the site admin) and listed under Appearance → Form submissions.
 
 == Changelog ==
+
+= 1.1.0 =
+* Content from modafie.io (Home, About us, What we do, FAQ), new Get an offer page, WhatsApp/Instagram links, brand orange accent. No shop.
+* Re-running the import updates pages from older demo builds and trashes pages that are no longer part of the demo.
 
 = 1.0.0 =
 * Initial release.

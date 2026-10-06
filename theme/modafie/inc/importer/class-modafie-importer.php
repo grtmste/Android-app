@@ -407,9 +407,16 @@ class Modafie_Importer {
 			$map['templates'][ $key ] = $doc->get_id();
 			++$n;
 		}
+		$map['templates'] = array_intersect_key( $map['templates'], array_flip( array_map( 'sanitize_key', wp_list_pluck( (array) ( $m['templates'] ?? array() ), 'key' ) ) ) );
 		$this->save_map( $map );
+		$retired = $this->retire_stale( 'elementor_library', array_keys( $map['templates'] ) );
 		/* translators: %d: number of templates. */
-		return array( 'done' => true, 'message' => sprintf( __( '%d section templates saved to the Elementor library.', 'modafie' ), $n ) );
+		$message = sprintf( __( '%d section templates saved to the Elementor library.', 'modafie' ), $n );
+		if ( $retired ) {
+			/* translators: %d: number of templates. */
+			$message .= ' ' . sprintf( __( '%d templates from an older demo moved to the trash.', 'modafie' ), $retired );
+		}
+		return array( 'done' => true, 'message' => $message );
 	}
 
 	/* ------------------------------------------------------------------ pages */
@@ -476,8 +483,20 @@ class Modafie_Importer {
 				update_option( 'page_on_front', $id );
 			}
 		}
+		$keep = array();
+		foreach ( $pages as $p ) {
+			$keep[] = 'page-' . sanitize_key( $p['slug'] );
+		}
+		$map['pages'] = array_intersect_key( $map['pages'], array_flip( wp_list_pluck( $pages, 'slug' ) ) );
+		$this->save_map( $map );
+		$retired = $this->retire_stale( 'page', $keep );
 		/* translators: %d: number of pages. */
-		return array( 'done' => true, 'message' => sprintf( __( '%d pages built with Elementor.', 'modafie' ), count( $pages ) ) );
+		$message = sprintf( __( '%d pages built with Elementor.', 'modafie' ), count( $pages ) );
+		if ( $retired ) {
+			/* translators: %d: number of pages. */
+			$message .= ' ' . sprintf( __( '%d pages from an older demo moved to the trash.', 'modafie' ), $retired );
+		}
+		return array( 'done' => true, 'message' => $message );
 	}
 
 	/* ------------------------------------------------------------------ menus */
@@ -502,6 +521,13 @@ class Modafie_Importer {
 			$this->add_menu_items( $id, (array) $menu['items'], 0, $map );
 			$locations[ $location ] = $id;
 			$map['menus'][ $location ] = $id;
+		}
+		// Unassign locations that held a menu from an older demo build but are not part of this one.
+		foreach ( $locations as $location => $menu_id ) {
+			$term = $menu_id ? get_term( (int) $menu_id, 'nav_menu' ) : null;
+			if ( ! isset( $m['menus'][ $location ] ) && $term && ! is_wp_error( $term ) && 0 === strpos( $term->name, 'Modafie ' ) ) {
+				unset( $locations[ $location ] );
+			}
 		}
 		set_theme_mod( 'nav_menu_locations', $locations );
 		$this->save_map( $map );
@@ -570,7 +596,7 @@ class Modafie_Importer {
 		flush_rewrite_rules( false );
 
 		\Elementor\Plugin::$instance->files_manager->clear_cache();
-		update_option( self::DONE, array( 'version' => MODAFIE_VERSION, 'time' => time(), 'source' => $m['source'] ?? 'unknown' ), false );
+		update_option( self::DONE, array( 'version' => MODAFIE_VERSION, 'time' => time(), 'source' => $m['source'] ?? 'unknown', 'demo' => $this->demo_id() ), false );
 		return array(
 			'done'    => true,
 			'message' => __( 'Done! Elementor CSS regenerated.', 'modafie' ),
@@ -580,6 +606,52 @@ class Modafie_Importer {
 	}
 
 	/* ------------------------------------------------------------------ helpers */
+
+	/**
+	 * Identifier of the bundled demo build (changes whenever the demo is regenerated).
+	 */
+	public function demo_id() {
+		$m = $this->manifest();
+		return (string) ( $m['generatedAt'] ?? '' );
+	}
+
+	/**
+	 * True when demo content was imported before, but from an older demo build than the one in this theme version.
+	 */
+	public function update_available() {
+		$done = get_option( self::DONE );
+		return is_array( $done ) && $this->demo_id() && ( $done['demo'] ?? '' ) !== $this->demo_id();
+	}
+
+	/**
+	 * Move importer-created posts that are no longer part of the demo to the trash
+	 * (e.g. pages from an earlier demo build). Content you created yourself is never touched.
+	 *
+	 * @param string   $post_type Post type.
+	 * @param string[] $keep_keys Keys still in the manifest.
+	 * @return int Number of posts trashed.
+	 */
+	private function retire_stale( $post_type, $keep_keys ) {
+		$ids = get_posts(
+			array(
+				'post_type'        => $post_type,
+				'post_status'      => array( 'publish', 'draft', 'private', 'pending' ),
+				'meta_key'         => self::META_KEY, // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_key
+				'fields'           => 'ids',
+				'posts_per_page'   => 500,
+				'no_found_rows'    => true,
+				'suppress_filters' => true,
+			)
+		);
+		$n = 0;
+		foreach ( $ids as $id ) {
+			if ( ! in_array( get_post_meta( $id, self::META_KEY, true ), $keep_keys, true ) ) {
+				wp_trash_post( $id );
+				++$n;
+			}
+		}
+		return $n;
+	}
 
 	/**
 	 * Find a post by demo key.
