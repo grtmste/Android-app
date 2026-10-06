@@ -1,6 +1,6 @@
 [
  {
-  "id": "88a0a0c",
+  "id": "f26d218",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -48,12 +48,12 @@
   },
   "elements": [
    {
-    "id": "4eff784",
+    "id": "97382ca",
     "elType": "widget",
     "widgetType": "text-editor",
     "isInner": false,
     "settings": {
-     "editor": "<p>We support slow fashion instead.</p><p>We've developed a unique collection of sustainable exotic fabrics — crafted from nature's most unexpected materials: rose, lotus, bamboo, banana, eucalyptus, aloe vera, and more. These fibers are woven into something you can actually wear. Curious? Reach out — we'd love to share more.</p>",
+     "editor": "<p><em>We support slow fashion instead. <br></em>We've developed a unique collection of sustainable exotic fabrics — crafted from nature's most unexpected materials: rose, lotus, bamboo, hemp, banana, eucalyptus, aloe vera, orange, and more. These fibers are woven into something you can actually wear. Curious? Reach out — we'd love to share more.</p>",
      "__globals__": {
       "typography_typography": "globals/typography?id=text"
      },

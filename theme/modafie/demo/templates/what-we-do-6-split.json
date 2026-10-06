@@ -1,6 +1,6 @@
 [
  {
-  "id": "313d1ef",
+  "id": "4ea9a00",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -41,12 +41,12 @@
     "isLinked": true
    },
    "flex_align_items": "stretch",
-   "_title": "05 Packaging",
+   "_title": "05 Custom Packaging & Labeling",
    "_element_id": "packaging"
   },
   "elements": [
    {
-    "id": "328167d",
+    "id": "c2dbd72",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -75,15 +75,15 @@
     },
     "elements": [
      {
-      "id": "01e01b2",
+      "id": "79d6ca9",
       "elType": "widget",
       "widgetType": "image",
       "isInner": false,
       "settings": {
        "image": {
-        "url": "{{mf-media:81e724550d804ea7:url}}",
-        "id": "{{mf-media:81e724550d804ea7:id}}",
-        "alt": "Custom packaging & labeling",
+        "url": "{{mf-media:cec3928849359e31:url}}",
+        "id": "{{mf-media:cec3928849359e31:id}}",
+        "alt": "",
         "source": "library",
         "size": ""
        },
@@ -112,7 +112,7 @@
     ]
    },
    {
-    "id": "fd164b7",
+    "id": "9352423",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -166,7 +166,7 @@
     },
     "elements": [
      {
-      "id": "d76e911",
+      "id": "bfe63f9",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,
@@ -181,7 +181,7 @@
       "elements": []
      },
      {
-      "id": "4a7310a",
+      "id": "4ff867c",
       "elType": "widget",
       "widgetType": "heading",
       "isInner": false,
@@ -193,7 +193,7 @@
       "elements": []
      },
      {
-      "id": "728f1aa",
+      "id": "b06cd49",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,

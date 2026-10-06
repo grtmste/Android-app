@@ -1,6 +1,6 @@
 [
  {
-  "id": "7ab6a11",
+  "id": "24a9564",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -43,7 +43,7 @@
   },
   "elements": [
    {
-    "id": "63dac5c",
+    "id": "d0e8dd4",
     "elType": "widget",
     "widgetType": "heading",
     "isInner": false,
@@ -57,7 +57,7 @@
   ]
  },
  {
-  "id": "8e72bb0",
+  "id": "fc4cb63",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -105,13 +105,13 @@
   },
   "elements": [
    {
-    "id": "91f42bd",
+    "id": "77d44d6",
     "elType": "widget",
     "widgetType": "nested-accordion",
     "isInner": false,
     "elements": [
      {
-      "id": "7f269c1",
+      "id": "fca1100",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -130,7 +130,7 @@
       },
       "elements": [
        {
-        "id": "24ffc64",
+        "id": "7888efe",
         "elType": "widget",
         "widgetType": "text-editor",
         "isInner": false,
@@ -147,7 +147,7 @@
       ]
      },
      {
-      "id": "39b1ab2",
+      "id": "9cd0d79",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -166,7 +166,7 @@
       },
       "elements": [
        {
-        "id": "c77d2ee",
+        "id": "8fcac91",
         "elType": "widget",
         "widgetType": "text-editor",
         "isInner": false,
@@ -183,7 +183,7 @@
       ]
      },
      {
-      "id": "46fdf87",
+      "id": "414c43a",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -202,7 +202,7 @@
       },
       "elements": [
        {
-        "id": "127ecb9",
+        "id": "3346dc9",
         "elType": "widget",
         "widgetType": "text-editor",
         "isInner": false,
@@ -219,7 +219,7 @@
       ]
      },
      {
-      "id": "1acf17f",
+      "id": "6cd2dbe",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -238,7 +238,7 @@
       },
       "elements": [
        {
-        "id": "b13284c",
+        "id": "7ba7ed1",
         "elType": "widget",
         "widgetType": "text-editor",
         "isInner": false,
@@ -255,7 +255,7 @@
       ]
      },
      {
-      "id": "5baad95",
+      "id": "2e1286d",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -274,7 +274,7 @@
       },
       "elements": [
        {
-        "id": "d549b4e",
+        "id": "6a5c670",
         "elType": "widget",
         "widgetType": "text-editor",
         "isInner": false,
@@ -291,7 +291,7 @@
       ]
      },
      {
-      "id": "fc110d0",
+      "id": "2bc32cc",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -310,7 +310,7 @@
       },
       "elements": [
        {
-        "id": "d30e4e9",
+        "id": "90f86e3",
         "elType": "widget",
         "widgetType": "text-editor",
         "isInner": false,
@@ -327,7 +327,7 @@
       ]
      },
      {
-      "id": "4d95077",
+      "id": "3b737bb",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -346,7 +346,7 @@
       },
       "elements": [
        {
-        "id": "5975857",
+        "id": "0bc445b",
         "elType": "widget",
         "widgetType": "text-editor",
         "isInner": false,
@@ -366,37 +366,37 @@
     "settings": {
      "items": [
       {
-       "_id": "77ceefc",
+       "_id": "d6c5a8e",
        "item_title": "What is the minimum order quantity at Modafie?",
        "element_css_id": ""
       },
       {
-       "_id": "e091972",
+       "_id": "3cd43c0",
        "item_title": "Where is Modafie located?",
        "element_css_id": ""
       },
       {
-       "_id": "a18f0b3",
+       "_id": "1e65bca",
        "item_title": "What services does Modafie offer?",
        "element_css_id": ""
       },
       {
-       "_id": "8c9007a",
+       "_id": "baef12c",
        "item_title": "Can Modafie help with tech packs?",
        "element_css_id": ""
       },
       {
-       "_id": "8ee92da",
+       "_id": "d35f5b5",
        "item_title": "How long does sampling take?",
        "element_css_id": ""
       },
       {
-       "_id": "280d342",
+       "_id": "28e79e1",
        "item_title": "Does Modafie work with sustainable fabrics?",
        "element_css_id": ""
       },
       {
-       "_id": "6030a35",
+       "_id": "4267f18",
        "item_title": "How do I get started?",
        "element_css_id": ""
       }
@@ -415,7 +415,7 @@
   ]
  },
  {
-  "id": "e2de3dc",
+  "id": "0dd6cd8",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -468,7 +468,7 @@
   },
   "elements": [
    {
-    "id": "d53b6de",
+    "id": "cb70251",
     "elType": "widget",
     "widgetType": "heading",
     "isInner": false,
@@ -482,7 +482,7 @@
     "elements": []
    },
    {
-    "id": "4415076",
+    "id": "b5a5a3f",
     "elType": "widget",
     "widgetType": "text-editor",
     "isInner": false,
@@ -500,7 +500,7 @@
     "elements": []
    },
    {
-    "id": "d3c5d11",
+    "id": "2eb300b",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -527,7 +527,7 @@
     },
     "elements": [
      {
-      "id": "64bb964",
+      "id": "860c2e4",
       "elType": "widget",
       "widgetType": "button",
       "isInner": false,
@@ -546,7 +546,7 @@
       "elements": []
      },
      {
-      "id": "9d44e7b",
+      "id": "337b93a",
       "elType": "widget",
       "widgetType": "button",
       "isInner": false,

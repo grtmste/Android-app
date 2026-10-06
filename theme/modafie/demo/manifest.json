@@ -1,10 +1,11 @@
 {
  "version": 1,
  "generator": "tools/demo/build-demo.mjs",
- "generatedAt": "2026-10-06T21:44:17.985Z",
- "source": "client-supplied",
+ "generatedAt": "2026-10-06T22:07:51.708Z",
+ "source": "live",
  "site": {
-  "title": "Modafie"
+  "title": "Modafie",
+  "logo": "0c1a5201029021b8"
  },
  "kit": "kit.json",
  "elementor_experiments": {
@@ -16,158 +17,256 @@
  },
  "media": [
   {
-   "key": "aba44b67a9b0c710",
-   "file": "media/images/hero-video-sequins-sewing.jpg",
-   "alt": "Hero video: sequins / sewing close-up",
-   "title": "hero video sequins sewing",
-   "bytes": 42223
+   "key": "137044dbfef549fd",
+   "file": "media/web/modafie-logo-white.png",
+   "alt": "Modafie",
+   "title": "modafie logo white",
+   "bytes": 127621
   },
   {
-   "key": "21cdb907467d6841",
-   "file": "media/images/view-our-services-brush.jpg",
-   "alt": "Orange brush strokes",
-   "title": "view our services brush",
-   "bytes": 43610
+   "key": "8824c854d2ad1358",
+   "file": "media/web/hero-sewing-sequins-poster.jpg",
+   "alt": "Sequins being sewn at Modafie",
+   "title": "hero sewing sequins poster",
+   "bytes": 37118
   },
   {
-   "key": "c89e186945c55634",
-   "file": "media/images/design-mockup-concept.jpg",
-   "alt": "Design mockup & concept",
-   "title": "design mockup concept",
-   "bytes": 19354
+   "key": "1f8d78bd00aff36c",
+   "file": "media/web/hero-sewing-sequins.mp4",
+   "alt": "",
+   "title": "hero sewing sequins",
+   "bytes": 1257340
   },
   {
-   "key": "13eb84fe6cdd8b32",
-   "file": "media/images/tech-pack-creation.jpg",
-   "alt": "Tech pack creation",
-   "title": "tech pack creation",
-   "bytes": 16743
+   "key": "d880f7449d3bafcb",
+   "file": "media/images/img-7247-2.jpg",
+   "alt": "View our services",
+   "title": "img 7247 2",
+   "bytes": 105685
   },
   {
-   "key": "02eb3ca7bc259ef3",
-   "file": "media/images/sampling-prototyping.jpg",
-   "alt": "Sampling & prototyping",
-   "title": "sampling prototyping",
-   "bytes": 18948
+   "key": "4459a60a4aa1423f",
+   "file": "media/images/img-7090-2.jpg",
+   "alt": "Design Mockup & Concept",
+   "title": "img 7090 2",
+   "bytes": 334295
   },
   {
-   "key": "b484fa426afa384f",
-   "file": "media/images/bulk-production.jpg",
-   "alt": "Bulk production",
-   "title": "bulk production",
-   "bytes": 18048
+   "key": "c086a6028b9bad60",
+   "file": "media/images/img-7089-3.jpg",
+   "alt": "Tech Pack Creation",
+   "title": "img 7089 3",
+   "bytes": 226258
   },
   {
-   "key": "81e724550d804ea7",
-   "file": "media/images/custom-packaging-labeling.jpg",
-   "alt": "Custom packaging & labeling",
-   "title": "custom packaging labeling",
-   "bytes": 19876
+   "key": "e7e3b431b0a04c37",
+   "file": "media/images/img-7091-2.jpg",
+   "alt": "Sample Making & Approval",
+   "title": "img 7091 2",
+   "bytes": 251041
   },
   {
-   "key": "321099e6f6625a8d",
-   "file": "media/images/product-photography.jpg",
-   "alt": "Product photography & lookbook",
-   "title": "product photography",
-   "bytes": 20451
+   "key": "f7213e4905dbecfc",
+   "file": "media/images/img-7087-2.jpg",
+   "alt": "Bulk Production from 30 Pieces",
+   "title": "img 7087 2",
+   "bytes": 311162
   },
   {
-   "key": "696ac4b73c057015",
-   "file": "media/images/black-garments-on-rail.jpg",
-   "alt": "Black garments on a rail",
-   "title": "black garments on rail",
-   "bytes": 33973
+   "key": "cec3928849359e31",
+   "file": "media/images/img-7101.jpg",
+   "alt": "Custom Tags & Labeling",
+   "title": "img 7101",
+   "bytes": 199156
   },
   {
-   "key": "ac5481a27c4bee6b",
-   "file": "media/images/juki-sewing-machine.jpg",
-   "alt": "Sewing at the Juki machine",
-   "title": "juki sewing machine",
-   "bytes": 35452
+   "key": "28d3c5611ff1bc14",
+   "file": "media/images/img-1599.jpg",
+   "alt": "Packaging & Worldwide Shipping",
+   "title": "img 1599",
+   "bytes": 238011
   },
   {
-   "key": "d4e4af416b9e86cc",
-   "file": "media/images/fashion-wear-apparel.jpg",
-   "alt": "Fashion wear & apparel (grey joggers)",
-   "title": "fashion wear apparel",
-   "bytes": 20630
+   "key": "6d9aebb4a612f79d",
+   "file": "media/images/img-7107.jpg",
+   "alt": "Marketing & Branding Assets",
+   "title": "img 7107",
+   "bytes": 412320
   },
   {
-   "key": "f2f399880d17fac9",
-   "file": "media/images/custom-tote-bags.jpg",
-   "alt": "Custom tote bag",
-   "title": "custom tote bags",
-   "bytes": 16590
+   "key": "68568d4d232bc5ff",
+   "file": "media/images/img-7093.jpg",
+   "alt": "Product Photography",
+   "title": "img 7093",
+   "bytes": 225826
   },
   {
-   "key": "6b0bf238ac73bb15",
-   "file": "media/images/sustainable-exotic-fabrics.jpg",
-   "alt": "Exotic fabric rolls",
-   "title": "sustainable exotic fabrics",
-   "bytes": 16748
+   "key": "94022cd5694df022",
+   "file": "media/images/img-7148.jpg",
+   "alt": "",
+   "title": "img 7148",
+   "bytes": 28602
   },
   {
-   "key": "49efcfc18799ba18",
-   "file": "media/images/portfolio-embroidered-sweatshirt.jpg",
-   "alt": "Portfolio: embroidered sweatshirt",
-   "title": "portfolio embroidered sweatshirt",
-   "bytes": 19851
+   "key": "99f76bafd286221b",
+   "file": "media/web/sewing-machine-loop-poster.jpg",
+   "alt": "Sewing at the Modafie factory",
+   "title": "sewing machine loop poster",
+   "bytes": 42165
   },
   {
-   "key": "fc3b173276520eb6",
-   "file": "media/images/portfolio-beige-sweatshirt.jpg",
-   "alt": "Portfolio: beige cropped sweatshirt",
-   "title": "portfolio beige sweatshirt",
-   "bytes": 19842
+   "key": "fbbed5347b526ee5",
+   "file": "media/web/sewing-machine-loop.mp4",
+   "alt": "",
+   "title": "sewing machine loop",
+   "bytes": 657296
   },
   {
-   "key": "9addea3bb2f6535b",
-   "file": "media/images/portfolio-white-tracksuit.jpg",
-   "alt": "Portfolio: white zip hoodie & trousers",
-   "title": "portfolio white tracksuit",
-   "bytes": 19885
+   "key": "f7c3dddfdb46be8c",
+   "file": "media/images/img-7128-3.jpg",
+   "alt": "",
+   "title": "img 7128 3",
+   "bytes": 361216
   },
   {
-   "key": "37bc2abb0d08d1c7",
-   "file": "media/images/portfolio-piece-4.jpg",
-   "alt": "Portfolio: next piece",
-   "title": "portfolio piece 4",
-   "bytes": 16856
+   "key": "7b326ed6263d9710",
+   "file": "media/images/img-7064.jpg",
+   "alt": "",
+   "title": "img 7064",
+   "bytes": 72986
   },
   {
-   "key": "55f4cde775b7f73b",
-   "file": "media/images/black-tees-on-hangers.jpg",
-   "alt": "Black tees on grey hangers",
-   "title": "black tees on hangers",
-   "bytes": 35452
+   "key": "1d92e89e0027a824",
+   "file": "media/images/img-7129.jpg",
+   "alt": "",
+   "title": "img 7129",
+   "bytes": 370113
   },
   {
-   "key": "dd2d61d583ed3f79",
-   "file": "media/images/pattern-cutting.jpg",
-   "alt": "Pattern cutting on the table",
-   "title": "pattern cutting",
-   "bytes": 15472
+   "key": "c5e07c86b1db3ccc",
+   "file": "media/images/img-7069.jpg",
+   "alt": "",
+   "title": "img 7069",
+   "bytes": 481540
   },
   {
-   "key": "6bcf856aa8474db8",
-   "file": "media/images/client-story-video.jpg",
-   "alt": "Video: designer story",
-   "title": "client story video",
-   "bytes": 28571
+   "key": "9c807afff7a47373",
+   "file": "media/images/img-7143.jpg",
+   "alt": "Custom printed sweatshirt manufactured by Modafie — European clothing factory",
+   "title": "img 7143",
+   "bytes": 108427
   },
   {
-   "key": "ae1346e2d0ebb042",
-   "file": "media/images/atelier-team.jpg",
-   "alt": "The atelier / the team",
-   "title": "atelier team",
-   "bytes": 28669
+   "key": "072b1f47b72b6c8f",
+   "file": "media/images/img-7081.jpg",
+   "alt": "Oversized crewneck produced by Modafie — low MOQ clothing manufacturer Europe",
+   "title": "img 7081",
+   "bytes": 64946
   },
   {
-   "key": "c40c50d701276169",
-   "file": "media/images/brand-marketing-launch.jpg",
-   "alt": "Brand marketing & launch",
-   "title": "brand marketing launch",
-   "bytes": 19271
+   "key": "2c212b4454b171a9",
+   "file": "media/images/img-7141.jpg",
+   "alt": "Custom matching set — hoodie and trousers manufactured by Modafie from 30 pieces",
+   "title": "img 7141",
+   "bytes": 165554
+  },
+  {
+   "key": "1ec7a23e6a35bd42",
+   "file": "media/images/img-7057.jpg",
+   "alt": "Custom all-over print t-shirt with skeleton graphic — manufactured by Modafie clothing factory Europe",
+   "title": "img 7057",
+   "bytes": 325992
+  },
+  {
+   "key": "3f82c21b77774580",
+   "file": "media/images/img-7083.jpg",
+   "alt": "Custom graphic t-shirt with embroidered logo print — Modafie low MOQ clothing manufacturer",
+   "title": "img 7083",
+   "bytes": 229522
+  },
+  {
+   "key": "c577f78adff558a8",
+   "file": "media/images/img-7098.jpg",
+   "alt": "Custom streetwear t-shirt with woven patch and screen print — produced by Modafie European clothing factory",
+   "title": "img 7098",
+   "bytes": 191065
+  },
+  {
+   "key": "5b4230e47e05ced6",
+   "file": "media/images/img-7133.jpg",
+   "alt": "Custom oversized jacket manufactured by Modafie — European clothing factory from 30 pieces",
+   "title": "img 7133",
+   "bytes": 143366
+  },
+  {
+   "key": "0941b788ccdb2167",
+   "file": "media/images/img-7065.jpg",
+   "alt": "Custom branded tote bag with screen print logo — manufactured by Modafie low MOQ factory Europe",
+   "title": "img 7065",
+   "bytes": 141862
+  },
+  {
+   "key": "54d156a5e8b7b5ee",
+   "file": "media/images/img-7130.jpg",
+   "alt": "Custom cargo vest with multi-pocket design — Modafie clothing manufacturer Europe",
+   "title": "img 7130",
+   "bytes": 187408
+  },
+  {
+   "key": "321f13918af14a24",
+   "file": "media/images/img-7137.jpg",
+   "alt": "Custom zip-up hoodie in off-white — manufactured by Modafie European clothing factory",
+   "title": "img 7137",
+   "bytes": 184007
+  },
+  {
+   "key": "b9e40e076769a151",
+   "file": "media/images/img-1264.jpg",
+   "alt": "Bulk production run of custom hoodies — white and beige colorways manufactured by Modafie European clothing factory",
+   "title": "img 1264",
+   "bytes": 219863
+  },
+  {
+   "key": "b88124d36fdadee0",
+   "file": "media/images/img-7149.jpg",
+   "alt": "Black t-shirts on branded hangers at Modafie clothing factory — bulk apparel production Europ",
+   "title": "img 7149",
+   "bytes": 71642
+  },
+  {
+   "key": "71a73923a374768f",
+   "file": "media/web/pattern-cutting-loop.mp4",
+   "alt": "",
+   "title": "pattern cutting loop",
+   "bytes": 745961
+  },
+  {
+   "key": "5d43f309c58ddb45",
+   "file": "media/web/pattern-cutting-loop-poster.jpg",
+   "alt": "Pattern cutting at Modafie",
+   "title": "pattern cutting loop poster",
+   "bytes": 39920
+  },
+  {
+   "key": "fb16f00652fc31da",
+   "file": "media/web/designer-story.mp4",
+   "alt": "",
+   "title": "designer story",
+   "bytes": 4859465
+  },
+  {
+   "key": "bb72ecad4d02f388",
+   "file": "media/web/designer-story-poster.jpg",
+   "alt": "Designer story",
+   "title": "designer story poster",
+   "bytes": 94491
+  },
+  {
+   "key": "0c1a5201029021b8",
+   "file": "media/web/modafie-logo-black.png",
+   "alt": "Modafie",
+   "title": "modafie logo black",
+   "bytes": 63212
   }
  ],
  "pages": [
@@ -179,9 +278,9 @@
    "isFront": true,
    "order": 0,
    "meta": {
-    "description": "We produce high-end clothing for fashion brands from just 30 pieces — with zero costly mistakes, delays, or factory risks."
+    "description": "Europe's full-service clothing manufacturer from just 30 pieces. Tech packs, sampling, bulk production & packaging. Sustainable exotic fabrics. Start your brand today."
    },
-   "sourceUrl": "https://www.modafie.io/"
+   "sourceUrl": "https://modafie.io/"
   },
   {
    "slug": "about-us",
@@ -191,9 +290,9 @@
    "isFront": false,
    "order": 1,
    "meta": {
-    "description": "Why Modafie starts at 30 pieces — a letter from our founder, Monagni."
+    "description": "Modafie is a full-service clothing manufacturer based in Europe. We help fashion brands produce high-end garments from just 30 pieces. Learn our story."
    },
-   "sourceUrl": "https://www.modafie.io/about-us"
+   "sourceUrl": "https://modafie.io/about-us"
   },
   {
    "slug": "what-we-do",
@@ -203,9 +302,21 @@
    "isFront": false,
    "order": 2,
    "meta": {
-    "description": "Mockups, tech packs, sampling, bulk production from 30 pieces, packaging, photography and launch support — under one roof."
+    "description": "From design mockup to packaged delivery — Modafie handles tech packs, sampling, bulk production, labeling and shipping for fashion brands across Europe."
    },
-   "sourceUrl": "https://www.modafie.io/what-we-do"
+   "sourceUrl": "https://modafie.io/what-we-do"
+  },
+  {
+   "slug": "tech-pack-service",
+   "title": "Tech Pack Service for Fashion Brands",
+   "file": "pages/tech-pack-service.json",
+   "template": "elementor_header_footer",
+   "isFront": false,
+   "order": 3,
+   "meta": {
+    "description": "Professional tech pack creation for clothing brands. Modafie produces detailed technical packages covering measurements, materials, stitching and trims — ready for sampling."
+   },
+   "sourceUrl": "https://modafie.io/tech-pack-service"
   },
   {
    "slug": "faq",
@@ -213,11 +324,23 @@
    "file": "pages/faq.json",
    "template": "elementor_header_footer",
    "isFront": false,
-   "order": 3,
+   "order": 4,
    "meta": {
     "description": "Minimum order quantity, location, services, tech packs, sampling times and sustainable fabrics — answered."
    },
-   "sourceUrl": "https://www.modafie.io/faq"
+   "sourceUrl": "https://modafie.io/faq"
+  },
+  {
+   "slug": "contact",
+   "title": "Contact",
+   "file": "pages/contact.json",
+   "template": "elementor_header_footer",
+   "isFront": false,
+   "order": 5,
+   "meta": {
+    "description": "Contact Modafie — low MOQ clothing manufacturer in Europe. WhatsApp us or send a note; we respond within 24 hours."
+   },
+   "sourceUrl": "https://modafie.io/contact"
   },
   {
    "slug": "get-an-offer",
@@ -225,11 +348,23 @@
    "file": "pages/get-an-offer.json",
    "template": "elementor_header_footer",
    "isFront": false,
-   "order": 4,
+   "order": 6,
    "meta": {
     "description": "Tell us what you want to produce — from 30 pieces per style — and get a tailored offer within 24 hours."
    },
-   "sourceUrl": "https://www.modafie.io/get-an-offer"
+   "sourceUrl": "https://modafie.io/get-an-offer"
+  },
+  {
+   "slug": "privacy-policy",
+   "title": "Privacy policy",
+   "file": "pages/privacy-policy.json",
+   "template": "elementor_header_footer",
+   "isFront": false,
+   "order": 7,
+   "meta": {
+    "description": "How Modafie collects and uses personal information."
+   },
+   "sourceUrl": "https://modafie.io/privacy-policy"
   }
  ],
  "templates": [
@@ -300,10 +435,10 @@
    "pattern": "split"
   },
   {
-   "key": "home-11-wideimage",
-   "title": "Modafie · Low MOQ Clothing Manufacturer in Europe · Wide image",
-   "file": "templates/home-11-wideimage.json",
-   "pattern": "wideimage"
+   "key": "home-11-video",
+   "title": "Modafie · Low MOQ Clothing Manufacturer in Europe · Video",
+   "file": "templates/home-11-video.json",
+   "pattern": "video"
   },
   {
    "key": "home-12-generic",
@@ -414,6 +549,30 @@
    "pattern": "split"
   },
   {
+   "key": "tech-pack-service-1-title",
+   "title": "Modafie · Tech Pack Service for Fashion Brands · Page title",
+   "file": "templates/tech-pack-service-1-title.json",
+   "pattern": "title"
+  },
+  {
+   "key": "tech-pack-service-2-split",
+   "title": "Modafie · Tech Pack Service for Fashion Brands · Split image/text",
+   "file": "templates/tech-pack-service-2-split.json",
+   "pattern": "split"
+  },
+  {
+   "key": "tech-pack-service-3-generic",
+   "title": "Modafie · Tech Pack Service for Fashion Brands · Content",
+   "file": "templates/tech-pack-service-3-generic.json",
+   "pattern": "generic"
+  },
+  {
+   "key": "tech-pack-service-4-cta",
+   "title": "Modafie · Tech Pack Service for Fashion Brands · Call to action",
+   "file": "templates/tech-pack-service-4-cta.json",
+   "pattern": "cta"
+  },
+  {
    "key": "faq-1-title",
    "title": "Modafie · Frequently Asked Questions · Page title",
    "file": "templates/faq-1-title.json",
@@ -432,6 +591,18 @@
    "pattern": "cta"
   },
   {
+   "key": "contact-1-title",
+   "title": "Modafie · Contact · Page title",
+   "file": "templates/contact-1-title.json",
+   "pattern": "title"
+  },
+  {
+   "key": "contact-2-contact",
+   "title": "Modafie · Contact · Contact",
+   "file": "templates/contact-2-contact.json",
+   "pattern": "contact"
+  },
+  {
    "key": "get-an-offer-1-title",
    "title": "Modafie · Get an offer · Page title",
    "file": "templates/get-an-offer-1-title.json",
@@ -442,6 +613,18 @@
    "title": "Modafie · Get an offer · Contact",
    "file": "templates/get-an-offer-2-contact.json",
    "pattern": "contact"
+  },
+  {
+   "key": "privacy-policy-1-title",
+   "title": "Modafie · Privacy policy · Page title",
+   "file": "templates/privacy-policy-1-title.json",
+   "pattern": "title"
+  },
+  {
+   "key": "privacy-policy-2-generic",
+   "title": "Modafie · Privacy policy · Content",
+   "file": "templates/privacy-policy-2-generic.json",
+   "pattern": "generic"
   }
  ],
  "menus": {
@@ -491,6 +674,10 @@
       {
        "title": "Marketing & launch",
        "page": "what-we-do"
+      },
+      {
+       "title": "Tech pack service",
+       "page": "tech-pack-service"
       }
      ],
      "classes": "mf-mega"
@@ -521,6 +708,10 @@
        "page": "what-we-do"
       },
       {
+       "title": "Tech pack service",
+       "page": "tech-pack-service"
+      },
+      {
        "title": "FAQ",
        "page": "faq"
       }
@@ -533,6 +724,10 @@
       {
        "title": "Get an offer",
        "page": "get-an-offer"
+      },
+      {
+       "title": "Contact",
+       "page": "contact"
       },
       {
        "title": "WhatsApp us",
@@ -551,15 +746,28 @@
       {
        "title": "WhatsApp",
        "url": "{{mf-home}}/whatsapp"
+      },
+      {
+       "title": "Privacy policy",
+       "page": "privacy-policy"
       }
      ]
+    }
+   ]
+  },
+  "legal": {
+   "name": "Modafie Legal",
+   "items": [
+    {
+     "title": "Privacy policy",
+     "page": "privacy-policy"
     }
    ]
   }
  },
  "theme_mods": {
   "modafie_announcement_enabled": true,
-  "modafie_announcement_text": "Production from 30 pieces per style\nEuropean quality standards\nSampling in 3–4 weeks\nWe respond within 24 hours",
+  "modafie_announcement_text": "Production from 30 pieces per style\nEuropean production standards\nSampling in 3–4 weeks\nWe respond within 24 hours",
   "modafie_header_hide_on_scroll": true,
   "modafie_header_transparent": false,
   "modafie_header_cta_text": "Get an offer",

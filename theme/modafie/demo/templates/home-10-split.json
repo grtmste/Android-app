@@ -1,6 +1,6 @@
 [
  {
-  "id": "ae61635",
+  "id": "c67256c",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -45,7 +45,7 @@
   },
   "elements": [
    {
-    "id": "78cc726",
+    "id": "065d79b",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -74,44 +74,39 @@
     },
     "elements": [
      {
-      "id": "30c5863",
+      "id": "75d1896",
       "elType": "widget",
-      "widgetType": "image",
+      "widgetType": "video",
       "isInner": false,
       "settings": {
-       "image": {
-        "url": "{{mf-media:dd2d61d583ed3f79:url}}",
-        "id": "{{mf-media:dd2d61d583ed3f79:id}}",
-        "alt": "Pattern cutting on the table",
+       "video_type": "hosted",
+       "hosted_url": {
+        "url": "{{mf-media:71a73923a374768f:url}}",
+        "id": "{{mf-media:71a73923a374768f:id}}",
+        "alt": "",
         "source": "library",
         "size": ""
        },
-       "image_size": "full",
-       "width": {
-        "unit": "%",
-        "size": 100,
-        "sizes": []
-       },
-       "height": {
-        "unit": "vh",
-        "size": 86,
-        "sizes": []
-       },
-       "object-fit": "cover",
-       "object_fit": "cover",
-       "height_mobile": {
-        "unit": "vh",
-        "size": 64,
-        "sizes": []
-       },
-       "mf_motion": "parallax"
+       "controls": "",
+       "autoplay": "yes",
+       "mute": "yes",
+       "loop": "yes",
+       "play_on_mobile": "yes",
+       "aspect_ratio": "169",
+       "poster": {
+        "url": "{{mf-media:5d43f309c58ddb45:url}}",
+        "id": "{{mf-media:5d43f309c58ddb45:id}}",
+        "alt": "Pattern cutting at Modafie",
+        "source": "library",
+        "size": ""
+       }
       },
       "elements": []
      }
     ]
    },
    {
-    "id": "f761260",
+    "id": "2b9f2dc",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -165,7 +160,7 @@
     },
     "elements": [
      {
-      "id": "b2200e0",
+      "id": "7d116b6",
       "elType": "widget",
       "widgetType": "heading",
       "isInner": false,
@@ -177,12 +172,12 @@
       "elements": []
      },
      {
-      "id": "939792e",
+      "id": "e8b05b9",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,
       "settings": {
-       "editor": "<ul><li>European production standards—every single order</li><li>MOQ from just 30 pieces per style</li><li>One point of contact from start to finish</li><li>Sustainable &amp; exotic fabric options available</li><li>Fast sampling turnaround - 3 to 4 weeks</li><li>No hidden fees, ever</li></ul>",
+       "editor": "<ul><li>European production standards—every single order</li><li>MOQ from just 30 pieces per style</li><li>One point of contact from start to finish</li><li>Sustainable &amp; exotic fabric options available</li><li>Fast sampling turnaround—3 to 4 weeks</li><li>No hidden fees, ever</li></ul>",
        "__globals__": {
         "typography_typography": "globals/typography?id=text"
        }
@@ -190,23 +185,86 @@
       "elements": []
      },
      {
-      "id": "15f5484",
-      "elType": "widget",
-      "widgetType": "button",
-      "isInner": false,
+      "id": "f7a6ef9",
+      "elType": "container",
+      "isInner": true,
       "settings": {
-       "text": "WhatsApp us",
-       "link": {
-        "url": "{{mf-home}}/whatsapp",
-        "is_external": "",
-        "nofollow": "",
-        "custom_attributes": ""
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "row",
+       "flex_wrap": "wrap",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
        },
-       "size": "md",
-       "_animation": "fadeInUp",
-       "_animation_delay": 200
+       "padding": {
+        "unit": "px",
+        "top": "8",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       }
       },
-      "elements": []
+      "elements": [
+       {
+        "id": "fafee73",
+        "elType": "widget",
+        "widgetType": "button",
+        "isInner": false,
+        "settings": {
+         "text": "WhatsApp us",
+         "link": {
+          "url": "{{mf-home}}/whatsapp",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         },
+         "size": "md",
+         "_animation": "fadeInUp",
+         "_animation_delay": 200
+        },
+        "elements": []
+       },
+       {
+        "id": "94524c7",
+        "elType": "widget",
+        "widgetType": "button",
+        "isInner": false,
+        "settings": {
+         "text": "Get an offer",
+         "link": {
+          "url": "{{mf-page:get-an-offer}}",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         },
+         "size": "md",
+         "_animation": "fadeInUp",
+         "_animation_delay": 200,
+         "background_background": "classic",
+         "background_color": "rgba(0,0,0,0)",
+         "border_border": "solid",
+         "border_width": {
+          "unit": "px",
+          "top": "2",
+          "right": "2",
+          "bottom": "2",
+          "left": "2",
+          "isLinked": false
+         },
+         "__globals__": {
+          "button_text_color": "globals/colors?id=primary",
+          "border_color": "globals/colors?id=primary"
+         },
+         "_css_classes": "mf-btn-outline"
+        },
+        "elements": []
+       }
+      ]
      }
     ]
    }

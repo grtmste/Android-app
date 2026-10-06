@@ -1,6 +1,6 @@
 [
  {
-  "id": "67db351",
+  "id": "7daabd2",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -71,9 +71,9 @@
     "background_color": "globals/colors?id=mfdark"
    },
    "background_image": {
-    "url": "{{mf-media:55f4cde775b7f73b:url}}",
-    "id": "{{mf-media:55f4cde775b7f73b:id}}",
-    "alt": "Black tees on grey hangers",
+    "url": "{{mf-media:b88124d36fdadee0:url}}",
+    "id": "{{mf-media:b88124d36fdadee0:id}}",
+    "alt": "Black t-shirts on branded hangers at Modafie clothing factory — bulk apparel production Europ",
     "source": "library",
     "size": ""
    },
@@ -81,7 +81,7 @@
   },
   "elements": [
    {
-    "id": "3753ae1",
+    "id": "c0a8d25",
     "elType": "widget",
     "widgetType": "heading",
     "isInner": false,
@@ -108,7 +108,7 @@
     "elements": []
    },
    {
-    "id": "33d09f0",
+    "id": "e879509",
     "elType": "widget",
     "widgetType": "text-editor",
     "isInner": false,
@@ -131,6 +131,21 @@
      },
      "_animation": "fadeIn",
      "_animation_delay": 200
+    },
+    "elements": []
+   },
+   {
+    "id": "dcc5681",
+    "elType": "widget",
+    "widgetType": "text-editor",
+    "isInner": false,
+    "settings": {
+     "editor": "<p>MODAFIE</p>",
+     "__globals__": {
+      "typography_typography": "globals/typography?id=mfeyebrow",
+      "text_color": "globals/colors?id=mfwhite"
+     },
+     "_css_classes": "mf-eyebrow"
     },
     "elements": []
    }

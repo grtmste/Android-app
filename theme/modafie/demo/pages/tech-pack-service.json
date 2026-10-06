@@ -1,0 +1,581 @@
+[
+ {
+  "id": "f2137bd",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "boxed",
+   "flex_direction": "column",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "120",
+    "right": "40",
+    "bottom": "48",
+    "left": "40",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "96",
+    "right": "24",
+    "bottom": "40",
+    "left": "24",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "72",
+    "right": "16",
+    "bottom": "32",
+    "left": "16",
+    "isLinked": false
+   },
+   "flex_gap": {
+    "unit": "px",
+    "size": 16,
+    "column": "16",
+    "row": "16",
+    "isLinked": true
+   },
+   "_title": "Page title"
+  },
+  "elements": [
+   {
+    "id": "7e5aa8d",
+    "elType": "widget",
+    "widgetType": "text-editor",
+    "isInner": false,
+    "settings": {
+     "editor": "<p>Tech pack service</p>",
+     "__globals__": {
+      "typography_typography": "globals/typography?id=mfeyebrow",
+      "text_color": "globals/colors?id=secondary"
+     },
+     "_css_classes": "mf-eyebrow"
+    },
+    "elements": []
+   },
+   {
+    "id": "b6f7ddd",
+    "elType": "widget",
+    "widgetType": "heading",
+    "isInner": false,
+    "settings": {
+     "title": "Tech Pack Service for Clothing Brands — Modafie",
+     "header_size": "h1",
+     "mf_motion": "reveal"
+    },
+    "elements": []
+   }
+  ]
+ },
+ {
+  "id": "d5cb724",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "full",
+   "flex_direction": "row",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "flex_direction_mobile": "column",
+   "flex_gap": {
+    "unit": "px",
+    "size": 0,
+    "column": "0",
+    "row": "0",
+    "isLinked": true
+   },
+   "flex_align_items": "stretch",
+   "_title": "What is a tech pack"
+  },
+  "elements": [
+   {
+    "id": "97fd917",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 50,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+     },
+     "css_classes": "mf-split-media"
+    },
+    "elements": [
+     {
+      "id": "e6e63f7",
+      "elType": "widget",
+      "widgetType": "image",
+      "isInner": false,
+      "settings": {
+       "image": {
+        "url": "{{mf-media:c086a6028b9bad60:url}}",
+        "id": "{{mf-media:c086a6028b9bad60:id}}",
+        "alt": "",
+        "source": "library",
+        "size": ""
+       },
+       "image_size": "full",
+       "width": {
+        "unit": "%",
+        "size": 100,
+        "sizes": []
+       },
+       "height": {
+        "unit": "vh",
+        "size": 86,
+        "sizes": []
+       },
+       "object-fit": "cover",
+       "object_fit": "cover",
+       "height_mobile": {
+        "unit": "vh",
+        "size": 64,
+        "sizes": []
+       },
+       "mf_motion": "parallax"
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "a5663ef",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 50,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "flex_justify_content": "center",
+     "flex_gap": {
+      "unit": "px",
+      "size": 20,
+      "column": "20",
+      "row": "20",
+      "isLinked": true
+     },
+     "padding": {
+      "unit": "px",
+      "top": "80",
+      "right": "96",
+      "bottom": "80",
+      "left": "96",
+      "isLinked": false
+     },
+     "padding_tablet": {
+      "unit": "px",
+      "top": "56",
+      "right": "40",
+      "bottom": "56",
+      "left": "40",
+      "isLinked": false
+     },
+     "padding_mobile": {
+      "unit": "px",
+      "top": "48",
+      "right": "16",
+      "bottom": "56",
+      "left": "16",
+      "isLinked": false
+     },
+     "animation": "fadeIn",
+     "animation_delay": 0
+    },
+    "elements": [
+     {
+      "id": "7154a9b",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "What Is a Tech Pack and Why Do You Need One?",
+       "header_size": "h2",
+       "mf_motion": "reveal"
+      },
+      "elements": []
+     },
+     {
+      "id": "e97ec79",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>A tech pack (technical package) is a detailed document that tells your manufacturer exactly how to build your garment. It covers measurements, materials, stitching, trims, labels, and construction details — so your sample comes out right the first time.</p><p>Without a tech pack, you risk:</p><ul><li>Wrong measurements and sizing</li><li>Incorrect fabrics or trims</li><li>Multiple costly sample rounds</li><li>Miscommunication with the factory</li></ul>",
+       "__globals__": {
+        "typography_typography": "globals/typography?id=text"
+       },
+       "_animation": "fadeIn",
+       "_animation_delay": 0
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "89eb888",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "boxed",
+   "flex_direction": "column",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "96",
+    "right": "40",
+    "bottom": "96",
+    "left": "40",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "72",
+    "right": "24",
+    "bottom": "72",
+    "left": "24",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "56",
+    "right": "16",
+    "bottom": "56",
+    "left": "16",
+    "isLinked": false
+   },
+   "flex_gap": {
+    "unit": "px",
+    "size": 20,
+    "column": "20",
+    "row": "20",
+    "isLinked": true
+   },
+   "boxed_width": {
+    "unit": "px",
+    "size": 760,
+    "sizes": []
+   },
+   "_title": "Service details"
+  },
+  "elements": [
+   {
+    "id": "dd2eb2d",
+    "elType": "widget",
+    "widgetType": "heading",
+    "isInner": false,
+    "settings": {
+     "title": "What Modafie's Tech Pack Service Includes",
+     "header_size": "h2",
+     "_animation": "fadeInUp",
+     "_animation_delay": 0
+    },
+    "elements": []
+   },
+   {
+    "id": "d98f6fc",
+    "elType": "widget",
+    "widgetType": "text-editor",
+    "isInner": false,
+    "settings": {
+     "editor": "<ul><li>Technical flat sketches of your design (front, back, detail views)</li><li>Full measurement spec sheet with size grading</li><li>Fabric and trim specifications</li><li>Stitching and construction details</li><li>Colorway breakdowns</li><li>Label and packaging placement diagrams</li><li>Bill of materials (BOM)</li></ul>",
+     "__globals__": {
+      "typography_typography": "globals/typography?id=text"
+     }
+    },
+    "elements": []
+   },
+   {
+    "id": "e86cc55",
+    "elType": "widget",
+    "widgetType": "heading",
+    "isInner": false,
+    "settings": {
+     "title": "Who Is This For?",
+     "header_size": "h2",
+     "_animation": "fadeInUp",
+     "_animation_delay": 0
+    },
+    "elements": []
+   },
+   {
+    "id": "b385af0",
+    "elType": "widget",
+    "widgetType": "text-editor",
+    "isInner": false,
+    "settings": {
+     "editor": "<p>Our tech pack service is designed for:</p><ul><li>Fashion designers creating their first collection</li><li>Streetwear brands scaling to production</li><li>Entrepreneurs moving from concept to sample</li><li>Existing brands switching manufacturers</li></ul>",
+     "__globals__": {
+      "typography_typography": "globals/typography?id=text"
+     },
+     "_animation": "fadeIn",
+     "_animation_delay": 0
+    },
+    "elements": []
+   },
+   {
+    "id": "c2ec470",
+    "elType": "widget",
+    "widgetType": "heading",
+    "isInner": false,
+    "settings": {
+     "title": "How It Works",
+     "header_size": "h2",
+     "_animation": "fadeInUp",
+     "_animation_delay": 0
+    },
+    "elements": []
+   },
+   {
+    "id": "b2b56fc",
+    "elType": "widget",
+    "widgetType": "text-editor",
+    "isInner": false,
+    "settings": {
+     "editor": "<ul><li>1. You share your design sketches, references, or mood board</li><li>2. We create your complete tech pack</li><li>3. You review and approve</li><li>4. We move straight into sampling — no factory hunting needed</li></ul>",
+     "__globals__": {
+      "typography_typography": "globals/typography?id=text"
+     }
+    },
+    "elements": []
+   }
+  ]
+ },
+ {
+  "id": "ad915da",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "boxed",
+   "flex_direction": "column",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "96",
+    "right": "40",
+    "bottom": "96",
+    "left": "40",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "72",
+    "right": "24",
+    "bottom": "72",
+    "left": "24",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "56",
+    "right": "16",
+    "bottom": "56",
+    "left": "16",
+    "isLinked": false
+   },
+   "flex_align_items": "center",
+   "flex_gap": {
+    "unit": "px",
+    "size": 20,
+    "column": "20",
+    "row": "20",
+    "isLinked": true
+   },
+   "boxed_width": {
+    "unit": "px",
+    "size": 1000,
+    "sizes": []
+   },
+   "background_background": "classic",
+   "__globals__": {
+    "background_color": "globals/colors?id=primary"
+   },
+   "_title": "Offer CTA"
+  },
+  "elements": [
+   {
+    "id": "ed3f331",
+    "elType": "widget",
+    "widgetType": "heading",
+    "isInner": false,
+    "settings": {
+     "title": "Ready to Start?",
+     "header_size": "h2",
+     "__globals__": {
+      "title_color": "globals/colors?id=mfwhite"
+     },
+     "align": "center",
+     "title_align": "center",
+     "mf_motion": "reveal"
+    },
+    "elements": []
+   },
+   {
+    "id": "21fb3b6",
+    "elType": "widget",
+    "widgetType": "text-editor",
+    "isInner": false,
+    "settings": {
+     "editor": "<p>WhatsApp us directly and we'll get back to you within 24 hours.</p>",
+     "__globals__": {
+      "typography_typography": "globals/typography?id=text",
+      "text_color": "globals/colors?id=mfwhite"
+     },
+     "align": "center",
+     "text_align": "center",
+     "_animation": "fadeIn",
+     "_animation_delay": 100
+    },
+    "elements": []
+   },
+   {
+    "id": "436b95b",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "row",
+     "flex_wrap": "wrap",
+     "flex_justify_content": "center",
+     "flex_gap": {
+      "unit": "px",
+      "size": 12,
+      "column": "12",
+      "row": "12",
+      "isLinked": true
+     },
+     "padding": {
+      "unit": "px",
+      "top": "8",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+     }
+    },
+    "elements": [
+     {
+      "id": "88dde66",
+      "elType": "widget",
+      "widgetType": "button",
+      "isInner": false,
+      "settings": {
+       "text": "WhatsApp us",
+       "link": {
+        "url": "{{mf-home}}/whatsapp",
+        "is_external": "",
+        "nofollow": "",
+        "custom_attributes": ""
+       },
+       "size": "md",
+       "_animation": "fadeInUp",
+       "_animation_delay": 230,
+       "background_background": "classic",
+       "__globals__": {
+        "background_color": "globals/colors?id=mfwhite",
+        "button_text_color": "globals/colors?id=primary",
+        "button_background_hover_color": "globals/colors?id=mfwhite",
+        "hover_color": "globals/colors?id=mfwhite"
+       },
+       "_css_classes": "mf-btn-light"
+      },
+      "elements": []
+     },
+     {
+      "id": "22538b2",
+      "elType": "widget",
+      "widgetType": "button",
+      "isInner": false,
+      "settings": {
+       "text": "Get an offer",
+       "link": {
+        "url": "{{mf-page:get-an-offer}}",
+        "is_external": "",
+        "nofollow": "",
+        "custom_attributes": ""
+       },
+       "size": "md",
+       "_animation": "fadeInUp",
+       "_animation_delay": 310,
+       "background_background": "classic",
+       "background_color": "rgba(0,0,0,0)",
+       "border_border": "solid",
+       "border_width": {
+        "unit": "px",
+        "top": "2",
+        "right": "2",
+        "bottom": "2",
+        "left": "2",
+        "isLinked": false
+       },
+       "__globals__": {
+        "button_text_color": "globals/colors?id=mfwhite",
+        "border_color": "globals/colors?id=mfwhite"
+       },
+       "_css_classes": "mf-btn-outline-light"
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ }
+]

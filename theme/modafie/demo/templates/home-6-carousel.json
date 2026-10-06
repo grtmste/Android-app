@@ -1,6 +1,6 @@
 [
  {
-  "id": "7ffa7e5",
+  "id": "6cdb35a",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -43,7 +43,7 @@
   },
   "elements": [
    {
-    "id": "124fab1",
+    "id": "3d39d64",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -89,7 +89,7 @@
     },
     "elements": [
      {
-      "id": "638c868",
+      "id": "1cbb1b7",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -124,7 +124,7 @@
       },
       "elements": [
        {
-        "id": "9afcb86",
+        "id": "98fcf12",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
@@ -140,7 +140,7 @@
     ]
    },
    {
-    "id": "af87142",
+    "id": "af311eb",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -183,7 +183,7 @@
     },
     "elements": [
      {
-      "id": "a03fa95",
+      "id": "30f4c5f",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -211,15 +211,15 @@
       },
       "elements": [
        {
-        "id": "049f298",
+        "id": "13ead02",
         "elType": "widget",
         "widgetType": "image",
         "isInner": false,
         "settings": {
          "image": {
-          "url": "{{mf-media:d4e4af416b9e86cc:url}}",
-          "id": "{{mf-media:d4e4af416b9e86cc:id}}",
-          "alt": "Fashion wear & apparel",
+          "url": "{{mf-media:f7c3dddfdb46be8c:url}}",
+          "id": "{{mf-media:f7c3dddfdb46be8c:id}}",
+          "alt": "",
           "source": "library",
           "size": ""
          },
@@ -233,7 +233,7 @@
         "elements": []
        },
        {
-        "id": "6a2b7f8",
+        "id": "dbc93ef",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
@@ -247,7 +247,7 @@
         "elements": []
        },
        {
-        "id": "c4cc672",
+        "id": "c5528ac",
         "elType": "widget",
         "widgetType": "text-editor",
         "isInner": false,
@@ -263,7 +263,7 @@
       ]
      },
      {
-      "id": "e658f07",
+      "id": "70ca3ee",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -291,15 +291,15 @@
       },
       "elements": [
        {
-        "id": "304ea7c",
+        "id": "a4a6f1a",
         "elType": "widget",
         "widgetType": "image",
         "isInner": false,
         "settings": {
          "image": {
-          "url": "{{mf-media:f2f399880d17fac9:url}}",
-          "id": "{{mf-media:f2f399880d17fac9:id}}",
-          "alt": "Custom tote bags",
+          "url": "{{mf-media:7b326ed6263d9710:url}}",
+          "id": "{{mf-media:7b326ed6263d9710:id}}",
+          "alt": "",
           "source": "library",
           "size": ""
          },
@@ -313,7 +313,7 @@
         "elements": []
        },
        {
-        "id": "aa425fb",
+        "id": "5c732a0",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
@@ -327,12 +327,12 @@
         "elements": []
        },
        {
-        "id": "7f0c22f",
+        "id": "29a1d92",
         "elType": "widget",
         "widgetType": "text-editor",
         "isInner": false,
         "settings": {
-         "editor": "<p>Custom branded tote bags manufactured in Europe. Your logo, your material, your finishes — from 30 units.</p>",
+         "editor": "<p>Custom branded tote bags manufactured in Europe. Your logo, your materials, your minimum — from 30 units.</p>",
          "__globals__": {
           "typography_typography": "globals/typography?id=mfsmall",
           "text_color": "globals/colors?id=mfmuted"
@@ -343,7 +343,7 @@
       ]
      },
      {
-      "id": "ca00e40",
+      "id": "e606da3",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -371,15 +371,15 @@
       },
       "elements": [
        {
-        "id": "2bbc450",
+        "id": "971f4d8",
         "elType": "widget",
         "widgetType": "image",
         "isInner": false,
         "settings": {
          "image": {
-          "url": "{{mf-media:6b0bf238ac73bb15:url}}",
-          "id": "{{mf-media:6b0bf238ac73bb15:id}}",
-          "alt": "Sustainable exotic fabric collection",
+          "url": "{{mf-media:1d92e89e0027a824:url}}",
+          "id": "{{mf-media:1d92e89e0027a824:id}}",
+          "alt": "",
           "source": "library",
           "size": ""
          },
@@ -393,7 +393,7 @@
         "elements": []
        },
        {
-        "id": "30b53f6",
+        "id": "b554d71",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
@@ -407,12 +407,92 @@
         "elements": []
        },
        {
-        "id": "1362fe1",
+        "id": "b01fed6",
         "elType": "widget",
         "widgetType": "text-editor",
         "isInner": false,
         "settings": {
          "editor": "<p>We produce wearable textiles from lotus, bamboo, aloe vera, eucalyptus, banana, and rose fibers — sustainable exotic fabrics available exclusively through Modafie.</p>",
+         "__globals__": {
+          "typography_typography": "globals/typography?id=mfsmall",
+          "text_color": "globals/colors?id=mfmuted"
+         }
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "f5b6b80",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "css_classes": "mf-card-item mf-zoom",
+       "animation": "fadeInUp",
+       "animation_delay": 300
+      },
+      "elements": [
+       {
+        "id": "040b8ac",
+        "elType": "widget",
+        "widgetType": "image",
+        "isInner": false,
+        "settings": {
+         "image": {
+          "url": "{{mf-media:c5e07c86b1db3ccc:url}}",
+          "id": "{{mf-media:c5e07c86b1db3ccc:id}}",
+          "alt": "",
+          "source": "library",
+          "size": ""
+         },
+         "image_size": "large",
+         "width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "06b2084",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Mugs &amp; Branded Bottles",
+         "header_size": "h3",
+         "__globals__": {
+          "typography_typography": "globals/typography?id=mfcardtitle"
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "fdb61e9",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>Add branded merchandise to your line — custom mugs, bottles, and accessories to complement your clothing collection.</p>",
          "__globals__": {
           "typography_typography": "globals/typography?id=mfsmall",
           "text_color": "globals/colors?id=mfmuted"

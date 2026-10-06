@@ -13,29 +13,21 @@
 | Test reports | [`screenshots/verify-report.md`](screenshots/verify-report.md), [`screenshots/lighthouse/summary.md`](screenshots/lighthouse/summary.md), [`screenshots/theme-check.md`](screenshots/theme-check.md) |
 | Tooling | [`tools/`](tools/): scraper, demo builder, zip script, Docker test stack, Playwright tests |
 
-## ⚠️ Status: modafie.io content not scraped yet
+## Status
 
-The build environment's network policy blocks **www.modafie.io**, **www.gymshark.com** and **wordpress.org**. Every request
-gets a `403` from the egress proxy, and a retry later in the session returned the same. As a result:
-
-- The scraper is complete and was validated end-to-end against a local fixture site (`scrape/scraper-validation/`), but it has
-  **not** run against modafie.io.
-- The theme ships with a clearly labelled **placeholder** demo: original abstract images and template copy, in exactly the
-  scraper's schema. The import screen warns about this. Layout, styling, animations, importer and tests are final.
-- `design/design-system.md` was written without live access to gymshark.com, using its publicly known layout and UX patterns
-  only (no assets copied).
-
-**To finish with real content**, allow those domains in the environment's network settings, start a new session, and run:
+- **Scraped live** from modafie.io (`scrape/`): 12 pages, 31 images, 4 videos, 6 SVGs, plus desktop and mobile screenshots of every page. See `scrape/report.md`.
+- The theme demo uses a **curated layout** following modafie.io's own section order, filled with that live content (`tools/demo/curated_seed.py` → `scrape/content.curated.json`).
+  It covers Home, About us, What we do, Tech pack service, FAQ, Contact, Privacy policy and a new **Get an offer** page. The site is offer-style; there is no shop.
+- Videos are bundled as 720p web versions (`scrape/media/web`). The 1080p originals are git-ignored and can be re-downloaded with `npm run scrape`.
+- Setup notes for the site owner: [`MEDIA-INSTRUCTIONS.md`](MEDIA-INSTRUCTIONS.md).
 
 ```bash
-cd tools
-npm install
-npm run scrape        # → scrape/ (content.json, media, screenshots, report.md)
-npm run build-demo    # → theme/modafie/demo (Elementor JSON, kit with modafie's detected accent colour, menus, media)
-npm run zip           # → dist/modafie-theme.zip
+cd tools && npm install
+npm run scrape       # live crawl → scrape/content.json, media, screenshots, report
+npm run curate       # curated layout + live content → scrape/content.curated.json
+npm run build-demo   # → theme/modafie/demo
+npm run zip          # → dist/modafie-theme.zip
 ```
-
-Then re-run the test suite below. `verify.mjs` reports any scraped text or media missing from the rebuilt pages.
 
 ## Pipeline
 
@@ -52,7 +44,7 @@ modafie.io ──crawl.mjs──▶ scrape/content.json + media ──build-demo
 |---|---|
 | Upload zip via Appearance → Themes → Upload, activate, notice, one-click import | ✅ all 7 steps (`tools/test/admin-import.mjs`, screenshots in `screenshots/admin/`) |
 | Re-run import | ✅ no duplicates (pages 8, media 23, library 26, menus 3 before and after) |
-| Content vs `content.json` | ✅ 177/177 text blocks, media, icons and embeds present (`verify.mjs`) |
+| Content vs `content.curated.json` (live text/media) | ✅ 358/358 text blocks, photos, videos and posters present (`verify.mjs`) |
 | Elementor editor | ✅ all 7 pages + footer template open without JS errors; headings open "Edit Heading" (`editor-check.mjs`) |
 | Interactions | ✅ header hide/show/shrink, mega menu, off-canvas + Escape, carousel, AJAX form, reduced motion (`interactions.mjs`) |
 | Browser console | ✅ no errors on any page/viewport (`screenshots.mjs`) |

@@ -1,16 +1,16 @@
 # Content verification: rebuilt site vs scrape/content.json
 
 - Site: http://localhost:8080
-- Source: client-supplied (5 pages)
-- Run: 2026-10-06T21:47:50.645Z
-- **Result: 230/231 items present, 1 missing**
+- Source: live (8 pages)
+- Run: 2026-10-06T22:08:34.614Z
+- **Result: 358/358 items present, 0 missing**
 
 
 ## home ✅
 
 - URL: http://localhost:8080/ (HTTP 200)
-- Text blocks: 40/40
-- Media files: 20/20
+- Text blocks: 45/45
+- Media files: 35/35
 - SVG icons: 0/0
 - Video embeds: 0/0
 
@@ -22,14 +22,21 @@
 - SVG icons: 0/0
 - Video embeds: 0/0
 
-## what-we-do ❌
+## what-we-do ✅
 
 - URL: http://localhost:8080/what-we-do/ (HTTP 200)
-- Text blocks: 88/89
+- Text blocks: 89/89
 - Media files: 7/7
 - SVG icons: 0/0
 - Video embeds: 0/0
-  - missing paragraph: “Don't have one? We build it with you. Have a messy one? We clean it up. Just want to understand what the hell a tech pack even is? We'll explain like humans.”
+
+## tech-pack-service ✅
+
+- URL: http://localhost:8080/tech-pack-service/ (HTTP 200)
+- Text blocks: 32/32
+- Media files: 1/1
+- SVG icons: 0/0
+- Video embeds: 0/0
 
 ## faq ✅
 
@@ -39,10 +46,26 @@
 - SVG icons: 0/0
 - Video embeds: 0/0
 
+## contact ✅
+
+- URL: http://localhost:8080/contact/ (HTTP 200)
+- Text blocks: 11/11
+- Media files: 0/0
+- SVG icons: 0/0
+- Video embeds: 0/0
+
 ## get-an-offer ✅
 
 - URL: http://localhost:8080/get-an-offer/ (HTTP 200)
 - Text blocks: 21/21
+- Media files: 0/0
+- SVG icons: 0/0
+- Video embeds: 0/0
+
+## privacy-policy ✅
+
+- URL: http://localhost:8080/privacy-policy/ (HTTP 200)
+- Text blocks: 63/63
 - Media files: 0/0
 - SVG icons: 0/0
 - Video embeds: 0/0

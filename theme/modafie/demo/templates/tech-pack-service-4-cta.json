@@ -1,0 +1,183 @@
+[
+ {
+  "id": "ad915da",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "boxed",
+   "flex_direction": "column",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "96",
+    "right": "40",
+    "bottom": "96",
+    "left": "40",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "72",
+    "right": "24",
+    "bottom": "72",
+    "left": "24",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "56",
+    "right": "16",
+    "bottom": "56",
+    "left": "16",
+    "isLinked": false
+   },
+   "flex_align_items": "center",
+   "flex_gap": {
+    "unit": "px",
+    "size": 20,
+    "column": "20",
+    "row": "20",
+    "isLinked": true
+   },
+   "boxed_width": {
+    "unit": "px",
+    "size": 1000,
+    "sizes": []
+   },
+   "background_background": "classic",
+   "__globals__": {
+    "background_color": "globals/colors?id=primary"
+   },
+   "_title": "Offer CTA"
+  },
+  "elements": [
+   {
+    "id": "ed3f331",
+    "elType": "widget",
+    "widgetType": "heading",
+    "isInner": false,
+    "settings": {
+     "title": "Ready to Start?",
+     "header_size": "h2",
+     "__globals__": {
+      "title_color": "globals/colors?id=mfwhite"
+     },
+     "align": "center",
+     "title_align": "center",
+     "mf_motion": "reveal"
+    },
+    "elements": []
+   },
+   {
+    "id": "21fb3b6",
+    "elType": "widget",
+    "widgetType": "text-editor",
+    "isInner": false,
+    "settings": {
+     "editor": "<p>WhatsApp us directly and we'll get back to you within 24 hours.</p>",
+     "__globals__": {
+      "typography_typography": "globals/typography?id=text",
+      "text_color": "globals/colors?id=mfwhite"
+     },
+     "align": "center",
+     "text_align": "center",
+     "_animation": "fadeIn",
+     "_animation_delay": 100
+    },
+    "elements": []
+   },
+   {
+    "id": "436b95b",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "row",
+     "flex_wrap": "wrap",
+     "flex_justify_content": "center",
+     "flex_gap": {
+      "unit": "px",
+      "size": 12,
+      "column": "12",
+      "row": "12",
+      "isLinked": true
+     },
+     "padding": {
+      "unit": "px",
+      "top": "8",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+     }
+    },
+    "elements": [
+     {
+      "id": "88dde66",
+      "elType": "widget",
+      "widgetType": "button",
+      "isInner": false,
+      "settings": {
+       "text": "WhatsApp us",
+       "link": {
+        "url": "{{mf-home}}/whatsapp",
+        "is_external": "",
+        "nofollow": "",
+        "custom_attributes": ""
+       },
+       "size": "md",
+       "_animation": "fadeInUp",
+       "_animation_delay": 230,
+       "background_background": "classic",
+       "__globals__": {
+        "background_color": "globals/colors?id=mfwhite",
+        "button_text_color": "globals/colors?id=primary",
+        "button_background_hover_color": "globals/colors?id=mfwhite",
+        "hover_color": "globals/colors?id=mfwhite"
+       },
+       "_css_classes": "mf-btn-light"
+      },
+      "elements": []
+     },
+     {
+      "id": "22538b2",
+      "elType": "widget",
+      "widgetType": "button",
+      "isInner": false,
+      "settings": {
+       "text": "Get an offer",
+       "link": {
+        "url": "{{mf-page:get-an-offer}}",
+        "is_external": "",
+        "nofollow": "",
+        "custom_attributes": ""
+       },
+       "size": "md",
+       "_animation": "fadeInUp",
+       "_animation_delay": 310,
+       "background_background": "classic",
+       "background_color": "rgba(0,0,0,0)",
+       "border_border": "solid",
+       "border_width": {
+        "unit": "px",
+        "top": "2",
+        "right": "2",
+        "bottom": "2",
+        "left": "2",
+        "isLinked": false
+       },
+       "__globals__": {
+        "button_text_color": "globals/colors?id=mfwhite",
+        "border_color": "globals/colors?id=mfwhite"
+       },
+       "_css_classes": "mf-btn-outline-light"
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,6 +1,6 @@
 [
  {
-  "id": "74aa393",
+  "id": "5baad95",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -41,12 +41,12 @@
     "isLinked": true
    },
    "flex_align_items": "stretch",
-   "_title": "06 Photography",
+   "_title": "06 Product Photography & Lookbook Shoots",
    "_element_id": "photography"
   },
   "elements": [
    {
-    "id": "b1930be",
+    "id": "1acf17f",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -75,15 +75,15 @@
     },
     "elements": [
      {
-      "id": "69bbc73",
+      "id": "0f214c9",
       "elType": "widget",
       "widgetType": "image",
       "isInner": false,
       "settings": {
        "image": {
-        "url": "{{mf-media:321099e6f6625a8d:url}}",
-        "id": "{{mf-media:321099e6f6625a8d:id}}",
-        "alt": "Product photography & lookbook",
+        "url": "{{mf-media:68568d4d232bc5ff:url}}",
+        "id": "{{mf-media:68568d4d232bc5ff:id}}",
+        "alt": "",
         "source": "library",
         "size": ""
        },
@@ -112,7 +112,7 @@
     ]
    },
    {
-    "id": "95fa1db",
+    "id": "2de07bd",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -166,7 +166,7 @@
     },
     "elements": [
      {
-      "id": "09ad9d9",
+      "id": "1c5f562",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,
@@ -181,7 +181,7 @@
       "elements": []
      },
      {
-      "id": "a5864db",
+      "id": "a671d53",
       "elType": "widget",
       "widgetType": "heading",
       "isInner": false,
@@ -193,7 +193,7 @@
       "elements": []
      },
      {
-      "id": "c605a5d",
+      "id": "24ffc64",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,

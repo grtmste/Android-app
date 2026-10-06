@@ -1,6 +1,6 @@
 [
  {
-  "id": "e7b9856",
+  "id": "4e7f10e",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -45,7 +45,7 @@
   },
   "elements": [
    {
-    "id": "467f348",
+    "id": "f321f4c",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -74,15 +74,15 @@
     },
     "elements": [
      {
-      "id": "7fe94fa",
+      "id": "ee387e0",
       "elType": "widget",
       "widgetType": "image",
       "isInner": false,
       "settings": {
        "image": {
-        "url": "{{mf-media:ae1346e2d0ebb042:url}}",
-        "id": "{{mf-media:ae1346e2d0ebb042:id}}",
-        "alt": "The atelier / the team",
+        "url": "{{mf-media:b9e40e076769a151:url}}",
+        "id": "{{mf-media:b9e40e076769a151:id}}",
+        "alt": "Bulk production run of custom hoodies — white and beige colorways manufactured by Modafie European clothing factory",
         "source": "library",
         "size": ""
        },
@@ -111,7 +111,7 @@
     ]
    },
    {
-    "id": "a501497",
+    "id": "fa0e247",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -165,7 +165,7 @@
     },
     "elements": [
      {
-      "id": "5aa8dcc",
+      "id": "7347689",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,

@@ -1,6 +1,6 @@
 [
  {
-  "id": "4451c08",
+  "id": "3246e58",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -41,12 +41,12 @@
     "isLinked": true
    },
    "flex_align_items": "stretch",
-   "_title": "02 Tech packs",
+   "_title": "02 The Boring Stuff That Saves Your Sanity",
    "_element_id": "tech-packs"
   },
   "elements": [
    {
-    "id": "e894538",
+    "id": "fa7741d",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -75,15 +75,15 @@
     },
     "elements": [
      {
-      "id": "e4862d3",
+      "id": "cbac234",
       "elType": "widget",
       "widgetType": "image",
       "isInner": false,
       "settings": {
        "image": {
-        "url": "{{mf-media:13eb84fe6cdd8b32:url}}",
-        "id": "{{mf-media:13eb84fe6cdd8b32:id}}",
-        "alt": "Tech pack creation",
+        "url": "{{mf-media:c086a6028b9bad60:url}}",
+        "id": "{{mf-media:c086a6028b9bad60:id}}",
+        "alt": "",
         "source": "library",
         "size": ""
        },
@@ -112,7 +112,7 @@
     ]
    },
    {
-    "id": "3f95597",
+    "id": "6b123cc",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -166,7 +166,7 @@
     },
     "elements": [
      {
-      "id": "571603b",
+      "id": "684febb",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,
@@ -181,7 +181,7 @@
       "elements": []
      },
      {
-      "id": "28c7636",
+      "id": "3842193",
       "elType": "widget",
       "widgetType": "heading",
       "isInner": false,
@@ -193,12 +193,12 @@
       "elements": []
      },
      {
-      "id": "4fb5208",
+      "id": "d99ecf7",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,
       "settings": {
-       "editor": "<p>Okay, this part isn't sexy. But neither is getting a sample back that looks nothing like your drawing.</p><p>A tech pack is basically a recipe for your garment. Every measurement, every stitch, every tiny detail written down so there's zero confusion between \"what you imagined\" and \"what arrives at your door.\"</p><p>Its important to have techpack because if there is an error in the production, you can hold the factory accountable to fix it.</p><p>Don't have one? We build it with you.<br>Have a messy one? We clean it up.<br>Just want to understand what the hell a tech pack even is? We'll explain like humans.</p><p><strong>What you get:</strong></p><ul><li>Measurements that actually make sense</li><li>Construction details so specific your grandma could sew it</li><li>No more &quot;lost in translation&quot; moments</li></ul><p><em>From €60-120. Cheap insurance against disasters. €50 or less for Tshirt.</em></p>",
+       "editor": "<p>Okay, this part isn't sexy. But neither is getting a sample back that looks nothing like your drawing.</p><p>A tech pack is basically a recipe for your garment. Every measurement, every stitch, every tiny detail written down so there's zero confusion between \"what you imagined\" and \"what arrives at your door.\"</p><p>Its important to have techpack because if there is an error in the production. you can hold the factory accountable to fix it.</p><p>Don't have one? We build it with you.<br>Have a messy one? We clean it up.<br>Just want to understand what the hell a tech pack even is? We'll explain like humans.</p><p><strong>What you get:</strong></p><ul><li>Measurements that actually make sense</li><li>Construction details so specific your grandma could sew it</li><li>No more &quot;lost in translation&quot; moments</li></ul><p><em>From €60-120. Cheap insurance against disasters. €50 or less for Tshirt.</em></p>",
        "__globals__": {
         "typography_typography": "globals/typography?id=text"
        },

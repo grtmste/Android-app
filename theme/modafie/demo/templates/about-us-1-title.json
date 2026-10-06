@@ -1,6 +1,6 @@
 [
  {
-  "id": "cbf2ae4",
+  "id": "278e5c8",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -43,7 +43,7 @@
   },
   "elements": [
    {
-    "id": "9895881",
+    "id": "60692e4",
     "elType": "widget",
     "widgetType": "text-editor",
     "isInner": false,
@@ -58,7 +58,7 @@
     "elements": []
    },
    {
-    "id": "c0a8d25",
+    "id": "0d39f87",
     "elType": "widget",
     "widgetType": "heading",
     "isInner": false,

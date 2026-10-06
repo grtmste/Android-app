@@ -1,6 +1,6 @@
 [
  {
-  "id": "677bbff",
+  "id": "2b0dd45",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -41,12 +41,12 @@
     "isLinked": true
    },
    "flex_align_items": "stretch",
-   "_title": "03 Sampling",
+   "_title": "03 Sampling & Prototyping",
    "_element_id": "sampling"
   },
   "elements": [
    {
-    "id": "b907197",
+    "id": "313d1ef",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -75,15 +75,15 @@
     },
     "elements": [
      {
-      "id": "d3d7ade",
+      "id": "63556b5",
       "elType": "widget",
       "widgetType": "image",
       "isInner": false,
       "settings": {
        "image": {
-        "url": "{{mf-media:02eb3ca7bc259ef3:url}}",
-        "id": "{{mf-media:02eb3ca7bc259ef3:id}}",
-        "alt": "Sampling & prototyping",
+        "url": "{{mf-media:e7e3b431b0a04c37:url}}",
+        "id": "{{mf-media:e7e3b431b0a04c37:id}}",
+        "alt": "",
         "source": "library",
         "size": ""
        },
@@ -112,7 +112,7 @@
     ]
    },
    {
-    "id": "f7d4111",
+    "id": "58478ad",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -166,7 +166,7 @@
     },
     "elements": [
      {
-      "id": "0866997",
+      "id": "000028c",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,
@@ -181,7 +181,7 @@
       "elements": []
      },
      {
-      "id": "9b8ede6",
+      "id": "797f678",
       "elType": "widget",
       "widgetType": "heading",
       "isInner": false,
@@ -193,7 +193,7 @@
       "elements": []
      },
      {
-      "id": "af02de2",
+      "id": "8e63970",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,

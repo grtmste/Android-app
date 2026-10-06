@@ -1,6 +1,6 @@
 [
  {
-  "id": "251e6a4",
+  "id": "b64cfb6",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -43,7 +43,7 @@
   },
   "elements": [
    {
-    "id": "9d51913",
+    "id": "3f2a764",
     "elType": "widget",
     "widgetType": "heading",
     "isInner": false,
@@ -55,7 +55,7 @@
     "elements": []
    },
    {
-    "id": "6ffca9c",
+    "id": "993733a",
     "elType": "widget",
     "widgetType": "text-editor",
     "isInner": false,
@@ -82,7 +82,7 @@
     "elements": []
    },
    {
-    "id": "cc9c9dc",
+    "id": "0866997",
     "elType": "widget",
     "widgetType": "text-editor",
     "isInner": false,
@@ -109,7 +109,7 @@
     "elements": []
    },
    {
-    "id": "80cc5ea",
+    "id": "ec384db",
     "elType": "widget",
     "widgetType": "text-editor",
     "isInner": false,
@@ -136,7 +136,7 @@
     "elements": []
    },
    {
-    "id": "d5e34df",
+    "id": "af02de2",
     "elType": "widget",
     "widgetType": "text-editor",
     "isInner": false,
@@ -165,7 +165,7 @@
   ]
  },
  {
-  "id": "fa0e247",
+  "id": "1fd1749",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -206,12 +206,12 @@
     "isLinked": true
    },
    "flex_align_items": "stretch",
-   "_title": "01 Mockups",
+   "_title": "01 Mockups & Design Development",
    "_element_id": "mockups"
   },
   "elements": [
    {
-    "id": "f94a055",
+    "id": "70b2526",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -240,15 +240,15 @@
     },
     "elements": [
      {
-      "id": "978ae8e",
+      "id": "009d17e",
       "elType": "widget",
       "widgetType": "image",
       "isInner": false,
       "settings": {
        "image": {
-        "url": "{{mf-media:c89e186945c55634:url}}",
-        "id": "{{mf-media:c89e186945c55634:id}}",
-        "alt": "Design mockup & concept",
+        "url": "{{mf-media:4459a60a4aa1423f:url}}",
+        "id": "{{mf-media:4459a60a4aa1423f:id}}",
+        "alt": "",
         "source": "library",
         "size": ""
        },
@@ -277,7 +277,7 @@
     ]
    },
    {
-    "id": "f321f4c",
+    "id": "6c6afcb",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -331,7 +331,7 @@
     },
     "elements": [
      {
-      "id": "ca0eb9e",
+      "id": "786e0fd",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,
@@ -346,7 +346,7 @@
       "elements": []
      },
      {
-      "id": "5605e09",
+      "id": "b0a2f46",
       "elType": "widget",
       "widgetType": "heading",
       "isInner": false,
@@ -358,7 +358,7 @@
       "elements": []
      },
      {
-      "id": "05d53f8",
+      "id": "733409f",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,
@@ -377,7 +377,7 @@
   ]
  },
  {
-  "id": "4451c08",
+  "id": "3246e58",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -418,12 +418,12 @@
     "isLinked": true
    },
    "flex_align_items": "stretch",
-   "_title": "02 Tech packs",
+   "_title": "02 The Boring Stuff That Saves Your Sanity",
    "_element_id": "tech-packs"
   },
   "elements": [
    {
-    "id": "e894538",
+    "id": "fa7741d",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -452,15 +452,15 @@
     },
     "elements": [
      {
-      "id": "e4862d3",
+      "id": "cbac234",
       "elType": "widget",
       "widgetType": "image",
       "isInner": false,
       "settings": {
        "image": {
-        "url": "{{mf-media:13eb84fe6cdd8b32:url}}",
-        "id": "{{mf-media:13eb84fe6cdd8b32:id}}",
-        "alt": "Tech pack creation",
+        "url": "{{mf-media:c086a6028b9bad60:url}}",
+        "id": "{{mf-media:c086a6028b9bad60:id}}",
+        "alt": "",
         "source": "library",
         "size": ""
        },
@@ -489,7 +489,7 @@
     ]
    },
    {
-    "id": "3f95597",
+    "id": "6b123cc",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -543,7 +543,7 @@
     },
     "elements": [
      {
-      "id": "571603b",
+      "id": "684febb",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,
@@ -558,7 +558,7 @@
       "elements": []
      },
      {
-      "id": "28c7636",
+      "id": "3842193",
       "elType": "widget",
       "widgetType": "heading",
       "isInner": false,
@@ -570,12 +570,12 @@
       "elements": []
      },
      {
-      "id": "4fb5208",
+      "id": "d99ecf7",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,
       "settings": {
-       "editor": "<p>Okay, this part isn't sexy. But neither is getting a sample back that looks nothing like your drawing.</p><p>A tech pack is basically a recipe for your garment. Every measurement, every stitch, every tiny detail written down so there's zero confusion between \"what you imagined\" and \"what arrives at your door.\"</p><p>Its important to have techpack because if there is an error in the production, you can hold the factory accountable to fix it.</p><p>Don't have one? We build it with you.<br>Have a messy one? We clean it up.<br>Just want to understand what the hell a tech pack even is? We'll explain like humans.</p><p><strong>What you get:</strong></p><ul><li>Measurements that actually make sense</li><li>Construction details so specific your grandma could sew it</li><li>No more &quot;lost in translation&quot; moments</li></ul><p><em>From €60-120. Cheap insurance against disasters. €50 or less for Tshirt.</em></p>",
+       "editor": "<p>Okay, this part isn't sexy. But neither is getting a sample back that looks nothing like your drawing.</p><p>A tech pack is basically a recipe for your garment. Every measurement, every stitch, every tiny detail written down so there's zero confusion between \"what you imagined\" and \"what arrives at your door.\"</p><p>Its important to have techpack because if there is an error in the production. you can hold the factory accountable to fix it.</p><p>Don't have one? We build it with you.<br>Have a messy one? We clean it up.<br>Just want to understand what the hell a tech pack even is? We'll explain like humans.</p><p><strong>What you get:</strong></p><ul><li>Measurements that actually make sense</li><li>Construction details so specific your grandma could sew it</li><li>No more &quot;lost in translation&quot; moments</li></ul><p><em>From €60-120. Cheap insurance against disasters. €50 or less for Tshirt.</em></p>",
        "__globals__": {
         "typography_typography": "globals/typography?id=text"
        },
@@ -589,7 +589,7 @@
   ]
  },
  {
-  "id": "677bbff",
+  "id": "2b0dd45",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -630,12 +630,12 @@
     "isLinked": true
    },
    "flex_align_items": "stretch",
-   "_title": "03 Sampling",
+   "_title": "03 Sampling & Prototyping",
    "_element_id": "sampling"
   },
   "elements": [
    {
-    "id": "b907197",
+    "id": "313d1ef",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -664,15 +664,15 @@
     },
     "elements": [
      {
-      "id": "d3d7ade",
+      "id": "63556b5",
       "elType": "widget",
       "widgetType": "image",
       "isInner": false,
       "settings": {
        "image": {
-        "url": "{{mf-media:02eb3ca7bc259ef3:url}}",
-        "id": "{{mf-media:02eb3ca7bc259ef3:id}}",
-        "alt": "Sampling & prototyping",
+        "url": "{{mf-media:e7e3b431b0a04c37:url}}",
+        "id": "{{mf-media:e7e3b431b0a04c37:id}}",
+        "alt": "",
         "source": "library",
         "size": ""
        },
@@ -701,7 +701,7 @@
     ]
    },
    {
-    "id": "f7d4111",
+    "id": "58478ad",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -755,7 +755,7 @@
     },
     "elements": [
      {
-      "id": "0866997",
+      "id": "000028c",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,
@@ -770,7 +770,7 @@
       "elements": []
      },
      {
-      "id": "9b8ede6",
+      "id": "797f678",
       "elType": "widget",
       "widgetType": "heading",
       "isInner": false,
@@ -782,7 +782,7 @@
       "elements": []
      },
      {
-      "id": "af02de2",
+      "id": "8e63970",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,
@@ -801,7 +801,7 @@
   ]
  },
  {
-  "id": "a542474",
+  "id": "d92adea",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -842,12 +842,12 @@
     "isLinked": true
    },
    "flex_align_items": "stretch",
-   "_title": "04 Bulk production",
+   "_title": "04 Bulk Production — From 30 Pieces or No MOQ",
    "_element_id": "production"
   },
   "elements": [
    {
-    "id": "bb914c5",
+    "id": "bc355df",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -876,15 +876,15 @@
     },
     "elements": [
      {
-      "id": "f13d0a4",
+      "id": "964b56b",
       "elType": "widget",
       "widgetType": "image",
       "isInner": false,
       "settings": {
        "image": {
-        "url": "{{mf-media:b484fa426afa384f:url}}",
-        "id": "{{mf-media:b484fa426afa384f:id}}",
-        "alt": "Bulk production",
+        "url": "{{mf-media:f7213e4905dbecfc:url}}",
+        "id": "{{mf-media:f7213e4905dbecfc:id}}",
+        "alt": "",
         "source": "library",
         "size": ""
        },
@@ -913,7 +913,7 @@
     ]
    },
    {
-    "id": "6d7d1a4",
+    "id": "1c68837",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -967,7 +967,7 @@
     },
     "elements": [
      {
-      "id": "6338fe2",
+      "id": "c605a5d",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,
@@ -982,7 +982,7 @@
       "elements": []
      },
      {
-      "id": "511dbe5",
+      "id": "cc5550e",
       "elType": "widget",
       "widgetType": "heading",
       "isInner": false,
@@ -994,12 +994,12 @@
       "elements": []
      },
      {
-      "id": "29d301d",
+      "id": "1b952ff",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,
       "settings": {
-       "editor": "<p>Here's where most factories break your heart.</p><p>\"Come back when you have 500 pieces.\" \"We don't do small orders.\" \"You're not ready for us.\"</p><p>We've heard it a thousand times from designers who came to us crying. So we built something different.</p><p>At Modafie, you start at 30 pieces. Not 300. Not 500. Thirty.</p><p>Same quality as the big guys get. Same attention. Same machines. Just... less risk. Less inventory sitting in your bedroom. Less praying you guessed right on sizes.</p><p>Sell out in a week? Brilliant. We'll run your next 30. Or 300. Or 3,000. You grow at your pace, not ours.</p><p><strong>What you get:</strong></p><ul><li>Production from 30 pieces (yes, really)</li><li>European quality that doesn't embarrass you</li><li>Room to make mistakes and learn</li><li>Reorders that don't require a second mortgage</li></ul><p><em>*From €depends on what we are creating. Production 4-8 weeks after sample sign-off.</em></p>",
+       "editor": "<p>Here's where most factories break your heart.</p><p>\"Come back when you have 500 pieces.\" \"We don't do small orders.\" \"You're not ready for us.\"</p><p>We've heard it a thousand times from designers who came to us crying. So we built something different.</p><p>At Modafie, you start at 30 pieces. Not 300. Not 500. Thirty.</p><p>Same quality as the big guys get. Same attention. Same machines. Just... less risk. Less inventory sitting in your bedroom. Less praying you guessed right on sizes.</p><p>Sell out in a week? Brilliant. We'll run your next 30. Or 300. Or 3,000. You grow at your pace, not ours.</p><p><strong>What you get:</strong></p><ul><li>Production from 30 pieces (yes, really)</li><li>European quality that doesn't embarrass you</li><li>Room to make mistakes and learn</li><li>Reorders that don't require a second mortgage</li></ul><p><em>*From €depends on what we are creating. Production 4-6 weeks after sample sign-off.</em></p>",
        "__globals__": {
         "typography_typography": "globals/typography?id=text"
        },
@@ -1013,7 +1013,7 @@
   ]
  },
  {
-  "id": "313d1ef",
+  "id": "4ea9a00",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -1054,12 +1054,12 @@
     "isLinked": true
    },
    "flex_align_items": "stretch",
-   "_title": "05 Packaging",
+   "_title": "05 Custom Packaging & Labeling",
    "_element_id": "packaging"
   },
   "elements": [
    {
-    "id": "328167d",
+    "id": "c2dbd72",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -1088,15 +1088,15 @@
     },
     "elements": [
      {
-      "id": "01e01b2",
+      "id": "79d6ca9",
       "elType": "widget",
       "widgetType": "image",
       "isInner": false,
       "settings": {
        "image": {
-        "url": "{{mf-media:81e724550d804ea7:url}}",
-        "id": "{{mf-media:81e724550d804ea7:id}}",
-        "alt": "Custom packaging & labeling",
+        "url": "{{mf-media:cec3928849359e31:url}}",
+        "id": "{{mf-media:cec3928849359e31:id}}",
+        "alt": "",
         "source": "library",
         "size": ""
        },
@@ -1125,7 +1125,7 @@
     ]
    },
    {
-    "id": "fd164b7",
+    "id": "9352423",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -1179,7 +1179,7 @@
     },
     "elements": [
      {
-      "id": "d76e911",
+      "id": "bfe63f9",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,
@@ -1194,7 +1194,7 @@
       "elements": []
      },
      {
-      "id": "4a7310a",
+      "id": "4ff867c",
       "elType": "widget",
       "widgetType": "heading",
       "isInner": false,
@@ -1206,7 +1206,7 @@
       "elements": []
      },
      {
-      "id": "728f1aa",
+      "id": "b06cd49",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,
@@ -1225,7 +1225,7 @@
   ]
  },
  {
-  "id": "74aa393",
+  "id": "5baad95",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -1266,12 +1266,12 @@
     "isLinked": true
    },
    "flex_align_items": "stretch",
-   "_title": "06 Photography",
+   "_title": "06 Product Photography & Lookbook Shoots",
    "_element_id": "photography"
   },
   "elements": [
    {
-    "id": "b1930be",
+    "id": "1acf17f",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -1300,15 +1300,15 @@
     },
     "elements": [
      {
-      "id": "69bbc73",
+      "id": "0f214c9",
       "elType": "widget",
       "widgetType": "image",
       "isInner": false,
       "settings": {
        "image": {
-        "url": "{{mf-media:321099e6f6625a8d:url}}",
-        "id": "{{mf-media:321099e6f6625a8d:id}}",
-        "alt": "Product photography & lookbook",
+        "url": "{{mf-media:68568d4d232bc5ff:url}}",
+        "id": "{{mf-media:68568d4d232bc5ff:id}}",
+        "alt": "",
         "source": "library",
         "size": ""
        },
@@ -1337,7 +1337,7 @@
     ]
    },
    {
-    "id": "95fa1db",
+    "id": "2de07bd",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -1391,7 +1391,7 @@
     },
     "elements": [
      {
-      "id": "09ad9d9",
+      "id": "1c5f562",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,
@@ -1406,7 +1406,7 @@
       "elements": []
      },
      {
-      "id": "a5864db",
+      "id": "a671d53",
       "elType": "widget",
       "widgetType": "heading",
       "isInner": false,
@@ -1418,7 +1418,7 @@
       "elements": []
      },
      {
-      "id": "c605a5d",
+      "id": "24ffc64",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,
@@ -1437,7 +1437,7 @@
   ]
  },
  {
-  "id": "8a7afd8",
+  "id": "b92087d",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -1478,12 +1478,12 @@
     "isLinked": true
    },
    "flex_align_items": "stretch",
-   "_title": "07 Marketing",
+   "_title": "07 Brand Marketing & Launch Support",
    "_element_id": "marketing"
   },
   "elements": [
    {
-    "id": "b54376d",
+    "id": "cc1ae84",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -1512,15 +1512,15 @@
     },
     "elements": [
      {
-      "id": "ed7e76e",
+      "id": "53035d8",
       "elType": "widget",
       "widgetType": "image",
       "isInner": false,
       "settings": {
        "image": {
-        "url": "{{mf-media:c40c50d701276169:url}}",
-        "id": "{{mf-media:c40c50d701276169:id}}",
-        "alt": "Brand marketing & launch",
+        "url": "{{mf-media:6d9aebb4a612f79d:url}}",
+        "id": "{{mf-media:6d9aebb4a612f79d:id}}",
+        "alt": "",
         "source": "library",
         "size": ""
        },
@@ -1549,7 +1549,7 @@
     ]
    },
    {
-    "id": "59ed202",
+    "id": "6549e10",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -1603,7 +1603,7 @@
     },
     "elements": [
      {
-      "id": "bffcfef",
+      "id": "d30e4e9",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,
@@ -1618,7 +1618,7 @@
       "elements": []
      },
      {
-      "id": "3bc2394",
+      "id": "1f68ab9",
       "elType": "widget",
       "widgetType": "heading",
       "isInner": false,
@@ -1630,7 +1630,7 @@
       "elements": []
      },
      {
-      "id": "2889947",
+      "id": "5975857",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,
@@ -1649,7 +1649,7 @@
   ]
  },
  {
-  "id": "4ea9a00",
+  "id": "2c8a9ef",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -1702,7 +1702,7 @@
   },
   "elements": [
    {
-    "id": "3337620",
+    "id": "87fb58f",
     "elType": "widget",
     "widgetType": "heading",
     "isInner": false,
@@ -1719,7 +1719,7 @@
     "elements": []
    },
    {
-    "id": "b3e8000",
+    "id": "3e21d2d",
     "elType": "widget",
     "widgetType": "text-editor",
     "isInner": false,
@@ -1737,7 +1737,7 @@
     "elements": []
    },
    {
-    "id": "c2dbd72",
+    "id": "6a2b43e",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -1764,7 +1764,7 @@
     },
     "elements": [
      {
-      "id": "6229406",
+      "id": "20e4225",
       "elType": "widget",
       "widgetType": "button",
       "isInner": false,
@@ -1791,7 +1791,7 @@
       "elements": []
      },
      {
-      "id": "23902a0",
+      "id": "0bc3709",
       "elType": "widget",
       "widgetType": "button",
       "isInner": false,

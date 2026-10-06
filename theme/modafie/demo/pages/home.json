@@ -1,6 +1,6 @@
 [
  {
-  "id": "dacba70",
+  "id": "5606ad3",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -51,7 +51,7 @@
     "size": 88,
     "sizes": []
    },
-   "background_background": "classic",
+   "background_background": "video",
    "background_position": "center center",
    "background_size": "cover",
    "background_repeat": "no-repeat",
@@ -68,9 +68,18 @@
     "background_color": "globals/colors?id=mfdark"
    },
    "background_image": {
-    "url": "{{mf-media:aba44b67a9b0c710:url}}",
-    "id": "{{mf-media:aba44b67a9b0c710:id}}",
-    "alt": "Hero video: sequins / sewing close-up",
+    "url": "{{mf-media:8824c854d2ad1358:url}}",
+    "id": "{{mf-media:8824c854d2ad1358:id}}",
+    "alt": "Sequins being sewn at Modafie",
+    "source": "library",
+    "size": ""
+   },
+   "background_video_link": "{{mf-media:1f8d78bd00aff36c:url}}",
+   "background_play_on_mobile": "yes",
+   "background_video_fallback": {
+    "url": "{{mf-media:8824c854d2ad1358:url}}",
+    "id": "{{mf-media:8824c854d2ad1358:id}}",
+    "alt": "Sequins being sewn at Modafie",
     "source": "library",
     "size": ""
    },
@@ -78,7 +87,42 @@
   },
   "elements": [
    {
-    "id": "89be630",
+    "id": "ce36b86",
+    "elType": "widget",
+    "widgetType": "image",
+    "isInner": false,
+    "settings": {
+     "image": {
+      "url": "{{mf-media:137044dbfef549fd:url}}",
+      "id": "{{mf-media:137044dbfef549fd:id}}",
+      "alt": "Modafie",
+      "source": "library",
+      "size": ""
+     },
+     "image_size": "full",
+     "width": {
+      "unit": "px",
+      "size": 560,
+      "sizes": []
+     },
+     "_animation": "fadeIn",
+     "_animation_delay": 0,
+     "width_tablet": {
+      "unit": "px",
+      "size": 420,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "px",
+      "size": 260,
+      "sizes": []
+     },
+     "align": "left"
+    },
+    "elements": []
+   },
+   {
+    "id": "03e246c",
     "elType": "widget",
     "widgetType": "heading",
     "isInner": false,
@@ -94,7 +138,7 @@
     "elements": []
    },
    {
-    "id": "b241b2f",
+    "id": "d6cc423",
     "elType": "widget",
     "widgetType": "text-editor",
     "isInner": false,
@@ -121,7 +165,7 @@
     "elements": []
    },
    {
-    "id": "c423b8e",
+    "id": "dacba70",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -147,7 +191,7 @@
     },
     "elements": [
      {
-      "id": "5c7f27b",
+      "id": "f72d65e",
       "elType": "widget",
       "widgetType": "button",
       "isInner": false,
@@ -174,7 +218,7 @@
       "elements": []
      },
      {
-      "id": "f72d65e",
+      "id": "3afdac8",
       "elType": "widget",
       "widgetType": "button",
       "isInner": false,
@@ -213,7 +257,7 @@
   ]
  },
  {
-  "id": "af2e005",
+  "id": "2461a00",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -256,7 +300,7 @@
   },
   "elements": [
    {
-    "id": "3e699df",
+    "id": "25f9b42",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -299,7 +343,7 @@
     },
     "elements": [
      {
-      "id": "f657b5f",
+      "id": "7d41a9b",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -327,14 +371,14 @@
       },
       "elements": [
        {
-        "id": "8f6cfb0",
+        "id": "523e68e",
         "elType": "widget",
         "widgetType": "image",
         "isInner": false,
         "settings": {
          "image": {
-          "url": "{{mf-media:21cdb907467d6841:url}}",
-          "id": "{{mf-media:21cdb907467d6841:id}}",
+          "url": "{{mf-media:d880f7449d3bafcb:url}}",
+          "id": "{{mf-media:d880f7449d3bafcb:id}}",
           "alt": "View our services",
           "source": "library",
           "size": ""
@@ -356,7 +400,7 @@
         "elements": []
        },
        {
-        "id": "742d3cf",
+        "id": "994476b",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
@@ -378,7 +422,7 @@
       ]
      },
      {
-      "id": "c3b3d9d",
+      "id": "30d15dd",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -406,14 +450,14 @@
       },
       "elements": [
        {
-        "id": "48a5ff5",
+        "id": "0c4e8fe",
         "elType": "widget",
         "widgetType": "image",
         "isInner": false,
         "settings": {
          "image": {
-          "url": "{{mf-media:c89e186945c55634:url}}",
-          "id": "{{mf-media:c89e186945c55634:id}}",
+          "url": "{{mf-media:4459a60a4aa1423f:url}}",
+          "id": "{{mf-media:4459a60a4aa1423f:id}}",
           "alt": "Design Mockup & Concept",
           "source": "library",
           "size": ""
@@ -435,7 +479,7 @@
         "elements": []
        },
        {
-        "id": "6ff0e21",
+        "id": "4a55ce6",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
@@ -457,7 +501,7 @@
       ]
      },
      {
-      "id": "5981f75",
+      "id": "95a6477",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -485,14 +529,14 @@
       },
       "elements": [
        {
-        "id": "4453cc6",
+        "id": "81a1940",
         "elType": "widget",
         "widgetType": "image",
         "isInner": false,
         "settings": {
          "image": {
-          "url": "{{mf-media:13eb84fe6cdd8b32:url}}",
-          "id": "{{mf-media:13eb84fe6cdd8b32:id}}",
+          "url": "{{mf-media:c086a6028b9bad60:url}}",
+          "id": "{{mf-media:c086a6028b9bad60:id}}",
           "alt": "Tech Pack Creation",
           "source": "library",
           "size": ""
@@ -514,7 +558,7 @@
         "elements": []
        },
        {
-        "id": "1757984",
+        "id": "57c6314",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
@@ -536,7 +580,7 @@
       ]
      },
      {
-      "id": "e5627e4",
+      "id": "ba03527",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -564,15 +608,15 @@
       },
       "elements": [
        {
-        "id": "110a6a3",
+        "id": "145c1c6",
         "elType": "widget",
         "widgetType": "image",
         "isInner": false,
         "settings": {
          "image": {
-          "url": "{{mf-media:02eb3ca7bc259ef3:url}}",
-          "id": "{{mf-media:02eb3ca7bc259ef3:id}}",
-          "alt": "Sampling & Prototyping",
+          "url": "{{mf-media:e7e3b431b0a04c37:url}}",
+          "id": "{{mf-media:e7e3b431b0a04c37:id}}",
+          "alt": "Sample Making & Approval",
           "source": "library",
           "size": ""
          },
@@ -593,12 +637,12 @@
         "elements": []
        },
        {
-        "id": "89286e6",
+        "id": "4d4b659",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
         "settings": {
-         "title": "Sampling &amp; Prototyping",
+         "title": "Sample Making &amp; Approval",
          "header_size": "h3",
          "__globals__": {
           "typography_typography": "globals/typography?id=mfcardtitle"
@@ -615,7 +659,7 @@
       ]
      },
      {
-      "id": "d08c4b8",
+      "id": "5caeca5",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -641,15 +685,15 @@
       },
       "elements": [
        {
-        "id": "8581434",
+        "id": "7806140",
         "elType": "widget",
         "widgetType": "image",
         "isInner": false,
         "settings": {
          "image": {
-          "url": "{{mf-media:b484fa426afa384f:url}}",
-          "id": "{{mf-media:b484fa426afa384f:id}}",
-          "alt": "Bulk Production",
+          "url": "{{mf-media:f7213e4905dbecfc:url}}",
+          "id": "{{mf-media:f7213e4905dbecfc:id}}",
+          "alt": "Bulk Production from 30 Pieces",
           "source": "library",
           "size": ""
          },
@@ -670,12 +714,12 @@
         "elements": []
        },
        {
-        "id": "02d0eae",
+        "id": "4741caa",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
         "settings": {
-         "title": "Bulk Production",
+         "title": "Bulk Production from 30 Pieces",
          "header_size": "h3",
          "__globals__": {
           "typography_typography": "globals/typography?id=mfcardtitle"
@@ -692,7 +736,7 @@
       ]
      },
      {
-      "id": "c85b0df",
+      "id": "e83e121",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -718,15 +762,15 @@
       },
       "elements": [
        {
-        "id": "a6dbe31",
+        "id": "4e199d2",
         "elType": "widget",
         "widgetType": "image",
         "isInner": false,
         "settings": {
          "image": {
-          "url": "{{mf-media:81e724550d804ea7:url}}",
-          "id": "{{mf-media:81e724550d804ea7:id}}",
-          "alt": "Custom Packaging & Labeling",
+          "url": "{{mf-media:cec3928849359e31:url}}",
+          "id": "{{mf-media:cec3928849359e31:id}}",
+          "alt": "Custom Tags & Labeling",
           "source": "library",
           "size": ""
          },
@@ -747,12 +791,12 @@
         "elements": []
        },
        {
-        "id": "62a5d6f",
+        "id": "ae9121c",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
         "settings": {
-         "title": "Custom Packaging &amp; Labeling",
+         "title": "Custom Tags &amp; Labeling",
          "header_size": "h3",
          "__globals__": {
           "typography_typography": "globals/typography?id=mfcardtitle"
@@ -769,7 +813,7 @@
       ]
      },
      {
-      "id": "69fa21a",
+      "id": "3e699df",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -795,14 +839,168 @@
       },
       "elements": [
        {
-        "id": "2d85b91",
+        "id": "5d67853",
         "elType": "widget",
         "widgetType": "image",
         "isInner": false,
         "settings": {
          "image": {
-          "url": "{{mf-media:321099e6f6625a8d:url}}",
-          "id": "{{mf-media:321099e6f6625a8d:id}}",
+          "url": "{{mf-media:28d3c5611ff1bc14:url}}",
+          "id": "{{mf-media:28d3c5611ff1bc14:id}}",
+          "alt": "Packaging & Worldwide Shipping",
+          "source": "library",
+          "size": ""
+         },
+         "image_size": "large",
+         "width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+         },
+         "link_to": "custom",
+         "link": {
+          "url": "{{mf-page:what-we-do}}#packaging",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "3ad0e23",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Packaging &amp; Worldwide Shipping",
+         "header_size": "h3",
+         "__globals__": {
+          "typography_typography": "globals/typography?id=mfcardtitle"
+         },
+         "link": {
+          "url": "{{mf-page:what-we-do}}#packaging",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         }
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "248908f",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "css_classes": "mf-card-item mf-zoom"
+      },
+      "elements": [
+       {
+        "id": "3b5bd58",
+        "elType": "widget",
+        "widgetType": "image",
+        "isInner": false,
+        "settings": {
+         "image": {
+          "url": "{{mf-media:6d9aebb4a612f79d:url}}",
+          "id": "{{mf-media:6d9aebb4a612f79d:id}}",
+          "alt": "Marketing & Branding Assets",
+          "source": "library",
+          "size": ""
+         },
+         "image_size": "large",
+         "width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+         },
+         "link_to": "custom",
+         "link": {
+          "url": "{{mf-page:what-we-do}}#marketing",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "2d5b581",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Marketing &amp; Branding Assets",
+         "header_size": "h3",
+         "__globals__": {
+          "typography_typography": "globals/typography?id=mfcardtitle"
+         },
+         "link": {
+          "url": "{{mf-page:what-we-do}}#marketing",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         }
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "7ca11b0",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "css_classes": "mf-card-item mf-zoom"
+      },
+      "elements": [
+       {
+        "id": "44aa8f4",
+        "elType": "widget",
+        "widgetType": "image",
+        "isInner": false,
+        "settings": {
+         "image": {
+          "url": "{{mf-media:68568d4d232bc5ff:url}}",
+          "id": "{{mf-media:68568d4d232bc5ff:id}}",
           "alt": "Product Photography",
           "source": "library",
           "size": ""
@@ -824,7 +1022,7 @@
         "elements": []
        },
        {
-        "id": "03cf584",
+        "id": "dd2fa26",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
@@ -850,7 +1048,7 @@
   ]
  },
  {
-  "id": "47e57e5",
+  "id": "124fab1",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -921,9 +1119,9 @@
     "background_color": "globals/colors?id=mfdark"
    },
    "background_image": {
-    "url": "{{mf-media:696ac4b73c057015:url}}",
-    "id": "{{mf-media:696ac4b73c057015:id}}",
-    "alt": "Black garments on a rail",
+    "url": "{{mf-media:94022cd5694df022:url}}",
+    "id": "{{mf-media:94022cd5694df022:id}}",
+    "alt": "",
     "source": "library",
     "size": ""
    },
@@ -931,7 +1129,7 @@
   },
   "elements": [
    {
-    "id": "597d6b4",
+    "id": "c2a515f",
     "elType": "widget",
     "widgetType": "text-editor",
     "isInner": false,
@@ -946,12 +1144,12 @@
     "elements": []
    },
    {
-    "id": "55b3ee0",
+    "id": "9afcb86",
     "elType": "widget",
     "widgetType": "heading",
     "isInner": false,
     "settings": {
-     "title": "High End Clothing Manufacturing in Europe",
+     "title": "HIGH END CLOTHING MANUFACTURING IN EUROPE",
      "header_size": "h2",
      "_element_width": "initial",
      "_element_custom_width": {
@@ -973,7 +1171,7 @@
     "elements": []
    },
    {
-    "id": "f2419b8",
+    "id": "ae5bfc1",
     "elType": "widget",
     "widgetType": "text-editor",
     "isInner": false,
@@ -1002,7 +1200,7 @@
   ]
  },
  {
-  "id": "2461a00",
+  "id": "22c8ffd",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -1026,14 +1224,14 @@
   },
   "elements": [
    {
-    "id": "1cf39fa",
+    "id": "25879ac",
     "elType": "widget",
     "widgetType": "mf-marquee",
     "isInner": false,
     "settings": {
      "items": [
       {
-       "_id": "0efd32b",
+       "_id": "d9e901e",
        "text": "MODAFIE"
       }
      ],
@@ -1084,7 +1282,7 @@
   ]
  },
  {
-  "id": "f4ed4bb",
+  "id": "a03fa95",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -1135,7 +1333,7 @@
     "size": 70,
     "sizes": []
    },
-   "background_background": "classic",
+   "background_background": "video",
    "background_position": "center center",
    "background_size": "cover",
    "background_overlay_background": "classic",
@@ -1145,7 +1343,7 @@
     "size": 0.35,
     "sizes": []
    },
-   "mf_motion": "parallax-bg",
+   "mf_motion": "",
    "mf_parallax_speed": {
     "unit": "px",
     "size": 0.25,
@@ -1155,18 +1353,27 @@
     "background_color": "globals/colors?id=mfdark"
    },
    "background_image": {
-    "url": "{{mf-media:ac5481a27c4bee6b:url}}",
-    "id": "{{mf-media:ac5481a27c4bee6b:id}}",
-    "alt": "Sewing at the Juki machine",
+    "url": "{{mf-media:99f76bafd286221b:url}}",
+    "id": "{{mf-media:99f76bafd286221b:id}}",
+    "alt": "Sewing at the Modafie factory",
     "source": "library",
     "size": ""
    },
-   "_title": "Sewing image"
+   "background_video_link": "{{mf-media:fbbed5347b526ee5:url}}",
+   "background_play_on_mobile": "yes",
+   "background_video_fallback": {
+    "url": "{{mf-media:99f76bafd286221b:url}}",
+    "id": "{{mf-media:99f76bafd286221b:id}}",
+    "alt": "Sewing at the Modafie factory",
+    "source": "library",
+    "size": ""
+   },
+   "_title": "Sewing video"
   },
   "elements": []
  },
  {
-  "id": "7ffa7e5",
+  "id": "6cdb35a",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -1209,7 +1416,7 @@
   },
   "elements": [
    {
-    "id": "124fab1",
+    "id": "3d39d64",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -1255,7 +1462,7 @@
     },
     "elements": [
      {
-      "id": "638c868",
+      "id": "1cbb1b7",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -1290,7 +1497,7 @@
       },
       "elements": [
        {
-        "id": "9afcb86",
+        "id": "98fcf12",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
@@ -1306,7 +1513,7 @@
     ]
    },
    {
-    "id": "af87142",
+    "id": "af311eb",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -1349,7 +1556,7 @@
     },
     "elements": [
      {
-      "id": "a03fa95",
+      "id": "30f4c5f",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -1377,15 +1584,15 @@
       },
       "elements": [
        {
-        "id": "049f298",
+        "id": "13ead02",
         "elType": "widget",
         "widgetType": "image",
         "isInner": false,
         "settings": {
          "image": {
-          "url": "{{mf-media:d4e4af416b9e86cc:url}}",
-          "id": "{{mf-media:d4e4af416b9e86cc:id}}",
-          "alt": "Fashion wear & apparel",
+          "url": "{{mf-media:f7c3dddfdb46be8c:url}}",
+          "id": "{{mf-media:f7c3dddfdb46be8c:id}}",
+          "alt": "",
           "source": "library",
           "size": ""
          },
@@ -1399,7 +1606,7 @@
         "elements": []
        },
        {
-        "id": "6a2b7f8",
+        "id": "dbc93ef",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
@@ -1413,7 +1620,7 @@
         "elements": []
        },
        {
-        "id": "c4cc672",
+        "id": "c5528ac",
         "elType": "widget",
         "widgetType": "text-editor",
         "isInner": false,
@@ -1429,7 +1636,7 @@
       ]
      },
      {
-      "id": "e658f07",
+      "id": "70ca3ee",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -1457,15 +1664,15 @@
       },
       "elements": [
        {
-        "id": "304ea7c",
+        "id": "a4a6f1a",
         "elType": "widget",
         "widgetType": "image",
         "isInner": false,
         "settings": {
          "image": {
-          "url": "{{mf-media:f2f399880d17fac9:url}}",
-          "id": "{{mf-media:f2f399880d17fac9:id}}",
-          "alt": "Custom tote bags",
+          "url": "{{mf-media:7b326ed6263d9710:url}}",
+          "id": "{{mf-media:7b326ed6263d9710:id}}",
+          "alt": "",
           "source": "library",
           "size": ""
          },
@@ -1479,7 +1686,7 @@
         "elements": []
        },
        {
-        "id": "aa425fb",
+        "id": "5c732a0",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
@@ -1493,12 +1700,12 @@
         "elements": []
        },
        {
-        "id": "7f0c22f",
+        "id": "29a1d92",
         "elType": "widget",
         "widgetType": "text-editor",
         "isInner": false,
         "settings": {
-         "editor": "<p>Custom branded tote bags manufactured in Europe. Your logo, your material, your finishes — from 30 units.</p>",
+         "editor": "<p>Custom branded tote bags manufactured in Europe. Your logo, your materials, your minimum — from 30 units.</p>",
          "__globals__": {
           "typography_typography": "globals/typography?id=mfsmall",
           "text_color": "globals/colors?id=mfmuted"
@@ -1509,7 +1716,7 @@
       ]
      },
      {
-      "id": "ca00e40",
+      "id": "e606da3",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -1537,15 +1744,15 @@
       },
       "elements": [
        {
-        "id": "2bbc450",
+        "id": "971f4d8",
         "elType": "widget",
         "widgetType": "image",
         "isInner": false,
         "settings": {
          "image": {
-          "url": "{{mf-media:6b0bf238ac73bb15:url}}",
-          "id": "{{mf-media:6b0bf238ac73bb15:id}}",
-          "alt": "Sustainable exotic fabric collection",
+          "url": "{{mf-media:1d92e89e0027a824:url}}",
+          "id": "{{mf-media:1d92e89e0027a824:id}}",
+          "alt": "",
           "source": "library",
           "size": ""
          },
@@ -1559,7 +1766,7 @@
         "elements": []
        },
        {
-        "id": "30b53f6",
+        "id": "b554d71",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
@@ -1573,12 +1780,92 @@
         "elements": []
        },
        {
-        "id": "1362fe1",
+        "id": "b01fed6",
         "elType": "widget",
         "widgetType": "text-editor",
         "isInner": false,
         "settings": {
          "editor": "<p>We produce wearable textiles from lotus, bamboo, aloe vera, eucalyptus, banana, and rose fibers — sustainable exotic fabrics available exclusively through Modafie.</p>",
+         "__globals__": {
+          "typography_typography": "globals/typography?id=mfsmall",
+          "text_color": "globals/colors?id=mfmuted"
+         }
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "f5b6b80",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "css_classes": "mf-card-item mf-zoom",
+       "animation": "fadeInUp",
+       "animation_delay": 300
+      },
+      "elements": [
+       {
+        "id": "040b8ac",
+        "elType": "widget",
+        "widgetType": "image",
+        "isInner": false,
+        "settings": {
+         "image": {
+          "url": "{{mf-media:c5e07c86b1db3ccc:url}}",
+          "id": "{{mf-media:c5e07c86b1db3ccc:id}}",
+          "alt": "",
+          "source": "library",
+          "size": ""
+         },
+         "image_size": "large",
+         "width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "06b2084",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Mugs &amp; Branded Bottles",
+         "header_size": "h3",
+         "__globals__": {
+          "typography_typography": "globals/typography?id=mfcardtitle"
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "fdb61e9",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "isInner": false,
+        "settings": {
+         "editor": "<p>Add branded merchandise to your line — custom mugs, bottles, and accessories to complement your clothing collection.</p>",
          "__globals__": {
           "typography_typography": "globals/typography?id=mfsmall",
           "text_color": "globals/colors?id=mfmuted"
@@ -1593,7 +1880,7 @@
   ]
  },
  {
-  "id": "7352ffa",
+  "id": "5900e4b",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -1636,7 +1923,7 @@
   },
   "elements": [
    {
-    "id": "b9faf6b",
+    "id": "3ee018d",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -1682,7 +1969,7 @@
     },
     "elements": [
      {
-      "id": "da04deb",
+      "id": "7352ffa",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -1717,7 +2004,7 @@
       },
       "elements": [
        {
-        "id": "2514d5f",
+        "id": "a603956",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
@@ -1733,7 +2020,7 @@
     ]
    },
    {
-    "id": "feb1aea",
+    "id": "f744ad3",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -1776,7 +2063,7 @@
     },
     "elements": [
      {
-      "id": "e606da3",
+      "id": "67db351",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -1804,15 +2091,15 @@
       },
       "elements": [
        {
-        "id": "82a1a33",
+        "id": "f204775",
         "elType": "widget",
         "widgetType": "image",
         "isInner": false,
         "settings": {
          "image": {
-          "url": "{{mf-media:49efcfc18799ba18:url}}",
-          "id": "{{mf-media:49efcfc18799ba18:id}}",
-          "alt": "Portfolio: embroidered sweatshirt",
+          "url": "{{mf-media:9c807afff7a47373:url}}",
+          "id": "{{mf-media:9c807afff7a47373:id}}",
+          "alt": "Custom printed sweatshirt manufactured by Modafie — European clothing factory",
           "source": "library",
           "size": ""
          },
@@ -1828,7 +2115,7 @@
       ]
      },
      {
-      "id": "ad93920",
+      "id": "7c9b2ab",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -1856,15 +2143,15 @@
       },
       "elements": [
        {
-        "id": "040b8ac",
+        "id": "290c28a",
         "elType": "widget",
         "widgetType": "image",
         "isInner": false,
         "settings": {
          "image": {
-          "url": "{{mf-media:fc3b173276520eb6:url}}",
-          "id": "{{mf-media:fc3b173276520eb6:id}}",
-          "alt": "Portfolio: beige cropped sweatshirt",
+          "url": "{{mf-media:072b1f47b72b6c8f:url}}",
+          "id": "{{mf-media:072b1f47b72b6c8f:id}}",
+          "alt": "Oversized crewneck produced by Modafie — low MOQ clothing manufacturer Europe",
           "source": "library",
           "size": ""
          },
@@ -1880,7 +2167,7 @@
       ]
      },
      {
-      "id": "f5b6b80",
+      "id": "b597948",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -1908,15 +2195,15 @@
       },
       "elements": [
        {
-        "id": "78b6c55",
+        "id": "a90b3a5",
         "elType": "widget",
         "widgetType": "image",
         "isInner": false,
         "settings": {
          "image": {
-          "url": "{{mf-media:9addea3bb2f6535b:url}}",
-          "id": "{{mf-media:9addea3bb2f6535b:id}}",
-          "alt": "Portfolio: white zip hoodie & trousers",
+          "url": "{{mf-media:2c212b4454b171a9:url}}",
+          "id": "{{mf-media:2c212b4454b171a9:id}}",
+          "alt": "Custom matching set — hoodie and trousers manufactured by Modafie from 30 pieces",
           "source": "library",
           "size": ""
          },
@@ -1932,7 +2219,7 @@
       ]
      },
      {
-      "id": "6cdb35a",
+      "id": "52506df",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -1960,15 +2247,365 @@
       },
       "elements": [
        {
-        "id": "36e7616",
+        "id": "d318510",
         "elType": "widget",
         "widgetType": "image",
         "isInner": false,
         "settings": {
          "image": {
-          "url": "{{mf-media:37bc2abb0d08d1c7:url}}",
-          "id": "{{mf-media:37bc2abb0d08d1c7:id}}",
-          "alt": "Portfolio: next piece",
+          "url": "{{mf-media:1ec7a23e6a35bd42:url}}",
+          "id": "{{mf-media:1ec7a23e6a35bd42:id}}",
+          "alt": "Custom all-over print t-shirt with skeleton graphic — manufactured by Modafie clothing factory Europe",
+          "source": "library",
+          "size": ""
+         },
+         "image_size": "large",
+         "width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+         }
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "78cc726",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "css_classes": "mf-card-item mf-zoom"
+      },
+      "elements": [
+       {
+        "id": "30c5863",
+        "elType": "widget",
+        "widgetType": "image",
+        "isInner": false,
+        "settings": {
+         "image": {
+          "url": "{{mf-media:3f82c21b77774580:url}}",
+          "id": "{{mf-media:3f82c21b77774580:id}}",
+          "alt": "Custom graphic t-shirt with embroidered logo print — Modafie low MOQ clothing manufacturer",
+          "source": "library",
+          "size": ""
+         },
+         "image_size": "large",
+         "width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+         }
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "ae61635",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "css_classes": "mf-card-item mf-zoom"
+      },
+      "elements": [
+       {
+        "id": "a8d8354",
+        "elType": "widget",
+        "widgetType": "image",
+        "isInner": false,
+        "settings": {
+         "image": {
+          "url": "{{mf-media:c577f78adff558a8:url}}",
+          "id": "{{mf-media:c577f78adff558a8:id}}",
+          "alt": "Custom streetwear t-shirt with woven patch and screen print — produced by Modafie European clothing factory",
+          "source": "library",
+          "size": ""
+         },
+         "image_size": "large",
+         "width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+         }
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "41ef9f7",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "css_classes": "mf-card-item mf-zoom"
+      },
+      "elements": [
+       {
+        "id": "dc3fa74",
+        "elType": "widget",
+        "widgetType": "image",
+        "isInner": false,
+        "settings": {
+         "image": {
+          "url": "{{mf-media:5b4230e47e05ced6:url}}",
+          "id": "{{mf-media:5b4230e47e05ced6:id}}",
+          "alt": "Custom oversized jacket manufactured by Modafie — European clothing factory from 30 pieces",
+          "source": "library",
+          "size": ""
+         },
+         "image_size": "large",
+         "width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+         }
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "c15b73d",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "css_classes": "mf-card-item mf-zoom"
+      },
+      "elements": [
+       {
+        "id": "98bff89",
+        "elType": "widget",
+        "widgetType": "image",
+        "isInner": false,
+        "settings": {
+         "image": {
+          "url": "{{mf-media:0941b788ccdb2167:url}}",
+          "id": "{{mf-media:0941b788ccdb2167:id}}",
+          "alt": "Custom branded tote bag with screen print logo — manufactured by Modafie low MOQ factory Europe",
+          "source": "library",
+          "size": ""
+         },
+         "image_size": "large",
+         "width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+         }
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "e7ec3da",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "css_classes": "mf-card-item mf-zoom"
+      },
+      "elements": [
+       {
+        "id": "ee7f093",
+        "elType": "widget",
+        "widgetType": "image",
+        "isInner": false,
+        "settings": {
+         "image": {
+          "url": "{{mf-media:54d156a5e8b7b5ee:url}}",
+          "id": "{{mf-media:54d156a5e8b7b5ee:id}}",
+          "alt": "Custom cargo vest with multi-pocket design — Modafie clothing manufacturer Europe",
+          "source": "library",
+          "size": ""
+         },
+         "image_size": "large",
+         "width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+         }
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "eb12745",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "css_classes": "mf-card-item mf-zoom"
+      },
+      "elements": [
+       {
+        "id": "1224d46",
+        "elType": "widget",
+        "widgetType": "image",
+        "isInner": false,
+        "settings": {
+         "image": {
+          "url": "{{mf-media:321f13918af14a24:url}}",
+          "id": "{{mf-media:321f13918af14a24:id}}",
+          "alt": "Custom zip-up hoodie in off-white — manufactured by Modafie European clothing factory",
+          "source": "library",
+          "size": ""
+         },
+         "image_size": "large",
+         "width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+         }
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "2bba663",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "css_classes": "mf-card-item mf-zoom"
+      },
+      "elements": [
+       {
+        "id": "e6d642f",
+        "elType": "widget",
+        "widgetType": "image",
+        "isInner": false,
+        "settings": {
+         "image": {
+          "url": "{{mf-media:b9e40e076769a151:url}}",
+          "id": "{{mf-media:b9e40e076769a151:id}}",
+          "alt": "Bulk production run of custom hoodies — white and beige colorways manufactured by Modafie European clothing factory",
           "source": "library",
           "size": ""
          },
@@ -1988,7 +2625,7 @@
   ]
  },
  {
-  "id": "67db351",
+  "id": "7daabd2",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -2059,9 +2696,9 @@
     "background_color": "globals/colors?id=mfdark"
    },
    "background_image": {
-    "url": "{{mf-media:55f4cde775b7f73b:url}}",
-    "id": "{{mf-media:55f4cde775b7f73b:id}}",
-    "alt": "Black tees on grey hangers",
+    "url": "{{mf-media:b88124d36fdadee0:url}}",
+    "id": "{{mf-media:b88124d36fdadee0:id}}",
+    "alt": "Black t-shirts on branded hangers at Modafie clothing factory — bulk apparel production Europ",
     "source": "library",
     "size": ""
    },
@@ -2069,7 +2706,7 @@
   },
   "elements": [
    {
-    "id": "3753ae1",
+    "id": "c0a8d25",
     "elType": "widget",
     "widgetType": "heading",
     "isInner": false,
@@ -2096,7 +2733,7 @@
     "elements": []
    },
    {
-    "id": "33d09f0",
+    "id": "e879509",
     "elType": "widget",
     "widgetType": "text-editor",
     "isInner": false,
@@ -2121,11 +2758,26 @@
      "_animation_delay": 200
     },
     "elements": []
+   },
+   {
+    "id": "dcc5681",
+    "elType": "widget",
+    "widgetType": "text-editor",
+    "isInner": false,
+    "settings": {
+     "editor": "<p>MODAFIE</p>",
+     "__globals__": {
+      "typography_typography": "globals/typography?id=mfeyebrow",
+      "text_color": "globals/colors?id=mfwhite"
+     },
+     "_css_classes": "mf-eyebrow"
+    },
+    "elements": []
    }
   ]
  },
  {
-  "id": "9217a28",
+  "id": "86a9c98",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -2149,14 +2801,14 @@
   },
   "elements": [
    {
-    "id": "72633fb",
+    "id": "9afe585",
     "elType": "widget",
     "widgetType": "mf-marquee",
     "isInner": false,
     "settings": {
      "items": [
       {
-       "_id": "14fc3dd",
+       "_id": "4b207df",
        "text": "MODAFIE"
       }
      ],
@@ -2207,7 +2859,7 @@
   ]
  },
  {
-  "id": "ae61635",
+  "id": "c67256c",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -2252,7 +2904,7 @@
   },
   "elements": [
    {
-    "id": "78cc726",
+    "id": "065d79b",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -2281,44 +2933,39 @@
     },
     "elements": [
      {
-      "id": "30c5863",
+      "id": "75d1896",
       "elType": "widget",
-      "widgetType": "image",
+      "widgetType": "video",
       "isInner": false,
       "settings": {
-       "image": {
-        "url": "{{mf-media:dd2d61d583ed3f79:url}}",
-        "id": "{{mf-media:dd2d61d583ed3f79:id}}",
-        "alt": "Pattern cutting on the table",
+       "video_type": "hosted",
+       "hosted_url": {
+        "url": "{{mf-media:71a73923a374768f:url}}",
+        "id": "{{mf-media:71a73923a374768f:id}}",
+        "alt": "",
         "source": "library",
         "size": ""
        },
-       "image_size": "full",
-       "width": {
-        "unit": "%",
-        "size": 100,
-        "sizes": []
-       },
-       "height": {
-        "unit": "vh",
-        "size": 86,
-        "sizes": []
-       },
-       "object-fit": "cover",
-       "object_fit": "cover",
-       "height_mobile": {
-        "unit": "vh",
-        "size": 64,
-        "sizes": []
-       },
-       "mf_motion": "parallax"
+       "controls": "",
+       "autoplay": "yes",
+       "mute": "yes",
+       "loop": "yes",
+       "play_on_mobile": "yes",
+       "aspect_ratio": "169",
+       "poster": {
+        "url": "{{mf-media:5d43f309c58ddb45:url}}",
+        "id": "{{mf-media:5d43f309c58ddb45:id}}",
+        "alt": "Pattern cutting at Modafie",
+        "source": "library",
+        "size": ""
+       }
       },
       "elements": []
      }
     ]
    },
    {
-    "id": "f761260",
+    "id": "2b9f2dc",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -2372,7 +3019,7 @@
     },
     "elements": [
      {
-      "id": "b2200e0",
+      "id": "7d116b6",
       "elType": "widget",
       "widgetType": "heading",
       "isInner": false,
@@ -2384,12 +3031,12 @@
       "elements": []
      },
      {
-      "id": "939792e",
+      "id": "e8b05b9",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,
       "settings": {
-       "editor": "<ul><li>European production standards—every single order</li><li>MOQ from just 30 pieces per style</li><li>One point of contact from start to finish</li><li>Sustainable &amp; exotic fabric options available</li><li>Fast sampling turnaround - 3 to 4 weeks</li><li>No hidden fees, ever</li></ul>",
+       "editor": "<ul><li>European production standards—every single order</li><li>MOQ from just 30 pieces per style</li><li>One point of contact from start to finish</li><li>Sustainable &amp; exotic fabric options available</li><li>Fast sampling turnaround—3 to 4 weeks</li><li>No hidden fees, ever</li></ul>",
        "__globals__": {
         "typography_typography": "globals/typography?id=text"
        }
@@ -2397,30 +3044,93 @@
       "elements": []
      },
      {
-      "id": "15f5484",
-      "elType": "widget",
-      "widgetType": "button",
-      "isInner": false,
+      "id": "f7a6ef9",
+      "elType": "container",
+      "isInner": true,
       "settings": {
-       "text": "WhatsApp us",
-       "link": {
-        "url": "{{mf-home}}/whatsapp",
-        "is_external": "",
-        "nofollow": "",
-        "custom_attributes": ""
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "row",
+       "flex_wrap": "wrap",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
        },
-       "size": "md",
-       "_animation": "fadeInUp",
-       "_animation_delay": 200
+       "padding": {
+        "unit": "px",
+        "top": "8",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       }
       },
-      "elements": []
+      "elements": [
+       {
+        "id": "fafee73",
+        "elType": "widget",
+        "widgetType": "button",
+        "isInner": false,
+        "settings": {
+         "text": "WhatsApp us",
+         "link": {
+          "url": "{{mf-home}}/whatsapp",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         },
+         "size": "md",
+         "_animation": "fadeInUp",
+         "_animation_delay": 200
+        },
+        "elements": []
+       },
+       {
+        "id": "94524c7",
+        "elType": "widget",
+        "widgetType": "button",
+        "isInner": false,
+        "settings": {
+         "text": "Get an offer",
+         "link": {
+          "url": "{{mf-page:get-an-offer}}",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         },
+         "size": "md",
+         "_animation": "fadeInUp",
+         "_animation_delay": 200,
+         "background_background": "classic",
+         "background_color": "rgba(0,0,0,0)",
+         "border_border": "solid",
+         "border_width": {
+          "unit": "px",
+          "top": "2",
+          "right": "2",
+          "bottom": "2",
+          "left": "2",
+          "isLinked": false
+         },
+         "__globals__": {
+          "button_text_color": "globals/colors?id=primary",
+          "border_color": "globals/colors?id=primary"
+         },
+         "_css_classes": "mf-btn-outline"
+        },
+        "elements": []
+       }
+      ]
      }
     ]
    }
   ]
  },
  {
-  "id": "41ef9f7",
+  "id": "9dfdd10",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -2430,79 +3140,74 @@
    "html_tag": "section",
    "padding": {
     "unit": "px",
-    "top": "24",
+    "top": "96",
     "right": "40",
-    "bottom": "24",
+    "bottom": "96",
     "left": "40",
     "isLinked": false
    },
    "padding_tablet": {
     "unit": "px",
-    "top": "16",
+    "top": "72",
     "right": "24",
-    "bottom": "16",
+    "bottom": "72",
     "left": "24",
     "isLinked": false
    },
    "padding_mobile": {
     "unit": "px",
-    "top": "8",
+    "top": "56",
     "right": "16",
-    "bottom": "8",
+    "bottom": "56",
     "left": "16",
     "isLinked": false
    },
    "flex_gap": {
     "unit": "px",
-    "size": 16,
-    "column": "16",
-    "row": "16",
+    "size": 24,
+    "column": "24",
+    "row": "24",
     "isLinked": true
    },
-   "_title": "Client video"
+   "_title": "Designer story video"
   },
   "elements": [
    {
-    "id": "dc3fa74",
+    "id": "806dfc1",
     "elType": "widget",
-    "widgetType": "image",
+    "widgetType": "video",
     "isInner": false,
     "settings": {
-     "image": {
-      "url": "{{mf-media:6bcf856aa8474db8:url}}",
-      "id": "{{mf-media:6bcf856aa8474db8:id}}",
-      "alt": "Designer story video",
+     "video_type": "hosted",
+     "hosted_url": {
+      "url": "{{mf-media:fb16f00652fc31da:url}}",
+      "id": "{{mf-media:fb16f00652fc31da:id}}",
+      "alt": "",
       "source": "library",
       "size": ""
      },
-     "image_size": "full",
-     "width": {
-      "unit": "%",
-      "size": 100,
-      "sizes": []
+     "controls": "yes",
+     "autoplay": "",
+     "mute": "",
+     "loop": "",
+     "play_on_mobile": "",
+     "aspect_ratio": "169",
+     "show_image_overlay": "yes",
+     "image_overlay": {
+      "url": "{{mf-media:bb72ecad4d02f388:url}}",
+      "id": "{{mf-media:bb72ecad4d02f388:id}}",
+      "alt": "Designer story",
+      "source": "library",
+      "size": ""
      },
-     "_animation": "fadeIn",
-     "_animation_delay": 0,
-     "height": {
-      "unit": "vh",
-      "size": 80,
-      "sizes": []
-     },
-     "object-fit": "cover",
-     "object_fit": "cover",
-     "height_mobile": {
-      "unit": "vh",
-      "size": 60,
-      "sizes": []
-     },
-     "mf_motion": "parallax"
+     "lightbox": ""
     },
     "elements": []
    }
   ]
  },
  {
-  "id": "88a0a0c",
+  "id": "f26d218",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -2550,12 +3255,12 @@
   },
   "elements": [
    {
-    "id": "4eff784",
+    "id": "97382ca",
     "elType": "widget",
     "widgetType": "text-editor",
     "isInner": false,
     "settings": {
-     "editor": "<p>We support slow fashion instead.</p><p>We've developed a unique collection of sustainable exotic fabrics — crafted from nature's most unexpected materials: rose, lotus, bamboo, banana, eucalyptus, aloe vera, and more. These fibers are woven into something you can actually wear. Curious? Reach out — we'd love to share more.</p>",
+     "editor": "<p><em>We support slow fashion instead. <br></em>We've developed a unique collection of sustainable exotic fabrics — crafted from nature's most unexpected materials: rose, lotus, bamboo, hemp, banana, eucalyptus, aloe vera, orange, and more. These fibers are woven into something you can actually wear. Curious? Reach out — we'd love to share more.</p>",
      "__globals__": {
       "typography_typography": "globals/typography?id=text"
      },
@@ -2567,7 +3272,7 @@
   ]
  },
  {
-  "id": "f744ad3",
+  "id": "9067f98",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -2620,7 +3325,7 @@
   },
   "elements": [
    {
-    "id": "c908d6b",
+    "id": "f17a5c5",
     "elType": "widget",
     "widgetType": "heading",
     "isInner": false,
@@ -2637,7 +3342,7 @@
     "elements": []
    },
    {
-    "id": "c908dab",
+    "id": "5aa8dcc",
     "elType": "widget",
     "widgetType": "text-editor",
     "isInner": false,
@@ -2655,7 +3360,7 @@
     "elements": []
    },
    {
-    "id": "6d78262",
+    "id": "3f893ac",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -2682,7 +3387,7 @@
     },
     "elements": [
      {
-      "id": "7823fe2",
+      "id": "1d7ae9d",
       "elType": "widget",
       "widgetType": "button",
       "isInner": false,
@@ -2709,7 +3414,7 @@
       "elements": []
      },
      {
-      "id": "1fa330f",
+      "id": "e760871",
       "elType": "widget",
       "widgetType": "button",
       "isInner": false,

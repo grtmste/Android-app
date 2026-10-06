@@ -1,6 +1,6 @@
 [
  {
-  "id": "f4ed4bb",
+  "id": "a03fa95",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -51,7 +51,7 @@
     "size": 70,
     "sizes": []
    },
-   "background_background": "classic",
+   "background_background": "video",
    "background_position": "center center",
    "background_size": "cover",
    "background_overlay_background": "classic",
@@ -61,7 +61,7 @@
     "size": 0.35,
     "sizes": []
    },
-   "mf_motion": "parallax-bg",
+   "mf_motion": "",
    "mf_parallax_speed": {
     "unit": "px",
     "size": 0.25,
@@ -71,13 +71,22 @@
     "background_color": "globals/colors?id=mfdark"
    },
    "background_image": {
-    "url": "{{mf-media:ac5481a27c4bee6b:url}}",
-    "id": "{{mf-media:ac5481a27c4bee6b:id}}",
-    "alt": "Sewing at the Juki machine",
+    "url": "{{mf-media:99f76bafd286221b:url}}",
+    "id": "{{mf-media:99f76bafd286221b:id}}",
+    "alt": "Sewing at the Modafie factory",
     "source": "library",
     "size": ""
    },
-   "_title": "Sewing image"
+   "background_video_link": "{{mf-media:fbbed5347b526ee5:url}}",
+   "background_play_on_mobile": "yes",
+   "background_video_fallback": {
+    "url": "{{mf-media:99f76bafd286221b:url}}",
+    "id": "{{mf-media:99f76bafd286221b:id}}",
+    "alt": "Sewing at the Modafie factory",
+    "source": "library",
+    "size": ""
+   },
+   "_title": "Sewing video"
   },
   "elements": []
  }

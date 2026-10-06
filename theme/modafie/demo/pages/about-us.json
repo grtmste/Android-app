@@ -1,6 +1,6 @@
 [
  {
-  "id": "cbf2ae4",
+  "id": "278e5c8",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -43,7 +43,7 @@
   },
   "elements": [
    {
-    "id": "9895881",
+    "id": "60692e4",
     "elType": "widget",
     "widgetType": "text-editor",
     "isInner": false,
@@ -58,7 +58,7 @@
     "elements": []
    },
    {
-    "id": "c0a8d25",
+    "id": "0d39f87",
     "elType": "widget",
     "widgetType": "heading",
     "isInner": false,
@@ -72,7 +72,7 @@
   ]
  },
  {
-  "id": "e424b86",
+  "id": "8ca0643",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -120,7 +120,7 @@
   },
   "elements": [
    {
-    "id": "dcc5681",
+    "id": "34ecd48",
     "elType": "widget",
     "widgetType": "text-editor",
     "isInner": false,
@@ -137,7 +137,7 @@
   ]
  },
  {
-  "id": "67f5af1",
+  "id": "8981218",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -186,7 +186,7 @@
   },
   "elements": [
    {
-    "id": "00f3fcf",
+    "id": "55ac181",
     "elType": "widget",
     "widgetType": "heading",
     "isInner": false,
@@ -205,7 +205,7 @@
   ]
  },
  {
-  "id": "cbba187",
+  "id": "fa7e632",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -253,12 +253,12 @@
   },
   "elements": [
    {
-    "id": "6b11de0",
+    "id": "345db3a",
     "elType": "widget",
     "widgetType": "text-editor",
     "isInner": false,
     "settings": {
-     "editor": "<p>They push the burden onto you—the designer—while they collect their cheque. You're left sitting on boxes of unsold stock, praying you guessed right on sizes, colours, and trends. One wrong bet? Your brand is finished before it started.</p><p>It felt unfair. It felt unnecessary. It felt broken.</p><p>So I built Modafie differently.</p><p>Here, your minimum order quantity doesn't determine your potential. It determines your freedom.</p><p><strong>Start with 30 pieces.</strong> Test the market. See what sells. Gather feedback. Then reinvest.</p><p>Sell out in a week? Great—we'll run your next 30. Or 300. Or 3,000.</p><p>The model is simple:</p><ul><li><strong>Low MOQ</strong> means <strong>low inventory risk</strong></li><li><strong>Low risk</strong> means <strong>faster profit</strong></li><li><strong>Fast profit</strong> means <strong>more collections</strong></li><li><strong>More collections</strong> means <strong>an excited audience that never gets bored</strong></li></ul><p>You're not guessing what your customers want. You're listening. Adapting. Growing. One small batch at a time.</p><p>And because you can launch limited-edition drops every few weeks, your brand stays fresh. Your audience stays hungry. And you're never stuck with last season's mistakes.</p>",
+     "editor": "<p>They push the burden onto you—the designer—while they collect their cheque. You're left sitting on boxes of unsold stock, praying you guessed right on sizes, colours, and trends. One wrong bet? Your brand is finished before it started.</p><p>It felt unfair. It felt unnecessary. It felt broken.</p><p>So I built Modafie differently.</p><p>Here, your minimum order quantity doesn't determine your potential. It determines your freedom.</p><p><strong>Start with 30 pieces.</strong> Test the market. See what sells. Gather feedback. Then reinvest.</p><p>Sell out in a week? Great—we'll run your next 30. Or 300. Or 3,000.</p><p>The model is simple:</p><p><strong>Low MOQ</strong> means <strong>low inventory risk</strong></p><p><strong>Low risk</strong> means <strong>faster profit</strong></p><p><strong>Fast profit</strong> means <strong>more collections</strong></p><p><strong>More collections</strong> means <strong>an excited audience that never gets bored</strong></p><p>You're not guessing what your customers want. You're listening. Adapting. Growing. One small batch at a time.</p><p>And because you can launch limited-edition drops every few weeks, your brand stays fresh. Your audience stays hungry. And you're never stuck with last season's mistakes.</p>",
      "__globals__": {
       "typography_typography": "globals/typography?id=text"
      },
@@ -270,7 +270,7 @@
   ]
  },
  {
-  "id": "e7b9856",
+  "id": "4e7f10e",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -315,7 +315,7 @@
   },
   "elements": [
    {
-    "id": "467f348",
+    "id": "f321f4c",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -344,15 +344,15 @@
     },
     "elements": [
      {
-      "id": "7fe94fa",
+      "id": "ee387e0",
       "elType": "widget",
       "widgetType": "image",
       "isInner": false,
       "settings": {
        "image": {
-        "url": "{{mf-media:ae1346e2d0ebb042:url}}",
-        "id": "{{mf-media:ae1346e2d0ebb042:id}}",
-        "alt": "The atelier / the team",
+        "url": "{{mf-media:b9e40e076769a151:url}}",
+        "id": "{{mf-media:b9e40e076769a151:id}}",
+        "alt": "Bulk production run of custom hoodies — white and beige colorways manufactured by Modafie European clothing factory",
         "source": "library",
         "size": ""
        },
@@ -381,7 +381,7 @@
     ]
    },
    {
-    "id": "a501497",
+    "id": "fa0e247",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -435,7 +435,7 @@
     },
     "elements": [
      {
-      "id": "5aa8dcc",
+      "id": "7347689",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,
@@ -454,7 +454,7 @@
   ]
  },
  {
-  "id": "5150733",
+  "id": "a40ccf6",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -503,7 +503,7 @@
   },
   "elements": [
    {
-    "id": "313064b",
+    "id": "28c7636",
     "elType": "widget",
     "widgetType": "heading",
     "isInner": false,
@@ -522,7 +522,7 @@
   ]
  },
  {
-  "id": "8981218",
+  "id": "0a401e4",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -570,7 +570,7 @@
   },
   "elements": [
    {
-    "id": "9ae174c",
+    "id": "211e062",
     "elType": "widget",
     "widgetType": "text-editor",
     "isInner": false,
@@ -587,7 +587,7 @@
   ]
  },
  {
-  "id": "b0b29a7",
+  "id": "e894538",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -640,7 +640,7 @@
   },
   "elements": [
    {
-    "id": "f918279",
+    "id": "a930897",
     "elType": "widget",
     "widgetType": "heading",
     "isInner": false,
@@ -657,7 +657,7 @@
     "elements": []
    },
    {
-    "id": "c45363b",
+    "id": "d645bd9",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -684,7 +684,7 @@
     },
     "elements": [
      {
-      "id": "608dcd4",
+      "id": "689f014",
       "elType": "widget",
       "widgetType": "button",
       "isInner": false,
@@ -711,7 +711,7 @@
       "elements": []
      },
      {
-      "id": "b628350",
+      "id": "1b2f159",
       "elType": "widget",
       "widgetType": "button",
       "isInner": false,

@@ -1,6 +1,6 @@
 [
  {
-  "id": "b8ceec2",
+  "id": "d6f59c0",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -43,7 +43,7 @@
   },
   "elements": [
    {
-    "id": "f829305",
+    "id": "183de6f",
     "elType": "widget",
     "widgetType": "text-editor",
     "isInner": false,
@@ -58,7 +58,7 @@
     "elements": []
    },
    {
-    "id": "49194c0",
+    "id": "702fb28",
     "elType": "widget",
     "widgetType": "heading",
     "isInner": false,
@@ -70,7 +70,7 @@
     "elements": []
    },
    {
-    "id": "b69487b",
+    "id": "8c953fe",
     "elType": "widget",
     "widgetType": "text-editor",
     "isInner": false,

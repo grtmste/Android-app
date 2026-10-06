@@ -23,7 +23,7 @@ const SCRAPE = path.resolve(opt('scrape', '../scrape'));
 const THEME = path.resolve(opt('theme', '../theme/modafie'));
 const DEMO = path.join(THEME, 'demo');
 
-const content = JSON.parse(await fs.readFile(path.join(SCRAPE, 'content.json'), 'utf8'));
+const content = JSON.parse(await fs.readFile(path.join(SCRAPE, opt('content', 'content.json')), 'utf8'));
 const BASE = new URL(content.site.base);
 const HOSTS = new Set([BASE.hostname, BASE.hostname.replace(/^www\./, ''), 'www.' + BASE.hostname.replace(/^www\./, '')]);
 const pageSlugs = new Set(content.pages.map((p) => p.slug));
@@ -139,9 +139,10 @@ function videoWidget(b) {
   if (b.type === 'embed') return widget('html', { html: `<iframe src="${esc(b.url)}" loading="lazy" style="width:100%;aspect-ratio:16/9;border:0" allowfullscreen></iframe>` });
   const v = media(b.mediaId);
   if (!v) return null;
-  const s = { video_type: 'hosted', hosted_url: v, controls: 'yes', autoplay: b.autoplay ? 'yes' : '', mute: b.muted ? 'yes' : '', loop: b.loop ? 'yes' : '', play_on_mobile: b.autoplay ? 'yes' : '' };
+  const s = { video_type: 'hosted', hosted_url: v, controls: b.controls === false ? '' : 'yes', autoplay: b.autoplay ? 'yes' : '', mute: b.muted ? 'yes' : '', loop: b.loop ? 'yes' : '', play_on_mobile: b.autoplay ? 'yes' : '', aspect_ratio: '169' };
   const poster = media(b.posterMediaId);
-  if (poster) { s.show_image_overlay = 'yes'; s.image_overlay = poster; }
+  if (poster && !b.autoplay) { s.show_image_overlay = 'yes'; s.image_overlay = poster; s.lightbox = ''; }
+  if (poster && b.autoplay) s.poster = poster;
   return widget('video', s);
 }
 function formWidget(b, { inline = false, onDark = false, name = 'Form' } = {}) {
@@ -276,6 +277,7 @@ const builders = {
       else if (b.type === 'paragraph') kids.push(text(`<p>${rewriteHtml(b.html || esc(b.text))}</p>`, { color: 'mfwhite', animation: 'fadeInUp', delay: (delay += 150), extra: { _element_width: 'initial', _element_custom_width: px(560), _element_custom_width_mobile: px(100, '%') } }));
       else if (b.type === 'button') { kids.push({ btn: button(b.text, b.href, { variant: btnIndex++ === 0 ? 'light' : 'outline-light', animation: 'fadeInUp', delay: (delay += 100) }) }); }
       else if (b.type === 'image' && b.role === 'background') continue;
+      else if (b.type === 'image' && b.role === 'logo') { const w = image(b.mediaId, b.alt, { size: 'full', animation: 'fadeIn' }); if (w) { w.settings.width = px(560); w.settings.width_tablet = px(420); w.settings.width_mobile = px(260); w.settings.align = 'left'; kids.push(w); } }
       else kids.push(blockWidget(b, { dark: true }));
     }
     // group consecutive buttons into a row
@@ -396,7 +398,7 @@ const builders = {
 
   split(section, ctx) {
     const B = [...section.blocks];
-    const img = B.find((b) => b.type === 'image');
+    const img = B.find((b) => b.type === 'image' || b.type === 'video');
     const reverse = section.reverse !== undefined ? !!section.reverse : ctx.splitCount++ % 2 === 1;
     const textKids = [];
     for (const b of B) {
@@ -405,14 +407,20 @@ const builders = {
       else if (b.type === 'button') textKids.push(button(b.text, b.href, { animation: 'fadeInUp', delay: 200 }));
       else textKids.push(blockWidget(b));
     }
-    // merge consecutive paragraph widgets into one Text Editor
+    // merge consecutive paragraph widgets into one Text Editor; consecutive buttons share a row
     const merged = [];
+    let bi = 0;
     for (const w of textKids) {
       const prev = merged[merged.length - 1];
       if (w && prev && w.widgetType === 'text-editor' && prev.widgetType === 'text-editor' && !w.settings._css_classes && !prev.settings._css_classes) prev.settings.editor += w.settings.editor;
-      else if (w) merged.push(w);
+      else if (w && w.widgetType === 'button') {
+        if (bi++ > 0) { Object.assign(w.settings, { background_background: 'classic', background_color: 'rgba(0,0,0,0)', border_border: 'solid', border_width: box(2, 2, 2, 2), __globals__: { button_text_color: G('primary'), border_color: G('primary') }, _css_classes: 'mf-btn-outline' }); }
+        if (prev && prev.__btnRow) prev.elements.push(w);
+        else { const row = container({ content_width: 'full', flex_direction: 'row', flex_wrap: 'wrap', flex_gap: gap(12), padding: box(8, 0, 0, 0) }, [w], true); row.__btnRow = true; merged.push(row); }
+      } else if (w) merged.push(w);
     }
-    const imgWidget = img ? image(img.mediaId, img.alt, { height: px(86, 'vh'), heightMobile: px(64, 'vh'), motion: 'parallax', size: 'full' }) : null;
+    merged.forEach((m) => delete m.__btnRow);
+    const imgWidget = !img ? null : img.type === 'video' ? videoWidget(img) : image(img.mediaId, img.alt, { height: px(86, 'vh'), heightMobile: px(64, 'vh'), motion: 'parallax', size: 'full' });
     return container(sectionBase({ content_width: 'full', flex_direction: reverse ? 'row-reverse' : 'row', flex_direction_mobile: 'column', flex_gap: gap(0), flex_align_items: 'stretch', padding: box(0, 0, 0, 0), padding_tablet: box(0, 0, 0, 0), padding_mobile: box(0, 0, 0, 0) }), compact([
       container({ content_width: 'full', width: px(50, '%'), width_mobile: px(100, '%'), padding: box(0, 0, 0, 0), css_classes: 'mf-split-media' }, compact([imgWidget]), true),
       container({ content_width: 'full', width: px(50, '%'), width_mobile: px(100, '%'), flex_justify_content: 'center', flex_gap: gap(20), padding: box(80, 96, 80, 96), padding_tablet: box(56, 40, 56, 40), padding_mobile: box(48, 16, 56, 16), ...anim('fadeIn', 0, '') }, merged, true),
@@ -437,6 +445,8 @@ const builders = {
       background_background: 'classic', background_position: 'center center', background_size: 'cover', background_overlay_background: 'classic', background_overlay_color: '#000000', background_overlay_opacity: px(0.35), mf_motion: 'parallax-bg', mf_parallax_speed: px(0.25), __globals__: { background_color: G('mfdark') } });
     const img = media(bgId);
     if (img) s.background_image = img;
+    const vid = section.background && section.background.videoMediaId && media(section.background.videoMediaId);
+    if (vid) { Object.assign(s, { background_background: 'video', background_video_link: vid.url, background_play_on_mobile: 'yes', mf_motion: '' }); if (img) s.background_video_fallback = img; }
     return container(s, kids);
   },
 

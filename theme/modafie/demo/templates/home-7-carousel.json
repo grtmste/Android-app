@@ -1,6 +1,6 @@
 [
  {
-  "id": "7352ffa",
+  "id": "5900e4b",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -43,7 +43,7 @@
   },
   "elements": [
    {
-    "id": "b9faf6b",
+    "id": "3ee018d",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -89,7 +89,7 @@
     },
     "elements": [
      {
-      "id": "da04deb",
+      "id": "7352ffa",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -124,7 +124,7 @@
       },
       "elements": [
        {
-        "id": "2514d5f",
+        "id": "a603956",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
@@ -140,7 +140,7 @@
     ]
    },
    {
-    "id": "feb1aea",
+    "id": "f744ad3",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -183,7 +183,7 @@
     },
     "elements": [
      {
-      "id": "e606da3",
+      "id": "67db351",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -211,15 +211,15 @@
       },
       "elements": [
        {
-        "id": "82a1a33",
+        "id": "f204775",
         "elType": "widget",
         "widgetType": "image",
         "isInner": false,
         "settings": {
          "image": {
-          "url": "{{mf-media:49efcfc18799ba18:url}}",
-          "id": "{{mf-media:49efcfc18799ba18:id}}",
-          "alt": "Portfolio: embroidered sweatshirt",
+          "url": "{{mf-media:9c807afff7a47373:url}}",
+          "id": "{{mf-media:9c807afff7a47373:id}}",
+          "alt": "Custom printed sweatshirt manufactured by Modafie — European clothing factory",
           "source": "library",
           "size": ""
          },
@@ -235,7 +235,7 @@
       ]
      },
      {
-      "id": "ad93920",
+      "id": "7c9b2ab",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -263,15 +263,15 @@
       },
       "elements": [
        {
-        "id": "040b8ac",
+        "id": "290c28a",
         "elType": "widget",
         "widgetType": "image",
         "isInner": false,
         "settings": {
          "image": {
-          "url": "{{mf-media:fc3b173276520eb6:url}}",
-          "id": "{{mf-media:fc3b173276520eb6:id}}",
-          "alt": "Portfolio: beige cropped sweatshirt",
+          "url": "{{mf-media:072b1f47b72b6c8f:url}}",
+          "id": "{{mf-media:072b1f47b72b6c8f:id}}",
+          "alt": "Oversized crewneck produced by Modafie — low MOQ clothing manufacturer Europe",
           "source": "library",
           "size": ""
          },
@@ -287,7 +287,7 @@
       ]
      },
      {
-      "id": "f5b6b80",
+      "id": "b597948",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -315,15 +315,15 @@
       },
       "elements": [
        {
-        "id": "78b6c55",
+        "id": "a90b3a5",
         "elType": "widget",
         "widgetType": "image",
         "isInner": false,
         "settings": {
          "image": {
-          "url": "{{mf-media:9addea3bb2f6535b:url}}",
-          "id": "{{mf-media:9addea3bb2f6535b:id}}",
-          "alt": "Portfolio: white zip hoodie & trousers",
+          "url": "{{mf-media:2c212b4454b171a9:url}}",
+          "id": "{{mf-media:2c212b4454b171a9:id}}",
+          "alt": "Custom matching set — hoodie and trousers manufactured by Modafie from 30 pieces",
           "source": "library",
           "size": ""
          },
@@ -339,7 +339,7 @@
       ]
      },
      {
-      "id": "6cdb35a",
+      "id": "52506df",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -367,15 +367,365 @@
       },
       "elements": [
        {
-        "id": "36e7616",
+        "id": "d318510",
         "elType": "widget",
         "widgetType": "image",
         "isInner": false,
         "settings": {
          "image": {
-          "url": "{{mf-media:37bc2abb0d08d1c7:url}}",
-          "id": "{{mf-media:37bc2abb0d08d1c7:id}}",
-          "alt": "Portfolio: next piece",
+          "url": "{{mf-media:1ec7a23e6a35bd42:url}}",
+          "id": "{{mf-media:1ec7a23e6a35bd42:id}}",
+          "alt": "Custom all-over print t-shirt with skeleton graphic — manufactured by Modafie clothing factory Europe",
+          "source": "library",
+          "size": ""
+         },
+         "image_size": "large",
+         "width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+         }
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "78cc726",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "css_classes": "mf-card-item mf-zoom"
+      },
+      "elements": [
+       {
+        "id": "30c5863",
+        "elType": "widget",
+        "widgetType": "image",
+        "isInner": false,
+        "settings": {
+         "image": {
+          "url": "{{mf-media:3f82c21b77774580:url}}",
+          "id": "{{mf-media:3f82c21b77774580:id}}",
+          "alt": "Custom graphic t-shirt with embroidered logo print — Modafie low MOQ clothing manufacturer",
+          "source": "library",
+          "size": ""
+         },
+         "image_size": "large",
+         "width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+         }
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "ae61635",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "css_classes": "mf-card-item mf-zoom"
+      },
+      "elements": [
+       {
+        "id": "a8d8354",
+        "elType": "widget",
+        "widgetType": "image",
+        "isInner": false,
+        "settings": {
+         "image": {
+          "url": "{{mf-media:c577f78adff558a8:url}}",
+          "id": "{{mf-media:c577f78adff558a8:id}}",
+          "alt": "Custom streetwear t-shirt with woven patch and screen print — produced by Modafie European clothing factory",
+          "source": "library",
+          "size": ""
+         },
+         "image_size": "large",
+         "width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+         }
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "41ef9f7",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "css_classes": "mf-card-item mf-zoom"
+      },
+      "elements": [
+       {
+        "id": "dc3fa74",
+        "elType": "widget",
+        "widgetType": "image",
+        "isInner": false,
+        "settings": {
+         "image": {
+          "url": "{{mf-media:5b4230e47e05ced6:url}}",
+          "id": "{{mf-media:5b4230e47e05ced6:id}}",
+          "alt": "Custom oversized jacket manufactured by Modafie — European clothing factory from 30 pieces",
+          "source": "library",
+          "size": ""
+         },
+         "image_size": "large",
+         "width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+         }
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "c15b73d",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "css_classes": "mf-card-item mf-zoom"
+      },
+      "elements": [
+       {
+        "id": "98bff89",
+        "elType": "widget",
+        "widgetType": "image",
+        "isInner": false,
+        "settings": {
+         "image": {
+          "url": "{{mf-media:0941b788ccdb2167:url}}",
+          "id": "{{mf-media:0941b788ccdb2167:id}}",
+          "alt": "Custom branded tote bag with screen print logo — manufactured by Modafie low MOQ factory Europe",
+          "source": "library",
+          "size": ""
+         },
+         "image_size": "large",
+         "width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+         }
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "e7ec3da",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "css_classes": "mf-card-item mf-zoom"
+      },
+      "elements": [
+       {
+        "id": "ee7f093",
+        "elType": "widget",
+        "widgetType": "image",
+        "isInner": false,
+        "settings": {
+         "image": {
+          "url": "{{mf-media:54d156a5e8b7b5ee:url}}",
+          "id": "{{mf-media:54d156a5e8b7b5ee:id}}",
+          "alt": "Custom cargo vest with multi-pocket design — Modafie clothing manufacturer Europe",
+          "source": "library",
+          "size": ""
+         },
+         "image_size": "large",
+         "width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+         }
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "eb12745",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "css_classes": "mf-card-item mf-zoom"
+      },
+      "elements": [
+       {
+        "id": "1224d46",
+        "elType": "widget",
+        "widgetType": "image",
+        "isInner": false,
+        "settings": {
+         "image": {
+          "url": "{{mf-media:321f13918af14a24:url}}",
+          "id": "{{mf-media:321f13918af14a24:id}}",
+          "alt": "Custom zip-up hoodie in off-white — manufactured by Modafie European clothing factory",
+          "source": "library",
+          "size": ""
+         },
+         "image_size": "large",
+         "width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+         }
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "2bba663",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "css_classes": "mf-card-item mf-zoom"
+      },
+      "elements": [
+       {
+        "id": "e6d642f",
+        "elType": "widget",
+        "widgetType": "image",
+        "isInner": false,
+        "settings": {
+         "image": {
+          "url": "{{mf-media:b9e40e076769a151:url}}",
+          "id": "{{mf-media:b9e40e076769a151:id}}",
+          "alt": "Bulk production run of custom hoodies — white and beige colorways manufactured by Modafie European clothing factory",
           "source": "library",
           "size": ""
          },

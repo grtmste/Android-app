@@ -8,3 +8,6 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Original 1080p videos from the scrape (79 MB); web versions live in scrape/media/web. Re-download with: cd tools && npm run scrape
+/scrape/media/videos/

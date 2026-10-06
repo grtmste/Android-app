@@ -1,0 +1,79 @@
+[
+ {
+  "id": "9dfdd10",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "boxed",
+   "flex_direction": "column",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "96",
+    "right": "40",
+    "bottom": "96",
+    "left": "40",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "72",
+    "right": "24",
+    "bottom": "72",
+    "left": "24",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "56",
+    "right": "16",
+    "bottom": "56",
+    "left": "16",
+    "isLinked": false
+   },
+   "flex_gap": {
+    "unit": "px",
+    "size": 24,
+    "column": "24",
+    "row": "24",
+    "isLinked": true
+   },
+   "_title": "Designer story video"
+  },
+  "elements": [
+   {
+    "id": "806dfc1",
+    "elType": "widget",
+    "widgetType": "video",
+    "isInner": false,
+    "settings": {
+     "video_type": "hosted",
+     "hosted_url": {
+      "url": "{{mf-media:fb16f00652fc31da:url}}",
+      "id": "{{mf-media:fb16f00652fc31da:id}}",
+      "alt": "",
+      "source": "library",
+      "size": ""
+     },
+     "controls": "yes",
+     "autoplay": "",
+     "mute": "",
+     "loop": "",
+     "play_on_mobile": "",
+     "aspect_ratio": "169",
+     "show_image_overlay": "yes",
+     "image_overlay": {
+      "url": "{{mf-media:bb72ecad4d02f388:url}}",
+      "id": "{{mf-media:bb72ecad4d02f388:id}}",
+      "alt": "Designer story",
+      "source": "library",
+      "size": ""
+     },
+     "lightbox": ""
+    },
+    "elements": []
+   }
+  ]
+ }
+]

@@ -1,6 +1,6 @@
 [
  {
-  "id": "47e57e5",
+  "id": "124fab1",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -71,9 +71,9 @@
     "background_color": "globals/colors?id=mfdark"
    },
    "background_image": {
-    "url": "{{mf-media:696ac4b73c057015:url}}",
-    "id": "{{mf-media:696ac4b73c057015:id}}",
-    "alt": "Black garments on a rail",
+    "url": "{{mf-media:94022cd5694df022:url}}",
+    "id": "{{mf-media:94022cd5694df022:id}}",
+    "alt": "",
     "source": "library",
     "size": ""
    },
@@ -81,7 +81,7 @@
   },
   "elements": [
    {
-    "id": "597d6b4",
+    "id": "c2a515f",
     "elType": "widget",
     "widgetType": "text-editor",
     "isInner": false,
@@ -96,12 +96,12 @@
     "elements": []
    },
    {
-    "id": "55b3ee0",
+    "id": "9afcb86",
     "elType": "widget",
     "widgetType": "heading",
     "isInner": false,
     "settings": {
-     "title": "High End Clothing Manufacturing in Europe",
+     "title": "HIGH END CLOTHING MANUFACTURING IN EUROPE",
      "header_size": "h2",
      "_element_width": "initial",
      "_element_custom_width": {
@@ -123,7 +123,7 @@
     "elements": []
    },
    {
-    "id": "f2419b8",
+    "id": "ae5bfc1",
     "elType": "widget",
     "widgetType": "text-editor",
     "isInner": false,

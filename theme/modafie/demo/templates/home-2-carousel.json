@@ -1,6 +1,6 @@
 [
  {
-  "id": "af2e005",
+  "id": "2461a00",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -43,7 +43,7 @@
   },
   "elements": [
    {
-    "id": "3e699df",
+    "id": "25f9b42",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -86,7 +86,7 @@
     },
     "elements": [
      {
-      "id": "f657b5f",
+      "id": "7d41a9b",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -114,14 +114,14 @@
       },
       "elements": [
        {
-        "id": "8f6cfb0",
+        "id": "523e68e",
         "elType": "widget",
         "widgetType": "image",
         "isInner": false,
         "settings": {
          "image": {
-          "url": "{{mf-media:21cdb907467d6841:url}}",
-          "id": "{{mf-media:21cdb907467d6841:id}}",
+          "url": "{{mf-media:d880f7449d3bafcb:url}}",
+          "id": "{{mf-media:d880f7449d3bafcb:id}}",
           "alt": "View our services",
           "source": "library",
           "size": ""
@@ -143,7 +143,7 @@
         "elements": []
        },
        {
-        "id": "742d3cf",
+        "id": "994476b",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
@@ -165,7 +165,7 @@
       ]
      },
      {
-      "id": "c3b3d9d",
+      "id": "30d15dd",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -193,14 +193,14 @@
       },
       "elements": [
        {
-        "id": "48a5ff5",
+        "id": "0c4e8fe",
         "elType": "widget",
         "widgetType": "image",
         "isInner": false,
         "settings": {
          "image": {
-          "url": "{{mf-media:c89e186945c55634:url}}",
-          "id": "{{mf-media:c89e186945c55634:id}}",
+          "url": "{{mf-media:4459a60a4aa1423f:url}}",
+          "id": "{{mf-media:4459a60a4aa1423f:id}}",
           "alt": "Design Mockup & Concept",
           "source": "library",
           "size": ""
@@ -222,7 +222,7 @@
         "elements": []
        },
        {
-        "id": "6ff0e21",
+        "id": "4a55ce6",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
@@ -244,7 +244,7 @@
       ]
      },
      {
-      "id": "5981f75",
+      "id": "95a6477",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -272,14 +272,14 @@
       },
       "elements": [
        {
-        "id": "4453cc6",
+        "id": "81a1940",
         "elType": "widget",
         "widgetType": "image",
         "isInner": false,
         "settings": {
          "image": {
-          "url": "{{mf-media:13eb84fe6cdd8b32:url}}",
-          "id": "{{mf-media:13eb84fe6cdd8b32:id}}",
+          "url": "{{mf-media:c086a6028b9bad60:url}}",
+          "id": "{{mf-media:c086a6028b9bad60:id}}",
           "alt": "Tech Pack Creation",
           "source": "library",
           "size": ""
@@ -301,7 +301,7 @@
         "elements": []
        },
        {
-        "id": "1757984",
+        "id": "57c6314",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
@@ -323,7 +323,7 @@
       ]
      },
      {
-      "id": "e5627e4",
+      "id": "ba03527",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -351,15 +351,15 @@
       },
       "elements": [
        {
-        "id": "110a6a3",
+        "id": "145c1c6",
         "elType": "widget",
         "widgetType": "image",
         "isInner": false,
         "settings": {
          "image": {
-          "url": "{{mf-media:02eb3ca7bc259ef3:url}}",
-          "id": "{{mf-media:02eb3ca7bc259ef3:id}}",
-          "alt": "Sampling & Prototyping",
+          "url": "{{mf-media:e7e3b431b0a04c37:url}}",
+          "id": "{{mf-media:e7e3b431b0a04c37:id}}",
+          "alt": "Sample Making & Approval",
           "source": "library",
           "size": ""
          },
@@ -380,12 +380,12 @@
         "elements": []
        },
        {
-        "id": "89286e6",
+        "id": "4d4b659",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
         "settings": {
-         "title": "Sampling &amp; Prototyping",
+         "title": "Sample Making &amp; Approval",
          "header_size": "h3",
          "__globals__": {
           "typography_typography": "globals/typography?id=mfcardtitle"
@@ -402,7 +402,7 @@
       ]
      },
      {
-      "id": "d08c4b8",
+      "id": "5caeca5",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -428,15 +428,15 @@
       },
       "elements": [
        {
-        "id": "8581434",
+        "id": "7806140",
         "elType": "widget",
         "widgetType": "image",
         "isInner": false,
         "settings": {
          "image": {
-          "url": "{{mf-media:b484fa426afa384f:url}}",
-          "id": "{{mf-media:b484fa426afa384f:id}}",
-          "alt": "Bulk Production",
+          "url": "{{mf-media:f7213e4905dbecfc:url}}",
+          "id": "{{mf-media:f7213e4905dbecfc:id}}",
+          "alt": "Bulk Production from 30 Pieces",
           "source": "library",
           "size": ""
          },
@@ -457,12 +457,12 @@
         "elements": []
        },
        {
-        "id": "02d0eae",
+        "id": "4741caa",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
         "settings": {
-         "title": "Bulk Production",
+         "title": "Bulk Production from 30 Pieces",
          "header_size": "h3",
          "__globals__": {
           "typography_typography": "globals/typography?id=mfcardtitle"
@@ -479,7 +479,7 @@
       ]
      },
      {
-      "id": "c85b0df",
+      "id": "e83e121",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -505,15 +505,15 @@
       },
       "elements": [
        {
-        "id": "a6dbe31",
+        "id": "4e199d2",
         "elType": "widget",
         "widgetType": "image",
         "isInner": false,
         "settings": {
          "image": {
-          "url": "{{mf-media:81e724550d804ea7:url}}",
-          "id": "{{mf-media:81e724550d804ea7:id}}",
-          "alt": "Custom Packaging & Labeling",
+          "url": "{{mf-media:cec3928849359e31:url}}",
+          "id": "{{mf-media:cec3928849359e31:id}}",
+          "alt": "Custom Tags & Labeling",
           "source": "library",
           "size": ""
          },
@@ -534,12 +534,12 @@
         "elements": []
        },
        {
-        "id": "62a5d6f",
+        "id": "ae9121c",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
         "settings": {
-         "title": "Custom Packaging &amp; Labeling",
+         "title": "Custom Tags &amp; Labeling",
          "header_size": "h3",
          "__globals__": {
           "typography_typography": "globals/typography?id=mfcardtitle"
@@ -556,7 +556,7 @@
       ]
      },
      {
-      "id": "69fa21a",
+      "id": "3e699df",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -582,14 +582,168 @@
       },
       "elements": [
        {
-        "id": "2d85b91",
+        "id": "5d67853",
         "elType": "widget",
         "widgetType": "image",
         "isInner": false,
         "settings": {
          "image": {
-          "url": "{{mf-media:321099e6f6625a8d:url}}",
-          "id": "{{mf-media:321099e6f6625a8d:id}}",
+          "url": "{{mf-media:28d3c5611ff1bc14:url}}",
+          "id": "{{mf-media:28d3c5611ff1bc14:id}}",
+          "alt": "Packaging & Worldwide Shipping",
+          "source": "library",
+          "size": ""
+         },
+         "image_size": "large",
+         "width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+         },
+         "link_to": "custom",
+         "link": {
+          "url": "{{mf-page:what-we-do}}#packaging",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "3ad0e23",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Packaging &amp; Worldwide Shipping",
+         "header_size": "h3",
+         "__globals__": {
+          "typography_typography": "globals/typography?id=mfcardtitle"
+         },
+         "link": {
+          "url": "{{mf-page:what-we-do}}#packaging",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         }
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "248908f",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "css_classes": "mf-card-item mf-zoom"
+      },
+      "elements": [
+       {
+        "id": "3b5bd58",
+        "elType": "widget",
+        "widgetType": "image",
+        "isInner": false,
+        "settings": {
+         "image": {
+          "url": "{{mf-media:6d9aebb4a612f79d:url}}",
+          "id": "{{mf-media:6d9aebb4a612f79d:id}}",
+          "alt": "Marketing & Branding Assets",
+          "source": "library",
+          "size": ""
+         },
+         "image_size": "large",
+         "width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+         },
+         "link_to": "custom",
+         "link": {
+          "url": "{{mf-page:what-we-do}}#marketing",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         }
+        },
+        "elements": []
+       },
+       {
+        "id": "2d5b581",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "Marketing &amp; Branding Assets",
+         "header_size": "h3",
+         "__globals__": {
+          "typography_typography": "globals/typography?id=mfcardtitle"
+         },
+         "link": {
+          "url": "{{mf-page:what-we-do}}#marketing",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         }
+        },
+        "elements": []
+       }
+      ]
+     },
+     {
+      "id": "7ca11b0",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "unit": "px",
+        "size": 12,
+        "column": "12",
+        "row": "12",
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "css_classes": "mf-card-item mf-zoom"
+      },
+      "elements": [
+       {
+        "id": "44aa8f4",
+        "elType": "widget",
+        "widgetType": "image",
+        "isInner": false,
+        "settings": {
+         "image": {
+          "url": "{{mf-media:68568d4d232bc5ff:url}}",
+          "id": "{{mf-media:68568d4d232bc5ff:id}}",
           "alt": "Product Photography",
           "source": "library",
           "size": ""
@@ -611,7 +765,7 @@
         "elements": []
        },
        {
-        "id": "03cf584",
+        "id": "dd2fa26",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,

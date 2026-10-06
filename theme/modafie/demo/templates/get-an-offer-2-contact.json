@@ -1,6 +1,6 @@
 [
  {
-  "id": "bae5ddc",
+  "id": "61cc9f0",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -45,7 +45,7 @@
   },
   "elements": [
    {
-    "id": "a5663ef",
+    "id": "fc46e92",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -80,7 +80,7 @@
     },
     "elements": [
      {
-      "id": "55b391f",
+      "id": "6469e88",
       "elType": "widget",
       "widgetType": "heading",
       "isInner": false,
@@ -92,12 +92,12 @@
       "elements": []
      },
      {
-      "id": "2d10fbf",
+      "id": "6dd0706",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,
       "settings": {
-       "editor": "<ul><li><strong>Mockups &amp; design development</strong> — or bring your own design</li><li><strong>Tech pack</strong> — every measurement and stitch written down</li><li><strong>Sampling &amp; prototyping</strong> — 3 to 4 weeks from tech pack approval</li><li><strong>Bulk production from 30 pieces</strong> — 4-8 weeks after sample sign-off</li><li><strong>Packaging, labelling and shipping</strong> included in the bulk order</li></ul>",
+       "editor": "<ul><li><strong>Mockups &amp; design development</strong> — or bring your own design</li><li><strong>Tech pack</strong> — every measurement and stitch written down</li><li><strong>Sampling &amp; prototyping</strong> — 3 to 4 weeks from tech pack approval</li><li><strong>Bulk production from 30 pieces</strong> — 4-6 weeks after sample sign-off</li><li><strong>Packaging, labelling and shipping</strong> included in the bulk order</li></ul>",
        "__globals__": {
         "typography_typography": "globals/typography?id=text"
        }
@@ -105,7 +105,7 @@
       "elements": []
      },
      {
-      "id": "d3e0d23",
+      "id": "ad34927",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,
@@ -120,7 +120,7 @@
       "elements": []
      },
      {
-      "id": "a79b06f",
+      "id": "4006538",
       "elType": "widget",
       "widgetType": "button",
       "isInner": false,
@@ -141,7 +141,7 @@
     ]
    },
    {
-    "id": "99fc637",
+    "id": "281b694",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -183,7 +183,7 @@
     },
     "elements": [
      {
-      "id": "45ba0a3",
+      "id": "a89f88d",
       "elType": "widget",
       "widgetType": "mf-form",
       "isInner": false,
@@ -192,7 +192,7 @@
        "layout": "stacked",
        "fields": [
         {
-         "_id": "45f63bb",
+         "_id": "2346a7a",
          "field_type": "text",
          "field_label": "Your name",
          "field_name": "name",
@@ -202,7 +202,7 @@
          "field_options": ""
         },
         {
-         "_id": "3410be1",
+         "_id": "4c36f53",
          "field_type": "email",
          "field_label": "Email",
          "field_name": "email",
@@ -212,7 +212,7 @@
          "field_options": ""
         },
         {
-         "_id": "916c742",
+         "_id": "52ad557",
          "field_type": "text",
          "field_label": "Brand name",
          "field_name": "brand",
@@ -222,7 +222,7 @@
          "field_options": ""
         },
         {
-         "_id": "d08bb3d",
+         "_id": "9e4cee6",
          "field_type": "tel",
          "field_label": "WhatsApp / phone",
          "field_name": "whatsapp",
@@ -232,17 +232,17 @@
          "field_options": ""
         },
         {
-         "_id": "20ef0bc",
+         "_id": "d97207a",
          "field_type": "select",
          "field_label": "What would you like to produce?",
          "field_name": "product",
          "placeholder": "",
          "required": "yes",
          "width": "100",
-         "field_options": "Fashion wear & apparel\nCustom tote bags\nSustainable exotic fabric collection\nSomething else"
+         "field_options": "Fashion wear & apparel\nCustom tote bags\nSustainable exotic fabric collection\nMugs & branded bottles\nSomething else"
         },
         {
-         "_id": "79fb621",
+         "_id": "b8103d2",
          "field_type": "select",
          "field_label": "Quantity per style",
          "field_name": "quantity",
@@ -252,17 +252,17 @@
          "field_options": "30-50 pieces\n50-100 pieces\n100-300 pieces\n300+ pieces\nNot sure yet"
         },
         {
-         "_id": "6bd31ed",
+         "_id": "697be0d",
          "field_type": "select",
          "field_label": "What do you need?",
          "field_name": "services",
          "placeholder": "",
          "required": "",
          "width": "100",
-         "field_options": "Everything — from design to delivery\nMockups & design development\nTech pack\nSampling & prototyping\nBulk production\nPackaging & labeling\nProduct photography\nBrand marketing & launch support"
+         "field_options": "Everything — from design to delivery\nMockups & design development\nTech pack\nSampling & prototyping\nBulk production\nCustom tags, labeling & packaging\nProduct photography\nMarketing & branding assets"
         },
         {
-         "_id": "acebdc8",
+         "_id": "3a8cff9",
          "field_type": "textarea",
          "field_label": "Tell us about your project",
          "field_name": "project",
@@ -272,7 +272,7 @@
          "field_options": ""
         },
         {
-         "_id": "5bb09d8",
+         "_id": "1eea4e2",
          "field_type": "checkbox",
          "field_label": "I agree that Modafie may contact me about this request.",
          "field_name": "consent",

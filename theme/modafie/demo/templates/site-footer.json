@@ -1,6 +1,6 @@
 [
  {
-  "id": "d52d5f9",
+  "id": "f933081",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -46,7 +46,7 @@
   },
   "elements": [
    {
-    "id": "3d8e3fe",
+    "id": "441fe44",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -90,7 +90,7 @@
     },
     "elements": [
      {
-      "id": "68f96b6",
+      "id": "e23a42f",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -115,7 +115,7 @@
       },
       "elements": [
        {
-        "id": "23abe37",
+        "id": "ad27f62",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
@@ -135,12 +135,12 @@
         "elements": []
        },
        {
-        "id": "73ad7a2",
+        "id": "e576100",
         "elType": "widget",
         "widgetType": "text-editor",
         "isInner": false,
         "settings": {
-         "editor": "<p>Low MOQ clothing manufacturer in Europe — high-end production from 30 pieces per style.</p>",
+         "editor": "<p>Low MOQ Clothing Manufacturer in Europe — We produce high-end clothing for fashion brands from just 30 pieces — with zero costly mistakes, delays, or factory risks.</p>",
          "__globals__": {
           "typography_typography": "globals/typography?id=text",
           "text_color": "globals/colors?id=secondary"
@@ -151,7 +151,7 @@
       ]
      },
      {
-      "id": "fca1100",
+      "id": "7768949",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -176,7 +176,7 @@
       },
       "elements": [
        {
-        "id": "88d1a86",
+        "id": "e8289eb",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
@@ -191,14 +191,14 @@
         "elements": []
        },
        {
-        "id": "ea4c930",
+        "id": "468c68a",
         "elType": "widget",
         "widgetType": "icon-list",
         "isInner": false,
         "settings": {
          "icon_list": [
           {
-           "_id": "d7df743",
+           "_id": "f171ba9",
            "text": "Home",
            "selected_icon": {
             "value": "",
@@ -212,7 +212,7 @@
            }
           },
           {
-           "_id": "5669732",
+           "_id": "a5f917a",
            "text": "About us",
            "selected_icon": {
             "value": "",
@@ -226,7 +226,7 @@
            }
           },
           {
-           "_id": "b587b24",
+           "_id": "3ed8286",
            "text": "What we do",
            "selected_icon": {
             "value": "",
@@ -240,7 +240,21 @@
            }
           },
           {
-           "_id": "2c8f61d",
+           "_id": "f816d44",
+           "text": "Tech pack service",
+           "selected_icon": {
+            "value": "",
+            "library": ""
+           },
+           "link": {
+            "url": "{{mf-page:tech-pack-service}}",
+            "is_external": "",
+            "nofollow": "",
+            "custom_attributes": ""
+           }
+          },
+          {
+           "_id": "3dda910",
            "text": "FAQ",
            "selected_icon": {
             "value": "",
@@ -270,7 +284,7 @@
       ]
      },
      {
-      "id": "37cc6ce",
+      "id": "cb8a451",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -295,7 +309,7 @@
       },
       "elements": [
        {
-        "id": "d3af49e",
+        "id": "4ad1d1f",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
@@ -310,14 +324,14 @@
         "elements": []
        },
        {
-        "id": "2c1741e",
+        "id": "82e2ba0",
         "elType": "widget",
         "widgetType": "icon-list",
         "isInner": false,
         "settings": {
          "icon_list": [
           {
-           "_id": "2fd4c49",
+           "_id": "5c40f89",
            "text": "Get an offer",
            "selected_icon": {
             "value": "",
@@ -331,7 +345,21 @@
            }
           },
           {
-           "_id": "686b200",
+           "_id": "22d026a",
+           "text": "Contact",
+           "selected_icon": {
+            "value": "",
+            "library": ""
+           },
+           "link": {
+            "url": "{{mf-page:contact}}",
+            "is_external": "",
+            "nofollow": "",
+            "custom_attributes": ""
+           }
+          },
+          {
+           "_id": "76ba7ac",
            "text": "WhatsApp us",
            "selected_icon": {
             "value": "",
@@ -361,7 +389,7 @@
       ]
      },
      {
-      "id": "2bc32cc",
+      "id": "689dd79",
       "elType": "container",
       "isInner": true,
       "settings": {
@@ -386,7 +414,7 @@
       },
       "elements": [
        {
-        "id": "3639243",
+        "id": "70e6649",
         "elType": "widget",
         "widgetType": "heading",
         "isInner": false,
@@ -401,14 +429,14 @@
         "elements": []
        },
        {
-        "id": "66d98c3",
+        "id": "705cca3",
         "elType": "widget",
         "widgetType": "icon-list",
         "isInner": false,
         "settings": {
          "icon_list": [
           {
-           "_id": "ea0d31f",
+           "_id": "0952395",
            "text": "Instagram",
            "selected_icon": {
             "value": "",
@@ -422,7 +450,7 @@
            }
           },
           {
-           "_id": "f2abf2e",
+           "_id": "82d0421",
            "text": "WhatsApp",
            "selected_icon": {
             "value": "",
@@ -430,6 +458,20 @@
            },
            "link": {
             "url": "{{mf-home}}/whatsapp",
+            "is_external": "",
+            "nofollow": "",
+            "custom_attributes": ""
+           }
+          },
+          {
+           "_id": "45fc888",
+           "text": "Privacy policy",
+           "selected_icon": {
+            "value": "",
+            "library": ""
+           },
+           "link": {
+            "url": "{{mf-page:privacy-policy}}",
             "is_external": "",
             "nofollow": "",
             "custom_attributes": ""
@@ -454,7 +496,7 @@
     ]
    },
    {
-    "id": "95d7427",
+    "id": "2767718",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -493,7 +535,7 @@
     },
     "elements": [
      {
-      "id": "c0ed5e7",
+      "id": "806a0da",
       "elType": "widget",
       "widgetType": "text-editor",
       "isInner": false,

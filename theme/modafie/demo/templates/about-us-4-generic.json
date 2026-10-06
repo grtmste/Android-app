@@ -1,6 +1,6 @@
 [
  {
-  "id": "cbba187",
+  "id": "fa7e632",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -48,12 +48,12 @@
   },
   "elements": [
    {
-    "id": "6b11de0",
+    "id": "345db3a",
     "elType": "widget",
     "widgetType": "text-editor",
     "isInner": false,
     "settings": {
-     "editor": "<p>They push the burden onto you—the designer—while they collect their cheque. You're left sitting on boxes of unsold stock, praying you guessed right on sizes, colours, and trends. One wrong bet? Your brand is finished before it started.</p><p>It felt unfair. It felt unnecessary. It felt broken.</p><p>So I built Modafie differently.</p><p>Here, your minimum order quantity doesn't determine your potential. It determines your freedom.</p><p><strong>Start with 30 pieces.</strong> Test the market. See what sells. Gather feedback. Then reinvest.</p><p>Sell out in a week? Great—we'll run your next 30. Or 300. Or 3,000.</p><p>The model is simple:</p><ul><li><strong>Low MOQ</strong> means <strong>low inventory risk</strong></li><li><strong>Low risk</strong> means <strong>faster profit</strong></li><li><strong>Fast profit</strong> means <strong>more collections</strong></li><li><strong>More collections</strong> means <strong>an excited audience that never gets bored</strong></li></ul><p>You're not guessing what your customers want. You're listening. Adapting. Growing. One small batch at a time.</p><p>And because you can launch limited-edition drops every few weeks, your brand stays fresh. Your audience stays hungry. And you're never stuck with last season's mistakes.</p>",
+     "editor": "<p>They push the burden onto you—the designer—while they collect their cheque. You're left sitting on boxes of unsold stock, praying you guessed right on sizes, colours, and trends. One wrong bet? Your brand is finished before it started.</p><p>It felt unfair. It felt unnecessary. It felt broken.</p><p>So I built Modafie differently.</p><p>Here, your minimum order quantity doesn't determine your potential. It determines your freedom.</p><p><strong>Start with 30 pieces.</strong> Test the market. See what sells. Gather feedback. Then reinvest.</p><p>Sell out in a week? Great—we'll run your next 30. Or 300. Or 3,000.</p><p>The model is simple:</p><p><strong>Low MOQ</strong> means <strong>low inventory risk</strong></p><p><strong>Low risk</strong> means <strong>faster profit</strong></p><p><strong>Fast profit</strong> means <strong>more collections</strong></p><p><strong>More collections</strong> means <strong>an excited audience that never gets bored</strong></p><p>You're not guessing what your customers want. You're listening. Adapting. Growing. One small batch at a time.</p><p>And because you can launch limited-edition drops every few weeks, your brand stays fresh. Your audience stays hungry. And you're never stuck with last season's mistakes.</p>",
      "__globals__": {
       "typography_typography": "globals/typography?id=text"
      },

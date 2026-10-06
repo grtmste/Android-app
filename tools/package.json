@@ -5,7 +5,8 @@
   "description": "Scraper, demo-content builder and test harness for the Modafie WordPress theme.",
   "scripts": {
     "scrape": "NODE_USE_ENV_PROXY=1 node scraper/crawl.mjs --base https://modafie.io --out ../scrape",
-    "build-demo": "node demo/build-demo.mjs --scrape ../scrape --theme ../theme/modafie",
+    "curate": "python3 -I demo/curated_seed.py ../scrape",
+    "build-demo": "node demo/build-demo.mjs --scrape ../scrape --content content.curated.json --theme ../theme/modafie",
     "zip": "node demo/zip-theme.mjs",
     "test:screens": "node test/screenshots.mjs",
     "test:verify": "node test/verify.mjs"

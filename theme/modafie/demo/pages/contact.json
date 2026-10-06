@@ -1,0 +1,335 @@
+[
+ {
+  "id": "6298546",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "boxed",
+   "flex_direction": "column",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "120",
+    "right": "40",
+    "bottom": "48",
+    "left": "40",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "96",
+    "right": "24",
+    "bottom": "40",
+    "left": "24",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "72",
+    "right": "16",
+    "bottom": "32",
+    "left": "16",
+    "isLinked": false
+   },
+   "flex_gap": {
+    "unit": "px",
+    "size": 16,
+    "column": "16",
+    "row": "16",
+    "isLinked": true
+   },
+   "_title": "Page title"
+  },
+  "elements": [
+   {
+    "id": "7877cff",
+    "elType": "widget",
+    "widgetType": "heading",
+    "isInner": false,
+    "settings": {
+     "title": "Contact",
+     "header_size": "h1",
+     "mf_motion": "reveal"
+    },
+    "elements": []
+   },
+   {
+    "id": "61cd1b6",
+    "elType": "widget",
+    "widgetType": "text-editor",
+    "isInner": false,
+    "settings": {
+     "editor": "<p>WhatsApp us directly and we'll get back to you within 24 hours.</p>",
+     "_element_width": "initial",
+     "_element_custom_width": {
+      "unit": "px",
+      "size": 640,
+      "sizes": []
+     },
+     "_element_custom_width_mobile": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "__globals__": {
+      "typography_typography": "globals/typography?id=text",
+      "text_color": "globals/colors?id=secondary"
+     },
+     "_animation": "fadeIn",
+     "_animation_delay": 200
+    },
+    "elements": []
+   }
+  ]
+ },
+ {
+  "id": "159675c",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "boxed",
+   "flex_direction": "row",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "48",
+    "right": "40",
+    "bottom": "120",
+    "left": "40",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "72",
+    "right": "24",
+    "bottom": "72",
+    "left": "24",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "56",
+    "right": "16",
+    "bottom": "56",
+    "left": "16",
+    "isLinked": false
+   },
+   "flex_direction_tablet": "column",
+   "flex_gap": {
+    "unit": "px",
+    "size": 64,
+    "column": "64",
+    "row": "64",
+    "isLinked": true
+   },
+   "flex_align_items": "flex-start",
+   "_title": "Contact form"
+  },
+  "elements": [
+   {
+    "id": "c44e938",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 40,
+      "sizes": []
+     },
+     "width_tablet": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "flex_gap": {
+      "unit": "px",
+      "size": 20,
+      "column": "20",
+      "row": "20",
+      "isLinked": true
+     },
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+     }
+    },
+    "elements": [
+     {
+      "id": "7c4c47a",
+      "elType": "widget",
+      "widgetType": "heading",
+      "isInner": false,
+      "settings": {
+       "title": "Talk to us",
+       "header_size": "h2",
+       "mf_motion": "reveal"
+      },
+      "elements": []
+     },
+     {
+      "id": "9195cef",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "isInner": false,
+      "settings": {
+       "editor": "<p>Prefer a tailored quote? Use the Get an offer form.</p>",
+       "__globals__": {
+        "typography_typography": "globals/typography?id=text"
+       },
+       "_animation": "fadeIn",
+       "_animation_delay": 0
+      },
+      "elements": []
+     },
+     {
+      "id": "debbcb0",
+      "elType": "widget",
+      "widgetType": "button",
+      "isInner": false,
+      "settings": {
+       "text": "WhatsApp us",
+       "link": {
+        "url": "{{mf-home}}/whatsapp",
+        "is_external": "",
+        "nofollow": "",
+        "custom_attributes": ""
+       },
+       "size": "md",
+       "_animation": "fadeInUp",
+       "_animation_delay": 100
+      },
+      "elements": []
+     },
+     {
+      "id": "89cde59",
+      "elType": "widget",
+      "widgetType": "button",
+      "isInner": false,
+      "settings": {
+       "text": "Get an offer",
+       "link": {
+        "url": "{{mf-page:get-an-offer}}",
+        "is_external": "",
+        "nofollow": "",
+        "custom_attributes": ""
+       },
+       "size": "md",
+       "_animation": "fadeInUp",
+       "_animation_delay": 100
+      },
+      "elements": []
+     }
+    ]
+   },
+   {
+    "id": "2455d34",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "column",
+     "width": {
+      "unit": "%",
+      "size": 60,
+      "sizes": []
+     },
+     "width_tablet": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+     },
+     "padding": {
+      "unit": "px",
+      "top": "40",
+      "right": "40",
+      "bottom": "40",
+      "left": "40",
+      "isLinked": false
+     },
+     "padding_mobile": {
+      "unit": "px",
+      "top": "24",
+      "right": "16",
+      "bottom": "24",
+      "left": "16",
+      "isLinked": false
+     },
+     "background_background": "classic",
+     "__globals__": {
+      "background_color": "globals/colors?id=mfsurface"
+     },
+     "animation": "fadeInUp",
+     "animation_delay": 150
+    },
+    "elements": [
+     {
+      "id": "6c1ed18",
+      "elType": "widget",
+      "widgetType": "mf-form",
+      "isInner": false,
+      "settings": {
+       "form_name": "Contact",
+       "layout": "stacked",
+       "fields": [
+        {
+         "_id": "41ada79",
+         "field_type": "text",
+         "field_label": "Name",
+         "field_name": "name",
+         "placeholder": "Name",
+         "required": "",
+         "width": "50",
+         "field_options": ""
+        },
+        {
+         "_id": "e9088a0",
+         "field_type": "email",
+         "field_label": "Email",
+         "field_name": "email",
+         "placeholder": "Email",
+         "required": "yes",
+         "width": "50",
+         "field_options": ""
+        },
+        {
+         "_id": "c163af2",
+         "field_type": "tel",
+         "field_label": "Phone",
+         "field_name": "phone",
+         "placeholder": "Phone",
+         "required": "",
+         "width": "50",
+         "field_options": ""
+        },
+        {
+         "_id": "211bdca",
+         "field_type": "textarea",
+         "field_label": "Message",
+         "field_name": "body",
+         "placeholder": "Message",
+         "required": "yes",
+         "width": "100",
+         "field_options": ""
+        }
+       ],
+       "show_labels": "yes",
+       "submit_text": "Send us a note",
+       "success_message": "Thanks, we will get back to you soon."
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ }
+]

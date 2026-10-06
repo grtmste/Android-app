@@ -1,0 +1,3409 @@
+{
+  "generator": "modafie-curated-seed/3.0",
+  "source": "live",
+  "note": "Curated layout filled with the live modafie.io scrape (scrape/content.json): real text, original photos, 720p web versions of the original videos.",
+  "site": {
+    "base": "https://modafie.io/",
+    "title": "Modafie",
+    "crawledAt": "2026-10-06T21:56:08.131Z",
+    "favicon": null,
+    "logo": {
+      "src": "https://modafie.io/web/modafie-logo-black.png",
+      "alt": "Modafie",
+      "mediaId": "0c1a5201029021b8",
+      "file": "web/modafie-logo-black.png"
+    },
+    "brand": {
+      "palette": [
+        {
+          "hex": "#030302",
+          "count": 56,
+          "usage": [
+            "link",
+            "border",
+            "button-bg",
+            "heading"
+          ],
+          "chroma": 1
+        },
+        {
+          "hex": "#ffffff",
+          "count": 22,
+          "usage": [
+            "link",
+            "border",
+            "heading"
+          ],
+          "chroma": 0
+        },
+        {
+          "hex": "#ff7000",
+          "count": 2,
+          "usage": [
+            "link",
+            "border"
+          ],
+          "chroma": 255
+        }
+      ],
+      "accent": "#EC5000",
+      "themeColor": null
+    },
+    "fonts": {
+      "heading": "Inter, sans-serif",
+      "body": "Inter, sans-serif",
+      "button": "Inter, sans-serif",
+      "loaded": [
+        "Inter 400 normal",
+        "Inter 700 normal",
+        "Inter 400 italic",
+        "Inter 700 italic",
+        "Geist 500 normal",
+        "Geist 700 normal",
+        "Poppins 400 normal",
+        "GTStandard-M 500 normal"
+      ]
+    },
+    "nav": [
+      {
+        "text": "Home",
+        "href": "https://modafie.io/",
+        "children": []
+      },
+      {
+        "text": "WhatsApp",
+        "href": "https://modafie.io/whatsapp",
+        "children": []
+      },
+      {
+        "text": "About us",
+        "href": "https://modafie.io/about-us",
+        "children": []
+      },
+      {
+        "text": "What we do",
+        "href": "https://modafie.io/what-we-do",
+        "children": [
+          {
+            "text": "Mockups & design",
+            "href": "https://modafie.io/what-we-do#mockups",
+            "children": []
+          },
+          {
+            "text": "Tech packs",
+            "href": "https://modafie.io/what-we-do#tech-packs",
+            "children": []
+          },
+          {
+            "text": "Sampling & prototyping",
+            "href": "https://modafie.io/what-we-do#sampling",
+            "children": []
+          },
+          {
+            "text": "Bulk production",
+            "href": "https://modafie.io/what-we-do#production",
+            "children": []
+          },
+          {
+            "text": "Packaging & labeling",
+            "href": "https://modafie.io/what-we-do#packaging",
+            "children": []
+          },
+          {
+            "text": "Photography",
+            "href": "https://modafie.io/what-we-do#photography",
+            "children": []
+          },
+          {
+            "text": "Marketing & launch",
+            "href": "https://modafie.io/what-we-do#marketing",
+            "children": []
+          },
+          {
+            "text": "Tech pack service",
+            "href": "https://modafie.io/tech-pack-service",
+            "children": []
+          }
+        ]
+      },
+      {
+        "text": "FAQ",
+        "href": "https://modafie.io/faq",
+        "children": []
+      }
+    ],
+    "footer": [
+      {
+        "heading": "Explore",
+        "links": [
+          {
+            "text": "Home",
+            "href": "https://modafie.io/"
+          },
+          {
+            "text": "About us",
+            "href": "https://modafie.io/about-us"
+          },
+          {
+            "text": "What we do",
+            "href": "https://modafie.io/what-we-do"
+          },
+          {
+            "text": "Tech pack service",
+            "href": "https://modafie.io/tech-pack-service"
+          },
+          {
+            "text": "FAQ",
+            "href": "https://modafie.io/faq"
+          }
+        ]
+      },
+      {
+        "heading": "Work with us",
+        "links": [
+          {
+            "text": "Get an offer",
+            "href": "https://modafie.io/get-an-offer"
+          },
+          {
+            "text": "Contact",
+            "href": "https://modafie.io/contact"
+          },
+          {
+            "text": "WhatsApp us",
+            "href": "https://modafie.io/whatsapp"
+          }
+        ]
+      },
+      {
+        "heading": "Follow",
+        "links": [
+          {
+            "text": "Instagram",
+            "href": "https://modafie.io/instagram"
+          },
+          {
+            "text": "WhatsApp",
+            "href": "https://modafie.io/whatsapp"
+          },
+          {
+            "text": "Privacy policy",
+            "href": "https://modafie.io/privacy-policy"
+          }
+        ]
+      }
+    ],
+    "headerBlocks": [],
+    "footerBlocks": [
+      {
+        "type": "paragraph",
+        "text": "Low MOQ Clothing Manufacturer in Europe — We produce high-end clothing for fashion brands from just 30 pieces — with zero costly mistakes, delays, or factory risks.",
+        "html": "Low MOQ Clothing Manufacturer in Europe — We produce high-end clothing for fashion brands from just 30 pieces — with zero costly mistakes, delays, or factory risks."
+      },
+      {
+        "type": "paragraph",
+        "text": "© 2026 Modafie",
+        "html": "© 2026 Modafie"
+      }
+    ],
+    "theme_mods": {
+      "modafie_announcement_text": "Production from 30 pieces per style\nEuropean production standards\nSampling in 3–4 weeks\nWe respond within 24 hours",
+      "modafie_announcement_link": "{{mf-page:get-an-offer}}",
+      "modafie_header_cta_text": "Get an offer",
+      "modafie_header_cta_url": "{{mf-page:get-an-offer}}",
+      "modafie_header_search": false
+    }
+  },
+  "pages": [
+    {
+      "url": "https://modafie.io/",
+      "requestedUrl": "https://modafie.io/",
+      "discoveredVia": "live scrape (curated layout)",
+      "slug": "home",
+      "status": 200,
+      "title": "Low MOQ Clothing Manufacturer in Europe | Modafie",
+      "meta": {
+        "description": "Europe's full-service clothing manufacturer from just 30 pieces. Tech packs, sampling, bulk production & packaging. Sustainable exotic fabrics. Start your brand today.",
+        "canonical": "https://modafie.io/",
+        "og": {
+          "og:title": "Low MOQ Clothing Manufacturer in Europe",
+          "og:description": "Europe's full-service clothing manufacturer from just 30 pieces. Tech packs, sampling, bulk production & packaging. Sustainable exotic fabrics. Start your brand today."
+        }
+      },
+      "lang": "en",
+      "headings": [],
+      "sections": [
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": "https://modafie.io/web/hero-sewing-sequins-poster.jpg",
+            "video": "https://modafie.io/web/hero-sewing-sequins.mp4",
+            "mediaId": "8824c854d2ad1358",
+            "file": "web/hero-sewing-sequins-poster.jpg",
+            "videoMediaId": "1f8d78bd00aff36c",
+            "videoFile": "web/hero-sewing-sequins.mp4"
+          },
+          "blocks": [
+            {
+              "type": "image",
+              "src": "https://modafie.io/web/modafie-logo-white.png",
+              "alt": "Modafie",
+              "width": 1200,
+              "height": 385,
+              "mediaId": "137044dbfef549fd",
+              "file": "web/modafie-logo-white.png",
+              "role": "logo"
+            },
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Low MOQ Clothing Manufacturer in Europe"
+            },
+            {
+              "type": "paragraph",
+              "text": "We produce high-end clothing for fashion brands from just 30 pieces — with zero costly mistakes, delays, or factory risks.",
+              "html": "We produce high-end clothing for fashion brands from just 30 pieces — with zero costly mistakes, delays, or factory risks."
+            },
+            {
+              "type": "button",
+              "text": "Get an offer",
+              "href": "https://modafie.io/get-an-offer"
+            },
+            {
+              "type": "button",
+              "text": "WhatsApp us",
+              "href": "https://modafie.io/whatsapp"
+            }
+          ],
+          "pattern": "hero",
+          "title": "Hero",
+          "index": 0
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7247_2.jpg?v=1773262247",
+              "alt": "View our services",
+              "width": 1200,
+              "height": 1779,
+              "mediaId": "d880f7449d3bafcb",
+              "file": "images/img-7247-2.jpg",
+              "link": "https://modafie.io/what-we-do"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "View our services →",
+              "link": "https://modafie.io/what-we-do"
+            },
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7090_2.jpg?v=1773064241",
+              "alt": "Design Mockup & Concept",
+              "width": 1200,
+              "height": 1497,
+              "mediaId": "4459a60a4aa1423f",
+              "file": "images/img-7090-2.jpg",
+              "link": "https://modafie.io/what-we-do#mockups"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Design Mockup & Concept",
+              "link": "https://modafie.io/what-we-do#mockups"
+            },
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7089_3.jpg?v=1773260253",
+              "alt": "Tech Pack Creation",
+              "width": 1200,
+              "height": 1600,
+              "mediaId": "c086a6028b9bad60",
+              "file": "images/img-7089-3.jpg",
+              "link": "https://modafie.io/what-we-do#tech-packs"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Tech Pack Creation",
+              "link": "https://modafie.io/what-we-do#tech-packs"
+            },
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7091_2.jpg?v=1773064241",
+              "alt": "Sample Making & Approval",
+              "width": 1179,
+              "height": 1179,
+              "mediaId": "e7e3b431b0a04c37",
+              "file": "images/img-7091-2.jpg",
+              "link": "https://modafie.io/what-we-do#sampling"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Sample Making & Approval",
+              "link": "https://modafie.io/what-we-do#sampling"
+            },
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7087_2.jpg?v=1773064241",
+              "alt": "Bulk Production from 30 Pieces",
+              "width": 1200,
+              "height": 2133,
+              "mediaId": "f7213e4905dbecfc",
+              "file": "images/img-7087-2.jpg",
+              "link": "https://modafie.io/what-we-do#production"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Bulk Production from 30 Pieces",
+              "link": "https://modafie.io/what-we-do#production"
+            },
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7101.jpg?v=1773065632",
+              "alt": "Custom Tags & Labeling",
+              "width": 1024,
+              "height": 1024,
+              "mediaId": "cec3928849359e31",
+              "file": "images/img-7101.jpg",
+              "link": "https://modafie.io/what-we-do#packaging"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Custom Tags & Labeling",
+              "link": "https://modafie.io/what-we-do#packaging"
+            },
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_1599.jpg?v=1773074823",
+              "alt": "Packaging & Worldwide Shipping",
+              "width": 1080,
+              "height": 1920,
+              "mediaId": "28d3c5611ff1bc14",
+              "file": "images/img-1599.jpg",
+              "link": "https://modafie.io/what-we-do#packaging"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Packaging & Worldwide Shipping",
+              "link": "https://modafie.io/what-we-do#packaging"
+            },
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7107.jpg?v=1773075243",
+              "alt": "Marketing & Branding Assets",
+              "width": 1200,
+              "height": 1500,
+              "mediaId": "6d9aebb4a612f79d",
+              "file": "images/img-7107.jpg",
+              "link": "https://modafie.io/what-we-do#marketing"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Marketing & Branding Assets",
+              "link": "https://modafie.io/what-we-do#marketing"
+            },
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7093.jpg?v=1773074971",
+              "alt": "Product Photography",
+              "width": 1200,
+              "height": 1600,
+              "mediaId": "68568d4d232bc5ff",
+              "file": "images/img-7093.jpg",
+              "link": "https://modafie.io/what-we-do#photography"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Product Photography",
+              "link": "https://modafie.io/what-we-do#photography"
+            }
+          ],
+          "pattern": "carousel",
+          "title": "Services rail",
+          "index": 1
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": "https://modafie.io/cdn/shop/files/IMG_7148.jpg?v=1773145286",
+            "video": null,
+            "mediaId": "94022cd5694df022",
+            "file": "images/img-7148.jpg"
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Introducing",
+              "html": "Introducing",
+              "role": "eyebrow"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "HIGH END CLOTHING MANUFACTURING IN EUROPE"
+            },
+            {
+              "type": "paragraph",
+              "text": "From design mockup to packaged delivery — we handle every step of your production under one roof.",
+              "html": "From design mockup to packaged delivery — we handle every step of your production under one roof."
+            }
+          ],
+          "pattern": "editorial",
+          "variant": "left",
+          "title": "Introducing",
+          "index": 2
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "MODAFIE",
+              "html": "MODAFIE"
+            }
+          ],
+          "pattern": "marquee",
+          "variant": "accent",
+          "title": "Brand marquee",
+          "index": 3
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": "https://modafie.io/web/sewing-machine-loop-poster.jpg",
+            "video": "https://modafie.io/web/sewing-machine-loop.mp4",
+            "mediaId": "99f76bafd286221b",
+            "file": "web/sewing-machine-loop-poster.jpg",
+            "videoMediaId": "fbbed5347b526ee5",
+            "videoFile": "web/sewing-machine-loop.mp4"
+          },
+          "blocks": [],
+          "pattern": "editorial",
+          "title": "Sewing video",
+          "index": 4
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "What We Manufacture"
+            },
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7128_3.jpg?v=1773136186",
+              "alt": "",
+              "width": 1123,
+              "height": 1505,
+              "mediaId": "f7c3dddfdb46be8c",
+              "file": "images/img-7128-3.jpg"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Fashion wear & Apparel"
+            },
+            {
+              "type": "paragraph",
+              "text": "We manufacture fashion apparel for emerging and established brands — hoodies, trousers, outerwear, and more, from 30 pieces per style.",
+              "html": "We manufacture fashion apparel for emerging and established brands — hoodies, trousers, outerwear, and more, from 30 pieces per style."
+            },
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7064.jpg?v=1773059211",
+              "alt": "",
+              "width": 736,
+              "height": 1104,
+              "mediaId": "7b326ed6263d9710",
+              "file": "images/img-7064.jpg"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Custom Tote Bags"
+            },
+            {
+              "type": "paragraph",
+              "text": "Custom branded tote bags manufactured in Europe. Your logo, your materials, your minimum — from 30 units.",
+              "html": "Custom branded tote bags manufactured in Europe. Your logo, your materials, your minimum — from 30 units."
+            },
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7129.jpg?v=1773136643",
+              "alt": "",
+              "width": 1200,
+              "height": 1600,
+              "mediaId": "1d92e89e0027a824",
+              "file": "images/img-7129.jpg"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Sustainable Exotic Fabric Collection"
+            },
+            {
+              "type": "paragraph",
+              "text": "We produce wearable textiles from lotus, bamboo, aloe vera, eucalyptus, banana, and rose fibers — sustainable exotic fabrics available exclusively through Modafie.",
+              "html": "We produce wearable textiles from lotus, bamboo, aloe vera, eucalyptus, banana, and rose fibers — sustainable exotic fabrics available exclusively through Modafie."
+            },
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7069.jpg?v=1773059213",
+              "alt": "",
+              "width": 1200,
+              "height": 1500,
+              "mediaId": "c5e07c86b1db3ccc",
+              "file": "images/img-7069.jpg"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Mugs & Branded Bottles"
+            },
+            {
+              "type": "paragraph",
+              "text": "Add branded merchandise to your line — custom mugs, bottles, and accessories to complement your clothing collection.",
+              "html": "Add branded merchandise to your line — custom mugs, bottles, and accessories to complement your clothing collection."
+            }
+          ],
+          "pattern": "carousel",
+          "title": "What we manufacture",
+          "index": 5
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Our Clothing Manufacturing Portfolio — Fresh From the Factory"
+            },
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7143.jpg?v=1773139378",
+              "alt": "Custom printed sweatshirt manufactured by Modafie — European clothing factory",
+              "width": 736,
+              "height": 1104,
+              "mediaId": "9c807afff7a47373",
+              "file": "images/img-7143.jpg"
+            },
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7081.jpg?v=1773059211",
+              "alt": "Oversized crewneck produced by Modafie — low MOQ clothing manufacturer Europe",
+              "width": 750,
+              "height": 1000,
+              "mediaId": "072b1f47b72b6c8f",
+              "file": "images/img-7081.jpg"
+            },
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7141.jpg?v=1773139069",
+              "alt": "Custom matching set — hoodie and trousers manufactured by Modafie from 30 pieces",
+              "width": 1200,
+              "height": 1600,
+              "mediaId": "2c212b4454b171a9",
+              "file": "images/img-7141.jpg"
+            },
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7057.jpg?v=1773059212",
+              "alt": "Custom all-over print t-shirt with skeleton graphic — manufactured by Modafie clothing factory Europe",
+              "width": 1179,
+              "height": 1775,
+              "mediaId": "1ec7a23e6a35bd42",
+              "file": "images/img-7057.jpg"
+            },
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7083.jpg?v=1773059212",
+              "alt": "Custom graphic t-shirt with embroidered logo print — Modafie low MOQ clothing manufacturer",
+              "width": 1200,
+              "height": 1800,
+              "mediaId": "3f82c21b77774580",
+              "file": "images/img-7083.jpg"
+            },
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7098.jpg?v=1773062633",
+              "alt": "Custom streetwear t-shirt with woven patch and screen print — produced by Modafie European clothing factory",
+              "width": 1200,
+              "height": 1200,
+              "mediaId": "c577f78adff558a8",
+              "file": "images/img-7098.jpg"
+            },
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7133.jpg?v=1773138140",
+              "alt": "Custom oversized jacket manufactured by Modafie — European clothing factory from 30 pieces",
+              "width": 750,
+              "height": 999,
+              "mediaId": "5b4230e47e05ced6",
+              "file": "images/img-7133.jpg"
+            },
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7065.jpg?v=1773059211",
+              "alt": "Custom branded tote bag with screen print logo — manufactured by Modafie low MOQ factory Europe",
+              "width": 1200,
+              "height": 1500,
+              "mediaId": "0941b788ccdb2167",
+              "file": "images/img-7065.jpg"
+            },
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7130.jpg?v=1773138140",
+              "alt": "Custom cargo vest with multi-pocket design — Modafie clothing manufacturer Europe",
+              "width": 1200,
+              "height": 1435,
+              "mediaId": "54d156a5e8b7b5ee",
+              "file": "images/img-7130.jpg"
+            },
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7137.jpg?v=1773138140",
+              "alt": "Custom zip-up hoodie in off-white — manufactured by Modafie European clothing factory",
+              "width": 1200,
+              "height": 1600,
+              "mediaId": "321f13918af14a24",
+              "file": "images/img-7137.jpg"
+            },
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_1264.jpg?v=1773138140",
+              "alt": "Bulk production run of custom hoodies — white and beige colorways manufactured by Modafie European clothing factory",
+              "width": 1200,
+              "height": 1500,
+              "mediaId": "b9e40e076769a151",
+              "file": "images/img-1264.jpg"
+            }
+          ],
+          "pattern": "carousel",
+          "title": "Portfolio",
+          "index": 6
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": "https://modafie.io/cdn/shop/files/IMG_7149.jpg?v=1773145287",
+            "video": null,
+            "mediaId": "b88124d36fdadee0",
+            "file": "images/img-7149.jpg"
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Design, develop, and produce your collection with Europe's most flexible full-service factory."
+            },
+            {
+              "type": "paragraph",
+              "text": "We handle mockups, tech packs, sampling, bulk production, packaging, and shipping—so you can focus on your brand.",
+              "html": "We handle mockups, tech packs, sampling, bulk production, packaging, and shipping—so you can focus on your brand."
+            },
+            {
+              "type": "paragraph",
+              "text": "MODAFIE",
+              "html": "MODAFIE",
+              "role": "eyebrow"
+            }
+          ],
+          "pattern": "editorial",
+          "variant": "left",
+          "title": "Full-service factory",
+          "index": 7
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "MODAFIE",
+              "html": "MODAFIE"
+            }
+          ],
+          "pattern": "marquee",
+          "variant": "small",
+          "title": "Small marquee",
+          "index": 8
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "video",
+              "src": "https://modafie.io/web/pattern-cutting-loop.mp4",
+              "mediaId": "71a73923a374768f",
+              "file": "web/pattern-cutting-loop.mp4",
+              "autoplay": true,
+              "loop": true,
+              "muted": true,
+              "controls": false,
+              "poster": "https://modafie.io/web/pattern-cutting-loop-poster.jpg",
+              "posterMediaId": "5d43f309c58ddb45",
+              "posterFile": "web/pattern-cutting-loop-poster.jpg"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Your Entire Production Ecosystem — Under One Roof"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "European production standards—every single order",
+                "MOQ from just 30 pieces per style",
+                "One point of contact from start to finish",
+                "Sustainable & exotic fabric options available",
+                "Fast sampling turnaround—3 to 4 weeks",
+                "No hidden fees, ever"
+              ]
+            },
+            {
+              "type": "button",
+              "text": "WhatsApp us",
+              "href": "https://modafie.io/whatsapp"
+            },
+            {
+              "type": "button",
+              "text": "Get an offer",
+              "href": "https://modafie.io/get-an-offer"
+            }
+          ],
+          "pattern": "split",
+          "reverse": true,
+          "title": "Production ecosystem",
+          "index": 9
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "video",
+              "src": "https://modafie.io/web/designer-story.mp4",
+              "mediaId": "fb16f00652fc31da",
+              "file": "web/designer-story.mp4",
+              "autoplay": false,
+              "loop": false,
+              "muted": false,
+              "controls": true,
+              "poster": "https://modafie.io/web/designer-story-poster.jpg",
+              "posterMediaId": "bb72ecad4d02f388",
+              "posterFile": "web/designer-story-poster.jpg"
+            }
+          ],
+          "pattern": "video",
+          "title": "Designer story video",
+          "index": 10
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "We support slow fashion instead. We've developed a unique collection of sustainable exotic fabrics — crafted from nature's most unexpected materials: rose, lotus, bamboo, hemp, banana, eucalyptus, aloe vera, orange, and more. These fibers are woven into something you can actually wear. Curious? Reach out — we'd love to share more.",
+              "html": "<em>We support slow fashion instead. <br></em>We've developed a unique collection of sustainable exotic fabrics — crafted from nature's most unexpected materials: rose, lotus, bamboo, hemp, banana, eucalyptus, aloe vera, orange, and more. These fibers are woven into something you can actually wear. Curious? Reach out — we'd love to share more."
+            }
+          ],
+          "pattern": "generic",
+          "boxed": 760,
+          "title": "Slow fashion",
+          "index": 11
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Start with 30 pieces."
+            },
+            {
+              "type": "paragraph",
+              "text": "Test the market. See what sells. Gather feedback. Then reinvest.",
+              "html": "Test the market. See what sells. Gather feedback. Then reinvest."
+            },
+            {
+              "type": "button",
+              "text": "Get an offer",
+              "href": "https://modafie.io/get-an-offer"
+            },
+            {
+              "type": "button",
+              "text": "WhatsApp us",
+              "href": "https://modafie.io/whatsapp"
+            }
+          ],
+          "pattern": "cta",
+          "variant": "dark",
+          "title": "Offer CTA",
+          "index": 12
+        }
+      ],
+      "media": [],
+      "forms": [],
+      "consoleErrors": [],
+      "screenshots": {}
+    },
+    {
+      "url": "https://modafie.io/about-us",
+      "requestedUrl": "https://modafie.io/pages/about-us",
+      "discoveredVia": "live scrape (curated layout)",
+      "slug": "about-us",
+      "status": 200,
+      "title": "About us | Modafie",
+      "meta": {
+        "description": "Modafie is a full-service clothing manufacturer based in Europe. We help fashion brands produce high-end garments from just 30 pieces. Learn our story.",
+        "canonical": "https://modafie.io/about-us",
+        "og": {
+          "og:title": "About us",
+          "og:description": "Modafie is a full-service clothing manufacturer based in Europe. We help fashion brands produce high-end garments from just 30 pieces. Learn our story."
+        }
+      },
+      "lang": "en",
+      "headings": [],
+      "sections": [
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "A letter from our founder",
+              "html": "A letter from our founder",
+              "role": "eyebrow"
+            },
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "About Us"
+            }
+          ],
+          "pattern": "title",
+          "title": "Page title",
+          "index": 0
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "My name is Monagni. For years, I stood beside friends, colleagues, and strangers with fire in their eyes and sketches in their hands—only to watch that fire dim when they met reality.",
+              "html": "My name is Monagni. For years, I stood beside friends, colleagues, and strangers with fire in their eyes and sketches in their hands—only to watch that fire dim when they met reality."
+            },
+            {
+              "type": "paragraph",
+              "text": "They'd approach factories with 50-unit orders. Laughter.",
+              "html": "They'd approach factories with 50-unit orders. Laughter."
+            },
+            {
+              "type": "paragraph",
+              "text": "They'd beg for 100 pieces. \"Come back when you have 500.\"",
+              "html": "They'd beg for 100 pieces. \"Come back when you have 500.\""
+            },
+            {
+              "type": "paragraph",
+              "text": "And the ones who compromised? They'd receive garments that looked nothing like their samples. Terrible communication. Zero accountability. And a mountain of inventory they couldn't sell.",
+              "html": "And the ones who compromised? They'd receive garments that looked nothing like their samples. Terrible communication. Zero accountability. And a mountain of inventory they couldn't sell."
+            },
+            {
+              "type": "paragraph",
+              "text": "Here's the truth the industry won't tell you:",
+              "html": "Here's the truth the industry won't tell you:"
+            }
+          ],
+          "pattern": "generic",
+          "boxed": 760,
+          "title": "Letter — part 1",
+          "index": 1
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "High MOQs aren't a sign of quality. They're a transfer of risk.",
+              "html": "High MOQs aren't a sign of quality. They're a transfer of risk."
+            }
+          ],
+          "pattern": "statement",
+          "title": "Statement",
+          "index": 2
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "They push the burden onto you—the designer—while they collect their cheque. You're left sitting on boxes of unsold stock, praying you guessed right on sizes, colours, and trends. One wrong bet? Your brand is finished before it started.",
+              "html": "They push the burden onto you—the designer—while they collect their cheque. You're left sitting on boxes of unsold stock, praying you guessed right on sizes, colours, and trends. One wrong bet? Your brand is finished before it started."
+            },
+            {
+              "type": "paragraph",
+              "text": "It felt unfair. It felt unnecessary. It felt broken.",
+              "html": "It felt unfair. It felt unnecessary. It felt broken."
+            },
+            {
+              "type": "paragraph",
+              "text": "So I built Modafie differently.",
+              "html": "So I built Modafie differently."
+            },
+            {
+              "type": "paragraph",
+              "text": "Here, your minimum order quantity doesn't determine your potential. It determines your freedom.",
+              "html": "Here, your minimum order quantity doesn't determine your potential. It determines your freedom."
+            },
+            {
+              "type": "paragraph",
+              "text": "Start with 30 pieces. Test the market. See what sells. Gather feedback. Then reinvest.",
+              "html": "<strong>Start with 30 pieces.</strong> Test the market. See what sells. Gather feedback. Then reinvest."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sell out in a week? Great—we'll run your next 30. Or 300. Or 3,000.",
+              "html": "Sell out in a week? Great—we'll run your next 30. Or 300. Or 3,000."
+            },
+            {
+              "type": "paragraph",
+              "text": "The model is simple:",
+              "html": "The model is simple:"
+            },
+            {
+              "type": "paragraph",
+              "text": "Low MOQ means low inventory risk",
+              "html": "<strong>Low MOQ</strong> means <strong>low inventory risk</strong>"
+            },
+            {
+              "type": "paragraph",
+              "text": "Low risk means faster profit",
+              "html": "<strong>Low risk</strong> means <strong>faster profit</strong>"
+            },
+            {
+              "type": "paragraph",
+              "text": "Fast profit means more collections",
+              "html": "<strong>Fast profit</strong> means <strong>more collections</strong>"
+            },
+            {
+              "type": "paragraph",
+              "text": "More collections means an excited audience that never gets bored",
+              "html": "<strong>More collections</strong> means <strong>an excited audience that never gets bored</strong>"
+            },
+            {
+              "type": "paragraph",
+              "text": "You're not guessing what your customers want. You're listening. Adapting. Growing. One small batch at a time.",
+              "html": "You're not guessing what your customers want. You're listening. Adapting. Growing. One small batch at a time."
+            },
+            {
+              "type": "paragraph",
+              "text": "And because you can launch limited-edition drops every few weeks, your brand stays fresh. Your audience stays hungry. And you're never stuck with last season's mistakes.",
+              "html": "And because you can launch limited-edition drops every few weeks, your brand stays fresh. Your audience stays hungry. And you're never stuck with last season's mistakes."
+            }
+          ],
+          "pattern": "generic",
+          "boxed": 760,
+          "title": "Letter — part 2",
+          "index": 3
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_1264.jpg?v=1773138140",
+              "alt": "Bulk production run of custom hoodies — white and beige colorways manufactured by Modafie European clothing factory",
+              "width": 1200,
+              "height": 1500,
+              "mediaId": "b9e40e076769a151",
+              "file": "images/img-1264.jpg"
+            },
+            {
+              "type": "paragraph",
+              "text": "Yes, we offer 360° services—from the first sketch to the last shipment.",
+              "html": "Yes, we offer 360° services—from the first sketch to the last shipment."
+            },
+            {
+              "type": "paragraph",
+              "text": "Yes, we maintain European standards that rival luxury houses.",
+              "html": "Yes, we maintain European standards that rival luxury houses."
+            },
+            {
+              "type": "paragraph",
+              "text": "But here's what truly sets us apart:",
+              "html": "But here's what truly sets us apart:"
+            },
+            {
+              "type": "paragraph",
+              "text": "Whether you're producing your first 30 pieces or your 30,000th, you get the same attention. The same quality. The same partnership.",
+              "html": "<strong>Whether you're producing your first 30 pieces or your 30,000th, you get the same attention. The same quality. The same partnership.</strong>"
+            },
+            {
+              "type": "paragraph",
+              "text": "We don't have a \"small client\" table and a \"big client\" table. There's just one table. And you never graduate from it—you grow at it.",
+              "html": "We don't have a \"small client\" table and a \"big client\" table. There's just one table. And you never graduate from it—you grow at it."
+            },
+            {
+              "type": "paragraph",
+              "text": "From the emerging designer testing their first drop to the established brand scaling their tenth collection, the experience is identical. The care is identical. The obsession with your success? Identical.",
+              "html": "From the emerging designer testing their first drop to the established brand scaling their tenth collection, the experience is identical. The care is identical. The obsession with your success? Identical."
+            },
+            {
+              "type": "paragraph",
+              "text": "Because we believe something the old factories forgot:",
+              "html": "Because we believe something the old factories forgot:"
+            }
+          ],
+          "pattern": "split",
+          "title": "One table",
+          "index": 4
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "A brand that starts with 30 today could be the brand ordering 3,000 tomorrow. And we want to be there for both moments.",
+              "html": "A brand that starts with 30 today could be the brand ordering 3,000 tomorrow. And we want to be there for both moments."
+            }
+          ],
+          "pattern": "statement",
+          "title": "Statement 2",
+          "index": 5
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Cheers,",
+              "html": "<strong>Cheers,</strong>"
+            },
+            {
+              "type": "paragraph",
+              "text": "Monagni",
+              "html": "<strong>Monagni</strong>"
+            }
+          ],
+          "pattern": "generic",
+          "boxed": 760,
+          "title": "Signature",
+          "index": 6
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Start with 30 pieces."
+            },
+            {
+              "type": "button",
+              "text": "Get an offer",
+              "href": "https://modafie.io/get-an-offer"
+            },
+            {
+              "type": "button",
+              "text": "WhatsApp us",
+              "href": "https://modafie.io/whatsapp"
+            }
+          ],
+          "pattern": "cta",
+          "variant": "dark",
+          "title": "Offer CTA",
+          "index": 7
+        }
+      ],
+      "media": [],
+      "forms": [],
+      "consoleErrors": [],
+      "screenshots": {}
+    },
+    {
+      "url": "https://modafie.io/what-we-do",
+      "requestedUrl": "https://modafie.io/pages/what-we-do",
+      "discoveredVia": "live scrape (curated layout)",
+      "slug": "what-we-do",
+      "status": 200,
+      "title": "What we do | Modafie",
+      "meta": {
+        "description": "From design mockup to packaged delivery — Modafie handles tech packs, sampling, bulk production, labeling and shipping for fashion brands across Europe.",
+        "canonical": "https://modafie.io/what-we-do",
+        "og": {
+          "og:title": "What we do",
+          "og:description": "From design mockup to packaged delivery — Modafie handles tech packs, sampling, bulk production, labeling and shipping for fashion brands across Europe."
+        }
+      },
+      "lang": "en",
+      "headings": [],
+      "sections": [
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "What we do"
+            },
+            {
+              "type": "paragraph",
+              "text": "Look, we could give you a boring list of services with corporate jargon and stock photos of people shaking hands.",
+              "html": "Look, we could give you a boring list of services with corporate jargon and stock photos of people shaking hands."
+            },
+            {
+              "type": "paragraph",
+              "text": "But that's not who we are.",
+              "html": "But that's not who we are."
+            },
+            {
+              "type": "paragraph",
+              "text": "At Modafie, we're the humans behind the machines. The ones who actually get excited when you send us a napkin sketch. The ones who believe your 30-piece dream deserves the same love as a 3,000-piece order.",
+              "html": "At Modafie, we're the humans behind the machines. The ones who actually get excited when you send us a napkin sketch. The ones who believe your 30-piece dream deserves the same love as a 3,000-piece order."
+            },
+            {
+              "type": "paragraph",
+              "text": "So here's what we actually do. No fluff. Just honest talk about making your brand real.",
+              "html": "So here's what we actually do. No fluff. Just honest talk about making your brand real."
+            }
+          ],
+          "pattern": "title",
+          "title": "Page title",
+          "index": 0
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7090_2.jpg?v=1773064241",
+              "alt": "",
+              "width": 1200,
+              "height": 1497,
+              "mediaId": "4459a60a4aa1423f",
+              "file": "images/img-7090-2.jpg"
+            },
+            {
+              "type": "paragraph",
+              "text": "01",
+              "html": "01",
+              "role": "eyebrow"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Mockups & Design Development"
+            },
+            {
+              "type": "paragraph",
+              "text": "Maybe you have detailed sketches. Maybe you have a mood board covered in tears and magazine cutouts. Maybe just a feeling you can't shake.",
+              "html": "Maybe you have detailed sketches. Maybe you have a mood board covered in tears and magazine cutouts. Maybe just a feeling you can't shake."
+            },
+            {
+              "type": "paragraph",
+              "text": "That's enough. Bring it here.",
+              "html": "That's enough. Bring it here."
+            },
+            {
+              "type": "paragraph",
+              "text": "Our design team sits with you (virtually or in person) and turns that fuzzy dream into a clean digital mockup. We play with fabrics, colours, silhouettes until you make that sound—you know the one. The \"oh yes, that's it\" sound.",
+              "html": "Our design team sits with you (virtually or in person) and turns that fuzzy dream into a clean digital mockup. We play with fabrics, colours, silhouettes until you make that sound—you know the one. The \"oh yes, that's it\" sound."
+            },
+            {
+              "type": "paragraph",
+              "text": "Then we tweak it. Again. And again. Until it's yours.",
+              "html": "Then we tweak it. Again. And again. Until it's yours."
+            },
+            {
+              "type": "paragraph",
+              "text": "What lands in your inbox:",
+              "html": "<strong>What lands in your inbox:</strong>"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Beautiful digital mockups from your scribbles",
+                "Fabric suggestions that won't break the bank",
+                "A design you actually want to wear"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "You can either design yourself or hire our service. This service is 30-50 euro onwards, sometimes free!",
+              "html": "You can either design yourself or hire our service. This service is 30-50 euro onwards, sometimes free!"
+            }
+          ],
+          "pattern": "split",
+          "anchor": "mockups",
+          "title": "01 Mockups & Design Development",
+          "index": 1
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7089_3.jpg?v=1773260253",
+              "alt": "",
+              "width": 1200,
+              "height": 1600,
+              "mediaId": "c086a6028b9bad60",
+              "file": "images/img-7089-3.jpg"
+            },
+            {
+              "type": "paragraph",
+              "text": "02 — Tech Packs",
+              "html": "02 — Tech Packs",
+              "role": "eyebrow"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "The Boring Stuff That Saves Your Sanity"
+            },
+            {
+              "type": "paragraph",
+              "text": "Okay, this part isn't sexy. But neither is getting a sample back that looks nothing like your drawing.",
+              "html": "Okay, this part isn't sexy. But neither is getting a sample back that looks nothing like your drawing."
+            },
+            {
+              "type": "paragraph",
+              "text": "A tech pack is basically a recipe for your garment. Every measurement, every stitch, every tiny detail written down so there's zero confusion between \"what you imagined\" and \"what arrives at your door.\"",
+              "html": "A tech pack is basically a recipe for your garment. Every measurement, every stitch, every tiny detail written down so there's zero confusion between \"what you imagined\" and \"what arrives at your door.\""
+            },
+            {
+              "type": "paragraph",
+              "text": "Its important to have techpack because if there is an error in the production. you can hold the factory accountable to fix it.",
+              "html": "Its important to have techpack because if there is an error in the production. you can hold the factory accountable to fix it."
+            },
+            {
+              "type": "paragraph",
+              "text": "Don't have one? We build it with you. Have a messy one? We clean it up. Just want to understand what the hell a tech pack even is? We'll explain like humans.",
+              "html": "Don't have one? We build it with you.<br>Have a messy one? We clean it up.<br>Just want to understand what the hell a tech pack even is? We'll explain like humans."
+            },
+            {
+              "type": "paragraph",
+              "text": "What you get:",
+              "html": "<strong>What you get:</strong>"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Measurements that actually make sense",
+                "Construction details so specific your grandma could sew it",
+                "No more \"lost in translation\" moments"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "From €60-120. Cheap insurance against disasters. €50 or less for Tshirt.",
+              "html": "<em>From €60-120. Cheap insurance against disasters. €50 or less for Tshirt.</em>"
+            }
+          ],
+          "pattern": "split",
+          "anchor": "tech-packs",
+          "title": "02 The Boring Stuff That Saves Your Sanity",
+          "index": 2
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7091_2.jpg?v=1773064241",
+              "alt": "",
+              "width": 1179,
+              "height": 1179,
+              "mediaId": "e7e3b431b0a04c37",
+              "file": "images/img-7091-2.jpg"
+            },
+            {
+              "type": "paragraph",
+              "text": "03",
+              "html": "03",
+              "role": "eyebrow"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Sampling & Prototyping"
+            },
+            {
+              "type": "paragraph",
+              "text": "This is my favourite part. Watching a designer hold their sample for the first time.",
+              "html": "This is my favourite part. Watching a designer hold their sample for the first time."
+            },
+            {
+              "type": "paragraph",
+              "text": "We craft your piece with the same care as if it were for our own brand. Then we send it to you. Try it on. Show your mum. Find what's wrong with it (there's always something).",
+              "html": "We craft your piece with the same care as if it were for our own brand. Then we send it to you. Try it on. Show your mum. Find what's wrong with it (there's always something)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Then we fix it together. Once, twice, three times if needed. Until you'd wear it to a party and lie when people ask where you bought it.",
+              "html": "Then we fix it together. Once, twice, three times if needed. Until you'd wear it to a party and lie when people ask where you bought it."
+            },
+            {
+              "type": "paragraph",
+              "text": "What you get:",
+              "html": "<strong>What you get:</strong>"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "A real, wearable sample",
+                "2-3 rounds of tweaks (we're patient)",
+                "That butterflies-in-stomach feeling"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "*From €depends on the complexity of design so we know how much our pattern maker needs to work. 1-3 weeks. Worth every day.*",
+              "html": "<em>*From €depends on the complexity of design so we know how much our pattern maker needs to work. 1-3 weeks. Worth every day.*</em>"
+            }
+          ],
+          "pattern": "split",
+          "anchor": "sampling",
+          "title": "03 Sampling & Prototyping",
+          "index": 3
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7087_2.jpg?v=1773064241",
+              "alt": "",
+              "width": 1200,
+              "height": 2133,
+              "mediaId": "f7213e4905dbecfc",
+              "file": "images/img-7087-2.jpg"
+            },
+            {
+              "type": "paragraph",
+              "text": "04",
+              "html": "04",
+              "role": "eyebrow"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Bulk Production — From 30 Pieces or No MOQ"
+            },
+            {
+              "type": "paragraph",
+              "text": "Here's where most factories break your heart.",
+              "html": "Here's where most factories break your heart."
+            },
+            {
+              "type": "paragraph",
+              "text": "\"Come back when you have 500 pieces.\" \"We don't do small orders.\" \"You're not ready for us.\"",
+              "html": "\"Come back when you have 500 pieces.\" \"We don't do small orders.\" \"You're not ready for us.\""
+            },
+            {
+              "type": "paragraph",
+              "text": "We've heard it a thousand times from designers who came to us crying. So we built something different.",
+              "html": "We've heard it a thousand times from designers who came to us crying. So we built something different."
+            },
+            {
+              "type": "paragraph",
+              "text": "At Modafie, you start at 30 pieces. Not 300. Not 500. Thirty.",
+              "html": "At Modafie, you start at 30 pieces. Not 300. Not 500. Thirty."
+            },
+            {
+              "type": "paragraph",
+              "text": "Same quality as the big guys get. Same attention. Same machines. Just... less risk. Less inventory sitting in your bedroom. Less praying you guessed right on sizes.",
+              "html": "Same quality as the big guys get. Same attention. Same machines. Just... less risk. Less inventory sitting in your bedroom. Less praying you guessed right on sizes."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sell out in a week? Brilliant. We'll run your next 30. Or 300. Or 3,000. You grow at your pace, not ours.",
+              "html": "Sell out in a week? Brilliant. We'll run your next 30. Or 300. Or 3,000. You grow at your pace, not ours."
+            },
+            {
+              "type": "paragraph",
+              "text": "What you get:",
+              "html": "<strong>What you get:</strong>"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Production from 30 pieces (yes, really)",
+                "European quality that doesn't embarrass you",
+                "Room to make mistakes and learn",
+                "Reorders that don't require a second mortgage"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "*From €depends on what we are creating. Production 4-6 weeks after sample sign-off.",
+              "html": "<em>*From €depends on what we are creating. Production 4-6 weeks after sample sign-off.</em>"
+            }
+          ],
+          "pattern": "split",
+          "anchor": "production",
+          "title": "04 Bulk Production — From 30 Pieces or No MOQ",
+          "index": 4
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7101.jpg?v=1773065632",
+              "alt": "",
+              "width": 1024,
+              "height": 1024,
+              "mediaId": "cec3928849359e31",
+              "file": "images/img-7101.jpg"
+            },
+            {
+              "type": "paragraph",
+              "text": "05",
+              "html": "05",
+              "role": "eyebrow"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Custom Packaging & Labeling"
+            },
+            {
+              "type": "paragraph",
+              "text": "You know that feeling when you open something beautiful? The paper crinkles just right. The box smells expensive. The little details make you smile.",
+              "html": "You know that feeling when you open something beautiful? The paper crinkles just right. The box smells expensive. The little details make you smile."
+            },
+            {
+              "type": "paragraph",
+              "text": "That should be your brand.",
+              "html": "That should be your brand."
+            },
+            {
+              "type": "paragraph",
+              "text": "We make your labels (woven, printed, whatever feels right). Your hang tags. Your care instructions. Your boxes and bags if you want.",
+              "html": "We make your labels (woven, printed, whatever feels right). Your hang tags. Your care instructions. Your boxes and bags if you want."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sustainable materials if that's your thing. Premium finishes if that's your vibe. Just... you.",
+              "html": "Sustainable materials if that's your thing. Premium finishes if that's your vibe. Just... you."
+            },
+            {
+              "type": "paragraph",
+              "text": "What you get:",
+              "html": "<strong>What you get:</strong>"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Labels that don't fall off after one wash",
+                "Packaging that makes people take photos",
+                "Details that scream \"this is a real brand\""
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "The bulk order already will include price of packaging, labelling, shipping.",
+              "html": "The bulk order already will include price of packaging, labelling, shipping."
+            }
+          ],
+          "pattern": "split",
+          "anchor": "packaging",
+          "title": "05 Custom Packaging & Labeling",
+          "index": 5
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7093.jpg?v=1773074971",
+              "alt": "",
+              "width": 1200,
+              "height": 1600,
+              "mediaId": "68568d4d232bc5ff",
+              "file": "images/img-7093.jpg"
+            },
+            {
+              "type": "paragraph",
+              "text": "06 — Only if you need",
+              "html": "06 — Only if you need",
+              "role": "eyebrow"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Product Photography & Lookbook Shoots"
+            },
+            {
+              "type": "paragraph",
+              "text": "You just spent months making something beautiful. Don't let it die in bad lighting.",
+              "html": "You just spent months making something beautiful. Don't let it die in bad lighting."
+            },
+            {
+              "type": "paragraph",
+              "text": "Our photography team treats your garments like art. Flat lays that stop the scroll. Model shots that make people ask \"where can I get that?\" Detail close-ups that prove you didn't cut corners.",
+              "html": "Our photography team treats your garments like art. Flat lays that stop the scroll. Model shots that make people ask \"where can I get that?\" Detail close-ups that prove you didn't cut corners."
+            },
+            {
+              "type": "paragraph",
+              "text": "No renting studios. No hunting for photographers. No \"can you just edit this to not look orange?\"",
+              "html": "No renting studios. No hunting for photographers. No \"can you just edit this to not look orange?\""
+            },
+            {
+              "type": "paragraph",
+              "text": "Just stunning images, ready for your website, your Instagram, your \"oh my god we launched\" moment.",
+              "html": "Just stunning images, ready for your website, your Instagram, your \"oh my god we launched\" moment."
+            },
+            {
+              "type": "paragraph",
+              "text": "What you get:",
+              "html": "<strong>What you get:</strong>"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Flat lays that actually sell",
+                "Real humans wearing your stuff",
+                "Close-ups that show off the stitching you're proud of",
+                "20-30 images that make you look like you've done this before"
+              ]
+            }
+          ],
+          "pattern": "split",
+          "anchor": "photography",
+          "title": "06 Product Photography & Lookbook Shoots",
+          "index": 6
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7107.jpg?v=1773075243",
+              "alt": "",
+              "width": 1200,
+              "height": 1500,
+              "mediaId": "6d9aebb4a612f79d",
+              "file": "images/img-7107.jpg"
+            },
+            {
+              "type": "paragraph",
+              "text": "07",
+              "html": "07",
+              "role": "eyebrow"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Brand Marketing & Launch Support"
+            },
+            {
+              "type": "paragraph",
+              "text": "Here's a secret: amazing products fail all the time. Not because they weren't good. Because no one knew they existed.",
+              "html": "Here's a secret: amazing products fail all the time. Not because they weren't good. Because no one knew they existed."
+            },
+            {
+              "type": "paragraph",
+              "text": "We don't want that to be you.",
+              "html": "We don't want that to be you."
+            },
+            {
+              "type": "paragraph",
+              "text": "Our marketing team helps you sound like yourself (but clearer). We plan your launch so it feels like an event, not a whisper. We help you find the first customers who'll become your biggest fans.",
+              "html": "Our marketing team helps you sound like yourself (but clearer). We plan your launch so it feels like an event, not a whisper. We help you find the first customers who'll become your biggest fans."
+            },
+            {
+              "type": "paragraph",
+              "text": "You built the collection. Let us help the world discover it.",
+              "html": "You built the collection. Let us help the world discover it."
+            },
+            {
+              "type": "paragraph",
+              "text": "What you get:",
+              "html": "<strong>What you get:</strong>"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Words that actually sound like you",
+                "In-depth growth marketing specialist who will work with meta suits, google ad, SEO optimisation etc",
+                "A launch plan that doesn't stress you out",
+                "Constructive guidance towards assured success",
+                "A nudge in the right direction when you're stuck"
+              ]
+            }
+          ],
+          "pattern": "split",
+          "anchor": "marketing",
+          "title": "07 Brand Marketing & Launch Support",
+          "index": 7
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Start with 30 pieces."
+            },
+            {
+              "type": "paragraph",
+              "text": "Test the market. See what sells. Gather feedback. Then reinvest.",
+              "html": "Test the market. See what sells. Gather feedback. Then reinvest."
+            },
+            {
+              "type": "button",
+              "text": "Get an offer",
+              "href": "https://modafie.io/get-an-offer"
+            },
+            {
+              "type": "button",
+              "text": "WhatsApp us",
+              "href": "https://modafie.io/whatsapp"
+            }
+          ],
+          "pattern": "cta",
+          "variant": "dark",
+          "title": "Offer CTA",
+          "index": 8
+        }
+      ],
+      "media": [],
+      "forms": [],
+      "consoleErrors": [],
+      "screenshots": {}
+    },
+    {
+      "url": "https://modafie.io/tech-pack-service",
+      "requestedUrl": "https://modafie.io/pages/tech-pack-service",
+      "discoveredVia": "live scrape (curated layout)",
+      "slug": "tech-pack-service",
+      "status": 200,
+      "title": "Tech Pack Service for Fashion Brands | Modafie",
+      "meta": {
+        "description": "Professional tech pack creation for clothing brands. Modafie produces detailed technical packages covering measurements, materials, stitching and trims — ready for sampling.",
+        "canonical": "https://modafie.io/tech-pack-service",
+        "og": {
+          "og:title": "Tech Pack Service for Fashion Brands",
+          "og:description": "Professional tech pack creation for clothing brands. Modafie produces detailed technical packages covering measurements, materials, stitching and trims — ready for sampling."
+        }
+      },
+      "lang": "en",
+      "headings": [],
+      "sections": [
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Tech pack service",
+              "html": "Tech pack service",
+              "role": "eyebrow"
+            },
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Tech Pack Service for Clothing Brands — Modafie"
+            }
+          ],
+          "pattern": "title",
+          "title": "Page title",
+          "index": 0
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "image",
+              "src": "https://modafie.io/cdn/shop/files/IMG_7089_3.jpg?v=1773260253",
+              "alt": "",
+              "width": 1200,
+              "height": 1600,
+              "mediaId": "c086a6028b9bad60",
+              "file": "images/img-7089-3.jpg"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "What Is a Tech Pack and Why Do You Need One?"
+            },
+            {
+              "type": "paragraph",
+              "text": "A tech pack (technical package) is a detailed document that tells your manufacturer exactly how to build your garment. It covers measurements, materials, stitching, trims, labels, and construction details — so your sample comes out right the first time.",
+              "html": "A tech pack (technical package) is a detailed document that tells your manufacturer exactly how to build your garment. It covers measurements, materials, stitching, trims, labels, and construction details — so your sample comes out right the first time."
+            },
+            {
+              "type": "paragraph",
+              "text": "Without a tech pack, you risk:",
+              "html": "Without a tech pack, you risk:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Wrong measurements and sizing",
+                "Incorrect fabrics or trims",
+                "Multiple costly sample rounds",
+                "Miscommunication with the factory"
+              ]
+            }
+          ],
+          "pattern": "split",
+          "title": "What is a tech pack",
+          "index": 1
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "What Modafie's Tech Pack Service Includes"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Technical flat sketches of your design (front, back, detail views)",
+                "Full measurement spec sheet with size grading",
+                "Fabric and trim specifications",
+                "Stitching and construction details",
+                "Colorway breakdowns",
+                "Label and packaging placement diagrams",
+                "Bill of materials (BOM)"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Who Is This For?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Our tech pack service is designed for:",
+              "html": "Our tech pack service is designed for:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Fashion designers creating their first collection",
+                "Streetwear brands scaling to production",
+                "Entrepreneurs moving from concept to sample",
+                "Existing brands switching manufacturers"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "How It Works"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "1. You share your design sketches, references, or mood board",
+                "2. We create your complete tech pack",
+                "3. You review and approve",
+                "4. We move straight into sampling — no factory hunting needed"
+              ]
+            }
+          ],
+          "pattern": "generic",
+          "boxed": 760,
+          "title": "Service details",
+          "index": 2
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Ready to Start?"
+            },
+            {
+              "type": "paragraph",
+              "text": "WhatsApp us directly and we'll get back to you within 24 hours.",
+              "html": "WhatsApp us directly and we'll get back to you within 24 hours."
+            },
+            {
+              "type": "button",
+              "text": "WhatsApp us",
+              "href": "https://modafie.io/whatsapp"
+            },
+            {
+              "type": "button",
+              "text": "Get an offer",
+              "href": "https://modafie.io/get-an-offer"
+            }
+          ],
+          "pattern": "cta",
+          "variant": "dark",
+          "title": "Offer CTA",
+          "index": 3
+        }
+      ],
+      "media": [],
+      "forms": [],
+      "consoleErrors": [],
+      "screenshots": {}
+    },
+    {
+      "url": "https://modafie.io/faq",
+      "requestedUrl": "https://modafie.io/pages/faq",
+      "discoveredVia": "live scrape (curated layout)",
+      "slug": "faq",
+      "status": 200,
+      "title": "Frequently Asked Questions | Modafie",
+      "meta": {
+        "description": "Minimum order quantity, location, services, tech packs, sampling times and sustainable fabrics — answered.",
+        "canonical": "https://modafie.io/faq",
+        "og": {
+          "og:title": "Frequently Asked Questions",
+          "og:description": "Minimum order quantity, location, services, tech packs, sampling times and sustainable fabrics — answered."
+        }
+      },
+      "lang": "en",
+      "headings": [],
+      "sections": [
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Frequently Asked Questions"
+            }
+          ],
+          "pattern": "title",
+          "title": "Page title",
+          "index": 0
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "What is the minimum order quantity at Modafie?"
+            },
+            {
+              "type": "paragraph",
+              "text": "We accept orders from as few as 30 pieces per style. This makes us ideal for emerging brands, designers testing new collections, or startups who want to produce small runs without large factory minimums.",
+              "html": "We accept orders from as few as 30 pieces per style. This makes us ideal for emerging brands, designers testing new collections, or startups who want to produce small runs without large factory minimums."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Where is Modafie located?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Modafie is based in Europe. We produce to EU quality standards and ship internationally.",
+              "html": "Modafie is based in Europe. We produce to EU quality standards and ship internationally."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "What services does Modafie offer?"
+            },
+            {
+              "type": "paragraph",
+              "text": "We provide end-to-end clothing manufacturing including: design mockups, tech pack creation, sample making, bulk production, custom tags and labeling, packaging, shipping, and product photography.",
+              "html": "We provide end-to-end clothing manufacturing including: design mockups, tech pack creation, sample making, bulk production, custom tags and labeling, packaging, shipping, and product photography."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Can Modafie help with tech packs?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Yes. We create professional tech packs covering measurements, materials, stitching, trims, and construction details so your sample is made correctly the first time.",
+              "html": "Yes. We create professional tech packs covering measurements, materials, stitching, trims, and construction details so your sample is made correctly the first time."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "How long does sampling take?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sampling typically takes 3 to 4 weeks from tech pack approval.",
+              "html": "Sampling typically takes 3 to 4 weeks from tech pack approval."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Does Modafie work with sustainable fabrics?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Yes. We have a unique collection of sustainable exotic fabrics made from lotus, bamboo, aloe vera, eucalyptus, banana, and rose fibers.",
+              "html": "Yes. We have a unique collection of sustainable exotic fabrics made from lotus, bamboo, aloe vera, eucalyptus, banana, and rose fibers."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "How do I get started?"
+            },
+            {
+              "type": "paragraph",
+              "text": "WhatsApp us directly. We respond within 24 hours.",
+              "html": "WhatsApp us directly. We respond within 24 hours."
+            }
+          ],
+          "pattern": "faq",
+          "title": "FAQ",
+          "index": 1
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Still deciding?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tell us what you want to make and get a tailored offer — or message us on WhatsApp.",
+              "html": "Tell us what you want to make and get a tailored offer — or message us on WhatsApp."
+            },
+            {
+              "type": "button",
+              "text": "Get an offer",
+              "href": "https://modafie.io/get-an-offer"
+            },
+            {
+              "type": "button",
+              "text": "WhatsApp us",
+              "href": "https://modafie.io/whatsapp"
+            }
+          ],
+          "pattern": "cta",
+          "title": "Offer CTA",
+          "index": 2
+        }
+      ],
+      "media": [],
+      "forms": [],
+      "consoleErrors": [],
+      "screenshots": {}
+    },
+    {
+      "url": "https://modafie.io/contact",
+      "requestedUrl": "https://modafie.io/pages/contact",
+      "discoveredVia": "live scrape (curated layout)",
+      "slug": "contact",
+      "status": 200,
+      "title": "Contact | Modafie",
+      "meta": {
+        "description": "Contact Modafie — low MOQ clothing manufacturer in Europe. WhatsApp us or send a note; we respond within 24 hours.",
+        "canonical": "https://modafie.io/contact",
+        "og": {
+          "og:title": "Contact",
+          "og:description": "Contact Modafie — low MOQ clothing manufacturer in Europe. WhatsApp us or send a note; we respond within 24 hours."
+        }
+      },
+      "lang": "en",
+      "headings": [],
+      "sections": [
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Contact"
+            },
+            {
+              "type": "paragraph",
+              "text": "WhatsApp us directly and we'll get back to you within 24 hours.",
+              "html": "WhatsApp us directly and we'll get back to you within 24 hours."
+            }
+          ],
+          "pattern": "title",
+          "title": "Page title",
+          "index": 0
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Talk to us"
+            },
+            {
+              "type": "paragraph",
+              "text": "Prefer a tailored quote? Use the Get an offer form.",
+              "html": "Prefer a tailored quote? Use the Get an offer form."
+            },
+            {
+              "type": "button",
+              "text": "WhatsApp us",
+              "href": "https://modafie.io/whatsapp"
+            },
+            {
+              "type": "button",
+              "text": "Get an offer",
+              "href": "https://modafie.io/get-an-offer"
+            },
+            {
+              "type": "form",
+              "action": null,
+              "method": "post",
+              "submit": "Send us a note",
+              "fields": [
+                {
+                  "tag": "input",
+                  "type": "text",
+                  "name": "name",
+                  "label": "Name",
+                  "placeholder": "Name",
+                  "required": false
+                },
+                {
+                  "tag": "input",
+                  "type": "email",
+                  "name": "email",
+                  "label": "Email",
+                  "placeholder": "Email",
+                  "required": true
+                },
+                {
+                  "tag": "input",
+                  "type": "tel",
+                  "name": "phone",
+                  "label": "Phone",
+                  "placeholder": "Phone",
+                  "required": false
+                },
+                {
+                  "tag": "textarea",
+                  "type": "textarea",
+                  "name": "body",
+                  "label": "Message",
+                  "placeholder": "Message",
+                  "required": true
+                }
+              ]
+            }
+          ],
+          "pattern": "contact",
+          "title": "Contact form",
+          "index": 1
+        }
+      ],
+      "media": [],
+      "forms": [],
+      "consoleErrors": [],
+      "screenshots": {}
+    },
+    {
+      "url": "https://modafie.io/get-an-offer",
+      "requestedUrl": "https://modafie.io/pages/get-an-offer",
+      "discoveredVia": "live scrape (curated layout)",
+      "slug": "get-an-offer",
+      "status": 200,
+      "title": "Get an offer | Modafie",
+      "meta": {
+        "description": "Tell us what you want to produce — from 30 pieces per style — and get a tailored offer within 24 hours.",
+        "canonical": "https://modafie.io/get-an-offer",
+        "og": {
+          "og:title": "Get an offer",
+          "og:description": "Tell us what you want to produce — from 30 pieces per style — and get a tailored offer within 24 hours."
+        }
+      },
+      "lang": "en",
+      "headings": [],
+      "sections": [
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "From 30 pieces per style",
+              "html": "From 30 pieces per style",
+              "role": "eyebrow"
+            },
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Get an offer"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tell us what you want to produce and we'll come back with a tailored offer. We respond within 24 hours.",
+              "html": "Tell us what you want to produce and we'll come back with a tailored offer. We respond within 24 hours."
+            }
+          ],
+          "pattern": "title",
+          "title": "Page title",
+          "index": 0
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "How it works"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                {
+                  "text": "Mockups & design development — or bring your own design",
+                  "html": "<strong>Mockups &amp; design development</strong> — or bring your own design"
+                },
+                {
+                  "text": "Tech pack — every measurement and stitch written down",
+                  "html": "<strong>Tech pack</strong> — every measurement and stitch written down"
+                },
+                {
+                  "text": "Sampling & prototyping — 3 to 4 weeks from tech pack approval",
+                  "html": "<strong>Sampling &amp; prototyping</strong> — 3 to 4 weeks from tech pack approval"
+                },
+                {
+                  "text": "Bulk production from 30 pieces — 4-6 weeks after sample sign-off",
+                  "html": "<strong>Bulk production from 30 pieces</strong> — 4-6 weeks after sample sign-off"
+                },
+                {
+                  "text": "Packaging, labelling and shipping included in the bulk order",
+                  "html": "<strong>Packaging, labelling and shipping</strong> included in the bulk order"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Prefer to chat? WhatsApp us directly. We respond within 24 hours.",
+              "html": "Prefer to chat? WhatsApp us directly. We respond within 24 hours."
+            },
+            {
+              "type": "button",
+              "text": "WhatsApp us",
+              "href": "https://modafie.io/whatsapp"
+            },
+            {
+              "type": "form",
+              "action": null,
+              "method": "post",
+              "submit": "Request my offer",
+              "fields": [
+                {
+                  "tag": "input",
+                  "type": "text",
+                  "name": "name",
+                  "label": "Your name",
+                  "placeholder": "Your name",
+                  "required": true
+                },
+                {
+                  "tag": "input",
+                  "type": "email",
+                  "name": "email",
+                  "label": "Email",
+                  "placeholder": "you@brand.com",
+                  "required": true
+                },
+                {
+                  "tag": "input",
+                  "type": "text",
+                  "name": "brand",
+                  "label": "Brand name",
+                  "placeholder": "Brand name",
+                  "required": false
+                },
+                {
+                  "tag": "input",
+                  "type": "tel",
+                  "name": "whatsapp",
+                  "label": "WhatsApp / phone",
+                  "placeholder": "+00 000 000 000",
+                  "required": false
+                },
+                {
+                  "tag": "select",
+                  "type": "select-one",
+                  "name": "product",
+                  "label": "What would you like to produce?",
+                  "placeholder": "",
+                  "required": true,
+                  "options": [
+                    "Fashion wear & apparel",
+                    "Custom tote bags",
+                    "Sustainable exotic fabric collection",
+                    "Mugs & branded bottles",
+                    "Something else"
+                  ]
+                },
+                {
+                  "tag": "select",
+                  "type": "select-one",
+                  "name": "quantity",
+                  "label": "Quantity per style",
+                  "placeholder": "",
+                  "required": true,
+                  "options": [
+                    "30-50 pieces",
+                    "50-100 pieces",
+                    "100-300 pieces",
+                    "300+ pieces",
+                    "Not sure yet"
+                  ]
+                },
+                {
+                  "tag": "select",
+                  "type": "select-one",
+                  "name": "services",
+                  "label": "What do you need?",
+                  "placeholder": "",
+                  "required": false,
+                  "options": [
+                    "Everything — from design to delivery",
+                    "Mockups & design development",
+                    "Tech pack",
+                    "Sampling & prototyping",
+                    "Bulk production",
+                    "Custom tags, labeling & packaging",
+                    "Product photography",
+                    "Marketing & branding assets"
+                  ]
+                },
+                {
+                  "tag": "textarea",
+                  "type": "textarea",
+                  "name": "project",
+                  "label": "Tell us about your project",
+                  "placeholder": "Garment types, fabrics, timeline, links to sketches or mood boards…",
+                  "required": true
+                },
+                {
+                  "type": "checkbox",
+                  "tag": "input",
+                  "name": "consent",
+                  "label": "I agree that Modafie may contact me about this request.",
+                  "required": true
+                }
+              ]
+            }
+          ],
+          "pattern": "contact",
+          "title": "Offer form",
+          "index": 1
+        }
+      ],
+      "media": [],
+      "forms": [],
+      "consoleErrors": [],
+      "screenshots": {}
+    },
+    {
+      "url": "https://modafie.io/privacy-policy",
+      "requestedUrl": "https://modafie.io/pages/privacy-policy",
+      "discoveredVia": "live scrape (curated layout)",
+      "slug": "privacy-policy",
+      "status": 200,
+      "title": "Privacy policy | Modafie",
+      "meta": {
+        "description": "How Modafie collects and uses personal information.",
+        "canonical": "https://modafie.io/privacy-policy",
+        "og": {
+          "og:title": "Privacy policy",
+          "og:description": "How Modafie collects and uses personal information."
+        }
+      },
+      "lang": "en",
+      "headings": [],
+      "sections": [
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Privacy policy"
+            }
+          ],
+          "pattern": "title",
+          "title": "Page title",
+          "index": 0
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Last updated: September 30, 2026",
+              "html": "Last updated: September 30, 2026"
+            },
+            {
+              "type": "paragraph",
+              "text": "Modafie operates this store and website, including all related information, content, features, tools, products and services, in order to provide you, the customer, with a curated shopping experience (the \"Services\"). Modafie is powered by Shopify, which enables us to provide the Services to you. This Privacy Policy describes how we collect, use, and disclose your personal information when you visit, use, or make a purchase or other transaction using the Services or otherwise communicate with us. If there is a conflict between our Terms of Service and this Privacy Policy, this Privacy Policy controls with respect to the collection, processing, and disclosure of your personal information.",
+              "html": "Modafie operates this store and website, including all related information, content, features, tools, products and services, in order to provide you, the customer, with a curated shopping experience (the \"Services\"). Modafie is powered by Shopify, which enables us to provide the Services to you. This Privacy Policy describes how we collect, use, and disclose your personal information when you visit, use, or make a purchase or other transaction using the Services or otherwise communicate with us. If there is a conflict between our Terms of Service and this Privacy Policy, this Privacy Policy controls with respect to the collection, processing, and disclosure of your personal information."
+            },
+            {
+              "type": "paragraph",
+              "text": "Please read this Privacy Policy carefully. By using and accessing any of the Services, you acknowledge that you have read this Privacy Policy and understand the collection, use, and disclosure of your information as described in this Privacy Policy.",
+              "html": "Please read this Privacy Policy carefully. By using and accessing any of the Services, you acknowledge that you have read this Privacy Policy and understand the collection, use, and disclosure of your information as described in this Privacy Policy."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Personal Information We Collect or Process"
+            },
+            {
+              "type": "paragraph",
+              "text": "When we use the term \"personal information,\" we are referring to information that identifies or can reasonably be linked to you or another person. Personal information does not include information that is collected anonymously or that has been de-identified, so that it cannot identify or be reasonably linked to you. We may collect or process the following categories of personal information, including inferences drawn from this personal information, depending on how you interact with the Services, where you live, and as permitted or required by applicable law:",
+              "html": "When we use the term \"personal information,\" we are referring to information that identifies or can reasonably be linked to you or another person. Personal information does not include information that is collected anonymously or that has been de-identified, so that it cannot identify or be reasonably linked to you. We may collect or process the following categories of personal information, including inferences drawn from this personal information, depending on how you interact with the Services, where you live, and as permitted or required by applicable law:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Contact details including your name, address, billing address, shipping address, phone number, and email address.",
+                "Financial information including credit card, debit card, and financial account numbers, payment card information, financial account information, transaction details, form of payment, payment confirmation and other payment details.",
+                "Account information including your username, password, security questions, preferences and settings.",
+                "Transaction information including the items you view, put in your cart, add to your wishlist, or purchase, return, exchange or cancel and your past transactions.",
+                "Communications with us including the information you include in communications with us, for example, when sending a customer support inquiry.",
+                "Device information including information about your device, browser, or network connection, your IP address, and other unique identifiers.",
+                "Usage information including information regarding your interaction with the Services, including how and when you interact with or navigate the Services."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Personal Information Sources"
+            },
+            {
+              "type": "paragraph",
+              "text": "We may collect personal information from the following sources:",
+              "html": "We may collect personal information from the following sources:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Directly from you including when you create an account, visit or use the Services, communicate with us, or otherwise provide us with your personal information;",
+                "Automatically through the Services including from your device when you use our products or services or visit our websites, and through the use of cookies and similar technologies;",
+                "From our service providers including when we engage them to enable certain technology and when they collect or process your personal information on our behalf;",
+                "From our partners or other third parties."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "How We Use Your Personal Information"
+            },
+            {
+              "type": "paragraph",
+              "text": "Depending on how you interact with us or which of the Services you use, we may use personal information for the following purposes:",
+              "html": "Depending on how you interact with us or which of the Services you use, we may use personal information for the following purposes:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Provide, Tailor, and Improve the Services. We use your personal information to provide you with the Services, including to perform our contract with you, to process your payments, to fulfill your orders, to remember your preferences and items you are interested in, to send notifications to you related to your account, to process purchases, returns, exchanges or other transactions, to create, maintain and otherwise manage your account, to arrange for shipping, to facilitate any returns and exchanges, to enable you to post reviews, and to create a customized shopping experience for you, such as recommending products related to your purchases. This may include using your personal information to better tailor and improve the Services.",
+                "Marketing and Advertising. We use your personal information for marketing and promotional purposes, such as to send marketing, advertising and promotional communications by email, text message or postal mail, and to show you online advertisements for products or services on the Services or other websites, including based on items you previously have purchased or added to your cart and other activity on the Services.",
+                "Security and Fraud Prevention. We use your personal information to authenticate your account, to provide a secure payment and shopping experience, detect, investigate or take action regarding possible fraudulent, illegal, unsafe, or malicious activity, protect public safety, and to secure our services. If you choose to use the Services and register an account, you are responsible for keeping your account credentials safe. We highly recommend that you do not share your username, password or other access details with anyone else.",
+                "Communicating with You. We use your personal information to provide you with customer support, to be responsive to you, to provide effective services to you and to maintain our business relationship with you.",
+                "Legal Reasons. We use your personal information to comply with applicable law or respond to valid legal process, including requests from law enforcement or government agencies, to investigate or participate in civil discovery, potential or actual litigation, or other adversarial legal proceedings, and to enforce or investigate potential violations of our terms or policies."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "How We Disclose Personal Information"
+            },
+            {
+              "type": "paragraph",
+              "text": "In certain circumstances, we may disclose your personal information to third parties for legitimate purposes subject to this Privacy Policy. Such circumstances may include:",
+              "html": "In certain circumstances, we may disclose your personal information to third parties for legitimate purposes subject to this Privacy Policy. Such circumstances may include:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "With Shopify, vendors and other third parties who perform services on our behalf (e.g. IT management, payment processing, data analytics, customer support, cloud storage, fulfillment and shipping).",
+                "With business and marketing partners to provide marketing services and advertise to you. For example, we use Shopify to support personalized advertising with third-party services based on your online activity with different merchants and websites. Our business and marketing partners will use your information in accordance with their own privacy notices. Depending on where you reside, you may have a right to direct us not to share information about you to show you targeted advertisements and marketing based on your online activity with different merchants and websites. .",
+                "When you direct, request us or otherwise consent to our disclosure of certain information to third parties, such as to ship you products or through your use of social media widgets or login integrations.",
+                "With our affiliates or otherwise within our corporate group.",
+                "In connection with a business transaction such as a merger or bankruptcy, to comply with any applicable legal obligations (including to respond to subpoenas, search warrants and similar requests), to enforce any applicable terms of service or policies, and to protect or defend the Services, our rights, and the rights of our users or others."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Relationship with Shopify"
+            },
+            {
+              "type": "paragraph",
+              "text": "The Services are hosted by Shopify, which collects and processes personal information about your access to and use of the Services in order to provide and improve the Services for you. Information you submit to the Services will be transmitted to and shared with Shopify as well as third parties that may be located in countries other than where you reside, in order to provide and improve the Services for you. In addition, to help protect, grow, and improve our business, we use certain Shopify enhanced features that incorporate data and information obtained from your interactions with our Store, along with other merchants and with Shopify. To provide these enhanced features, Shopify may make use of personal information collected about your interactions with our store, along with other merchants, and with Shopify. In these circumstances, Shopify is responsible for the processing of your personal information, including for responding to your requests to exercise your rights over use of your personal information for these purposes. To learn more about how Shopify uses your personal information and any rights you may have, you can visit the Shopify Consumer Privacy Policy . Depending on where you live, you may exercise certain rights with respect to your personal information here Shopify Privacy Portal Link.",
+              "html": "The Services are hosted by Shopify, which collects and processes personal information about your access to and use of the Services in order to provide and improve the Services for you. Information you submit to the Services will be transmitted to and shared with Shopify as well as third parties that may be located in countries other than where you reside, in order to provide and improve the Services for you. In addition, to help protect, grow, and improve our business, we use certain Shopify enhanced features that incorporate data and information obtained from your interactions with our Store, along with other merchants and with Shopify. To provide these enhanced features, Shopify may make use of personal information collected about your interactions with our store, along with other merchants, and with Shopify. In these circumstances, Shopify is responsible for the processing of your personal information, including for responding to your requests to exercise your rights over use of your personal information for these purposes. To learn more about how Shopify uses your personal information and any rights you may have, you can visit the <a href=\"https://www.shopify.com/legal/privacy/app-users\">Shopify Consumer Privacy Policy</a> . Depending on where you live, you may exercise certain rights with respect to your personal information here <a href=\"https://privacy.shopify.com/en\">Shopify Privacy Portal Link</a>."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Third Party Websites and Links"
+            },
+            {
+              "type": "paragraph",
+              "text": "The Services may provide links to websites or other online platforms operated by third parties. If you follow links to sites not affiliated or controlled by us, you should review their privacy and security policies and other terms and conditions. We do not guarantee and are not responsible for the privacy or security of such sites, including the accuracy, completeness, or reliability of information found on these sites. Information you provide on public or semi-public venues, including information you share on third-party social networking platforms may also be viewable by other users of the Services and/or users of those third-party platforms without limitation as to its use by us or by a third party. Our inclusion of such links does not, by itself, imply any endorsement of the content on such platforms or of their owners or operators, except as disclosed on the Services.",
+              "html": "The Services may provide links to websites or other online platforms operated by third parties. If you follow links to sites not affiliated or controlled by us, you should review their privacy and security policies and other terms and conditions. We do not guarantee and are not responsible for the privacy or security of such sites, including the accuracy, completeness, or reliability of information found on these sites. Information you provide on public or semi-public venues, including information you share on third-party social networking platforms may also be viewable by other users of the Services and/or users of those third-party platforms without limitation as to its use by us or by a third party. Our inclusion of such links does not, by itself, imply any endorsement of the content on such platforms or of their owners or operators, except as disclosed on the Services."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Children's Data"
+            },
+            {
+              "type": "paragraph",
+              "text": "The Services are not intended to be used by children, and we do not knowingly collect any personal information about children under the age of majority in your jurisdiction. If you are the parent or guardian of a child who has provided us with their personal information, you may contact us using the contact details set out below to request that it be deleted.As of the Effective Date of this Privacy Policy, we do not have actual knowledge that we \"share\" or \"sell\" (as those terms are defined in applicable law) personal information of individuals under 16 years of age.",
+              "html": "The Services are not intended to be used by children, and we do not knowingly collect any personal information about children under the age of majority in your jurisdiction. If you are the parent or guardian of a child who has provided us with their personal information, you may contact us using the contact details set out below to request that it be deleted.As of the Effective Date of this Privacy Policy, we do not have actual knowledge that we \"share\" or \"sell\" (as those terms are defined in applicable law) personal information of individuals under 16 years of age."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Security and Retention of Your Information"
+            },
+            {
+              "type": "paragraph",
+              "text": "Please be aware that no security measures are perfect or impenetrable, and we cannot guarantee \"perfect security.\" In addition, any information you send to us may not be secure while in transit. We recommend that you do not use unsecure channels to communicate sensitive or confidential information to us.",
+              "html": "Please be aware that no security measures are perfect or impenetrable, and we cannot guarantee \"perfect security.\" In addition, any information you send to us may not be secure while in transit. We recommend that you do not use unsecure channels to communicate sensitive or confidential information to us."
+            },
+            {
+              "type": "paragraph",
+              "text": "How long we retain your personal information depends on different factors, such as whether we need the information to maintain your account, to provide you with Services, comply with legal obligations, resolve disputes or enforce other applicable contracts and policies.",
+              "html": "How long we retain your personal information depends on different factors, such as whether we need the information to maintain your account, to provide you with Services, comply with legal obligations, resolve disputes or enforce other applicable contracts and policies."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Your Rights and Choices"
+            },
+            {
+              "type": "paragraph",
+              "text": "Depending on where you live, you may have some or all of the rights listed below in relation to your personal information. However, these rights are not absolute, may apply only in certain circumstances and, in certain cases, we may decline your request as permitted by law.",
+              "html": "Depending on where you live, you may have some or all of the rights listed below in relation to your personal information. However, these rights are not absolute, may apply only in certain circumstances and, in certain cases, we may decline your request as permitted by law."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Right to Access / Know. You may have a right to request access to personal information that we hold about you.",
+                "Right to Delete. You may have a right to request that we delete personal information we maintain about you.",
+                "Right to Correct. You may have a right to request that we correct inaccurate personal information we maintain about you.",
+                "Right of Portability. You may have a right to receive a copy of the personal information we hold about you and to request that we transfer it to a third party, in certain circumstances and with certain exceptions.",
+                "Managing Communication Preferences. We may send you promotional emails, and you may opt out of receiving these at any time by using the unsubscribe option displayed in our emails to you. If you opt out, we may still send you non-promotional emails, such as those about your account or orders that you have made."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "If you reside in the UK or European Economic Area, and subject to exceptions and limitations provided by local law, you may exercise the following rights in addition to the rights outlined above:",
+              "html": "<strong>If you reside in the UK or European Economic Area,</strong> and subject to exceptions and limitations provided by local law, you may exercise the following rights in addition to the rights outlined above:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Objection to Processing and Restriction of Processing: You may have the right to ask us to stop or restrict our processing of personal information for certain purposes.",
+                "Withdrawal of Consent: Where we rely on consent to process your personal information, you have the right to withdraw this consent. If you withdraw your consent, this will not affect the lawfulness of any processing based on your consent before its withdrawal."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "You may exercise any of these rights where indicated on the Services or by contacting us using the contact details provided below. To learn more about how Shopify uses your personal information and any rights you may have, including rights related to data processed by Shopify, you can visit https://privacy.shopify.com/en.",
+              "html": "You may exercise any of these rights where indicated on the Services or by contacting us using the contact details provided below. To learn more about how Shopify uses your personal information and any rights you may have, including rights related to data processed by Shopify, you can visit https://privacy.shopify.com/en."
+            },
+            {
+              "type": "paragraph",
+              "text": "We will not discriminate against you for exercising any of these rights. We may need to verify your identity before we can process your requests, as permitted or required under applicable law. In accordance with applicable laws, you may designate an authorized agent to make requests on your behalf to exercise your rights. Before accepting such a request from an agent, we will require that the agent provide proof you have authorized them to act on your behalf, and we may need you to verify your identity directly with us. We will respond to your request in a timely manner as required under applicable law.",
+              "html": "We will not discriminate against you for exercising any of these rights. We may need to verify your identity before we can process your requests, as permitted or required under applicable law. In accordance with applicable laws, you may designate an authorized agent to make requests on your behalf to exercise your rights. Before accepting such a request from an agent, we will require that the agent provide proof you have authorized them to act on your behalf, and we may need you to verify your identity directly with us. We will respond to your request in a timely manner as required under applicable law."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Complaints"
+            },
+            {
+              "type": "paragraph",
+              "text": "If you have complaints about how we process your personal information, please contact us using the contact details provided below. Depending on where you live, you may have the right to appeal our decision by contacting us using the contact details set out below, or lodge your complaint with your local data protection authority. For the EEA, you can find a list of the responsible data protection supervisory authorities here.",
+              "html": "If you have complaints about how we process your personal information, please contact us using the contact details provided below. Depending on where you live, you may have the right to appeal our decision by contacting us using the contact details set out below, or lodge your complaint with your local data protection authority. For the EEA, you can find a list of the responsible data protection supervisory authorities <a href=\"https://edpb.europa.eu/about-edpb/about-edpb/members\">here</a>."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "International Transfers"
+            },
+            {
+              "type": "paragraph",
+              "text": "Please note that we may transfer, store and process your personal information outside the country you live in.",
+              "html": "Please note that we may transfer, store and process your personal information outside the country you live in."
+            },
+            {
+              "type": "paragraph",
+              "text": "If we transfer your personal information out of the European Economic Area or the United Kingdom, we will rely on recognized transfer mechanisms like the European Commission's Standard Contractual Clauses, or any equivalent contracts issued by the relevant competent authority of the UK, as relevant, unless the data transfer is to a country that has been determined to provide an adequate level of protection.",
+              "html": "If we transfer your personal information out of the European Economic Area or the United Kingdom, we will rely on recognized transfer mechanisms like the European Commission's Standard Contractual Clauses, or any equivalent contracts issued by the relevant competent authority of the UK, as relevant, unless the data transfer is to a country that has been determined to provide an adequate level of protection."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Changes to This Privacy Policy"
+            },
+            {
+              "type": "paragraph",
+              "text": "We may update this Privacy Policy from time to time, including to reflect changes to our practices or for other operational, legal, or regulatory reasons. We will post the revised Privacy Policy on this website, update the \"Last updated\" date and provide notice as required by applicable law.",
+              "html": "We may update this Privacy Policy from time to time, including to reflect changes to our practices or for other operational, legal, or regulatory reasons. We will post the revised Privacy Policy on this website, update the \"Last updated\" date and provide notice as required by applicable law."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contact"
+            },
+            {
+              "type": "paragraph",
+              "text": "Should you have any questions about our privacy practices or this Privacy Policy, or if you would like to exercise any of the rights available to you, please call or email us at managnisarmah777@gmail.com or contact us at Suur patarei tn 27, 10415, Estonia For the purpose of applicable data protection laws, we are the data controller of your personal information.",
+              "html": "Should you have any questions about our privacy practices or this Privacy Policy, or if you would like to exercise any of the rights available to you, please call or email us at managnisarmah777@gmail.com or contact us at Suur patarei tn 27, 10415, Estonia For the purpose of applicable data protection laws, we are the data controller of your personal information."
+            }
+          ],
+          "pattern": "generic",
+          "boxed": 760,
+          "title": "Policy",
+          "index": 1
+        }
+      ],
+      "media": [],
+      "forms": [],
+      "consoleErrors": [],
+      "screenshots": {}
+    }
+  ],
+  "media": {
+    "137044dbfef549fd": {
+      "id": "137044dbfef549fd",
+      "sha256": "137044dbfef549fd46d6e608e87a2c094c7864bd8ed44ceab14f3975d11ef1c7",
+      "file": "web/modafie-logo-white.png",
+      "kind": "images",
+      "contentType": "image/png",
+      "bytes": 127621,
+      "url": "https://modafie.io/web/modafie-logo-white.png",
+      "sources": [],
+      "alt": "Modafie",
+      "width": 1200,
+      "height": 385
+    },
+    "0c1a5201029021b8": {
+      "id": "0c1a5201029021b8",
+      "sha256": "0c1a5201029021b81798957a372c0eb560f6c5424433105b713ef57946d08484",
+      "file": "web/modafie-logo-black.png",
+      "kind": "images",
+      "contentType": "image/png",
+      "bytes": 63212,
+      "url": "https://modafie.io/web/modafie-logo-black.png",
+      "sources": [],
+      "alt": "Modafie",
+      "width": 1200,
+      "height": 385
+    },
+    "1f8d78bd00aff36c": {
+      "id": "1f8d78bd00aff36c",
+      "sha256": "1f8d78bd00aff36c560a61c463b0a6506e469c77b8afdb4ea6cd685568012408",
+      "file": "web/hero-sewing-sequins.mp4",
+      "kind": "videos",
+      "contentType": "video/mp4",
+      "bytes": 1257340,
+      "url": "https://modafie.io/web/hero-sewing-sequins.mp4",
+      "sources": [],
+      "alt": "",
+      "width": 1280,
+      "height": 720
+    },
+    "8824c854d2ad1358": {
+      "id": "8824c854d2ad1358",
+      "sha256": "8824c854d2ad13581172656e89cbc1a7c5423e1149134b043b5c423e0a1ebeb4",
+      "file": "web/hero-sewing-sequins-poster.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 37118,
+      "url": "https://modafie.io/web/hero-sewing-sequins-poster.jpg",
+      "sources": [],
+      "alt": "Sequins being sewn at Modafie",
+      "width": 1280,
+      "height": 720
+    },
+    "fbbed5347b526ee5": {
+      "id": "fbbed5347b526ee5",
+      "sha256": "fbbed5347b526ee5655c2aa96a3097a6dc0be11cbf25a4cc2ffd52a9b8d05c43",
+      "file": "web/sewing-machine-loop.mp4",
+      "kind": "videos",
+      "contentType": "video/mp4",
+      "bytes": 657296,
+      "url": "https://modafie.io/web/sewing-machine-loop.mp4",
+      "sources": [],
+      "alt": "",
+      "width": 1280,
+      "height": 720
+    },
+    "99f76bafd286221b": {
+      "id": "99f76bafd286221b",
+      "sha256": "99f76bafd286221b5ebe173c70deb7c23242bf82e2cb639acff0df91a5667200",
+      "file": "web/sewing-machine-loop-poster.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 42165,
+      "url": "https://modafie.io/web/sewing-machine-loop-poster.jpg",
+      "sources": [],
+      "alt": "Sewing at the Modafie factory",
+      "width": 1280,
+      "height": 720
+    },
+    "71a73923a374768f": {
+      "id": "71a73923a374768f",
+      "sha256": "71a73923a374768f0660a047c60ee3e9642b6b6720824d1f583e23b9d8f14fd2",
+      "file": "web/pattern-cutting-loop.mp4",
+      "kind": "videos",
+      "contentType": "video/mp4",
+      "bytes": 745961,
+      "url": "https://modafie.io/web/pattern-cutting-loop.mp4",
+      "sources": [],
+      "alt": "",
+      "width": 1280,
+      "height": 720
+    },
+    "5d43f309c58ddb45": {
+      "id": "5d43f309c58ddb45",
+      "sha256": "5d43f309c58ddb45e1834d48795e64e9a7d3151d5350f491c3e8952f109aced1",
+      "file": "web/pattern-cutting-loop-poster.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 39920,
+      "url": "https://modafie.io/web/pattern-cutting-loop-poster.jpg",
+      "sources": [],
+      "alt": "Pattern cutting at Modafie",
+      "width": 1280,
+      "height": 720
+    },
+    "fb16f00652fc31da": {
+      "id": "fb16f00652fc31da",
+      "sha256": "fb16f00652fc31da283c504c33f30183b976c58dbd40c083ccbbad489a1687d8",
+      "file": "web/designer-story.mp4",
+      "kind": "videos",
+      "contentType": "video/mp4",
+      "bytes": 4859465,
+      "url": "https://modafie.io/web/designer-story.mp4",
+      "sources": [],
+      "alt": "",
+      "width": 1280,
+      "height": 720
+    },
+    "bb72ecad4d02f388": {
+      "id": "bb72ecad4d02f388",
+      "sha256": "bb72ecad4d02f388fbdd748fb6cb4b7a4b135f31ee91d12fd3df7ecd259d7e47",
+      "file": "web/designer-story-poster.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 94491,
+      "url": "https://modafie.io/web/designer-story-poster.jpg",
+      "sources": [],
+      "alt": "Designer story",
+      "width": 1280,
+      "height": 720
+    },
+    "d880f7449d3bafcb": {
+      "id": "d880f7449d3bafcb",
+      "sha256": "d880f7449d3bafcbe21661a8db616ce47bc18d5e49b08ac64db27fbdc11d2d8a",
+      "file": "images/img-7247-2.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 105685,
+      "url": "https://modafie.io/cdn/shop/files/IMG_7247_2.jpg?v=1773262247",
+      "sources": [
+        "https://modafie.io/cdn/shop/files/IMG_7247_2.jpg?v=1773262247"
+      ],
+      "alt": "",
+      "width": 1200,
+      "height": 1779
+    },
+    "4459a60a4aa1423f": {
+      "id": "4459a60a4aa1423f",
+      "sha256": "4459a60a4aa1423f29c58a014327f47e377db86cdc678ca94ddb288cb3406eff",
+      "file": "images/img-7090-2.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 334295,
+      "url": "https://modafie.io/cdn/shop/files/IMG_7090_2.jpg?v=1773064241",
+      "sources": [
+        "https://modafie.io/cdn/shop/files/IMG_7090_2.jpg?v=1773064241"
+      ],
+      "alt": "",
+      "width": 1200,
+      "height": 1497
+    },
+    "c086a6028b9bad60": {
+      "id": "c086a6028b9bad60",
+      "sha256": "c086a6028b9bad600f39094803960e3866003b0897b4302ee1f6e26a27aa1355",
+      "file": "images/img-7089-3.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 226258,
+      "url": "https://modafie.io/cdn/shop/files/IMG_7089_3.jpg?v=1773260253",
+      "sources": [
+        "https://modafie.io/cdn/shop/files/IMG_7089_3.jpg?v=1773260253"
+      ],
+      "alt": "",
+      "width": 1200,
+      "height": 1600
+    },
+    "e7e3b431b0a04c37": {
+      "id": "e7e3b431b0a04c37",
+      "sha256": "e7e3b431b0a04c378a97a0ea53af9589e0f1e7faa8d412620d914c4a49b8293f",
+      "file": "images/img-7091-2.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 251041,
+      "url": "https://modafie.io/cdn/shop/files/IMG_7091_2.jpg?v=1773064241",
+      "sources": [
+        "https://modafie.io/cdn/shop/files/IMG_7091_2.jpg?v=1773064241"
+      ],
+      "alt": "",
+      "width": 1179,
+      "height": 1179
+    },
+    "f7213e4905dbecfc": {
+      "id": "f7213e4905dbecfc",
+      "sha256": "f7213e4905dbecfc079f05e79c2e01246ab7c14d12b0f1035eaefe0a9fbc6c26",
+      "file": "images/img-7087-2.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 311162,
+      "url": "https://modafie.io/cdn/shop/files/IMG_7087_2.jpg?v=1773064241",
+      "sources": [
+        "https://modafie.io/cdn/shop/files/IMG_7087_2.jpg?v=1773064241"
+      ],
+      "alt": "",
+      "width": 1200,
+      "height": 2133
+    },
+    "cec3928849359e31": {
+      "id": "cec3928849359e31",
+      "sha256": "cec3928849359e31ce0835bb6b85abf08bfaa1329e7e53b1ac5bed9b44b102a5",
+      "file": "images/img-7101.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 199156,
+      "url": "https://modafie.io/cdn/shop/files/IMG_7101.jpg?v=1773065632",
+      "sources": [
+        "https://modafie.io/cdn/shop/files/IMG_7101.jpg?v=1773065632"
+      ],
+      "alt": "",
+      "width": 1024,
+      "height": 1024
+    },
+    "28d3c5611ff1bc14": {
+      "id": "28d3c5611ff1bc14",
+      "sha256": "28d3c5611ff1bc146785b19b908e18ae74928cf36edb76cec2cc2f1507783fd9",
+      "file": "images/img-1599.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 238011,
+      "url": "https://modafie.io/cdn/shop/files/IMG_1599.jpg?v=1773074823",
+      "sources": [
+        "https://modafie.io/cdn/shop/files/IMG_1599.jpg?v=1773074823"
+      ],
+      "alt": "",
+      "width": 1080,
+      "height": 1920
+    },
+    "6d9aebb4a612f79d": {
+      "id": "6d9aebb4a612f79d",
+      "sha256": "6d9aebb4a612f79d21c00db09332d99046d908b3c00468673920505f44dabd20",
+      "file": "images/img-7107.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 412320,
+      "url": "https://modafie.io/cdn/shop/files/IMG_7107.jpg?v=1773075243",
+      "sources": [
+        "https://modafie.io/cdn/shop/files/IMG_7107.jpg?v=1773075243"
+      ],
+      "alt": "",
+      "width": 1200,
+      "height": 1500
+    },
+    "68568d4d232bc5ff": {
+      "id": "68568d4d232bc5ff",
+      "sha256": "68568d4d232bc5ff7a9b7ef8c70be6fe0682431e928e89e22bcad8bc5519ea2e",
+      "file": "images/img-7093.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 225826,
+      "url": "https://modafie.io/cdn/shop/files/IMG_7093.jpg?v=1773074971",
+      "sources": [
+        "https://modafie.io/cdn/shop/files/IMG_7093.jpg?v=1773074971"
+      ],
+      "alt": "",
+      "width": 1200,
+      "height": 1600
+    },
+    "f7c3dddfdb46be8c": {
+      "id": "f7c3dddfdb46be8c",
+      "sha256": "f7c3dddfdb46be8c760569d93f1765d695f651dcf7e19c54dc9ddf5525541dc1",
+      "file": "images/img-7128-3.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 361216,
+      "url": "https://modafie.io/cdn/shop/files/IMG_7128_3.jpg?v=1773136186",
+      "sources": [
+        "https://modafie.io/cdn/shop/files/IMG_7128_3.jpg?v=1773136186"
+      ],
+      "alt": "",
+      "width": 1123,
+      "height": 1505
+    },
+    "7b326ed6263d9710": {
+      "id": "7b326ed6263d9710",
+      "sha256": "7b326ed6263d9710b7fbe3dc1b20a747ab87fc4402a0bb36821f23ba80885c37",
+      "file": "images/img-7064.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 72986,
+      "url": "https://modafie.io/cdn/shop/files/IMG_7064.jpg?v=1773059211",
+      "sources": [
+        "https://modafie.io/cdn/shop/files/IMG_7064.jpg?v=1773059211"
+      ],
+      "alt": "",
+      "width": 736,
+      "height": 1104
+    },
+    "1d92e89e0027a824": {
+      "id": "1d92e89e0027a824",
+      "sha256": "1d92e89e0027a824dced2e419e71f651f0534ffe7e28f6e2440448f00c321749",
+      "file": "images/img-7129.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 370113,
+      "url": "https://modafie.io/cdn/shop/files/IMG_7129.jpg?v=1773136643",
+      "sources": [
+        "https://modafie.io/cdn/shop/files/IMG_7129.jpg?v=1773136643"
+      ],
+      "alt": "",
+      "width": 1200,
+      "height": 1600
+    },
+    "c5e07c86b1db3ccc": {
+      "id": "c5e07c86b1db3ccc",
+      "sha256": "c5e07c86b1db3cccd7a0a285eb9be821cf27cf57bda5ccde564f801762ffddb3",
+      "file": "images/img-7069.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 481540,
+      "url": "https://modafie.io/cdn/shop/files/IMG_7069.jpg?v=1773059213",
+      "sources": [
+        "https://modafie.io/cdn/shop/files/IMG_7069.jpg?v=1773059213"
+      ],
+      "alt": "",
+      "width": 1200,
+      "height": 1500
+    },
+    "9c807afff7a47373": {
+      "id": "9c807afff7a47373",
+      "sha256": "9c807afff7a4737314084f4e1974eb20ad204529cac0f845dbf85301661eba97",
+      "file": "images/img-7143.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 108427,
+      "url": "https://modafie.io/cdn/shop/files/IMG_7143.jpg?v=1773139378",
+      "sources": [
+        "https://modafie.io/cdn/shop/files/IMG_7143.jpg?v=1773139378"
+      ],
+      "alt": "Custom printed sweatshirt manufactured by Modafie — European clothing factory",
+      "width": 736,
+      "height": 1104
+    },
+    "072b1f47b72b6c8f": {
+      "id": "072b1f47b72b6c8f",
+      "sha256": "072b1f47b72b6c8f097920dcf8191ccaaf8e47f8d3211ad6020cb298d41b24dc",
+      "file": "images/img-7081.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 64946,
+      "url": "https://modafie.io/cdn/shop/files/IMG_7081.jpg?v=1773059211",
+      "sources": [
+        "https://modafie.io/cdn/shop/files/IMG_7081.jpg?v=1773059211"
+      ],
+      "alt": "Oversized crewneck produced by Modafie — low MOQ clothing manufacturer Europe",
+      "width": 750,
+      "height": 1000
+    },
+    "2c212b4454b171a9": {
+      "id": "2c212b4454b171a9",
+      "sha256": "2c212b4454b171a9439884a3e23a7f1747e5f4cd8a0e986dfff65a826d3d4ec5",
+      "file": "images/img-7141.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 165554,
+      "url": "https://modafie.io/cdn/shop/files/IMG_7141.jpg?v=1773139069",
+      "sources": [
+        "https://modafie.io/cdn/shop/files/IMG_7141.jpg?v=1773139069"
+      ],
+      "alt": "Custom matching set — hoodie and trousers manufactured by Modafie from 30 pieces",
+      "width": 1200,
+      "height": 1600
+    },
+    "1ec7a23e6a35bd42": {
+      "id": "1ec7a23e6a35bd42",
+      "sha256": "1ec7a23e6a35bd422ed5f0786e1245c55ea12080dcec316fc23ac6e662e9f5de",
+      "file": "images/img-7057.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 325992,
+      "url": "https://modafie.io/cdn/shop/files/IMG_7057.jpg?v=1773059212",
+      "sources": [
+        "https://modafie.io/cdn/shop/files/IMG_7057.jpg?v=1773059212"
+      ],
+      "alt": "Custom all-over print t-shirt with skeleton graphic — manufactured by Modafie clothing factory Europe",
+      "width": 1179,
+      "height": 1775
+    },
+    "3f82c21b77774580": {
+      "id": "3f82c21b77774580",
+      "sha256": "3f82c21b7777458009d36e2e7a17730e1b68f7697d178bea9f5c450d7c6ee6ce",
+      "file": "images/img-7083.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 229522,
+      "url": "https://modafie.io/cdn/shop/files/IMG_7083.jpg?v=1773059212",
+      "sources": [
+        "https://modafie.io/cdn/shop/files/IMG_7083.jpg?v=1773059212"
+      ],
+      "alt": "Custom graphic t-shirt with embroidered logo print — Modafie low MOQ clothing manufacturer",
+      "width": 1200,
+      "height": 1800
+    },
+    "c577f78adff558a8": {
+      "id": "c577f78adff558a8",
+      "sha256": "c577f78adff558a8d667b12c3271ec698ac30d82fb97a56bf00adea5ee409807",
+      "file": "images/img-7098.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 191065,
+      "url": "https://modafie.io/cdn/shop/files/IMG_7098.jpg?v=1773062633",
+      "sources": [
+        "https://modafie.io/cdn/shop/files/IMG_7098.jpg?v=1773062633"
+      ],
+      "alt": "Custom streetwear t-shirt with woven patch and screen print — produced by Modafie European clothing factory",
+      "width": 1200,
+      "height": 1200
+    },
+    "5b4230e47e05ced6": {
+      "id": "5b4230e47e05ced6",
+      "sha256": "5b4230e47e05ced6b7a4199f83075b5079cc2540e2d555e8d9488e941ecc98f5",
+      "file": "images/img-7133.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 143366,
+      "url": "https://modafie.io/cdn/shop/files/IMG_7133.jpg?v=1773138140",
+      "sources": [
+        "https://modafie.io/cdn/shop/files/IMG_7133.jpg?v=1773138140"
+      ],
+      "alt": "Custom oversized jacket manufactured by Modafie — European clothing factory from 30 pieces",
+      "width": 750,
+      "height": 999
+    },
+    "0941b788ccdb2167": {
+      "id": "0941b788ccdb2167",
+      "sha256": "0941b788ccdb2167f6b1caeb87facc4ae5a8f678bd0ce38782f80e7761fb45a2",
+      "file": "images/img-7065.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 141862,
+      "url": "https://modafie.io/cdn/shop/files/IMG_7065.jpg?v=1773059211",
+      "sources": [
+        "https://modafie.io/cdn/shop/files/IMG_7065.jpg?v=1773059211"
+      ],
+      "alt": "Custom branded tote bag with screen print logo — manufactured by Modafie low MOQ factory Europe",
+      "width": 1200,
+      "height": 1500
+    },
+    "54d156a5e8b7b5ee": {
+      "id": "54d156a5e8b7b5ee",
+      "sha256": "54d156a5e8b7b5eed210e6ac5a9d5c27c3f54c4b7b9844a686fcfd640d68970a",
+      "file": "images/img-7130.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 187408,
+      "url": "https://modafie.io/cdn/shop/files/IMG_7130.jpg?v=1773138140",
+      "sources": [
+        "https://modafie.io/cdn/shop/files/IMG_7130.jpg?v=1773138140"
+      ],
+      "alt": "Custom cargo vest with multi-pocket design — Modafie clothing manufacturer Europe",
+      "width": 1200,
+      "height": 1435
+    },
+    "321f13918af14a24": {
+      "id": "321f13918af14a24",
+      "sha256": "321f13918af14a2467854b59144aa4ce97f775fc8d2fc1fc92624dd2a30b5b4a",
+      "file": "images/img-7137.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 184007,
+      "url": "https://modafie.io/cdn/shop/files/IMG_7137.jpg?v=1773138140",
+      "sources": [
+        "https://modafie.io/cdn/shop/files/IMG_7137.jpg?v=1773138140"
+      ],
+      "alt": "Custom zip-up hoodie in off-white — manufactured by Modafie European clothing factory",
+      "width": 1200,
+      "height": 1600
+    },
+    "b9e40e076769a151": {
+      "id": "b9e40e076769a151",
+      "sha256": "b9e40e076769a15115b446627503cf71209c66a4681cd357b0c6796a9c8b0cd4",
+      "file": "images/img-1264.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 219863,
+      "url": "https://modafie.io/cdn/shop/files/IMG_1264.jpg?v=1773138140",
+      "sources": [
+        "https://modafie.io/cdn/shop/files/IMG_1264.jpg?v=1773138140"
+      ],
+      "alt": "Bulk production run of custom hoodies — white and beige colorways manufactured by Modafie European clothing factory",
+      "width": 1200,
+      "height": 1500
+    },
+    "94022cd5694df022": {
+      "id": "94022cd5694df022",
+      "sha256": "94022cd5694df022e78c33f4c9d8a4966ebbc2495e580554839f9fe2952bd2c0",
+      "file": "images/img-7148.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 28602,
+      "url": "https://modafie.io/cdn/shop/files/IMG_7148.jpg?v=1773145286",
+      "sources": [
+        "https://modafie.io/cdn/shop/files/IMG_7148.jpg?v=1773145286"
+      ],
+      "alt": "",
+      "width": 474,
+      "height": 585
+    },
+    "b88124d36fdadee0": {
+      "id": "b88124d36fdadee0",
+      "sha256": "b88124d36fdadee0202ddbebad5297829e6fc0b92b425b54871c3b92d60cccdc",
+      "file": "images/img-7149.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 71642,
+      "url": "https://modafie.io/cdn/shop/files/IMG_7149.jpg?v=1773145287",
+      "sources": [
+        "https://modafie.io/cdn/shop/files/IMG_7149.jpg?v=1773145287"
+      ],
+      "alt": "Black t-shirts on branded hangers at Modafie clothing factory — bulk apparel production Europ",
+      "width": 827,
+      "height": 1012
+    }
+  }
+}

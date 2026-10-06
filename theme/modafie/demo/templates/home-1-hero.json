@@ -1,6 +1,6 @@
 [
  {
-  "id": "dacba70",
+  "id": "5606ad3",
   "elType": "container",
   "isInner": false,
   "settings": {
@@ -51,7 +51,7 @@
     "size": 88,
     "sizes": []
    },
-   "background_background": "classic",
+   "background_background": "video",
    "background_position": "center center",
    "background_size": "cover",
    "background_repeat": "no-repeat",
@@ -68,9 +68,18 @@
     "background_color": "globals/colors?id=mfdark"
    },
    "background_image": {
-    "url": "{{mf-media:aba44b67a9b0c710:url}}",
-    "id": "{{mf-media:aba44b67a9b0c710:id}}",
-    "alt": "Hero video: sequins / sewing close-up",
+    "url": "{{mf-media:8824c854d2ad1358:url}}",
+    "id": "{{mf-media:8824c854d2ad1358:id}}",
+    "alt": "Sequins being sewn at Modafie",
+    "source": "library",
+    "size": ""
+   },
+   "background_video_link": "{{mf-media:1f8d78bd00aff36c:url}}",
+   "background_play_on_mobile": "yes",
+   "background_video_fallback": {
+    "url": "{{mf-media:8824c854d2ad1358:url}}",
+    "id": "{{mf-media:8824c854d2ad1358:id}}",
+    "alt": "Sequins being sewn at Modafie",
     "source": "library",
     "size": ""
    },
@@ -78,7 +87,42 @@
   },
   "elements": [
    {
-    "id": "89be630",
+    "id": "ce36b86",
+    "elType": "widget",
+    "widgetType": "image",
+    "isInner": false,
+    "settings": {
+     "image": {
+      "url": "{{mf-media:137044dbfef549fd:url}}",
+      "id": "{{mf-media:137044dbfef549fd:id}}",
+      "alt": "Modafie",
+      "source": "library",
+      "size": ""
+     },
+     "image_size": "full",
+     "width": {
+      "unit": "px",
+      "size": 560,
+      "sizes": []
+     },
+     "_animation": "fadeIn",
+     "_animation_delay": 0,
+     "width_tablet": {
+      "unit": "px",
+      "size": 420,
+      "sizes": []
+     },
+     "width_mobile": {
+      "unit": "px",
+      "size": 260,
+      "sizes": []
+     },
+     "align": "left"
+    },
+    "elements": []
+   },
+   {
+    "id": "03e246c",
     "elType": "widget",
     "widgetType": "heading",
     "isInner": false,
@@ -94,7 +138,7 @@
     "elements": []
    },
    {
-    "id": "b241b2f",
+    "id": "d6cc423",
     "elType": "widget",
     "widgetType": "text-editor",
     "isInner": false,
@@ -121,7 +165,7 @@
     "elements": []
    },
    {
-    "id": "c423b8e",
+    "id": "dacba70",
     "elType": "container",
     "isInner": true,
     "settings": {
@@ -147,7 +191,7 @@
     },
     "elements": [
      {
-      "id": "5c7f27b",
+      "id": "f72d65e",
       "elType": "widget",
       "widgetType": "button",
       "isInner": false,
@@ -174,7 +218,7 @@
       "elements": []
      },
      {
-      "id": "f72d65e",
+      "id": "3afdac8",
       "elType": "widget",
       "widgetType": "button",
       "isInner": false,

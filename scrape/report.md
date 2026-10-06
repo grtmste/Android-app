@@ -1,52 +1,69 @@
 # Modafie scrape report
 
-> **Status: content supplied by the client; live scrape still blocked.** Every request to `www.modafie.io` and
-> `cdn.shopify.com` (where its photos/videos live) is refused by the build environment's egress proxy (`403` on CONNECT;
-> `WebFetch`: `EGRESS_BLOCKED`, retried on 2026-10-06 with the same result).
+- Source: https://modafie.io/
+- Crawled: 2026-10-06T22:00:27.851Z (268s, 1000ms between requests, 3 retries)
+- robots.txt rules: 63; sitemaps read: 8; URLs in sitemaps: 9
+- **Pages scraped: 12**
+- **Media files: 41 (85.43 MB)**
 
-## What is in `content.json`
+| Kind | Files | Size |
+|---|---:|---:|
+| videos | 4 | 79.02 MB |
+| images | 31 | 6.40 MB |
+| svg | 6 | 0.00 MB |
 
-| Page | Source | Sections |
-|---|---|---:|
-| Home | client screenshot (homepage, low-res) | 13 |
-| About us | client screenshot, verbatim | 8 |
-| What we do | client screenshot, verbatim | 9 |
-| FAQ | client screenshot, verbatim | 3 |
-| Get an offer | **new**: offer/lead form replacing the shop (client request: “not shop orientated, rather ask for an offer style”) | 2 |
+## Pages
 
-- Navigation, as on modafie.io: Home · WhatsApp · About us · What we do (now with links to each service) · FAQ, plus a **Get an offer** header button
-- Brand accent **#EC5000**, sampled from the orange MODAFIE marquee / services card
-- Media: **22 labelled stand-ins** (0.50 MB). Each says which original photo or video belongs in that slot
-  (e.g. “Sewing at the Juki machine”, “Portfolio: embroidered sweatshirt”). The orange brush card is original artwork.
+| Slug | Title | Sections | Media | Found via |
+|---|---|---:|---:|---|
+| home | Low MOQ Clothing Manufacturer Europe / Modafie – Modafie | 12 | 72 | sitemap |
+| agents-md |  | 1 | 0 | sitemap |
+| pages--contact | Contact – Modafie | 1 | 6 | sitemap |
+| pages--about-us | About Modafie — European Low MOQ Clothing Manufacturer | 1 | 6 | sitemap |
+| pages--clothing-manufacturing-services | Clothing Manufacturing Services — Tech Pack, Sampling & Bulk Production / Modafie – Modafie | 1 | 6 | sitemap |
+| pages--tech-pack-service | Tech Pack Service for Fashion Brands / Modafie Europe | 1 | 6 | sitemap |
+| pages--faq | Frequently Asked Questions – Modafie | 1 | 6 | sitemap |
+| collections--frontpage | Home page – Modafie | 2 | 6 | sitemap |
+| collections--production | Production – Modafie | 2 | 6 | sitemap |
+| blogs--news | News – Modafie | 1 | 6 | sitemap |
+| collections--all | Products – Modafie | 2 | 6 | link |
+| policies--privacy-policy | Privacy policy – Modafie | 2 | 6 | link |
 
-## Lines to verify
+## Embedded videos (kept as embed links)
 
-These were too small to read in the supplied homepage screenshot (413 px wide) and were reconstructed. Please check them,
-or edit them in Elementor:
+- none
 
-- **Home → What We Manufacture**: “We manufacture fashion apparel for emerging and established brands — hoodies, trousers, outerwear, and more, from 30 pieces per style.”
-- **Home → What We Manufacture**: “Custom branded tote bags manufactured in Europe. Your logo, your material, your finishes — from 30 units.”
-- **Home → What We Manufacture**: “We produce wearable textiles from lotus, bamboo, aloe vera, eucalyptus, banana, and rose fibers — sustainable exotic fabrics available exclusively through Modafie.”
-- **Home → Ecosystem list**: “European production standards—every single order”
-- **Home → Ecosystem list**: “MOQ from just 30 pieces per style”
-- **Home → Ecosystem list**: “One point of contact from start to finish”
-- **Home → Ecosystem list**: “Sustainable & exotic fabric options available”
-- **Home → Ecosystem list**: “Fast sampling turnaround - 3 to 4 weeks”
-- **Home → Ecosystem list**: “No hidden fees, ever”
-- **Home → closing paragraph**: “We support slow fashion instead.”
-- **Home → closing paragraph**: “We've developed a unique collection of sustainable exotic fabrics — crafted from nature's most unexpected materials: rose, lotus, bamboo, banana, eucalyptus, aloe vera, and more. These fibers are woven into something you can actually wear. Curious? Reach out — we'd love to share more.”
-- **Home → What We Manufacture**: a 4th card (title starting “Mugs &…”) was cut off in the screenshot, so I didn't add it
-- **Logo**: the MODAFIE wordmark with the stylised “O” is an image on modafie.io. Upload it in Appearance → Customize → Site Identity → Logo
+## Skipped by robots.txt
 
-## Copy notes (kept verbatim from modafie.io)
+- none
 
-- What we do → Sampling: “*From €depends on the complexity of design…*” and Bulk production: “*From €depends on what we are creating…*”: the price seems to be missing after “€”.
-- What we do → Tech packs: “Its important…” (missing apostrophe); Marketing list: “meta suits” (probably “Meta suite”).
+## Media referenced but not downloaded
 
-## How to replace the stand-in media with the real photos/videos
+- https://modafie.io/cdn/fonts/inter/inter_i7.b377bcd4cc0f160622a22d638ae7e2cd9b86ea4c.woff2: font licence not verifiable (not from an open-font CDN) - referenced only
+- https://modafie.io/cdn/fonts/geist/geist_n7.d1a55eaf394973a6f8fe773d87de2e2f51331d2a.woff2: font licence not verifiable (not from an open-font CDN) - referenced only
+- https://modafie.io/cdn/fonts/inter/inter_n7.02711e6b374660cfc7915d1afc1c204e633421e4.woff2: font licence not verifiable (not from an open-font CDN) - referenced only
+- https://modafie.io/cdn/fonts/inter/inter_i4.feae1981dda792ab80d117249d9c7e0f1017e5b3.woff2: font licence not verifiable (not from an open-font CDN) - referenced only
+- https://modafie.io/cdn/fonts/inter/inter_n4.b2a3f24c19b4de56e8871f609e73ca7f6d2e2bb9.woff2: font licence not verifiable (not from an open-font CDN) - referenced only
+- https://modafie.io/cdn/fonts/geist/geist_n5.94fa89da1755608b366e51df60b72b900e50a5c1.woff2: font licence not verifiable (not from an open-font CDN) - referenced only
+- https://modafie.io/cdn/fonts/poppins/poppins_n4.0ba78fa5af9b0e1a374041b3ceaadf0a43b41362.woff2: font licence not verifiable (not from an open-font CDN) - referenced only
+- https://modafie.io/cdn/fonts/geist/geist_n6.3f5f79f8722829dcc4ffd7c38b07b803ded204ec.woff2: font licence not verifiable (not from an open-font CDN) - referenced only
+- https://cdn.shopify.com/shop-assets/static_uploads/shoplift/GTStandard-MMedium.woff2: font licence not verifiable (not from an open-font CDN) - referenced only
 
-```bash
-cd tools && npm install && npm run scrape   # needs www.modafie.io + cdn.shopify.com allowed
-```
+## Failures
 
-Or swap them by hand: Elementor → click the image, or the container background for heroes and banners, → choose from the Media Library.
+- **media** http://modafie.io/cdn/shop/files/Black_And_White_Aesthetic_Minimalist_Modern_Simple_Typography_Coconut_Cosmetics_Logo_a64862c5-eb8a-454f-b8b6-6d957f50b8c1.png?v=1773141489: HTTP 403
+- **media** https://modafie.io/favicon.ico: HTTP 404
+- **media** http://modafie.io/cdn/shop/files/Black_And_White_Aesthetic_Minimalist_Modern_Simple_Typography_Coconut_Cosmetics_Logo_a64862c5-eb8a-454f-b8b6-6d957f50b8c1.png?v=1773141489: HTTP 403
+- **media** http://modafie.io/cdn/shop/files/Black_And_White_Aesthetic_Minimalist_Modern_Simple_Typography_Coconut_Cosmetics_Logo_a64862c5-eb8a-454f-b8b6-6d957f50b8c1.png?v=1773141489: HTTP 403
+- **media** http://modafie.io/cdn/shop/files/Black_And_White_Aesthetic_Minimalist_Modern_Simple_Typography_Coconut_Cosmetics_Logo_a64862c5-eb8a-454f-b8b6-6d957f50b8c1.png?v=1773141489: HTTP 403
+- **media** http://modafie.io/cdn/shop/files/Black_And_White_Aesthetic_Minimalist_Modern_Simple_Typography_Coconut_Cosmetics_Logo_a64862c5-eb8a-454f-b8b6-6d957f50b8c1.png?v=1773141489: HTTP 403
+- **media** http://modafie.io/cdn/shop/files/Black_And_White_Aesthetic_Minimalist_Modern_Simple_Typography_Coconut_Cosmetics_Logo_a64862c5-eb8a-454f-b8b6-6d957f50b8c1.png?v=1773141489: HTTP 403
+- **media** http://modafie.io/cdn/shop/files/Black_And_White_Aesthetic_Minimalist_Modern_Simple_Typography_Coconut_Cosmetics_Logo_a64862c5-eb8a-454f-b8b6-6d957f50b8c1.png?v=1773141489: HTTP 403
+- **media** http://modafie.io/cdn/shop/collections/IMG_7094.jpg?v=1773061437: HTTP 403
+- **media** http://modafie.io/cdn/shop/files/Black_And_White_Aesthetic_Minimalist_Modern_Simple_Typography_Coconut_Cosmetics_Logo_a64862c5-eb8a-454f-b8b6-6d957f50b8c1.png?v=1773141489: HTTP 403
+- **page** https://modafie.io/customer_authentication/redirect?locale=en&region_country=EE: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://modafie.io/customer_authentication/redirect?locale=en&region_country=EE
+Call log:
+[2m  - navigating to "https://modafie.io/customer_authentication/redirect?locale=en&region_country=EE", waiting until "domcontentloaded"[22m
+
+- **media** http://modafie.io/cdn/shop/files/Black_And_White_Aesthetic_Minimalist_Modern_Simple_Typography_Coconut_Cosmetics_Logo_a64862c5-eb8a-454f-b8b6-6d957f50b8c1.png?v=1773141489: HTTP 403
+- **media** http://modafie.io/cdn/shop/files/Black_And_White_Aesthetic_Minimalist_Modern_Simple_Typography_Coconut_Cosmetics_Logo_a64862c5-eb8a-454f-b8b6-6d957f50b8c1.png?v=1773141489: HTTP 403

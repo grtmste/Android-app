@@ -15,7 +15,7 @@ const opt = (n, d) => { const i = argv.indexOf(`--${n}`); return i === -1 ? d : 
 const BASE = opt('base', 'http://localhost:8080').replace(/\/$/, '');
 const SCRAPE = path.resolve(opt('scrape', '../scrape'));
 const OUT = path.resolve(opt('out', '../screenshots/verify-report.md'));
-const content = JSON.parse(await fs.readFile(path.join(SCRAPE, 'content.json'), 'utf8'));
+const content = JSON.parse(await fs.readFile(path.join(SCRAPE, opt('content', 'content.curated.json')), 'utf8'));
 const norm = (s) => String(s || '').toLowerCase().replace(/&amp;/g, '&').replace(/[\u2018\u2019]/g, "'").replace(/[\u201c\u201d\u2033]/g, '"').replace(/[\u2013\u2014\u2212]/g, '-').replace(/\u2026/g, '...').replace(/\s+/g, ' ').trim();
 const stem = (file) => path.basename(file).replace(/\.[a-z0-9]+$/i, '').toLowerCase();
 
@@ -57,11 +57,12 @@ for (const p of content.pages) {
   await page.waitForTimeout(500);
   const found = await page.evaluate(() => {
     const main = document.querySelector('main') || document.body;
+    main.querySelectorAll('br').forEach((br) => br.replaceWith(' '));
     const text = main.textContent + ' ' + [...main.querySelectorAll('input,textarea')].map((i) => i.placeholder).join(' ');
     const urls = new Set();
     main.querySelectorAll('img').forEach((i) => { urls.add(i.currentSrc || i.src); (i.srcset || '').split(',').forEach((s) => urls.add(s.trim().split(' ')[0])); });
     main.querySelectorAll('*').forEach((el) => { const bg = getComputedStyle(el).backgroundImage; if (bg && bg !== 'none') [...bg.matchAll(/url\("?([^")]+)"?\)/g)].forEach((m) => urls.add(m[1])); });
-    main.querySelectorAll('video, video source').forEach((v) => urls.add(v.currentSrc || v.src));
+    main.querySelectorAll('video, video source').forEach((v) => { urls.add(v.currentSrc || v.src); if (v.poster) urls.add(v.poster); });
     main.querySelectorAll('[data-settings]').forEach((el) => { const m = el.getAttribute('data-settings').match(/https?:[^"]+?\.(mp4|webm|mov)/g); if (m) m.forEach((u) => urls.add(u.replace(/\\\//g, '/'))); });
     const embeds = [...main.querySelectorAll('[data-settings]')].map((el) => el.getAttribute('data-settings')).join(' ') + [...main.querySelectorAll('iframe')].map((f) => f.src).join(' ');
     return { text, urls: [...urls].filter(Boolean), inlineSvgs: main.querySelectorAll('.elementor-icon svg, .elementor-icon-box-icon svg, .elementor-widget-image img[src$=".svg"]').length, embeds };
