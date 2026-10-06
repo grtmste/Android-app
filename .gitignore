@@ -8,3 +8,7 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Modafie tooling
+tools/node_modules/
+tools/.cache/

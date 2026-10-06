@@ -1,0 +1,9 @@
+/* Elementor editor panel: tiny hint so theme animation classes are discoverable. */
+.elementor-control-_css_classes .elementor-control-field-description::after,
+.elementor-control-css_classes .elementor-control-field-description::after {
+	content: "Modafie: mf-reveal, mf-hero-zoom, mf-parallax, mf-marquee, mf-carousel, mf-hover-zoom, mf-btn-fill, mf-btn-slide, mf-fade-up, mf-stagger";
+	display: block;
+	margin-top: 6px;
+	font-style: normal;
+	opacity: .8;
+}

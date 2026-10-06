@@ -1,0 +1,26 @@
+/*
+Theme Name: Modafie
+Theme URI: https://www.modafie.io
+Author: Modafie
+Author URI: https://www.modafie.io
+Description: A fast, monochrome, editorial theme for Modafie, built for the free Elementor page builder. It has a sticky header that hides on scroll, a mega menu, an off-canvas mobile menu, global colours and fonts set through the Elementor Kit, scroll animations triggered by CSS classes, and a one-click demo importer that recreates every Modafie page as editable Elementor content.
+Version: 1.0.0
+Requires at least: 6.4
+Tested up to: 7.1
+Requires PHP: 8.1
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: modafie
+Tags: e-commerce, blog, one-column, custom-logo, custom-menu, featured-images, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, wide-blocks, block-styles, footer-widgets, editor-style
+*/
+
+/* Theme styles live in assets/css/theme.css (enqueued). This file only carries the theme header
+   plus the WordPress core classes required for theme review. */
+.alignleft { float: left; margin: 0 1.5em 1em 0; }
+.alignright { float: right; margin: 0 0 1em 1.5em; }
+.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.wp-caption { max-width: 100%; }
+.wp-caption-text, .gallery-caption { font-size: 13px; color: var(--mf-color-secondary, #6B6B6B); }
+.sticky, .bypostauthor { position: relative; }
+.screen-reader-text { border: 0; clip: rect(1px, 1px, 1px, 1px); clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute !important; width: 1px; word-wrap: normal !important; }
+.screen-reader-text:focus { background: #fff; clip: auto !important; clip-path: none; color: #000; display: block; font-size: 14px; height: auto; left: 8px; padding: 12px 20px; top: 8px; width: auto; z-index: 100000; }

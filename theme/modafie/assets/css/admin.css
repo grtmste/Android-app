@@ -1,0 +1,23 @@
+.modafie-setup { max-width: 880px; }
+.modafie-setup__hero { display: flex; gap: 24px; align-items: center; padding: 32px; margin: 20px 0; background: #0b0b0b; color: #fff; border-radius: 8px; }
+.modafie-setup__hero h1 { color: #fff; font-size: 30px; font-weight: 800; text-transform: uppercase; letter-spacing: .02em; margin: 0 0 8px; line-height: 1.1; }
+.modafie-setup__hero p { color: #d0d0d0; font-size: 14px; margin: 0; }
+.modafie-setup__card { background: #fff; border: 1px solid #dcdcde; border-radius: 8px; padding: 24px 28px; margin-bottom: 20px; }
+.modafie-setup__card h2 { margin-top: 0; }
+.modafie-setup .button-hero.modafie-import-btn { background: #0b0b0b; border-color: #0b0b0b; border-radius: 999px; padding: 4px 32px; text-transform: uppercase; letter-spacing: .05em; font-weight: 700; }
+.modafie-setup .button-hero.modafie-import-btn:hover { background: #2b2b2b; border-color: #2b2b2b; }
+.modafie-steps { list-style: none; margin: 20px 0 0; padding: 0; }
+.modafie-steps li { display: flex; gap: 12px; align-items: center; padding: 10px 0; border-bottom: 1px solid #f0f0f1; color: #50575e; }
+.modafie-steps li::before { content: ""; width: 18px; height: 18px; border-radius: 50%; border: 2px solid #c3c4c7; flex: none; box-sizing: border-box; }
+.modafie-steps li.is-running { color: #1d2327; font-weight: 600; }
+.modafie-steps li.is-running::before { border-color: #0b0b0b; border-right-color: transparent; animation: modafie-spin .8s linear infinite; }
+.modafie-steps li.is-done::before { background: #00a32a; border-color: #00a32a; }
+.modafie-steps li.is-error { color: #d63638; }
+.modafie-steps li.is-error::before { background: #d63638; border-color: #d63638; }
+.modafie-steps .modafie-step-detail { margin-left: auto; font-size: 12px; font-weight: 400; color: #787c82; }
+.modafie-progress { height: 6px; background: #f0f0f1; border-radius: 3px; overflow: hidden; margin-top: 16px; }
+.modafie-progress span { display: block; height: 100%; width: 0; background: #0b0b0b; transition: width .3s ease; }
+.modafie-log { max-height: 200px; overflow: auto; background: #f6f7f7; padding: 12px; font: 12px/1.6 Menlo, Consolas, monospace; margin-top: 16px; display: none; }
+.modafie-log.is-visible { display: block; }
+.modafie-notice-placeholder { border-left-color: #dba617 !important; }
+@keyframes modafie-spin { to { transform: rotate(360deg); } }

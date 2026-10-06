@@ -1,0 +1,15 @@
+{
+  "name": "modafie-tools",
+  "private": true,
+  "type": "module",
+  "description": "Crawler, demo-content builder and test harness for the Modafie WordPress theme",
+  "scripts": {
+    "scrape": "node scrape.mjs",
+    "build-demo": "node build-demo.mjs",
+    "package": "bash package-theme.sh",
+    "test:e2e": "node test/e2e.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.56.1"
+  }
+}

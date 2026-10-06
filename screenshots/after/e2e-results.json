@@ -1,0 +1,264 @@
+{
+  "import": {
+    "seconds": 25,
+    "steps": [
+      {
+        "step": "plugins",
+        "state": "is-done",
+        "detail": "Elementor is active."
+      },
+      {
+        "step": "media",
+        "state": "is-done",
+        "detail": "21 of 21 files"
+      },
+      {
+        "step": "pages",
+        "state": "is-done",
+        "detail": "5 pages imported"
+      },
+      {
+        "step": "templates",
+        "state": "is-done",
+        "detail": "25 templates saved"
+      },
+      {
+        "step": "menus",
+        "state": "is-done",
+        "detail": "Menus, homepage and settings applied."
+      },
+      {
+        "step": "kit",
+        "state": "is-done",
+        "detail": "Global colours, fonts and layout applied."
+      },
+      {
+        "step": "finalize",
+        "state": "is-done",
+        "detail": "All done!"
+      }
+    ],
+    "errors": [],
+    "log": ""
+  },
+  "rerun": {
+    "seconds": 4,
+    "steps": [
+      {
+        "step": "plugins",
+        "state": "is-done",
+        "detail": "Elementor is active."
+      },
+      {
+        "step": "media",
+        "state": "is-done",
+        "detail": "21 of 21 files"
+      },
+      {
+        "step": "pages",
+        "state": "is-done",
+        "detail": "5 pages imported"
+      },
+      {
+        "step": "templates",
+        "state": "is-done",
+        "detail": "25 templates saved"
+      },
+      {
+        "step": "menus",
+        "state": "is-done",
+        "detail": "Menus, homepage and settings applied."
+      },
+      {
+        "step": "kit",
+        "state": "is-done",
+        "detail": "Global colours, fonts and layout applied."
+      },
+      {
+        "step": "finalize",
+        "state": "is-done",
+        "detail": "All done!"
+      }
+    ],
+    "errors": [],
+    "log": ""
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "url": "http://localhost:8080/",
+      "shots": {
+        "desktop": "home-desktop.png",
+        "tablet": "home-tablet.png",
+        "mobile": "home-mobile.png"
+      },
+      "missingText": [],
+      "missingImages": []
+    },
+    {
+      "slug": "about",
+      "url": "http://localhost:8080/about/",
+      "shots": {
+        "desktop": "about-desktop.png",
+        "tablet": "about-tablet.png",
+        "mobile": "about-mobile.png"
+      },
+      "missingText": [],
+      "missingImages": []
+    },
+    {
+      "slug": "collections",
+      "url": "http://localhost:8080/collections/",
+      "shots": {
+        "desktop": "collections-desktop.png",
+        "tablet": "collections-tablet.png",
+        "mobile": "collections-mobile.png"
+      },
+      "missingText": [],
+      "missingImages": []
+    },
+    {
+      "slug": "faq",
+      "url": "http://localhost:8080/faq/",
+      "shots": {
+        "desktop": "faq-desktop.png",
+        "tablet": "faq-tablet.png",
+        "mobile": "faq-mobile.png"
+      },
+      "missingText": [],
+      "missingImages": []
+    },
+    {
+      "slug": "contact",
+      "url": "http://localhost:8080/contact/",
+      "shots": {
+        "desktop": "contact-desktop.png",
+        "tablet": "contact-tablet.png",
+        "mobile": "contact-mobile.png"
+      },
+      "missingText": [],
+      "missingImages": []
+    }
+  ],
+  "editor": [
+    {
+      "slug": "home",
+      "loaded": true,
+      "widgets": 9,
+      "errors": []
+    },
+    {
+      "slug": "about",
+      "loaded": true,
+      "widgets": 9,
+      "errors": []
+    },
+    {
+      "slug": "collections",
+      "loaded": true,
+      "widgets": 9,
+      "errors": []
+    },
+    {
+      "slug": "faq",
+      "loaded": true,
+      "widgets": 22,
+      "errors": []
+    },
+    {
+      "slug": "contact",
+      "loaded": true,
+      "widgets": 9,
+      "errors": []
+    }
+  ],
+  "consoleErrors": [
+    {
+      "where": "http://localhost:8080/wp-admin/",
+      "text": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "where": "http://localhost:8080/wp-admin/",
+      "text": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "where": "http://localhost:8080/wp-admin/",
+      "text": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "where": "http://localhost:8080/wp-admin/",
+      "text": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "where": "http://localhost:8080/wp-admin/themes.php?page=modafie-setup",
+      "text": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "where": "http://localhost:8080/wp-admin/themes.php?page=modafie-setup",
+      "text": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "where": "http://localhost:8080/wp-admin/themes.php?page=modafie-setup",
+      "text": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "where": "http://localhost:8080/wp-admin/post.php?post=27&action=elementor",
+      "text": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "where": "http://localhost:8080/wp-admin/post.php?post=27&action=elementor",
+      "text": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "where": "http://localhost:8080/wp-admin/post.php?post=28&action=elementor",
+      "text": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "where": "http://localhost:8080/wp-admin/post.php?post=28&action=elementor",
+      "text": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "where": "http://localhost:8080/wp-admin/post.php?post=29&action=elementor",
+      "text": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "where": "http://localhost:8080/wp-admin/post.php?post=29&action=elementor",
+      "text": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "where": "http://localhost:8080/wp-admin/post.php?post=29&action=elementor",
+      "text": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "where": "http://localhost:8080/wp-admin/post.php?post=30&action=elementor",
+      "text": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "where": "http://localhost:8080/wp-admin/post.php?post=30&action=elementor",
+      "text": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "where": "http://localhost:8080/wp-admin/post.php?post=31&action=elementor",
+      "text": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "where": "http://localhost:8080/wp-admin/post.php?post=31&action=elementor",
+      "text": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "where": "http://localhost:8080/wp-admin/edit.php?post_type=elementor_library&tabs_group=library",
+      "text": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "where": "http://localhost:8080/wp-admin/edit.php?post_type=elementor_library&tabs_group=library",
+      "text": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+    }
+  ],
+  "failures": [],
+  "counts": {
+    "pages": 6,
+    "media": 21,
+    "templatesListed": 20
+  },
+  "consoleErrorsRelevant": []
+}

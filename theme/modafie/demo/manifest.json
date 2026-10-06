@@ -1,0 +1,522 @@
+{
+ "version": "2026.10.06",
+ "generator": "modafie-tools build-demo",
+ "source": "placeholder",
+ "accent": "#FF5A1F",
+ "site": {
+  "blogname": "Modafie",
+  "blogdescription": "",
+  "logo": null,
+  "icon": null
+ },
+ "media": [
+  {
+   "key": "card-1.jpg",
+   "file": "media/card-1.jpg",
+   "title": "card 1",
+   "alt": "Card title 1"
+  },
+  {
+   "key": "card-2.jpg",
+   "file": "media/card-2.jpg",
+   "title": "card 2",
+   "alt": "Card title 2"
+  },
+  {
+   "key": "card-3.jpg",
+   "file": "media/card-3.jpg",
+   "title": "card 3",
+   "alt": "Card title 3"
+  },
+  {
+   "key": "card-4.jpg",
+   "file": "media/card-4.jpg",
+   "title": "card 4",
+   "alt": "Card title 4"
+  },
+  {
+   "key": "card-5.jpg",
+   "file": "media/card-5.jpg",
+   "title": "card 5",
+   "alt": "Card title 5"
+  },
+  {
+   "key": "card-6.jpg",
+   "file": "media/card-6.jpg",
+   "title": "card 6",
+   "alt": "Card title 6"
+  },
+  {
+   "key": "card-7.jpg",
+   "file": "media/card-7.jpg",
+   "title": "card 7",
+   "alt": "Card title 7"
+  },
+  {
+   "key": "card-8.jpg",
+   "file": "media/card-8.jpg",
+   "title": "card 8",
+   "alt": "Card title 8"
+  },
+  {
+   "key": "editorial-1.jpg",
+   "file": "media/editorial-1.jpg",
+   "title": "editorial 1",
+   "alt": "A big editorial moment"
+  },
+  {
+   "key": "editorial-2.jpg",
+   "file": "media/editorial-2.jpg",
+   "title": "editorial 2",
+   "alt": "Editorial statement"
+  },
+  {
+   "key": "hero-about.jpg",
+   "file": "media/hero-about.jpg",
+   "title": "hero about",
+   "alt": ""
+  },
+  {
+   "key": "hero-collections.jpg",
+   "file": "media/hero-collections.jpg",
+   "title": "hero collections",
+   "alt": ""
+  },
+  {
+   "key": "hero-home-mobile.jpg",
+   "file": "media/hero-home-mobile.jpg",
+   "title": "hero home mobile",
+   "alt": ""
+  },
+  {
+   "key": "hero-home.jpg",
+   "file": "media/hero-home.jpg",
+   "title": "hero home",
+   "alt": ""
+  },
+  {
+   "key": "split-1.jpg",
+   "file": "media/split-1.jpg",
+   "title": "split 1",
+   "alt": "Tell the story in two columns"
+  },
+  {
+   "key": "split-2.jpg",
+   "file": "media/split-2.jpg",
+   "title": "split 2",
+   "alt": "First chapter"
+  },
+  {
+   "key": "split-3.jpg",
+   "file": "media/split-3.jpg",
+   "title": "split 3",
+   "alt": "Second chapter"
+  },
+  {
+   "key": "tile-1.jpg",
+   "file": "media/tile-1.jpg",
+   "title": "tile 1",
+   "alt": "Category 1"
+  },
+  {
+   "key": "tile-2.jpg",
+   "file": "media/tile-2.jpg",
+   "title": "tile 2",
+   "alt": "Category 2"
+  },
+  {
+   "key": "tile-3.jpg",
+   "file": "media/tile-3.jpg",
+   "title": "tile 3",
+   "alt": "Category 3"
+  },
+  {
+   "key": "tile-4.jpg",
+   "file": "media/tile-4.jpg",
+   "title": "tile 4",
+   "alt": "Category 4"
+  }
+ ],
+ "kit": "kit.json",
+ "pages": [
+  {
+   "slug": "home",
+   "title": "Home",
+   "description": "Placeholder homepage. Re-build the demo package from the modafie.io crawl to replace this.",
+   "front": true,
+   "posts": false,
+   "parent": null,
+   "menu_order": 0,
+   "template": "elementor_header_footer",
+   "settings": {
+    "hide_title": "yes"
+   },
+   "file": "pages/home.json",
+   "fallback_html": "<h2>Your headline goes here</h2>\n<p>Introduce the brand or the latest drop in one or two short lines.</p>\n<p>Ticker message one</p>\n<p>Ticker message two</p>\n<p>Ticker message three</p>\n<h2>Category tiles</h2>\n<h3>Category 1</h3>\n<h3>Category 2</h3>\n<h3>Category 3</h3>\n<h3>Category 4</h3>\n<h2>New in</h2>\n<h3>Card title 1</h3>\n<h3>Card title 2</h3>\n<h3>Card title 3</h3>\n<h3>Card title 4</h3>\n<h3>Card title 5</h3>\n<h3>Card title 6</h3>\n<h3>Card title 7</h3>\n<h3>Card title 8</h3>\n<h2>Tell the story in two columns</h2>\n<p>Pair a strong image with a few sentences about craft, materials or mission. The image side bleeds to the edge; the sides alternate down the page.</p>\n<h2>A big editorial moment</h2>\n<p>Full-bleed photography with a short line of copy.</p>\n<h2>Why choose us</h2>\n<h3>Benefit one</h3><p>One sentence that supports this point.</p>\n<h3>Benefit two</h3><p>One sentence that supports this point.</p>\n<h3>Benefit three</h3><p>One sentence that supports this point.</p>\n<h3>Benefit four</h3><p>One sentence that supports this point.</p>\n<h2>Join the newsletter</h2>\n<p>Short invitation to subscribe.</p>",
+   "thumbnail": "hero-home.jpg"
+  },
+  {
+   "slug": "about",
+   "title": "About",
+   "description": "Placeholder about page.",
+   "front": false,
+   "posts": false,
+   "parent": null,
+   "menu_order": 1,
+   "template": "elementor_header_footer",
+   "settings": {
+    "hide_title": "yes"
+   },
+   "file": "pages/about.json",
+   "fallback_html": "<h2>About headline</h2>\n<p>One line that sums up the brand.</p>\n<h2>Introduce the brand</h2>\n<p>Use this block for two or three short paragraphs about where the brand comes from and what it stands for.</p><p>Keep sentences short. The column is limited to a comfortable reading width.</p>\n<h2>First chapter</h2>\n<p>Describe a value, a process or a milestone.</p>\n<h2>Second chapter</h2>\n<p>Describe another value, a process or a milestone.</p>\n<h2>Editorial statement</h2>\n<h2>What we believe</h2>\n<h3>Value one</h3><p>Explain this value in a sentence.</p>\n<h3>Value two</h3><p>Explain this value in a sentence.</p>\n<h3>Value three</h3><p>Explain this value in a sentence.</p>",
+   "thumbnail": "hero-about.jpg"
+  },
+  {
+   "slug": "collections",
+   "title": "Collections",
+   "description": "Placeholder collections page.",
+   "front": false,
+   "posts": false,
+   "parent": null,
+   "menu_order": 2,
+   "template": "elementor_header_footer",
+   "settings": {
+    "hide_title": "yes"
+   },
+   "file": "pages/collections.json",
+   "fallback_html": "<h2>Collections</h2>\n<p>Introduce the range.</p>\n<h2>Browse by category</h2>\n<h3>Category 1</h3>\n<h3>Category 2</h3>\n<h3>Category 3</h3>\n<h3>Category 4</h3>\n<h2>New in</h2>\n<h3>Item 1</h3>\n<h3>Item 2</h3>\n<h3>Item 3</h3>\n<h3>Item 4</h3>\n<h3>Item 5</h3>\n<h3>Item 6</h3>\n<h2>Best sellers</h2>\n<h3>Item 8</h3>\n<h3>Item 7</h3>\n<h3>Item 6</h3>\n<h3>Item 5</h3>\n<h3>Item 4</h3>\n<h3>Item 3</h3>\n<h2>Be first to know</h2>\n<p>Short invitation to subscribe.</p>",
+   "thumbnail": "hero-collections.jpg"
+  },
+  {
+   "slug": "faq",
+   "title": "FAQ",
+   "description": "Placeholder FAQ page.",
+   "front": false,
+   "posts": false,
+   "parent": null,
+   "menu_order": 3,
+   "template": "elementor_header_footer",
+   "settings": {
+    "hide_title": "yes"
+   },
+   "file": "pages/faq.json",
+   "fallback_html": "<h2>Frequently asked questions</h2>\n<p>Answers to common questions.</p>\n<h2>General</h2>\n<h3>Question 1?</h3><p>Write a clear, short answer here. Link to related pages where helpful.</p>\n<h3>Question 2?</h3><p>Write a clear, short answer here. Link to related pages where helpful.</p>\n<h3>Question 3?</h3><p>Write a clear, short answer here. Link to related pages where helpful.</p>\n<h3>Question 4?</h3><p>Write a clear, short answer here. Link to related pages where helpful.</p>\n<h3>Question 5?</h3><p>Write a clear, short answer here. Link to related pages where helpful.</p>\n<h2>Still have questions?</h2>\n<p>We are happy to help.</p>",
+   "thumbnail": null
+  },
+  {
+   "slug": "contact",
+   "title": "Contact",
+   "description": "Placeholder contact page.",
+   "front": false,
+   "posts": false,
+   "parent": null,
+   "menu_order": 4,
+   "template": "elementor_header_footer",
+   "settings": {
+    "hide_title": "yes"
+   },
+   "file": "pages/contact.json",
+   "fallback_html": "<h2>Get in touch</h2>\n<p>Tell visitors how and when you reply.</p>\n<h2>Send a message</h2>\n<p>Fill in the form and the message is emailed to the site administrator.</p>",
+   "thumbnail": null
+  }
+ ],
+ "templates": [
+  {
+   "key": "home-1-hero",
+   "title": "Home — 1. Hero",
+   "type": "container",
+   "category": "Modafie",
+   "file": "templates/home-1-hero.json"
+  },
+  {
+   "key": "home-2-marquee",
+   "title": "Home — 2. Marquee",
+   "type": "container",
+   "category": "Modafie",
+   "file": "templates/home-2-marquee.json"
+  },
+  {
+   "key": "home-3-tiles",
+   "title": "Home — 3. Tiles",
+   "type": "container",
+   "category": "Modafie",
+   "file": "templates/home-3-tiles.json"
+  },
+  {
+   "key": "home-4-rail",
+   "title": "Home — 4. Rail",
+   "type": "container",
+   "category": "Modafie",
+   "file": "templates/home-4-rail.json"
+  },
+  {
+   "key": "home-5-split",
+   "title": "Home — 5. Split",
+   "type": "container",
+   "category": "Modafie",
+   "file": "templates/home-5-split.json"
+  },
+  {
+   "key": "home-6-editorial",
+   "title": "Home — 6. Editorial",
+   "type": "container",
+   "category": "Modafie",
+   "file": "templates/home-6-editorial.json"
+  },
+  {
+   "key": "home-7-features",
+   "title": "Home — 7. Features",
+   "type": "container",
+   "category": "Modafie",
+   "file": "templates/home-7-features.json"
+  },
+  {
+   "key": "home-8-newsletter",
+   "title": "Home — 8. Newsletter",
+   "type": "container",
+   "category": "Modafie",
+   "file": "templates/home-8-newsletter.json"
+  },
+  {
+   "key": "about-1-hero",
+   "title": "About — 1. Hero",
+   "type": "container",
+   "category": "Modafie",
+   "file": "templates/about-1-hero.json"
+  },
+  {
+   "key": "about-2-text",
+   "title": "About — 2. Text",
+   "type": "container",
+   "category": "Modafie",
+   "file": "templates/about-2-text.json"
+  },
+  {
+   "key": "about-3-split",
+   "title": "About — 3. Split",
+   "type": "container",
+   "category": "Modafie",
+   "file": "templates/about-3-split.json"
+  },
+  {
+   "key": "about-4-split",
+   "title": "About — 4. Split",
+   "type": "container",
+   "category": "Modafie",
+   "file": "templates/about-4-split.json"
+  },
+  {
+   "key": "about-5-editorial",
+   "title": "About — 5. Editorial",
+   "type": "container",
+   "category": "Modafie",
+   "file": "templates/about-5-editorial.json"
+  },
+  {
+   "key": "about-6-features",
+   "title": "About — 6. Features",
+   "type": "container",
+   "category": "Modafie",
+   "file": "templates/about-6-features.json"
+  },
+  {
+   "key": "collections-1-hero",
+   "title": "Collections — 1. Hero",
+   "type": "container",
+   "category": "Modafie",
+   "file": "templates/collections-1-hero.json"
+  },
+  {
+   "key": "collections-2-tiles",
+   "title": "Collections — 2. Tiles",
+   "type": "container",
+   "category": "Modafie",
+   "file": "templates/collections-2-tiles.json"
+  },
+  {
+   "key": "collections-3-rail",
+   "title": "Collections — 3. Rail",
+   "type": "container",
+   "category": "Modafie",
+   "file": "templates/collections-3-rail.json"
+  },
+  {
+   "key": "collections-4-rail",
+   "title": "Collections — 4. Rail",
+   "type": "container",
+   "category": "Modafie",
+   "file": "templates/collections-4-rail.json"
+  },
+  {
+   "key": "collections-5-newsletter",
+   "title": "Collections — 5. Newsletter",
+   "type": "container",
+   "category": "Modafie",
+   "file": "templates/collections-5-newsletter.json"
+  },
+  {
+   "key": "faq-1-text",
+   "title": "FAQ — 1. Text",
+   "type": "container",
+   "category": "Modafie",
+   "file": "templates/faq-1-text.json"
+  },
+  {
+   "key": "faq-2-faq",
+   "title": "FAQ — 2. Faq",
+   "type": "container",
+   "category": "Modafie",
+   "file": "templates/faq-2-faq.json"
+  },
+  {
+   "key": "faq-3-text",
+   "title": "FAQ — 3. Text",
+   "type": "container",
+   "category": "Modafie",
+   "file": "templates/faq-3-text.json"
+  },
+  {
+   "key": "contact-1-text",
+   "title": "Contact — 1. Text",
+   "type": "container",
+   "category": "Modafie",
+   "file": "templates/contact-1-text.json"
+  },
+  {
+   "key": "contact-2-contact",
+   "title": "Contact — 2. Contact",
+   "type": "container",
+   "category": "Modafie",
+   "file": "templates/contact-2-contact.json"
+  },
+  {
+   "key": "site-footer",
+   "title": "Site Footer",
+   "type": "container",
+   "category": "Modafie",
+   "file": "templates/site-footer.json"
+  }
+ ],
+ "footer_template": "site-footer",
+ "menus": [
+  {
+   "name": "Modafie Primary",
+   "location": "primary",
+   "items": [
+    {
+     "title": "Collections",
+     "page": "collections",
+     "classes": "mf-mega",
+     "children": [
+      {
+       "title": "Featured",
+       "page": "collections",
+       "children": [
+        {
+         "title": "New in",
+         "url": "{{mf:page-url:collections}}#new-in"
+        },
+        {
+         "title": "Best sellers",
+         "url": "{{mf:page-url:collections}}#best-sellers"
+        },
+        {
+         "title": "All collections",
+         "page": "collections"
+        }
+       ]
+      },
+      {
+       "title": "Categories",
+       "page": "collections",
+       "children": [
+        {
+         "title": "Category one",
+         "url": "{{mf:page-url:collections}}"
+        },
+        {
+         "title": "Category two",
+         "url": "{{mf:page-url:collections}}"
+        },
+        {
+         "title": "Category three",
+         "url": "{{mf:page-url:collections}}"
+        },
+        {
+         "title": "Category four",
+         "url": "{{mf:page-url:collections}}"
+        }
+       ]
+      },
+      {
+       "title": "Discover",
+       "page": "about",
+       "children": [
+        {
+         "title": "About",
+         "page": "about"
+        },
+        {
+         "title": "FAQ",
+         "page": "faq"
+        },
+        {
+         "title": "Contact",
+         "page": "contact"
+        }
+       ]
+      },
+      {
+       "title": "Shop new in",
+       "page": "collections",
+       "classes": "mf-mega-promo",
+       "description": "{{mf:media-url:tile-1.jpg}}"
+      }
+     ]
+    },
+    {
+     "title": "About",
+     "page": "about"
+    },
+    {
+     "title": "FAQ",
+     "page": "faq"
+    },
+    {
+     "title": "Contact",
+     "page": "contact"
+    }
+   ]
+  },
+  {
+   "name": "Modafie Utility",
+   "location": "utility",
+   "items": [
+    {
+     "title": "Help",
+     "page": "faq"
+    }
+   ]
+  },
+  {
+   "name": "Modafie Footer",
+   "location": "footer",
+   "items": [
+    {
+     "title": "FAQ",
+     "page": "faq"
+    },
+    {
+     "title": "Contact",
+     "page": "contact"
+    }
+   ]
+  }
+ ],
+ "customizer": {
+  "modafie_announcement_enabled": true,
+  "modafie_announcement_items": "Announcement bar: add your shipping or launch message\nEdit in Appearance → Customize → Modafie Theme",
+  "modafie_announcement_style": "rotate",
+  "modafie_header_behavior": "smart"
+ }
+}

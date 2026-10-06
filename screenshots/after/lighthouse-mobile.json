@@ -1,0 +1,87 @@
+{
+ "home": {
+  "performance_runs": [
+   88,
+   88,
+   95
+  ],
+  "median": {
+   "performance": 88,
+   "accessibility": 98,
+   "best-practices": 100,
+   "seo": 100
+  },
+  "LCP": "3.6\u00a0s",
+  "CLS": "0",
+  "TBT": "110\u00a0ms",
+  "FCP": "1.7\u00a0s"
+ },
+ "about/": {
+  "performance_runs": [
+   86,
+   87,
+   89
+  ],
+  "median": {
+   "performance": 87,
+   "accessibility": 100,
+   "best-practices": 100,
+   "seo": 100
+  },
+  "LCP": "3.7\u00a0s",
+  "CLS": "0.022",
+  "TBT": "110\u00a0ms",
+  "FCP": "1.7\u00a0s"
+ },
+ "collections/": {
+  "performance_runs": [
+   87,
+   87,
+   91
+  ],
+  "median": {
+   "performance": 87,
+   "accessibility": 100,
+   "best-practices": 100,
+   "seo": 100
+  },
+  "LCP": "3.8\u00a0s",
+  "CLS": "0.007",
+  "TBT": "100\u00a0ms",
+  "FCP": "1.7\u00a0s"
+ },
+ "faq/": {
+  "performance_runs": [
+   91,
+   91,
+   98
+  ],
+  "median": {
+   "performance": 91,
+   "accessibility": 100,
+   "best-practices": 100,
+   "seo": 100
+  },
+  "LCP": "3.4\u00a0s",
+  "CLS": "0",
+  "TBT": "50\u00a0ms",
+  "FCP": "1.5\u00a0s"
+ },
+ "contact/": {
+  "performance_runs": [
+   90,
+   91,
+   91
+  ],
+  "median": {
+   "performance": 91,
+   "accessibility": 100,
+   "best-practices": 100,
+   "seo": 100
+  },
+  "LCP": "3.4\u00a0s",
+  "CLS": "0",
+  "TBT": "0\u00a0ms",
+  "FCP": "1.7\u00a0s"
+ }
+}
