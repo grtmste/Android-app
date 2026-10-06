@@ -1,0 +1,5 @@
+/* Block editor: mirror the front-end typography for classic/Gutenberg content. */
+@import url("fonts.css");
+.editor-styles-wrapper { font-family: "Inter", "Inter Fallback", system-ui, sans-serif; color: #141414; }
+.editor-styles-wrapper h1, .editor-styles-wrapper h2, .editor-styles-wrapper h3, .editor-styles-wrapper h4 { font-family: "Barlow Condensed", "Barlow Condensed Fallback", sans-serif; font-weight: 800; text-transform: uppercase; line-height: .95; color: #0b0b0b; }
+.editor-styles-wrapper .wp-block-button__link { border-radius: 999px; text-transform: uppercase; font-weight: 700; letter-spacing: .06em; }

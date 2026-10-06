@@ -1,0 +1,329 @@
+[
+ {
+  "id": "8d3d84b",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+   "container_type": "flex",
+   "content_width": "boxed",
+   "flex_direction": "column",
+   "html_tag": "section",
+   "padding": {
+    "unit": "px",
+    "top": "96",
+    "right": "40",
+    "bottom": "96",
+    "left": "40",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "px",
+    "top": "72",
+    "right": "24",
+    "bottom": "72",
+    "left": "24",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "px",
+    "top": "56",
+    "right": "16",
+    "bottom": "56",
+    "left": "16",
+    "isLinked": false
+   },
+   "flex_gap": {
+    "unit": "px",
+    "size": 0,
+    "column": "0",
+    "row": "0",
+    "isLinked": true
+   },
+   "background_background": "classic",
+   "__globals__": {
+    "background_color": "globals/colors?id=mfsurface"
+   },
+   "_title": "Feature row"
+  },
+  "elements": [
+   {
+    "id": "873c5b2",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "flex",
+     "content_width": "full",
+     "flex_direction": "row",
+     "flex_direction_mobile": "column",
+     "flex_justify_content": "center",
+     "flex_align_items": "center",
+     "flex_align_items_mobile": "flex-start",
+     "flex_gap": {
+      "unit": "px",
+      "size": 16,
+      "column": "16",
+      "row": "16",
+      "isLinked": true
+     },
+     "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "32",
+      "left": "0",
+      "isLinked": false
+     },
+     "padding_mobile": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "24",
+      "left": "0",
+      "isLinked": false
+     },
+     "flex_wrap": "nowrap"
+    },
+    "elements": [
+     {
+      "id": "67db351",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+       "container_type": "flex",
+       "content_width": "full",
+       "flex_direction": "column",
+       "flex_gap": {
+        "unit": "px",
+        "size": 8,
+        "column": "8",
+        "row": "8",
+        "isLinked": true
+       },
+       "width": {
+        "unit": "%",
+        "size": 70,
+        "sizes": []
+       },
+       "width_mobile": {
+        "unit": "%",
+        "size": 100,
+        "sizes": []
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "flex_align_items": "center"
+      },
+      "elements": [
+       {
+        "id": "1715f1b",
+        "elType": "widget",
+        "widgetType": "heading",
+        "isInner": false,
+        "settings": {
+         "title": "What we stand for",
+         "header_size": "h2",
+         "align": "center",
+         "title_align": "center",
+         "mf_motion": "reveal"
+        },
+        "elements": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "52506df",
+    "elType": "container",
+    "isInner": true,
+    "settings": {
+     "container_type": "grid",
+     "content_width": "full",
+     "flex_direction": "column",
+     "grid_columns_grid": {
+      "unit": "fr",
+      "size": 4,
+      "sizes": []
+     },
+     "grid_columns_grid_tablet": {
+      "unit": "fr",
+      "size": 2,
+      "sizes": []
+     },
+     "grid_columns_grid_mobile": {
+      "unit": "fr",
+      "size": 1,
+      "sizes": []
+     },
+     "grid_rows_grid": {
+      "unit": "fr",
+      "size": 1,
+      "sizes": []
+     },
+     "grid_gaps": {
+      "unit": "px",
+      "column": "32",
+      "row": "48",
+      "isLinked": false
+     },
+     "padding": {
+      "unit": "px",
+      "top": "16",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+     }
+    },
+    "elements": [
+     {
+      "id": "3baf8eb",
+      "elType": "widget",
+      "widgetType": "icon-box",
+      "isInner": false,
+      "settings": {
+       "selected_icon": {
+        "value": {
+         "url": "{{mf-media:8c9ad1c3c6804411:url}}",
+         "id": "{{mf-media:8c9ad1c3c6804411:id}}"
+        },
+        "library": "svg"
+       },
+       "title_text": "Quality first",
+       "description_text": "Replace with a short value statement from modafie.",
+       "title_size": "h3",
+       "position": "top",
+       "icon_space": {
+        "unit": "px",
+        "size": 20,
+        "sizes": []
+       },
+       "primary_color": "#0B0B0B",
+       "_css_classes": "mf-feature",
+       "__globals__": {
+        "primary_color": "globals/colors?id=primary",
+        "title_typography_typography": "globals/typography?id=mfh4",
+        "description_typography_typography": "globals/typography?id=text",
+        "description_color": "globals/colors?id=secondary"
+       },
+       "_animation": "fadeInUp",
+       "_animation_delay": 0
+      },
+      "elements": []
+     },
+     {
+      "id": "fc1fa07",
+      "elType": "widget",
+      "widgetType": "icon-box",
+      "isInner": false,
+      "settings": {
+       "selected_icon": {
+        "value": {
+         "url": "{{mf-media:6f8bde7f13a2aca9:url}}",
+         "id": "{{mf-media:6f8bde7f13a2aca9:id}}"
+        },
+        "library": "svg"
+       },
+       "title_text": "Fast delivery",
+       "description_text": "Replace with modafie's delivery promise.",
+       "title_size": "h3",
+       "position": "top",
+       "icon_space": {
+        "unit": "px",
+        "size": 20,
+        "sizes": []
+       },
+       "primary_color": "#0B0B0B",
+       "_css_classes": "mf-feature",
+       "__globals__": {
+        "primary_color": "globals/colors?id=primary",
+        "title_typography_typography": "globals/typography?id=mfh4",
+        "description_typography_typography": "globals/typography?id=text",
+        "description_color": "globals/colors?id=secondary"
+       },
+       "_animation": "fadeInUp",
+       "_animation_delay": 100
+      },
+      "elements": []
+     },
+     {
+      "id": "398508f",
+      "elType": "widget",
+      "widgetType": "icon-box",
+      "isInner": false,
+      "settings": {
+       "selected_icon": {
+        "value": {
+         "url": "{{mf-media:a0e1a5282a534cb8:url}}",
+         "id": "{{mf-media:a0e1a5282a534cb8:id}}"
+        },
+        "library": "svg"
+       },
+       "title_text": "Easy returns",
+       "description_text": "Replace with modafie's returns policy summary.",
+       "title_size": "h3",
+       "position": "top",
+       "icon_space": {
+        "unit": "px",
+        "size": 20,
+        "sizes": []
+       },
+       "primary_color": "#0B0B0B",
+       "_css_classes": "mf-feature",
+       "__globals__": {
+        "primary_color": "globals/colors?id=primary",
+        "title_typography_typography": "globals/typography?id=mfh4",
+        "description_typography_typography": "globals/typography?id=text",
+        "description_color": "globals/colors?id=secondary"
+       },
+       "_animation": "fadeInUp",
+       "_animation_delay": 200
+      },
+      "elements": []
+     },
+     {
+      "id": "7b10dc3",
+      "elType": "widget",
+      "widgetType": "icon-box",
+      "isInner": false,
+      "settings": {
+       "selected_icon": {
+        "value": {
+         "url": "{{mf-media:abe7ac67d7fafaa7:url}}",
+         "id": "{{mf-media:abe7ac67d7fafaa7:id}}"
+        },
+        "library": "svg"
+       },
+       "title_text": "Community",
+       "description_text": "Replace with a line about the modafie community.",
+       "title_size": "h3",
+       "position": "top",
+       "icon_space": {
+        "unit": "px",
+        "size": 20,
+        "sizes": []
+       },
+       "primary_color": "#0B0B0B",
+       "_css_classes": "mf-feature",
+       "__globals__": {
+        "primary_color": "globals/colors?id=primary",
+        "title_typography_typography": "globals/typography?id=mfh4",
+        "description_typography_typography": "globals/typography?id=text",
+        "description_color": "globals/colors?id=secondary"
+       },
+       "_animation": "fadeInUp",
+       "_animation_delay": 300
+      },
+      "elements": []
+     }
+    ]
+   }
+  ]
+ }
+]

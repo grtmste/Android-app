@@ -1,0 +1,16 @@
+{
+  "name": "modafie-tools",
+  "private": true,
+  "type": "module",
+  "description": "Scraper, demo-content builder and test harness for the Modafie WordPress theme.",
+  "scripts": {
+    "scrape": "node scraper/crawl.mjs --base https://www.modafie.io --out ../scrape",
+    "build-demo": "node demo/build-demo.mjs --scrape ../scrape --theme ../theme/modafie",
+    "zip": "node demo/zip-theme.mjs",
+    "test:screens": "node test/screenshots.mjs",
+    "test:verify": "node test/verify.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.56.1"
+  }
+}

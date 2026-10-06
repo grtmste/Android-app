@@ -1,0 +1,538 @@
+{
+ "version": 1,
+ "generator": "tools/demo/build-demo.mjs",
+ "generatedAt": "2026-10-06T19:59:27.774Z",
+ "source": "placeholder",
+ "site": {
+  "title": "Modafie"
+ },
+ "kit": "kit.json",
+ "elementor_experiments": {
+  "container": "active",
+  "nested-elements": "active",
+  "e_font_icon_svg": "active",
+  "e_optimized_markup": "active",
+  "e_lazyload": "active"
+ },
+ "media": [
+  {
+   "key": "6bbb5b4158d8b2b7",
+   "file": "media/images/hero-studio.jpg",
+   "alt": "",
+   "title": "hero studio",
+   "bytes": 42215
+  },
+  {
+   "key": "8f2b4e51e6b9879b",
+   "file": "media/images/card-1.jpg",
+   "alt": "Placeholder image 1",
+   "title": "card 1",
+   "bytes": 16164
+  },
+  {
+   "key": "3db0988374e80a02",
+   "file": "media/images/card-2.jpg",
+   "alt": "Placeholder image 2",
+   "title": "card 2",
+   "bytes": 17998
+  },
+  {
+   "key": "86eb475354920e6e",
+   "file": "media/images/card-3.jpg",
+   "alt": "Placeholder image 3",
+   "title": "card 3",
+   "bytes": 17270
+  },
+  {
+   "key": "b3f4b88aa505b979",
+   "file": "media/images/card-4.jpg",
+   "alt": "Placeholder image 4",
+   "title": "card 4",
+   "bytes": 15934
+  },
+  {
+   "key": "6f59cfea094eb057",
+   "file": "media/images/card-5.jpg",
+   "alt": "Placeholder image 5",
+   "title": "card 5",
+   "bytes": 16131
+  },
+  {
+   "key": "1ad53c38e40967a1",
+   "file": "media/images/card-6.jpg",
+   "alt": "Placeholder image 6",
+   "title": "card 6",
+   "bytes": 17744
+  },
+  {
+   "key": "32e3291c3cbec0d7",
+   "file": "media/images/tile-one.jpg",
+   "alt": "Category one",
+   "title": "tile one",
+   "bytes": 26795
+  },
+  {
+   "key": "5bf92f3703e3bed3",
+   "file": "media/images/tile-two.jpg",
+   "alt": "Category two",
+   "title": "tile two",
+   "bytes": 23264
+  },
+  {
+   "key": "a400d1f9fa42fb3f",
+   "file": "media/images/tile-three.jpg",
+   "alt": "Category three",
+   "title": "tile three",
+   "bytes": 28697
+  },
+  {
+   "key": "6af88559b744dfd5",
+   "file": "media/images/split-1.jpg",
+   "alt": "Placeholder story image",
+   "title": "split 1",
+   "bytes": 27994
+  },
+  {
+   "key": "f951564c1c696ace",
+   "file": "media/images/editorial-wide.jpg",
+   "alt": "",
+   "title": "editorial wide",
+   "bytes": 44320
+  },
+  {
+   "key": "8c9ad1c3c6804411",
+   "file": "media/svg/icon-quality.svg",
+   "alt": "",
+   "title": "icon quality",
+   "bytes": 273
+  },
+  {
+   "key": "6f8bde7f13a2aca9",
+   "file": "media/svg/icon-delivery.svg",
+   "alt": "",
+   "title": "icon delivery",
+   "bytes": 299
+  },
+  {
+   "key": "a0e1a5282a534cb8",
+   "file": "media/svg/icon-returns.svg",
+   "alt": "",
+   "title": "icon returns",
+   "bytes": 244
+  },
+  {
+   "key": "abe7ac67d7fafaa7",
+   "file": "media/svg/icon-community.svg",
+   "alt": "",
+   "title": "icon community",
+   "bytes": 356
+  },
+  {
+   "key": "6902ff6d43977359",
+   "file": "media/images/about-hero.jpg",
+   "alt": "",
+   "title": "about hero",
+   "bytes": 40379
+  },
+  {
+   "key": "7ab171713943db40",
+   "file": "media/images/split-2.jpg",
+   "alt": "Placeholder image",
+   "title": "split 2",
+   "bytes": 27353
+  },
+  {
+   "key": "fa9e67aa9c50d756",
+   "file": "media/images/split-3.jpg",
+   "alt": "Placeholder image",
+   "title": "split 3",
+   "bytes": 31258
+  },
+  {
+   "key": "62a8e1ed8caa324b",
+   "file": "media/images/collections-hero.jpg",
+   "alt": "",
+   "title": "collections hero",
+   "bytes": 37741
+  },
+  {
+   "key": "b405978f8427bdfa",
+   "file": "media/images/journal-1.jpg",
+   "alt": "Journal placeholder 1",
+   "title": "journal 1",
+   "bytes": 15243
+  },
+  {
+   "key": "53bd75ef9202839e",
+   "file": "media/images/journal-2.jpg",
+   "alt": "Journal placeholder 2",
+   "title": "journal 2",
+   "bytes": 16273
+  },
+  {
+   "key": "b4fe7d82acba5d41",
+   "file": "media/images/journal-3.jpg",
+   "alt": "Journal placeholder 3",
+   "title": "journal 3",
+   "bytes": 14292
+  }
+ ],
+ "pages": [
+  {
+   "slug": "home",
+   "title": "Home",
+   "file": "pages/home.json",
+   "template": "elementor_header_footer",
+   "isFront": true,
+   "order": 0,
+   "meta": {
+    "description": "Placeholder home page for the Modafie theme demo."
+   },
+   "sourceUrl": "https://www.modafie.io/"
+  },
+  {
+   "slug": "about",
+   "title": "About",
+   "file": "pages/about.json",
+   "template": "elementor_header_footer",
+   "isFront": false,
+   "order": 1,
+   "meta": {
+    "description": "Placeholder about page."
+   },
+   "sourceUrl": "https://www.modafie.io/about"
+  },
+  {
+   "slug": "collections",
+   "title": "Collections",
+   "file": "pages/collections.json",
+   "template": "elementor_header_footer",
+   "isFront": false,
+   "order": 2,
+   "meta": {
+    "description": "Placeholder collections overview."
+   },
+   "sourceUrl": "https://www.modafie.io/collections"
+  },
+  {
+   "slug": "journal",
+   "title": "Journal",
+   "file": "pages/journal.json",
+   "template": "elementor_header_footer",
+   "isFront": false,
+   "order": 3,
+   "meta": {
+    "description": "Placeholder journal."
+   },
+   "sourceUrl": "https://www.modafie.io/journal"
+  },
+  {
+   "slug": "faq",
+   "title": "FAQ",
+   "file": "pages/faq.json",
+   "template": "elementor_header_footer",
+   "isFront": false,
+   "order": 4,
+   "meta": {
+    "description": "Placeholder FAQ."
+   },
+   "sourceUrl": "https://www.modafie.io/faq"
+  },
+  {
+   "slug": "contact",
+   "title": "Contact",
+   "file": "pages/contact.json",
+   "template": "elementor_header_footer",
+   "isFront": false,
+   "order": 5,
+   "meta": {
+    "description": "Placeholder contact page."
+   },
+   "sourceUrl": "https://www.modafie.io/contact"
+  },
+  {
+   "slug": "privacy-policy",
+   "title": "Privacy Policy",
+   "file": "pages/privacy-policy.json",
+   "template": "elementor_header_footer",
+   "isFront": false,
+   "order": 6,
+   "meta": {
+    "description": "Placeholder privacy policy."
+   },
+   "sourceUrl": "https://www.modafie.io/privacy-policy"
+  }
+ ],
+ "templates": [
+  {
+   "key": "site-footer",
+   "title": "Modafie · Site footer",
+   "file": "templates/site-footer.json",
+   "pattern": "footer"
+  },
+  {
+   "key": "home-1-hero",
+   "title": "Modafie · Home · Hero",
+   "file": "templates/home-1-hero.json",
+   "pattern": "hero"
+  },
+  {
+   "key": "home-2-marquee",
+   "title": "Modafie · Home · Marquee strip",
+   "file": "templates/home-2-marquee.json",
+   "pattern": "marquee"
+  },
+  {
+   "key": "home-3-carousel",
+   "title": "Modafie · Home · Card carousel",
+   "file": "templates/home-3-carousel.json",
+   "pattern": "carousel"
+  },
+  {
+   "key": "home-4-tiles",
+   "title": "Modafie · Home · Category tiles",
+   "file": "templates/home-4-tiles.json",
+   "pattern": "tiles"
+  },
+  {
+   "key": "home-5-split",
+   "title": "Modafie · Home · Split image/text",
+   "file": "templates/home-5-split.json",
+   "pattern": "split"
+  },
+  {
+   "key": "home-6-editorial",
+   "title": "Modafie · Home · Editorial image",
+   "file": "templates/home-6-editorial.json",
+   "pattern": "editorial"
+  },
+  {
+   "key": "home-7-features",
+   "title": "Modafie · Home · Feature row",
+   "file": "templates/home-7-features.json",
+   "pattern": "features"
+  },
+  {
+   "key": "home-8-statement",
+   "title": "Modafie · Home · Statement",
+   "file": "templates/home-8-statement.json",
+   "pattern": "statement"
+  },
+  {
+   "key": "home-9-newsletter",
+   "title": "Modafie · Home · Newsletter",
+   "file": "templates/home-9-newsletter.json",
+   "pattern": "newsletter"
+  },
+  {
+   "key": "about-1-hero",
+   "title": "Modafie · About · Hero",
+   "file": "templates/about-1-hero.json",
+   "pattern": "hero"
+  },
+  {
+   "key": "about-2-statement",
+   "title": "Modafie · About · Statement",
+   "file": "templates/about-2-statement.json",
+   "pattern": "statement"
+  },
+  {
+   "key": "about-3-split",
+   "title": "Modafie · About · Split image/text",
+   "file": "templates/about-3-split.json",
+   "pattern": "split"
+  },
+  {
+   "key": "about-4-split",
+   "title": "Modafie · About · Split image/text",
+   "file": "templates/about-4-split.json",
+   "pattern": "split"
+  },
+  {
+   "key": "about-6-editorial",
+   "title": "Modafie · About · Editorial image",
+   "file": "templates/about-6-editorial.json",
+   "pattern": "editorial"
+  },
+  {
+   "key": "collections-1-hero",
+   "title": "Modafie · Collections · Hero",
+   "file": "templates/collections-1-hero.json",
+   "pattern": "hero"
+  },
+  {
+   "key": "collections-4-newsletter",
+   "title": "Modafie · Collections · Newsletter",
+   "file": "templates/collections-4-newsletter.json",
+   "pattern": "newsletter"
+  },
+  {
+   "key": "journal-1-title",
+   "title": "Modafie · Journal · Page title",
+   "file": "templates/journal-1-title.json",
+   "pattern": "title"
+  },
+  {
+   "key": "journal-2-grid",
+   "title": "Modafie · Journal · Editorial grid",
+   "file": "templates/journal-2-grid.json",
+   "pattern": "grid"
+  },
+  {
+   "key": "faq-1-title",
+   "title": "Modafie · FAQ · Page title",
+   "file": "templates/faq-1-title.json",
+   "pattern": "title"
+  },
+  {
+   "key": "faq-2-faq",
+   "title": "Modafie · FAQ · FAQ",
+   "file": "templates/faq-2-faq.json",
+   "pattern": "faq"
+  },
+  {
+   "key": "faq-3-cta",
+   "title": "Modafie · FAQ · Call to action",
+   "file": "templates/faq-3-cta.json",
+   "pattern": "cta"
+  },
+  {
+   "key": "contact-1-title",
+   "title": "Modafie · Contact · Page title",
+   "file": "templates/contact-1-title.json",
+   "pattern": "title"
+  },
+  {
+   "key": "contact-2-contact",
+   "title": "Modafie · Contact · Contact",
+   "file": "templates/contact-2-contact.json",
+   "pattern": "contact"
+  },
+  {
+   "key": "privacy-policy-1-generic",
+   "title": "Modafie · Privacy Policy · Content",
+   "file": "templates/privacy-policy-1-generic.json",
+   "pattern": "generic"
+  }
+ ],
+ "menus": {
+  "primary": {
+   "name": "Modafie Primary",
+   "items": [
+    {
+     "title": "Collections",
+     "page": "collections",
+     "children": [
+      {
+       "title": "Category one",
+       "page": "collections"
+      },
+      {
+       "title": "Category two",
+       "page": "collections"
+      },
+      {
+       "title": "Category three",
+       "page": "collections"
+      },
+      {
+       "title": "New in",
+       "page": "collections"
+      }
+     ],
+     "classes": "mf-mega"
+    },
+    {
+     "title": "About",
+     "page": "about"
+    },
+    {
+     "title": "Journal",
+     "page": "journal"
+    },
+    {
+     "title": "FAQ",
+     "page": "faq"
+    },
+    {
+     "title": "Contact",
+     "page": "contact"
+    }
+   ]
+  },
+  "footer": {
+   "name": "Modafie Footer",
+   "items": [
+    {
+     "title": "Shop",
+     "url": "#",
+     "children": [
+      {
+       "title": "Collections",
+       "page": "collections"
+      },
+      {
+       "title": "New in",
+       "page": "collections"
+      }
+     ]
+    },
+    {
+     "title": "Help",
+     "url": "#",
+     "children": [
+      {
+       "title": "FAQ",
+       "page": "faq"
+      },
+      {
+       "title": "Contact",
+       "page": "contact"
+      }
+     ]
+    },
+    {
+     "title": "Company",
+     "url": "#",
+     "children": [
+      {
+       "title": "About",
+       "page": "about"
+      },
+      {
+       "title": "Journal",
+       "page": "journal"
+      }
+     ]
+    },
+    {
+     "title": "Legal",
+     "url": "#",
+     "children": [
+      {
+       "title": "Privacy policy",
+       "page": "privacy-policy"
+      }
+     ]
+    }
+   ]
+  },
+  "legal": {
+   "name": "Modafie Legal",
+   "items": [
+    {
+     "title": "Privacy policy",
+     "page": "privacy-policy"
+    }
+   ]
+  }
+ },
+ "theme_mods": {
+  "modafie_announcement_enabled": true,
+  "modafie_announcement_text": "Free shipping placeholder\nReturns placeholder\nNew arrivals weekly\nMembers get early access",
+  "modafie_header_hide_on_scroll": true,
+  "modafie_header_transparent": false,
+  "modafie_header_cta_text": ""
+ },
+ "footer_template": "site-footer"
+}

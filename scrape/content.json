@@ -1,0 +1,1993 @@
+{
+  "generator": "modafie-placeholder-seed/1.0",
+  "source": "placeholder",
+  "note": "modafie.io was blocked by the build environment's network policy. This file is a structural placeholder; run `npm run scrape` in tools/ to replace it.",
+  "site": {
+    "base": "https://www.modafie.io/",
+    "crawledAt": "2026-10-06T19:17:42.240928+00:00",
+    "favicon": null,
+    "logo": null,
+    "brand": {
+      "palette": [],
+      "accent": null,
+      "themeColor": null
+    },
+    "fonts": null,
+    "nav": [
+      {
+        "text": "Collections",
+        "href": "https://www.modafie.io/collections",
+        "children": [
+          {
+            "text": "Category one",
+            "href": "https://www.modafie.io/collections",
+            "children": []
+          },
+          {
+            "text": "Category two",
+            "href": "https://www.modafie.io/collections",
+            "children": []
+          },
+          {
+            "text": "Category three",
+            "href": "https://www.modafie.io/collections",
+            "children": []
+          },
+          {
+            "text": "New in",
+            "href": "https://www.modafie.io/collections",
+            "children": []
+          }
+        ]
+      },
+      {
+        "text": "About",
+        "href": "https://www.modafie.io/about",
+        "children": []
+      },
+      {
+        "text": "Journal",
+        "href": "https://www.modafie.io/journal",
+        "children": []
+      },
+      {
+        "text": "FAQ",
+        "href": "https://www.modafie.io/faq",
+        "children": []
+      },
+      {
+        "text": "Contact",
+        "href": "https://www.modafie.io/contact",
+        "children": []
+      }
+    ],
+    "footer": [
+      {
+        "heading": "Shop",
+        "links": [
+          {
+            "text": "Collections",
+            "href": "https://www.modafie.io/collections"
+          },
+          {
+            "text": "New in",
+            "href": "https://www.modafie.io/collections"
+          }
+        ]
+      },
+      {
+        "heading": "Help",
+        "links": [
+          {
+            "text": "FAQ",
+            "href": "https://www.modafie.io/faq"
+          },
+          {
+            "text": "Contact",
+            "href": "https://www.modafie.io/contact"
+          }
+        ]
+      },
+      {
+        "heading": "Company",
+        "links": [
+          {
+            "text": "About",
+            "href": "https://www.modafie.io/about"
+          },
+          {
+            "text": "Journal",
+            "href": "https://www.modafie.io/journal"
+          }
+        ]
+      },
+      {
+        "heading": "Legal",
+        "links": [
+          {
+            "text": "Privacy policy",
+            "href": "https://www.modafie.io/privacy-policy"
+          }
+        ]
+      }
+    ],
+    "headerBlocks": [],
+    "footerBlocks": [
+      {
+        "type": "paragraph",
+        "text": "© Modafie. All rights reserved.",
+        "html": "© Modafie. All rights reserved."
+      }
+    ]
+  },
+  "pages": [
+    {
+      "url": "https://www.modafie.io/",
+      "requestedUrl": "https://www.modafie.io/",
+      "discoveredVia": "placeholder",
+      "slug": "home",
+      "status": 200,
+      "title": "Home | Modafie",
+      "meta": {
+        "description": "Placeholder home page for the Modafie theme demo.",
+        "canonical": "https://www.modafie.io/",
+        "og": {
+          "og:title": "Home",
+          "og:description": "Placeholder home page for the Modafie theme demo."
+        }
+      },
+      "lang": "en",
+      "headings": [],
+      "sections": [
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [
+            "hero"
+          ],
+          "background": {
+            "color": null,
+            "image": "https://www.modafie.io/placeholder/hero-studio.jpg",
+            "video": null,
+            "mediaId": "6bbb5b4158d8b2b7",
+            "file": "images/hero-studio.jpg"
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "New season",
+              "html": "New season",
+              "role": "eyebrow"
+            },
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Your story starts here"
+            },
+            {
+              "type": "paragraph",
+              "text": "This is placeholder copy. Every word and image on this page is editable in Elementor.",
+              "html": "This is placeholder copy. Every word and image on this page is editable in Elementor."
+            },
+            {
+              "type": "button",
+              "text": "Shop now",
+              "href": "https://www.modafie.io/collections"
+            },
+            {
+              "type": "button",
+              "text": "Discover",
+              "href": "https://www.modafie.io/about"
+            }
+          ],
+          "index": 0
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [
+            "marquee"
+          ],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Free shipping placeholder ✦ Returns placeholder ✦ New arrivals weekly ✦ Members get early access",
+              "html": "Free shipping placeholder ✦ Returns placeholder ✦ New arrivals weekly ✦ Members get early access"
+            }
+          ],
+          "index": 1
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "New in"
+            },
+            {
+              "type": "link",
+              "text": "View all",
+              "href": "https://www.modafie.io/collections"
+            },
+            {
+              "type": "image",
+              "src": "https://www.modafie.io/placeholder/card-1.jpg",
+              "alt": "Placeholder image 1",
+              "width": 1000,
+              "height": 1250,
+              "mediaId": "8f2b4e51e6b9879b",
+              "file": "images/card-1.jpg",
+              "link": "https://www.modafie.io/collections"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Item one"
+            },
+            {
+              "type": "paragraph",
+              "text": "Short supporting line",
+              "html": "Short supporting line"
+            },
+            {
+              "type": "image",
+              "src": "https://www.modafie.io/placeholder/card-2.jpg",
+              "alt": "Placeholder image 2",
+              "width": 1000,
+              "height": 1250,
+              "mediaId": "3db0988374e80a02",
+              "file": "images/card-2.jpg",
+              "link": "https://www.modafie.io/collections"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Item two"
+            },
+            {
+              "type": "paragraph",
+              "text": "Short supporting line",
+              "html": "Short supporting line"
+            },
+            {
+              "type": "image",
+              "src": "https://www.modafie.io/placeholder/card-3.jpg",
+              "alt": "Placeholder image 3",
+              "width": 1000,
+              "height": 1250,
+              "mediaId": "86eb475354920e6e",
+              "file": "images/card-3.jpg",
+              "link": "https://www.modafie.io/collections"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Item three"
+            },
+            {
+              "type": "paragraph",
+              "text": "Short supporting line",
+              "html": "Short supporting line"
+            },
+            {
+              "type": "image",
+              "src": "https://www.modafie.io/placeholder/card-4.jpg",
+              "alt": "Placeholder image 4",
+              "width": 1000,
+              "height": 1250,
+              "mediaId": "b3f4b88aa505b979",
+              "file": "images/card-4.jpg",
+              "link": "https://www.modafie.io/collections"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Item four"
+            },
+            {
+              "type": "paragraph",
+              "text": "Short supporting line",
+              "html": "Short supporting line"
+            },
+            {
+              "type": "image",
+              "src": "https://www.modafie.io/placeholder/card-5.jpg",
+              "alt": "Placeholder image 5",
+              "width": 1000,
+              "height": 1250,
+              "mediaId": "6f59cfea094eb057",
+              "file": "images/card-5.jpg",
+              "link": "https://www.modafie.io/collections"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Item five"
+            },
+            {
+              "type": "paragraph",
+              "text": "Short supporting line",
+              "html": "Short supporting line"
+            },
+            {
+              "type": "image",
+              "src": "https://www.modafie.io/placeholder/card-6.jpg",
+              "alt": "Placeholder image 6",
+              "width": 1000,
+              "height": 1250,
+              "mediaId": "1ad53c38e40967a1",
+              "file": "images/card-6.jpg",
+              "link": "https://www.modafie.io/collections"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Item six"
+            },
+            {
+              "type": "paragraph",
+              "text": "Short supporting line",
+              "html": "Short supporting line"
+            }
+          ],
+          "index": 2
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Shop by category"
+            },
+            {
+              "type": "image",
+              "src": "https://www.modafie.io/placeholder/tile-one.jpg",
+              "alt": "Category one",
+              "width": 1200,
+              "height": 1600,
+              "mediaId": "32e3291c3cbec0d7",
+              "file": "images/tile-one.jpg",
+              "link": "https://www.modafie.io/collections"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Category one"
+            },
+            {
+              "type": "button",
+              "text": "Explore",
+              "href": "https://www.modafie.io/collections"
+            },
+            {
+              "type": "image",
+              "src": "https://www.modafie.io/placeholder/tile-two.jpg",
+              "alt": "Category two",
+              "width": 1200,
+              "height": 1600,
+              "mediaId": "5bf92f3703e3bed3",
+              "file": "images/tile-two.jpg",
+              "link": "https://www.modafie.io/collections"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Category two"
+            },
+            {
+              "type": "button",
+              "text": "Explore",
+              "href": "https://www.modafie.io/collections"
+            },
+            {
+              "type": "image",
+              "src": "https://www.modafie.io/placeholder/tile-three.jpg",
+              "alt": "Category three",
+              "width": 1200,
+              "height": 1600,
+              "mediaId": "a400d1f9fa42fb3f",
+              "file": "images/tile-three.jpg",
+              "link": "https://www.modafie.io/collections"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Category three"
+            },
+            {
+              "type": "button",
+              "text": "Explore",
+              "href": "https://www.modafie.io/collections"
+            }
+          ],
+          "index": 3
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "image",
+              "src": "https://www.modafie.io/placeholder/split-1.jpg",
+              "alt": "Placeholder story image",
+              "width": 1400,
+              "height": 1600,
+              "mediaId": "6af88559b744dfd5",
+              "file": "images/split-1.jpg"
+            },
+            {
+              "type": "paragraph",
+              "text": "Our story",
+              "html": "Our story",
+              "role": "eyebrow"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Designed with intent"
+            },
+            {
+              "type": "paragraph",
+              "text": "Placeholder paragraph for modafie's brand story. Describe what makes the product different, who it is for and why it exists.",
+              "html": "Placeholder paragraph for modafie's brand story. Describe what makes the product different, who it is for and why it exists."
+            },
+            {
+              "type": "button",
+              "text": "Read more",
+              "href": "https://www.modafie.io/about"
+            }
+          ],
+          "index": 4
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [
+            "editorial"
+          ],
+          "background": {
+            "color": null,
+            "image": "https://www.modafie.io/placeholder/editorial-wide.jpg",
+            "video": null,
+            "mediaId": "f951564c1c696ace",
+            "file": "images/editorial-wide.jpg"
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Built for every day"
+            },
+            {
+              "type": "button",
+              "text": "Explore the collection",
+              "href": "https://www.modafie.io/collections"
+            }
+          ],
+          "index": 5
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "What we stand for"
+            },
+            {
+              "type": "svg",
+              "width": 48,
+              "height": 48,
+              "mediaId": "8c9ad1c3c6804411",
+              "file": "svg/icon-quality.svg"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Quality first"
+            },
+            {
+              "type": "paragraph",
+              "text": "Replace with a short value statement from modafie.",
+              "html": "Replace with a short value statement from modafie."
+            },
+            {
+              "type": "svg",
+              "width": 48,
+              "height": 48,
+              "mediaId": "6f8bde7f13a2aca9",
+              "file": "svg/icon-delivery.svg"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Fast delivery"
+            },
+            {
+              "type": "paragraph",
+              "text": "Replace with modafie's delivery promise.",
+              "html": "Replace with modafie's delivery promise."
+            },
+            {
+              "type": "svg",
+              "width": 48,
+              "height": 48,
+              "mediaId": "a0e1a5282a534cb8",
+              "file": "svg/icon-returns.svg"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Easy returns"
+            },
+            {
+              "type": "paragraph",
+              "text": "Replace with modafie's returns policy summary.",
+              "html": "Replace with modafie's returns policy summary."
+            },
+            {
+              "type": "svg",
+              "width": 48,
+              "height": 48,
+              "mediaId": "abe7ac67d7fafaa7",
+              "file": "svg/icon-community.svg"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Community"
+            },
+            {
+              "type": "paragraph",
+              "text": "Replace with a line about the modafie community.",
+              "html": "Replace with a line about the modafie community."
+            }
+          ],
+          "index": 6
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "A short, bold statement that sums up the brand in one breath.",
+              "html": "A short, bold statement that sums up the brand in one breath."
+            }
+          ],
+          "index": 7
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": "#f6f6f6",
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Join the list"
+            },
+            {
+              "type": "paragraph",
+              "text": "Placeholder newsletter copy: early access, launches and stories, straight to your inbox.",
+              "html": "Placeholder newsletter copy: early access, launches and stories, straight to your inbox."
+            },
+            {
+              "type": "form",
+              "action": null,
+              "method": "post",
+              "submit": "Sign up",
+              "fields": [
+                {
+                  "tag": "input",
+                  "type": "email",
+                  "name": "email",
+                  "label": "Email address",
+                  "placeholder": "Email address",
+                  "required": true
+                }
+              ]
+            }
+          ],
+          "index": 8
+        }
+      ],
+      "media": [],
+      "forms": [],
+      "consoleErrors": [],
+      "screenshots": {}
+    },
+    {
+      "url": "https://www.modafie.io/about",
+      "requestedUrl": "https://www.modafie.io/about",
+      "discoveredVia": "placeholder",
+      "slug": "about",
+      "status": 200,
+      "title": "About | Modafie",
+      "meta": {
+        "description": "Placeholder about page.",
+        "canonical": "https://www.modafie.io/about",
+        "og": {
+          "og:title": "About",
+          "og:description": "Placeholder about page."
+        }
+      },
+      "lang": "en",
+      "headings": [],
+      "sections": [
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [
+            "hero"
+          ],
+          "background": {
+            "color": null,
+            "image": "https://www.modafie.io/placeholder/about-hero.jpg",
+            "video": null,
+            "mediaId": "6902ff6d43977359",
+            "file": "images/about-hero.jpg"
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "About us"
+            },
+            {
+              "type": "paragraph",
+              "text": "Placeholder intro line for the about page.",
+              "html": "Placeholder intro line for the about page."
+            }
+          ],
+          "index": 0
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "We believe good design should feel effortless.",
+              "html": "We believe good design should feel effortless."
+            }
+          ],
+          "index": 1
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "image",
+              "src": "https://www.modafie.io/placeholder/split-2.jpg",
+              "alt": "Placeholder image",
+              "width": 1400,
+              "height": 1600,
+              "mediaId": "7ab171713943db40",
+              "file": "images/split-2.jpg"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Where it began"
+            },
+            {
+              "type": "paragraph",
+              "text": "Placeholder paragraph. Tell the origin story here - the moment, the problem, the first product.",
+              "html": "Placeholder paragraph. Tell the origin story here - the moment, the problem, the first product."
+            },
+            {
+              "type": "paragraph",
+              "text": "A second placeholder paragraph to show multi-paragraph splits.",
+              "html": "A second placeholder paragraph to show multi-paragraph splits."
+            }
+          ],
+          "index": 2
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "image",
+              "src": "https://www.modafie.io/placeholder/split-3.jpg",
+              "alt": "Placeholder image",
+              "width": 1400,
+              "height": 1600,
+              "mediaId": "fa9e67aa9c50d756",
+              "file": "images/split-3.jpg"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "How we make it"
+            },
+            {
+              "type": "paragraph",
+              "text": "Placeholder paragraph about materials, process and craft.",
+              "html": "Placeholder paragraph about materials, process and craft."
+            },
+            {
+              "type": "button",
+              "text": "See the collection",
+              "href": "https://www.modafie.io/collections"
+            }
+          ],
+          "index": 3
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "What we stand for"
+            },
+            {
+              "type": "svg",
+              "width": 48,
+              "height": 48,
+              "mediaId": "8c9ad1c3c6804411",
+              "file": "svg/icon-quality.svg"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Quality first"
+            },
+            {
+              "type": "paragraph",
+              "text": "Replace with a short value statement from modafie.",
+              "html": "Replace with a short value statement from modafie."
+            },
+            {
+              "type": "svg",
+              "width": 48,
+              "height": 48,
+              "mediaId": "6f8bde7f13a2aca9",
+              "file": "svg/icon-delivery.svg"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Fast delivery"
+            },
+            {
+              "type": "paragraph",
+              "text": "Replace with modafie's delivery promise.",
+              "html": "Replace with modafie's delivery promise."
+            },
+            {
+              "type": "svg",
+              "width": 48,
+              "height": 48,
+              "mediaId": "a0e1a5282a534cb8",
+              "file": "svg/icon-returns.svg"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Easy returns"
+            },
+            {
+              "type": "paragraph",
+              "text": "Replace with modafie's returns policy summary.",
+              "html": "Replace with modafie's returns policy summary."
+            },
+            {
+              "type": "svg",
+              "width": 48,
+              "height": 48,
+              "mediaId": "abe7ac67d7fafaa7",
+              "file": "svg/icon-community.svg"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Community"
+            },
+            {
+              "type": "paragraph",
+              "text": "Replace with a line about the modafie community.",
+              "html": "Replace with a line about the modafie community."
+            }
+          ],
+          "index": 4
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [
+            "editorial"
+          ],
+          "background": {
+            "color": null,
+            "image": "https://www.modafie.io/placeholder/editorial-wide.jpg",
+            "video": null,
+            "mediaId": "f951564c1c696ace",
+            "file": "images/editorial-wide.jpg"
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Made to be lived in"
+            }
+          ],
+          "index": 5
+        }
+      ],
+      "media": [],
+      "forms": [],
+      "consoleErrors": [],
+      "screenshots": {}
+    },
+    {
+      "url": "https://www.modafie.io/collections",
+      "requestedUrl": "https://www.modafie.io/collections",
+      "discoveredVia": "placeholder",
+      "slug": "collections",
+      "status": 200,
+      "title": "Collections | Modafie",
+      "meta": {
+        "description": "Placeholder collections overview.",
+        "canonical": "https://www.modafie.io/collections",
+        "og": {
+          "og:title": "Collections",
+          "og:description": "Placeholder collections overview."
+        }
+      },
+      "lang": "en",
+      "headings": [],
+      "sections": [
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [
+            "hero"
+          ],
+          "background": {
+            "color": null,
+            "image": "https://www.modafie.io/placeholder/collections-hero.jpg",
+            "video": null,
+            "mediaId": "62a8e1ed8caa324b",
+            "file": "images/collections-hero.jpg"
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Collections"
+            },
+            {
+              "type": "paragraph",
+              "text": "Placeholder description of the range.",
+              "html": "Placeholder description of the range."
+            }
+          ],
+          "index": 0
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Shop by category"
+            },
+            {
+              "type": "image",
+              "src": "https://www.modafie.io/placeholder/tile-one.jpg",
+              "alt": "Category one",
+              "width": 1200,
+              "height": 1600,
+              "mediaId": "32e3291c3cbec0d7",
+              "file": "images/tile-one.jpg",
+              "link": "https://www.modafie.io/collections"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Category one"
+            },
+            {
+              "type": "button",
+              "text": "Explore",
+              "href": "https://www.modafie.io/collections"
+            },
+            {
+              "type": "image",
+              "src": "https://www.modafie.io/placeholder/tile-two.jpg",
+              "alt": "Category two",
+              "width": 1200,
+              "height": 1600,
+              "mediaId": "5bf92f3703e3bed3",
+              "file": "images/tile-two.jpg",
+              "link": "https://www.modafie.io/collections"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Category two"
+            },
+            {
+              "type": "button",
+              "text": "Explore",
+              "href": "https://www.modafie.io/collections"
+            },
+            {
+              "type": "image",
+              "src": "https://www.modafie.io/placeholder/tile-three.jpg",
+              "alt": "Category three",
+              "width": 1200,
+              "height": 1600,
+              "mediaId": "a400d1f9fa42fb3f",
+              "file": "images/tile-three.jpg",
+              "link": "https://www.modafie.io/collections"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Category three"
+            },
+            {
+              "type": "button",
+              "text": "Explore",
+              "href": "https://www.modafie.io/collections"
+            }
+          ],
+          "index": 1
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "New in"
+            },
+            {
+              "type": "link",
+              "text": "View all",
+              "href": "https://www.modafie.io/collections"
+            },
+            {
+              "type": "image",
+              "src": "https://www.modafie.io/placeholder/card-1.jpg",
+              "alt": "Placeholder image 1",
+              "width": 1000,
+              "height": 1250,
+              "mediaId": "8f2b4e51e6b9879b",
+              "file": "images/card-1.jpg",
+              "link": "https://www.modafie.io/collections"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Item one"
+            },
+            {
+              "type": "paragraph",
+              "text": "Short supporting line",
+              "html": "Short supporting line"
+            },
+            {
+              "type": "image",
+              "src": "https://www.modafie.io/placeholder/card-2.jpg",
+              "alt": "Placeholder image 2",
+              "width": 1000,
+              "height": 1250,
+              "mediaId": "3db0988374e80a02",
+              "file": "images/card-2.jpg",
+              "link": "https://www.modafie.io/collections"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Item two"
+            },
+            {
+              "type": "paragraph",
+              "text": "Short supporting line",
+              "html": "Short supporting line"
+            },
+            {
+              "type": "image",
+              "src": "https://www.modafie.io/placeholder/card-3.jpg",
+              "alt": "Placeholder image 3",
+              "width": 1000,
+              "height": 1250,
+              "mediaId": "86eb475354920e6e",
+              "file": "images/card-3.jpg",
+              "link": "https://www.modafie.io/collections"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Item three"
+            },
+            {
+              "type": "paragraph",
+              "text": "Short supporting line",
+              "html": "Short supporting line"
+            },
+            {
+              "type": "image",
+              "src": "https://www.modafie.io/placeholder/card-4.jpg",
+              "alt": "Placeholder image 4",
+              "width": 1000,
+              "height": 1250,
+              "mediaId": "b3f4b88aa505b979",
+              "file": "images/card-4.jpg",
+              "link": "https://www.modafie.io/collections"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Item four"
+            },
+            {
+              "type": "paragraph",
+              "text": "Short supporting line",
+              "html": "Short supporting line"
+            },
+            {
+              "type": "image",
+              "src": "https://www.modafie.io/placeholder/card-5.jpg",
+              "alt": "Placeholder image 5",
+              "width": 1000,
+              "height": 1250,
+              "mediaId": "6f59cfea094eb057",
+              "file": "images/card-5.jpg",
+              "link": "https://www.modafie.io/collections"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Item five"
+            },
+            {
+              "type": "paragraph",
+              "text": "Short supporting line",
+              "html": "Short supporting line"
+            },
+            {
+              "type": "image",
+              "src": "https://www.modafie.io/placeholder/card-6.jpg",
+              "alt": "Placeholder image 6",
+              "width": 1000,
+              "height": 1250,
+              "mediaId": "1ad53c38e40967a1",
+              "file": "images/card-6.jpg",
+              "link": "https://www.modafie.io/collections"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Item six"
+            },
+            {
+              "type": "paragraph",
+              "text": "Short supporting line",
+              "html": "Short supporting line"
+            }
+          ],
+          "index": 2
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": "#f6f6f6",
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Join the list"
+            },
+            {
+              "type": "paragraph",
+              "text": "Placeholder newsletter copy: early access, launches and stories, straight to your inbox.",
+              "html": "Placeholder newsletter copy: early access, launches and stories, straight to your inbox."
+            },
+            {
+              "type": "form",
+              "action": null,
+              "method": "post",
+              "submit": "Sign up",
+              "fields": [
+                {
+                  "tag": "input",
+                  "type": "email",
+                  "name": "email",
+                  "label": "Email address",
+                  "placeholder": "Email address",
+                  "required": true
+                }
+              ]
+            }
+          ],
+          "index": 3
+        }
+      ],
+      "media": [],
+      "forms": [],
+      "consoleErrors": [],
+      "screenshots": {}
+    },
+    {
+      "url": "https://www.modafie.io/journal",
+      "requestedUrl": "https://www.modafie.io/journal",
+      "discoveredVia": "placeholder",
+      "slug": "journal",
+      "status": 200,
+      "title": "Journal | Modafie",
+      "meta": {
+        "description": "Placeholder journal.",
+        "canonical": "https://www.modafie.io/journal",
+        "og": {
+          "og:title": "Journal",
+          "og:description": "Placeholder journal."
+        }
+      },
+      "lang": "en",
+      "headings": [],
+      "sections": [
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Journal"
+            },
+            {
+              "type": "paragraph",
+              "text": "Stories, guides and news. Placeholder intro.",
+              "html": "Stories, guides and news. Placeholder intro."
+            }
+          ],
+          "index": 0
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "image",
+              "src": "https://www.modafie.io/placeholder/journal-1.jpg",
+              "alt": "Journal placeholder 1",
+              "width": 1200,
+              "height": 900,
+              "mediaId": "b405978f8427bdfa",
+              "file": "images/journal-1.jpg",
+              "link": "https://www.modafie.io/journal"
+            },
+            {
+              "type": "paragraph",
+              "text": "Placeholder date",
+              "html": "Placeholder date",
+              "role": "eyebrow"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "First journal entry title"
+            },
+            {
+              "type": "paragraph",
+              "text": "Placeholder excerpt for a journal article - one or two sentences.",
+              "html": "Placeholder excerpt for a journal article - one or two sentences."
+            },
+            {
+              "type": "image",
+              "src": "https://www.modafie.io/placeholder/journal-2.jpg",
+              "alt": "Journal placeholder 2",
+              "width": 1200,
+              "height": 900,
+              "mediaId": "53bd75ef9202839e",
+              "file": "images/journal-2.jpg",
+              "link": "https://www.modafie.io/journal"
+            },
+            {
+              "type": "paragraph",
+              "text": "Placeholder date",
+              "html": "Placeholder date",
+              "role": "eyebrow"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Second journal entry title"
+            },
+            {
+              "type": "paragraph",
+              "text": "Placeholder excerpt for a journal article - one or two sentences.",
+              "html": "Placeholder excerpt for a journal article - one or two sentences."
+            },
+            {
+              "type": "image",
+              "src": "https://www.modafie.io/placeholder/journal-3.jpg",
+              "alt": "Journal placeholder 3",
+              "width": 1200,
+              "height": 900,
+              "mediaId": "b4fe7d82acba5d41",
+              "file": "images/journal-3.jpg",
+              "link": "https://www.modafie.io/journal"
+            },
+            {
+              "type": "paragraph",
+              "text": "Placeholder date",
+              "html": "Placeholder date",
+              "role": "eyebrow"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Third journal entry title"
+            },
+            {
+              "type": "paragraph",
+              "text": "Placeholder excerpt for a journal article - one or two sentences.",
+              "html": "Placeholder excerpt for a journal article - one or two sentences."
+            }
+          ],
+          "index": 1
+        }
+      ],
+      "media": [],
+      "forms": [],
+      "consoleErrors": [],
+      "screenshots": {}
+    },
+    {
+      "url": "https://www.modafie.io/faq",
+      "requestedUrl": "https://www.modafie.io/faq",
+      "discoveredVia": "placeholder",
+      "slug": "faq",
+      "status": 200,
+      "title": "FAQ | Modafie",
+      "meta": {
+        "description": "Placeholder FAQ.",
+        "canonical": "https://www.modafie.io/faq",
+        "og": {
+          "og:title": "FAQ",
+          "og:description": "Placeholder FAQ."
+        }
+      },
+      "lang": "en",
+      "headings": [],
+      "sections": [
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Frequently asked questions"
+            }
+          ],
+          "index": 0
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "How long does delivery take?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Placeholder answer. Replace with modafie's answer to this question.",
+              "html": "Placeholder answer. Replace with modafie's answer to this question."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "What is your returns policy?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Placeholder answer. Replace with modafie's answer to this question.",
+              "html": "Placeholder answer. Replace with modafie's answer to this question."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "How do I find my size?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Placeholder answer. Replace with modafie's answer to this question.",
+              "html": "Placeholder answer. Replace with modafie's answer to this question."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Do you ship internationally?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Placeholder answer. Replace with modafie's answer to this question.",
+              "html": "Placeholder answer. Replace with modafie's answer to this question."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "How can I contact you?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Placeholder answer. Replace with modafie's answer to this question.",
+              "html": "Placeholder answer. Replace with modafie's answer to this question."
+            }
+          ],
+          "index": 1
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Still have questions?"
+            },
+            {
+              "type": "button",
+              "text": "Contact us",
+              "href": "https://www.modafie.io/contact"
+            }
+          ],
+          "index": 2
+        }
+      ],
+      "media": [],
+      "forms": [],
+      "consoleErrors": [],
+      "screenshots": {}
+    },
+    {
+      "url": "https://www.modafie.io/contact",
+      "requestedUrl": "https://www.modafie.io/contact",
+      "discoveredVia": "placeholder",
+      "slug": "contact",
+      "status": 200,
+      "title": "Contact | Modafie",
+      "meta": {
+        "description": "Placeholder contact page.",
+        "canonical": "https://www.modafie.io/contact",
+        "og": {
+          "og:title": "Contact",
+          "og:description": "Placeholder contact page."
+        }
+      },
+      "lang": "en",
+      "headings": [],
+      "sections": [
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Contact"
+            },
+            {
+              "type": "paragraph",
+              "text": "Placeholder: we usually reply within one working day.",
+              "html": "Placeholder: we usually reply within one working day."
+            }
+          ],
+          "index": 0
+        },
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Get in touch"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "hello@example.com",
+                "+00 000 000 000",
+                "Placeholder address"
+              ]
+            },
+            {
+              "type": "form",
+              "action": null,
+              "method": "post",
+              "submit": "Send message",
+              "fields": [
+                {
+                  "tag": "input",
+                  "type": "text",
+                  "name": "name",
+                  "label": "Name",
+                  "placeholder": "Name",
+                  "required": true
+                },
+                {
+                  "tag": "input",
+                  "type": "email",
+                  "name": "email",
+                  "label": "Email",
+                  "placeholder": "Email",
+                  "required": true
+                },
+                {
+                  "tag": "select",
+                  "type": "select-one",
+                  "name": "topic",
+                  "label": "Topic",
+                  "placeholder": "",
+                  "required": false,
+                  "options": [
+                    "General",
+                    "Orders",
+                    "Press"
+                  ]
+                },
+                {
+                  "tag": "textarea",
+                  "type": "textarea",
+                  "name": "message",
+                  "label": "Message",
+                  "placeholder": "Message",
+                  "required": true
+                }
+              ]
+            }
+          ],
+          "index": 1
+        }
+      ],
+      "media": [],
+      "forms": [],
+      "consoleErrors": [],
+      "screenshots": {}
+    },
+    {
+      "url": "https://www.modafie.io/privacy-policy",
+      "requestedUrl": "https://www.modafie.io/privacy-policy",
+      "discoveredVia": "placeholder",
+      "slug": "privacy-policy",
+      "status": 200,
+      "title": "Privacy Policy | Modafie",
+      "meta": {
+        "description": "Placeholder privacy policy.",
+        "canonical": "https://www.modafie.io/privacy-policy",
+        "og": {
+          "og:title": "Privacy Policy",
+          "og:description": "Placeholder privacy policy."
+        }
+      },
+      "lang": "en",
+      "headings": [],
+      "sections": [
+        {
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Privacy policy"
+            },
+            {
+              "type": "paragraph",
+              "text": "Placeholder legal text. Replace with modafie's privacy policy.",
+              "html": "Placeholder legal text. Replace with modafie's privacy policy."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "What we collect"
+            },
+            {
+              "type": "paragraph",
+              "text": "Placeholder paragraph.",
+              "html": "Placeholder paragraph."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "How we use it"
+            },
+            {
+              "type": "paragraph",
+              "text": "Placeholder paragraph.",
+              "html": "Placeholder paragraph."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Placeholder item one",
+                "Placeholder item two",
+                "Placeholder item three"
+              ]
+            }
+          ],
+          "index": 0
+        }
+      ],
+      "media": [],
+      "forms": [],
+      "consoleErrors": [],
+      "screenshots": {}
+    }
+  ],
+  "media": {
+    "6bbb5b4158d8b2b7": {
+      "id": "6bbb5b4158d8b2b7",
+      "sha256": "6bbb5b4158d8b2b7e2bcbbfd9e61e4d0e504d07887a47f14683e4ccb6ccae7cc",
+      "file": "images/hero-studio.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 42215,
+      "url": "https://www.modafie.io/placeholder/hero-studio.jpg",
+      "sources": [],
+      "alt": "",
+      "width": 2400,
+      "height": 1400,
+      "placeholder": true
+    },
+    "6902ff6d43977359": {
+      "id": "6902ff6d43977359",
+      "sha256": "6902ff6d43977359903eea22167cccc53dd96de6fee2f053b23a0e35f4f41144",
+      "file": "images/about-hero.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 40379,
+      "url": "https://www.modafie.io/placeholder/about-hero.jpg",
+      "sources": [],
+      "alt": "",
+      "width": 2400,
+      "height": 1300,
+      "placeholder": true
+    },
+    "62a8e1ed8caa324b": {
+      "id": "62a8e1ed8caa324b",
+      "sha256": "62a8e1ed8caa324b032e8e2181dfa54aa8a29990232a5247c2ce0f6d87416aa3",
+      "file": "images/collections-hero.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 37741,
+      "url": "https://www.modafie.io/placeholder/collections-hero.jpg",
+      "sources": [],
+      "alt": "",
+      "width": 2400,
+      "height": 1300,
+      "placeholder": true
+    },
+    "32e3291c3cbec0d7": {
+      "id": "32e3291c3cbec0d7",
+      "sha256": "32e3291c3cbec0d7d04495afe0da11155cb1b02d540a3d46644a351ee7799c6e",
+      "file": "images/tile-one.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 26795,
+      "url": "https://www.modafie.io/placeholder/tile-one.jpg",
+      "sources": [],
+      "alt": "",
+      "width": 1200,
+      "height": 1600,
+      "placeholder": true
+    },
+    "5bf92f3703e3bed3": {
+      "id": "5bf92f3703e3bed3",
+      "sha256": "5bf92f3703e3bed3a5ab761b7df63e94006fcfd3f3bed0bdc0796ae2499bbaa9",
+      "file": "images/tile-two.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 23264,
+      "url": "https://www.modafie.io/placeholder/tile-two.jpg",
+      "sources": [],
+      "alt": "",
+      "width": 1200,
+      "height": 1600,
+      "placeholder": true
+    },
+    "a400d1f9fa42fb3f": {
+      "id": "a400d1f9fa42fb3f",
+      "sha256": "a400d1f9fa42fb3fc4ae9cf6621fed0da691ef1b3bb5cc2842f9048afbc6fac4",
+      "file": "images/tile-three.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 28697,
+      "url": "https://www.modafie.io/placeholder/tile-three.jpg",
+      "sources": [],
+      "alt": "",
+      "width": 1200,
+      "height": 1600,
+      "placeholder": true
+    },
+    "8f2b4e51e6b9879b": {
+      "id": "8f2b4e51e6b9879b",
+      "sha256": "8f2b4e51e6b9879bce747bac8416a67ff9d651e7ce8fc2a423b9ad7ba79f3e93",
+      "file": "images/card-1.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 16164,
+      "url": "https://www.modafie.io/placeholder/card-1.jpg",
+      "sources": [],
+      "alt": "",
+      "width": 1000,
+      "height": 1250,
+      "placeholder": true
+    },
+    "3db0988374e80a02": {
+      "id": "3db0988374e80a02",
+      "sha256": "3db0988374e80a0258168557dec597de185f4a8a8ac9610fe93be23341feff7d",
+      "file": "images/card-2.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 17998,
+      "url": "https://www.modafie.io/placeholder/card-2.jpg",
+      "sources": [],
+      "alt": "",
+      "width": 1000,
+      "height": 1250,
+      "placeholder": true
+    },
+    "86eb475354920e6e": {
+      "id": "86eb475354920e6e",
+      "sha256": "86eb475354920e6ec2074608ba498fb91cb984c94f566bc985d700a8260d39f7",
+      "file": "images/card-3.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 17270,
+      "url": "https://www.modafie.io/placeholder/card-3.jpg",
+      "sources": [],
+      "alt": "",
+      "width": 1000,
+      "height": 1250,
+      "placeholder": true
+    },
+    "b3f4b88aa505b979": {
+      "id": "b3f4b88aa505b979",
+      "sha256": "b3f4b88aa505b979a8561ddf684d35e54358e998db3127b8d6c5cf2a30068a42",
+      "file": "images/card-4.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 15934,
+      "url": "https://www.modafie.io/placeholder/card-4.jpg",
+      "sources": [],
+      "alt": "",
+      "width": 1000,
+      "height": 1250,
+      "placeholder": true
+    },
+    "6f59cfea094eb057": {
+      "id": "6f59cfea094eb057",
+      "sha256": "6f59cfea094eb057fb46c6db158888ce93bd54e6d46ccd8caa43b4c0e52e98d6",
+      "file": "images/card-5.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 16131,
+      "url": "https://www.modafie.io/placeholder/card-5.jpg",
+      "sources": [],
+      "alt": "",
+      "width": 1000,
+      "height": 1250,
+      "placeholder": true
+    },
+    "1ad53c38e40967a1": {
+      "id": "1ad53c38e40967a1",
+      "sha256": "1ad53c38e40967a160fa9e04b833d51132b0979b14f71f5ba212b258704db53d",
+      "file": "images/card-6.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 17744,
+      "url": "https://www.modafie.io/placeholder/card-6.jpg",
+      "sources": [],
+      "alt": "",
+      "width": 1000,
+      "height": 1250,
+      "placeholder": true
+    },
+    "6af88559b744dfd5": {
+      "id": "6af88559b744dfd5",
+      "sha256": "6af88559b744dfd5ec5cc074ee62b87435e08f6177c1a5e231106132ef408c13",
+      "file": "images/split-1.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 27994,
+      "url": "https://www.modafie.io/placeholder/split-1.jpg",
+      "sources": [],
+      "alt": "",
+      "width": 1400,
+      "height": 1600,
+      "placeholder": true
+    },
+    "7ab171713943db40": {
+      "id": "7ab171713943db40",
+      "sha256": "7ab171713943db40827ffbd7185039a16da7719da3f8e20df332cb9915565626",
+      "file": "images/split-2.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 27353,
+      "url": "https://www.modafie.io/placeholder/split-2.jpg",
+      "sources": [],
+      "alt": "",
+      "width": 1400,
+      "height": 1600,
+      "placeholder": true
+    },
+    "fa9e67aa9c50d756": {
+      "id": "fa9e67aa9c50d756",
+      "sha256": "fa9e67aa9c50d756c196ae2fd5ec4fcb504a84deb389602be9dd62d42d2e6625",
+      "file": "images/split-3.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 31258,
+      "url": "https://www.modafie.io/placeholder/split-3.jpg",
+      "sources": [],
+      "alt": "",
+      "width": 1400,
+      "height": 1600,
+      "placeholder": true
+    },
+    "f951564c1c696ace": {
+      "id": "f951564c1c696ace",
+      "sha256": "f951564c1c696ace56c4d12e226d1255e64ba43bcebf22ff64e084ee60b64b04",
+      "file": "images/editorial-wide.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 44320,
+      "url": "https://www.modafie.io/placeholder/editorial-wide.jpg",
+      "sources": [],
+      "alt": "",
+      "width": 2400,
+      "height": 1300,
+      "placeholder": true
+    },
+    "b405978f8427bdfa": {
+      "id": "b405978f8427bdfa",
+      "sha256": "b405978f8427bdfa2c959512359d61369b69a631f2573a95b2e8e36836566e93",
+      "file": "images/journal-1.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 15243,
+      "url": "https://www.modafie.io/placeholder/journal-1.jpg",
+      "sources": [],
+      "alt": "",
+      "width": 1200,
+      "height": 900,
+      "placeholder": true
+    },
+    "53bd75ef9202839e": {
+      "id": "53bd75ef9202839e",
+      "sha256": "53bd75ef9202839e01b4ae2bbf9d5232bdb88b202cb30a5cc60db8919f7bdfbd",
+      "file": "images/journal-2.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 16273,
+      "url": "https://www.modafie.io/placeholder/journal-2.jpg",
+      "sources": [],
+      "alt": "",
+      "width": 1200,
+      "height": 900,
+      "placeholder": true
+    },
+    "b4fe7d82acba5d41": {
+      "id": "b4fe7d82acba5d41",
+      "sha256": "b4fe7d82acba5d41bdb7b93aa6f57038816661ca35232a1a655dbbadf5f27fb2",
+      "file": "images/journal-3.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 14292,
+      "url": "https://www.modafie.io/placeholder/journal-3.jpg",
+      "sources": [],
+      "alt": "",
+      "width": 1200,
+      "height": 900,
+      "placeholder": true
+    },
+    "8c9ad1c3c6804411": {
+      "id": "8c9ad1c3c6804411",
+      "sha256": "8c9ad1c3c6804411c10e2a725e212c63f6ff2c571cd2f0fbcf064c24fbffb5cf",
+      "file": "svg/icon-quality.svg",
+      "kind": "svg",
+      "contentType": "image/svg+xml",
+      "bytes": 273,
+      "url": "https://www.modafie.io/placeholder/icon-quality.svg",
+      "sources": [],
+      "alt": "",
+      "width": 48,
+      "height": 48,
+      "placeholder": true
+    },
+    "6f8bde7f13a2aca9": {
+      "id": "6f8bde7f13a2aca9",
+      "sha256": "6f8bde7f13a2aca93dbc450fb5772cf32fa03762ab3e9916d4ac54b1a691d24f",
+      "file": "svg/icon-delivery.svg",
+      "kind": "svg",
+      "contentType": "image/svg+xml",
+      "bytes": 299,
+      "url": "https://www.modafie.io/placeholder/icon-delivery.svg",
+      "sources": [],
+      "alt": "",
+      "width": 48,
+      "height": 48,
+      "placeholder": true
+    },
+    "a0e1a5282a534cb8": {
+      "id": "a0e1a5282a534cb8",
+      "sha256": "a0e1a5282a534cb89121b9029814ee11ce5e63614204b5b2f7d97b16f69d19ff",
+      "file": "svg/icon-returns.svg",
+      "kind": "svg",
+      "contentType": "image/svg+xml",
+      "bytes": 244,
+      "url": "https://www.modafie.io/placeholder/icon-returns.svg",
+      "sources": [],
+      "alt": "",
+      "width": 48,
+      "height": 48,
+      "placeholder": true
+    },
+    "abe7ac67d7fafaa7": {
+      "id": "abe7ac67d7fafaa7",
+      "sha256": "abe7ac67d7fafaa7c8f024acf11e786d3a8ff0335c79f83a8b9f40fc0103afac",
+      "file": "svg/icon-community.svg",
+      "kind": "svg",
+      "contentType": "image/svg+xml",
+      "bytes": 356,
+      "url": "https://www.modafie.io/placeholder/icon-community.svg",
+      "sources": [],
+      "alt": "",
+      "width": 48,
+      "height": 48,
+      "placeholder": true
+    }
+  }
+}

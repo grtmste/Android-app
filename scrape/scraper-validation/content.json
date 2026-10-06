@@ -1,0 +1,1278 @@
+{
+  "generator": "modafie-scraper/1.0",
+  "source": "live",
+  "site": {
+    "base": "http://localhost:8765/",
+    "crawledAt": "2026-10-06T19:59:41.054Z",
+    "favicon": {
+      "url": "http://localhost:8765/img/logo.jpg",
+      "mediaId": "d73c6c968765b749",
+      "file": "images/logo.jpg"
+    },
+    "logo": {
+      "src": "http://localhost:8765/img/logo.jpg",
+      "alt": "Fixture logo",
+      "mediaId": "d73c6c968765b749",
+      "file": "images/logo.jpg"
+    },
+    "brand": {
+      "palette": [
+        {
+          "hex": "#0000ee",
+          "count": 15,
+          "usage": [
+            "link",
+            "border",
+            "heading"
+          ],
+          "chroma": 238
+        },
+        {
+          "hex": "#000000",
+          "count": 6,
+          "usage": [
+            "link",
+            "border",
+            "heading"
+          ],
+          "chroma": 0
+        },
+        {
+          "hex": "#e4572e",
+          "count": 3,
+          "usage": [
+            "button-bg"
+          ],
+          "chroma": 182
+        },
+        {
+          "hex": "#ffffff",
+          "count": 3,
+          "usage": [
+            "link",
+            "border",
+            "heading"
+          ],
+          "chroma": 0
+        },
+        {
+          "hex": "#efefef",
+          "count": 3,
+          "usage": [
+            "button-bg"
+          ],
+          "chroma": 0
+        }
+      ],
+      "accent": "#e4572e",
+      "themeColor": null
+    },
+    "fonts": {
+      "heading": "Arial",
+      "body": "Arial",
+      "button": "Arial",
+      "loaded": []
+    },
+    "nav": [
+      {
+        "text": "Home",
+        "href": "http://localhost:8765/",
+        "children": []
+      },
+      {
+        "text": "About",
+        "href": "http://localhost:8765/about.html?utm_source=x",
+        "children": [
+          {
+            "text": "Team",
+            "href": "http://localhost:8765/about.html#team",
+            "children": []
+          }
+        ]
+      },
+      {
+        "text": "Contact",
+        "href": "http://localhost:8765/contact.html",
+        "children": []
+      },
+      {
+        "text": "Secret",
+        "href": "http://localhost:8765/private/secret.html",
+        "children": []
+      }
+    ],
+    "footer": [
+      {
+        "heading": "Help",
+        "links": [
+          {
+            "text": "Contact",
+            "href": "http://localhost:8765/contact.html"
+          },
+          {
+            "text": "About",
+            "href": "http://localhost:8765/about.html"
+          }
+        ]
+      }
+    ],
+    "headerBlocks": [
+      {
+        "type": "image",
+        "src": "http://localhost:8765/img/logo.jpg",
+        "alt": "Fixture logo",
+        "width": 240,
+        "height": 60,
+        "link": "http://localhost:8765/",
+        "mediaId": "d73c6c968765b749",
+        "file": "images/logo.jpg"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          {
+            "text": "Home",
+            "href": "http://localhost:8765/"
+          },
+          {
+            "text": "About Team",
+            "href": "http://localhost:8765/about.html?utm_source=x"
+          },
+          {
+            "text": "Contact",
+            "href": "http://localhost:8765/contact.html"
+          },
+          {
+            "text": "Secret",
+            "href": "http://localhost:8765/private/secret.html"
+          }
+        ]
+      }
+    ],
+    "footerBlocks": [
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Help"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          {
+            "text": "Contact",
+            "href": "http://localhost:8765/contact.html"
+          },
+          {
+            "text": "About",
+            "href": "http://localhost:8765/about.html"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "© Fixture",
+        "html": "© Fixture"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "url": "http://localhost:8765/",
+      "requestedUrl": "http://localhost:8765/",
+      "discoveredVia": "sitemap",
+      "slug": "home",
+      "status": 200,
+      "title": "Fixture Home",
+      "meta": {
+        "description": "Fixture description",
+        "canonical": null,
+        "robots": null,
+        "og": {
+          "og:title": "OG Fixture",
+          "og:image": "/img/poster.jpg"
+        }
+      },
+      "lang": "en",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Hero Heading"
+        },
+        {
+          "level": 2,
+          "text": "Cards"
+        },
+        {
+          "level": 3,
+          "text": "Card A"
+        },
+        {
+          "level": 3,
+          "text": "Card B"
+        },
+        {
+          "level": 2,
+          "text": "Newsletter"
+        },
+        {
+          "level": 4,
+          "text": "Help"
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "tag": "section",
+          "id": null,
+          "classes": [
+            "hero"
+          ],
+          "rect": {
+            "top": 186,
+            "height": 680,
+            "width": 1440
+          },
+          "background": {
+            "color": null,
+            "image": "http://localhost:8765/img/hero-2400.jpg",
+            "video": null,
+            "textColor": "#ffffff",
+            "mediaId": "90de9e50a94f8ff6",
+            "file": "images/hero-2400.jpg"
+          },
+          "hints": {
+            "headings": 1,
+            "images": 0,
+            "buttons": 1,
+            "paragraphs": 1,
+            "forms": 0,
+            "videos": 0,
+            "columns": 1,
+            "textLength": 54
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Hero Heading"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hero intro text with a link.",
+              "html": "Hero <strong>intro</strong> text with <a href=\"http://localhost:8765/about.html\">a link</a>."
+            },
+            {
+              "type": "button",
+              "text": "Get in touch",
+              "href": "http://localhost:8765/contact.html"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "rect": {
+            "top": 886,
+            "height": 2083,
+            "width": 1440
+          },
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null,
+            "textColor": "#000000"
+          },
+          "hints": {
+            "headings": 3,
+            "images": 2,
+            "buttons": 0,
+            "paragraphs": 0,
+            "forms": 0,
+            "videos": 0,
+            "columns": 2,
+            "textLength": 44
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Cards"
+            },
+            {
+              "type": "image",
+              "src": "http://localhost:8765/img/card-a.jpg",
+              "alt": "Card A",
+              "width": 900,
+              "height": 1200,
+              "link": "http://localhost:8765/about.html",
+              "mediaId": "f366e10fc7df440e",
+              "file": "images/card-a.jpg"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Card A",
+              "link": "http://localhost:8765/about.html"
+            },
+            {
+              "type": "image",
+              "src": "http://localhost:8765/img/card-b.jpg",
+              "alt": "Card B",
+              "width": 1440,
+              "height": 1920,
+              "link": "http://localhost:8765/contact.html",
+              "mediaId": "d51f46a4815c8a78",
+              "file": "images/card-b.jpg"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Card B",
+              "link": "http://localhost:8765/contact.html"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "First point",
+                "Second point"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "tag": "section",
+          "id": null,
+          "classes": [
+            "split"
+          ],
+          "rect": {
+            "top": 2985,
+            "height": 500,
+            "width": 1440
+          },
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null,
+            "textColor": "#000000"
+          },
+          "hints": {
+            "headings": 1,
+            "images": 1,
+            "buttons": 0,
+            "paragraphs": 1,
+            "forms": 0,
+            "videos": 0,
+            "columns": 0,
+            "textLength": 61
+          },
+          "blocks": [
+            {
+              "type": "image",
+              "src": "http://localhost:8765/img/bg-split.jpg",
+              "alt": "",
+              "role": "background",
+              "mediaId": "6c070c702f87143b",
+              "file": "images/bg-split.jpg"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Div soup heading",
+              "inferred": true
+            },
+            {
+              "type": "paragraph",
+              "text": "Div soup paragraph text that is long enough.",
+              "html": "Div soup paragraph text that is long enough."
+            },
+            {
+              "type": "svg",
+              "width": 40,
+              "height": 40,
+              "mediaId": "c56120e83222a5d5",
+              "file": "svg/star.svg"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "rect": {
+            "top": 3485,
+            "height": 1047,
+            "width": 1440
+          },
+          "background": {
+            "color": null,
+            "image": null,
+            "video": "http://localhost:8765/img/clip.mp4",
+            "textColor": "#000000",
+            "videoMediaId": "78d4c7cd582fafec",
+            "videoFile": "videos/clip.mp4"
+          },
+          "hints": {
+            "headings": 0,
+            "images": 0,
+            "buttons": 0,
+            "paragraphs": 0,
+            "forms": 0,
+            "videos": 2,
+            "columns": 0,
+            "textLength": 0
+          },
+          "blocks": [
+            {
+              "type": "video",
+              "src": "http://localhost:8765/img/clip.mp4",
+              "poster": "http://localhost:8765/img/poster.jpg",
+              "autoplay": false,
+              "loop": true,
+              "muted": true,
+              "mediaId": "78d4c7cd582fafec",
+              "file": "videos/clip.mp4",
+              "posterMediaId": "251bef3b0d97fa0d",
+              "posterFile": "images/poster.jpg"
+            },
+            {
+              "type": "embed",
+              "provider": "youtube",
+              "id": "dQw4w9WgXcQ",
+              "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "rect": {
+            "top": 4552,
+            "height": 69,
+            "width": 1440
+          },
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null,
+            "textColor": "#000000"
+          },
+          "hints": {
+            "headings": 1,
+            "images": 0,
+            "buttons": 0,
+            "paragraphs": 0,
+            "forms": 1,
+            "videos": 0,
+            "columns": 1,
+            "textLength": 25
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Newsletter"
+            },
+            {
+              "type": "form",
+              "action": "http://localhost:8765/subscribe",
+              "method": "post",
+              "fields": [
+                {
+                  "tag": "input",
+                  "type": "email",
+                  "name": "email",
+                  "label": "Email",
+                  "placeholder": "you@example.com",
+                  "required": true
+                }
+              ],
+              "submit": "Subscribe"
+            }
+          ]
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "http://localhost:8765/img/hero-2400.jpg",
+          "role": "background",
+          "mediaId": "90de9e50a94f8ff6",
+          "file": "images/hero-2400.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "http://localhost:8765/img/card-a.jpg",
+          "alt": "Card A",
+          "width": 900,
+          "height": 1200,
+          "mediaId": "f366e10fc7df440e",
+          "file": "images/card-a.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "http://localhost:8765/img/card-b.jpg",
+          "alt": "Card B",
+          "width": 1440,
+          "height": 1920,
+          "mediaId": "d51f46a4815c8a78",
+          "file": "images/card-b.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "http://localhost:8765/img/bg-split.jpg",
+          "role": "background",
+          "mediaId": "6c070c702f87143b",
+          "file": "images/bg-split.jpg"
+        },
+        {
+          "kind": "inline-svg",
+          "url": "https://inline.local/b6d1860e72014ea5fd247ac763432145.svg",
+          "hint": "star",
+          "mediaId": "c56120e83222a5d5",
+          "file": "svg/star.svg"
+        },
+        {
+          "kind": "video",
+          "url": "http://localhost:8765/img/clip.mp4",
+          "mediaId": "78d4c7cd582fafec",
+          "file": "videos/clip.mp4"
+        },
+        {
+          "kind": "image",
+          "url": "http://localhost:8765/img/poster.jpg",
+          "role": "poster",
+          "mediaId": "251bef3b0d97fa0d",
+          "file": "images/poster.jpg"
+        },
+        {
+          "kind": "embed",
+          "provider": "youtube",
+          "id": "dQw4w9WgXcQ",
+          "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        },
+        {
+          "kind": "image",
+          "url": "http://localhost:8765/img/logo.jpg",
+          "alt": "Fixture logo",
+          "width": 240,
+          "height": 60,
+          "mediaId": "d73c6c968765b749",
+          "file": "images/logo.jpg"
+        }
+      ],
+      "forms": [
+        {
+          "type": "form",
+          "action": "http://localhost:8765/subscribe",
+          "method": "post",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "email",
+              "label": "Email",
+              "placeholder": "you@example.com",
+              "required": true
+            }
+          ],
+          "submit": "Subscribe"
+        }
+      ],
+      "consoleErrors": [],
+      "screenshots": {
+        "desktop": "screenshots/home-desktop.png",
+        "mobile": "screenshots/home-mobile.png"
+      }
+    },
+    {
+      "url": "http://localhost:8765/contact.html",
+      "requestedUrl": "http://localhost:8765/contact.html",
+      "discoveredVia": "sitemap",
+      "slug": "contact",
+      "status": 200,
+      "title": "Contact Fixture",
+      "meta": {
+        "description": null,
+        "canonical": null,
+        "robots": null,
+        "og": {}
+      },
+      "lang": null,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Contact us"
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "tag": "group",
+          "id": null,
+          "classes": [],
+          "rect": {
+            "top": 47,
+            "height": 134,
+            "width": 1424
+          },
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null,
+            "textColor": "#000000"
+          },
+          "hints": {
+            "headings": 1,
+            "images": 0,
+            "buttons": 0,
+            "paragraphs": 1,
+            "forms": 1,
+            "videos": 0,
+            "columns": 1,
+            "textLength": 42
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Contact us"
+            },
+            {
+              "type": "paragraph",
+              "text": "Write to us.",
+              "html": "Write to us."
+            },
+            {
+              "type": "form",
+              "action": null,
+              "method": "get",
+              "fields": [
+                {
+                  "tag": "input",
+                  "type": "text",
+                  "name": "name",
+                  "label": "",
+                  "placeholder": "Name",
+                  "required": false
+                },
+                {
+                  "tag": "textarea",
+                  "type": "textarea",
+                  "name": "msg",
+                  "label": "",
+                  "placeholder": "Message",
+                  "required": false
+                },
+                {
+                  "tag": "select",
+                  "type": "select-one",
+                  "name": "topic",
+                  "label": "",
+                  "placeholder": "",
+                  "required": false,
+                  "options": [
+                    "Sales",
+                    "Support"
+                  ]
+                }
+              ],
+              "submit": "Send"
+            }
+          ]
+        }
+      ],
+      "media": [],
+      "forms": [
+        {
+          "type": "form",
+          "action": null,
+          "method": "get",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "name",
+              "label": "",
+              "placeholder": "Name",
+              "required": false
+            },
+            {
+              "tag": "textarea",
+              "type": "textarea",
+              "name": "msg",
+              "label": "",
+              "placeholder": "Message",
+              "required": false
+            },
+            {
+              "tag": "select",
+              "type": "select-one",
+              "name": "topic",
+              "label": "",
+              "placeholder": "",
+              "required": false,
+              "options": [
+                "Sales",
+                "Support"
+              ]
+            }
+          ],
+          "submit": "Send"
+        }
+      ],
+      "consoleErrors": [],
+      "screenshots": {
+        "desktop": "screenshots/contact-desktop.png",
+        "mobile": "screenshots/contact-mobile.png"
+      }
+    },
+    {
+      "url": "http://localhost:8765/about.html",
+      "requestedUrl": "http://localhost:8765/about.html",
+      "discoveredVia": "link",
+      "slug": "about",
+      "status": 200,
+      "title": "About Fixture",
+      "meta": {
+        "description": "Fixture description",
+        "canonical": null,
+        "robots": null,
+        "og": {
+          "og:title": "OG Fixture",
+          "og:image": "/img/poster.jpg"
+        }
+      },
+      "lang": "en",
+      "headings": [
+        {
+          "level": 1,
+          "text": "About Heading"
+        },
+        {
+          "level": 2,
+          "text": "Cards"
+        },
+        {
+          "level": 3,
+          "text": "Card A"
+        },
+        {
+          "level": 3,
+          "text": "Card B"
+        },
+        {
+          "level": 2,
+          "text": "Newsletter"
+        },
+        {
+          "level": 4,
+          "text": "Help"
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "tag": "section",
+          "id": null,
+          "classes": [
+            "hero"
+          ],
+          "rect": {
+            "top": 186,
+            "height": 680,
+            "width": 1440
+          },
+          "background": {
+            "color": null,
+            "image": "http://localhost:8765/img/hero-2400.jpg",
+            "video": null,
+            "textColor": "#ffffff",
+            "mediaId": "90de9e50a94f8ff6",
+            "file": "images/hero-2400.jpg"
+          },
+          "hints": {
+            "headings": 1,
+            "images": 0,
+            "buttons": 1,
+            "paragraphs": 1,
+            "forms": 0,
+            "videos": 0,
+            "columns": 1,
+            "textLength": 55
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "About Heading"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hero intro text with a link.",
+              "html": "Hero <strong>intro</strong> text with <a href=\"http://localhost:8765/about.html\">a link</a>."
+            },
+            {
+              "type": "button",
+              "text": "Get in touch",
+              "href": "http://localhost:8765/contact.html"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "rect": {
+            "top": 886,
+            "height": 2083,
+            "width": 1440
+          },
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null,
+            "textColor": "#000000"
+          },
+          "hints": {
+            "headings": 3,
+            "images": 2,
+            "buttons": 0,
+            "paragraphs": 0,
+            "forms": 0,
+            "videos": 0,
+            "columns": 2,
+            "textLength": 44
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Cards"
+            },
+            {
+              "type": "image",
+              "src": "http://localhost:8765/img/card-a.jpg",
+              "alt": "Card A",
+              "width": 900,
+              "height": 1200,
+              "link": "http://localhost:8765/about.html",
+              "mediaId": "f366e10fc7df440e",
+              "file": "images/card-a.jpg"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Card A",
+              "link": "http://localhost:8765/about.html"
+            },
+            {
+              "type": "image",
+              "src": "http://localhost:8765/img/card-b.jpg",
+              "alt": "Card B",
+              "width": 1440,
+              "height": 1920,
+              "link": "http://localhost:8765/contact.html",
+              "mediaId": "d51f46a4815c8a78",
+              "file": "images/card-b.jpg"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Card B",
+              "link": "http://localhost:8765/contact.html"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "First point",
+                "Second point"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "tag": "section",
+          "id": null,
+          "classes": [
+            "split"
+          ],
+          "rect": {
+            "top": 2985,
+            "height": 500,
+            "width": 1440
+          },
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null,
+            "textColor": "#000000"
+          },
+          "hints": {
+            "headings": 1,
+            "images": 1,
+            "buttons": 0,
+            "paragraphs": 1,
+            "forms": 0,
+            "videos": 0,
+            "columns": 0,
+            "textLength": 61
+          },
+          "blocks": [
+            {
+              "type": "image",
+              "src": "http://localhost:8765/img/bg-split.jpg",
+              "alt": "",
+              "role": "background",
+              "mediaId": "6c070c702f87143b",
+              "file": "images/bg-split.jpg"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Div soup heading",
+              "inferred": true
+            },
+            {
+              "type": "paragraph",
+              "text": "Div soup paragraph text that is long enough.",
+              "html": "Div soup paragraph text that is long enough."
+            },
+            {
+              "type": "svg",
+              "width": 40,
+              "height": 40,
+              "mediaId": "c56120e83222a5d5",
+              "file": "svg/star.svg"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "rect": {
+            "top": 3485,
+            "height": 1047,
+            "width": 1440
+          },
+          "background": {
+            "color": null,
+            "image": null,
+            "video": "http://localhost:8765/img/clip.mp4",
+            "textColor": "#000000",
+            "videoMediaId": "78d4c7cd582fafec",
+            "videoFile": "videos/clip.mp4"
+          },
+          "hints": {
+            "headings": 0,
+            "images": 0,
+            "buttons": 0,
+            "paragraphs": 0,
+            "forms": 0,
+            "videos": 2,
+            "columns": 0,
+            "textLength": 0
+          },
+          "blocks": [
+            {
+              "type": "video",
+              "src": "http://localhost:8765/img/clip.mp4",
+              "poster": "http://localhost:8765/img/poster.jpg",
+              "autoplay": false,
+              "loop": true,
+              "muted": true,
+              "mediaId": "78d4c7cd582fafec",
+              "file": "videos/clip.mp4",
+              "posterMediaId": "251bef3b0d97fa0d",
+              "posterFile": "images/poster.jpg"
+            },
+            {
+              "type": "embed",
+              "provider": "youtube",
+              "id": "dQw4w9WgXcQ",
+              "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "tag": "section",
+          "id": null,
+          "classes": [],
+          "rect": {
+            "top": 4552,
+            "height": 69,
+            "width": 1440
+          },
+          "background": {
+            "color": null,
+            "image": null,
+            "video": null,
+            "textColor": "#000000"
+          },
+          "hints": {
+            "headings": 1,
+            "images": 0,
+            "buttons": 0,
+            "paragraphs": 0,
+            "forms": 1,
+            "videos": 0,
+            "columns": 1,
+            "textLength": 25
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Newsletter"
+            },
+            {
+              "type": "form",
+              "action": "http://localhost:8765/subscribe",
+              "method": "post",
+              "fields": [
+                {
+                  "tag": "input",
+                  "type": "email",
+                  "name": "email",
+                  "label": "Email",
+                  "placeholder": "you@example.com",
+                  "required": true
+                }
+              ],
+              "submit": "Subscribe"
+            }
+          ]
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "http://localhost:8765/img/hero-2400.jpg",
+          "role": "background",
+          "mediaId": "90de9e50a94f8ff6",
+          "file": "images/hero-2400.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "http://localhost:8765/img/card-a.jpg",
+          "alt": "Card A",
+          "width": 900,
+          "height": 1200,
+          "mediaId": "f366e10fc7df440e",
+          "file": "images/card-a.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "http://localhost:8765/img/card-b.jpg",
+          "alt": "Card B",
+          "width": 1440,
+          "height": 1920,
+          "mediaId": "d51f46a4815c8a78",
+          "file": "images/card-b.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "http://localhost:8765/img/bg-split.jpg",
+          "role": "background",
+          "mediaId": "6c070c702f87143b",
+          "file": "images/bg-split.jpg"
+        },
+        {
+          "kind": "inline-svg",
+          "url": "https://inline.local/b6d1860e72014ea5fd247ac763432145.svg",
+          "hint": "star",
+          "mediaId": "c56120e83222a5d5",
+          "file": "svg/star.svg"
+        },
+        {
+          "kind": "video",
+          "url": "http://localhost:8765/img/clip.mp4",
+          "mediaId": "78d4c7cd582fafec",
+          "file": "videos/clip.mp4"
+        },
+        {
+          "kind": "image",
+          "url": "http://localhost:8765/img/poster.jpg",
+          "role": "poster",
+          "mediaId": "251bef3b0d97fa0d",
+          "file": "images/poster.jpg"
+        },
+        {
+          "kind": "embed",
+          "provider": "youtube",
+          "id": "dQw4w9WgXcQ",
+          "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        },
+        {
+          "kind": "image",
+          "url": "http://localhost:8765/img/logo.jpg",
+          "alt": "Fixture logo",
+          "width": 240,
+          "height": 60,
+          "mediaId": "d73c6c968765b749",
+          "file": "images/logo.jpg"
+        }
+      ],
+      "forms": [
+        {
+          "type": "form",
+          "action": "http://localhost:8765/subscribe",
+          "method": "post",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "email",
+              "label": "Email",
+              "placeholder": "you@example.com",
+              "required": true
+            }
+          ],
+          "submit": "Subscribe"
+        }
+      ],
+      "consoleErrors": [],
+      "screenshots": {
+        "desktop": "screenshots/about-desktop.png",
+        "mobile": "screenshots/about-mobile.png"
+      }
+    }
+  ],
+  "media": {
+    "d73c6c968765b749": {
+      "id": "d73c6c968765b749",
+      "sha256": "d73c6c968765b749b7342bdd144f5b0bfb90baa06fd28cc6e8eb6ac1f94726bb",
+      "file": "images/logo.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 2144,
+      "url": "http://localhost:8765/img/logo.jpg",
+      "sources": [
+        "http://localhost:8765/img/logo.jpg"
+      ],
+      "alt": "Fixture logo",
+      "width": 240,
+      "height": 60
+    },
+    "251bef3b0d97fa0d": {
+      "id": "251bef3b0d97fa0d",
+      "sha256": "251bef3b0d97fa0d3286b11f2c0ef3bf72779cfc84a3be85bc7cc00f6488988a",
+      "file": "images/poster.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 21467,
+      "url": "http://localhost:8765/img/poster.jpg",
+      "sources": [
+        "http://localhost:8765/img/poster.jpg"
+      ],
+      "alt": "",
+      "width": 1280,
+      "height": 720
+    },
+    "90de9e50a94f8ff6": {
+      "id": "90de9e50a94f8ff6",
+      "sha256": "90de9e50a94f8ff6fb95d1aaaa3f6b9ac8c492a8a9b401cb47bb7b28ff06a236",
+      "file": "images/hero-2400.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 57917,
+      "url": "http://localhost:8765/img/hero-2400.jpg",
+      "sources": [
+        "http://localhost:8765/img/hero-2400.jpg"
+      ],
+      "alt": "",
+      "width": 2400,
+      "height": 1200
+    },
+    "6c070c702f87143b": {
+      "id": "6c070c702f87143b",
+      "sha256": "6c070c702f87143b7846e5fdaaec904b86e4459e8b81d82f6836c19a0fd68faa",
+      "file": "images/bg-split.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 32362,
+      "url": "http://localhost:8765/img/bg-split.jpg",
+      "sources": [
+        "http://localhost:8765/img/bg-split.jpg"
+      ],
+      "alt": "",
+      "width": 1600,
+      "height": 900
+    },
+    "78d4c7cd582fafec": {
+      "id": "78d4c7cd582fafec",
+      "sha256": "78d4c7cd582fafec34e8f547c98e4e8abf36af183047e3d93879d702cd8a8704",
+      "file": "videos/clip.mp4",
+      "kind": "videos",
+      "contentType": "video/mp4",
+      "bytes": 4012,
+      "url": "http://localhost:8765/img/clip.mp4",
+      "sources": [
+        "http://localhost:8765/img/clip.mp4"
+      ],
+      "alt": "",
+      "width": null,
+      "height": null
+    },
+    "f366e10fc7df440e": {
+      "id": "f366e10fc7df440e",
+      "sha256": "f366e10fc7df440eb903b511a23e94deedb4c2c929533e1f7acc163848180523",
+      "file": "images/card-a.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 27926,
+      "url": "http://localhost:8765/img/card-a.jpg",
+      "sources": [
+        "http://localhost:8765/img/card-a.jpg"
+      ],
+      "alt": "Card A",
+      "width": 900,
+      "height": 1200
+    },
+    "d51f46a4815c8a78": {
+      "id": "d51f46a4815c8a78",
+      "sha256": "d51f46a4815c8a78c3b1cbc95a3880652fa0d9b576b16ce43b356c0c1bfeacc7",
+      "file": "images/card-b.jpg",
+      "kind": "images",
+      "contentType": "image/jpeg",
+      "bytes": 27809,
+      "url": "http://localhost:8765/img/card-b.jpg",
+      "sources": [
+        "http://localhost:8765/img/card-b.jpg"
+      ],
+      "alt": "Card B",
+      "width": 900,
+      "height": 1200
+    },
+    "c56120e83222a5d5": {
+      "id": "c56120e83222a5d5",
+      "sha256": "c56120e83222a5d5fab25c849151b36896ba32ef1356ca3ae60d04a037dd46ab",
+      "file": "svg/star.svg",
+      "kind": "svg",
+      "contentType": "image/svg+xml",
+      "bytes": 109,
+      "url": "https://inline.local/b6d1860e72014ea5fd247ac763432145.svg",
+      "sources": [
+        "https://inline.local/b6d1860e72014ea5fd247ac763432145.svg"
+      ],
+      "alt": "",
+      "width": null,
+      "height": null
+    }
+  }
+}

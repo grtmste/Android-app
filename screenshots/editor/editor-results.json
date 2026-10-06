@@ -1,0 +1,66 @@
+[
+  {
+    "name": "home",
+    "id": 81,
+    "widgets": 49,
+    "editable": true,
+    "panelTitle": "Edit Heading",
+    "errors": []
+  },
+  {
+    "name": "about",
+    "id": 82,
+    "widgets": 16,
+    "editable": true,
+    "panelTitle": "Edit Heading",
+    "errors": []
+  },
+  {
+    "name": "collections",
+    "id": 83,
+    "widgets": 32,
+    "editable": true,
+    "panelTitle": "Edit Heading",
+    "errors": []
+  },
+  {
+    "name": "journal",
+    "id": 84,
+    "widgets": 14,
+    "editable": true,
+    "panelTitle": "Edit Heading",
+    "errors": []
+  },
+  {
+    "name": "faq",
+    "id": 85,
+    "widgets": 9,
+    "editable": true,
+    "panelTitle": "Edit Heading",
+    "errors": []
+  },
+  {
+    "name": "contact",
+    "id": 86,
+    "widgets": 5,
+    "editable": true,
+    "panelTitle": "Edit Heading",
+    "errors": []
+  },
+  {
+    "name": "privacy-policy",
+    "id": 3,
+    "widgets": 6,
+    "editable": true,
+    "panelTitle": "Edit Heading",
+    "errors": []
+  },
+  {
+    "name": "template-site-footer",
+    "id": 31,
+    "widgets": 10,
+    "editable": true,
+    "panelTitle": "Edit Heading",
+    "errors": []
+  }
+]
