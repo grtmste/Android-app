@@ -241,35 +241,83 @@
 	/* ------------------------------------------------------------ parallax */
 	var parallaxItems = new Set();
 	var parallaxOn = false;
+	// Browsers with CSS scroll-driven animations run .mf-parallax / .mf-parallax-bg on the compositor (see theme.css).
+	var cssParallax = !!(window.CSS && CSS.supports && CSS.supports('animation-timeline: view()'));
+	var needsJs = function (el) { return !cssParallax || el.classList.contains('mf-hero'); };
 	function startParallax() {
 		if (parallaxOn || reduce.matches) { return; }
 		parallaxOn = true;
-		var ticking = false;
-		var tick = function () {
+		var current = new Map();
+		var running = false;
+		// Ease each element toward its scroll target every frame (lerp), so motion stays smooth between scroll events.
+		var frame = function () {
 			var vh = window.innerHeight;
+			var moving = false;
 			parallaxItems.forEach(function (el) {
 				if (!el.isConnected) { parallaxItems.delete(el); return; }
 				var r = el.getBoundingClientRect();
-				if (r.bottom < -100 || r.top > vh + 100) { return; }
-				var strength = parseFloat(window.getComputedStyle(el).getPropertyValue('--mf-parallax')) || 0.2;
-				var offset = (r.top + r.height / 2 - vh / 2) * -strength;
-				if (el.classList.contains('mf-hero')) { offset = Math.max(0, -r.top) * strength; }
-				var max = r.height * 0.15;
-				offset = Math.max(-max, Math.min(max, offset));
-				var target = el.classList.contains('mf-parallax') ? el : el.querySelector(':scope > .mf-bg-layer');
-				if (target) { target.style.setProperty('--mf-py', offset.toFixed(1) + 'px'); }
-				if (el.classList.contains('mf-hero') && target) { target.style.translate = '0 ' + offset.toFixed(1) + 'px'; }
+				if (r.bottom < -200 || r.top > vh + 200) { return; }
+				var strength = parseFloat(window.getComputedStyle(el).getPropertyValue('--mf-parallax')) || 0.15;
+				var target = el.classList.contains('mf-hero') ? Math.max(0, -r.top) * strength : (r.top + r.height / 2 - vh / 2) * -strength;
+				var max = r.height * 0.12;
+				target = Math.max(-max, Math.min(max, target));
+				var prev = current.has(el) ? current.get(el) : target;
+				var next = prev + (target - prev) * 0.14;
+				if (Math.abs(target - next) > 0.1) { moving = true; } else { next = target; }
+				current.set(el, next);
+				var node = el.classList.contains('mf-parallax') ? el : el.querySelector(':scope > .mf-bg-layer');
+				if (!node) { return; }
+				if (el.classList.contains('mf-hero')) { node.style.translate = '0 ' + next.toFixed(2) + 'px'; } else { node.style.setProperty('--mf-py', next.toFixed(2) + 'px'); }
 			});
-			ticking = false;
+			running = moving;
+			if (moving) { raf(frame); }
 		};
-		window.addEventListener('scroll', function () { if (!ticking) { ticking = true; raf(tick); } }, { passive: true });
-		window.addEventListener('resize', function () { raf(tick); }, { passive: true });
-		tick();
+		var kick = function () { if (!running) { running = true; raf(frame); } };
+		window.addEventListener('scroll', kick, { passive: true });
+		window.addEventListener('resize', kick, { passive: true });
+		kick();
 	}
 	function initParallax(root) {
 		if (reduce.matches) { return; }
-		within('.mf-parallax', root).forEach(function (el) { parallaxItems.add(el); });
+		within('.mf-parallax', root).forEach(function (el) { if (needsJs(el)) { parallaxItems.add(el); } });
 		if (parallaxItems.size) { startParallax(); }
+	}
+
+	/* ------------------------------------------------------------ autoplay video with a sound toggle */
+	function initVideos(root) {
+		within('.mf-video-sound', root).forEach(function (w) {
+			var v = w.querySelector('video');
+			if (!v || w.dataset.mfSound) { return; }
+			w.dataset.mfSound = '1';
+			v.muted = true;
+			v.setAttribute('muted', '');
+			v.setAttribute('playsinline', '');
+			var btn = document.createElement('button');
+			btn.type = 'button';
+			btn.className = 'mf-sound-btn';
+			var on = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg>';
+			var off = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M17 9l5 6M22 9l-5 6"/></svg>';
+			var label = function () { btn.innerHTML = (v.muted ? off : on) + '<span>' + (v.muted ? (cfg.i18n.soundOn || 'Sound on') : (cfg.i18n.soundOff || 'Sound off')) + '</span>'; btn.setAttribute('aria-pressed', String(!v.muted)); };
+			btn.addEventListener('click', function () { v.muted = !v.muted; if (!v.muted && v.paused) { v.play().catch(function () {}); } label(); });
+			label();
+			(v.parentElement || w).appendChild(btn);
+		});
+		// Autoplay safety net: start muted autoplay videos when they scroll into view, pause them when they leave.
+		if (!('IntersectionObserver' in window)) { return; }
+		var vio = new IntersectionObserver(function (entries) {
+			entries.forEach(function (en) {
+				var v = en.target;
+				if (en.isIntersecting) {
+					if (v.paused) {
+						var p = v.play();
+						// If the browser refuses (e.g. sound was switched on), fall back to muted playback.
+						if (p && p.catch) { p.catch(function () { v.muted = true; v.play().catch(function () {}); }); }
+					}
+				}
+				else if (!v.paused && !v.closest('.elementor-background-video-container')) { v.pause(); }
+			});
+		}, { threshold: 0.25 });
+		within('video[autoplay]', root).forEach(function (v) { if (!v.dataset.mfVio) { v.dataset.mfVio = '1'; vio.observe(v); } });
 	}
 
 	/* ------------------------------------------------------------ marquee */
@@ -470,6 +518,7 @@
 		initLayers(root);
 		initReveal(root);
 		initParallax(root);
+		initVideos(root);
 		initMarquee(root);
 		initCarousel(root);
 		initStagger(root);

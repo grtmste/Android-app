@@ -37,6 +37,8 @@ function modafie_enqueue_assets() {
 				'next'    => esc_html__( 'Next', 'modafie' ),
 				'sending' => esc_html__( 'Sending…', 'modafie' ),
 				'error'   => esc_html__( 'Something went wrong. Please try again.', 'modafie' ),
+				'soundOn' => esc_html__( 'Sound on', 'modafie' ),
+				'soundOff' => esc_html__( 'Sound off', 'modafie' ),
 			),
 		)
 	);

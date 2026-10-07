@@ -803,6 +803,7 @@
               "loop": true,
               "muted": true,
               "controls": false,
+              "sound": false,
               "poster": "https://modafie.io/web/pattern-cutting-loop-poster.jpg",
               "posterMediaId": "5d43f309c58ddb45",
               "posterFile": "web/pattern-cutting-loop-poster.jpg"
@@ -855,10 +856,11 @@
               "src": "https://modafie.io/web/designer-story.mp4",
               "mediaId": "fb16f00652fc31da",
               "file": "web/designer-story.mp4",
-              "autoplay": false,
-              "loop": false,
-              "muted": false,
+              "autoplay": true,
+              "loop": true,
+              "muted": true,
               "controls": true,
+              "sound": true,
               "poster": "https://modafie.io/web/designer-story-poster.jpg",
               "posterMediaId": "bb72ecad4d02f388",
               "posterFile": "web/designer-story-poster.jpg"

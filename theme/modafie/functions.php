@@ -7,7 +7,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'MODAFIE_VERSION', '1.1.0' );
+define( 'MODAFIE_VERSION', '1.2.0' );
 define( 'MODAFIE_DIR', get_template_directory() );
 define( 'MODAFIE_URI', get_template_directory_uri() );
 

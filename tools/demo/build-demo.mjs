@@ -143,6 +143,7 @@ function videoWidget(b) {
   const poster = media(b.posterMediaId);
   if (poster && !b.autoplay) { s.show_image_overlay = 'yes'; s.image_overlay = poster; s.lightbox = ''; }
   if (poster && b.autoplay) s.poster = poster;
+  if (b.sound) s._css_classes = 'mf-video-sound';
   return widget('video', s);
 }
 function formWidget(b, { inline = false, onDark = false, name = 'Form' } = {}) {

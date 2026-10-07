@@ -3187,20 +3187,19 @@
       "size": ""
      },
      "controls": "yes",
-     "autoplay": "",
-     "mute": "",
-     "loop": "",
-     "play_on_mobile": "",
+     "autoplay": "yes",
+     "mute": "yes",
+     "loop": "yes",
+     "play_on_mobile": "yes",
      "aspect_ratio": "169",
-     "show_image_overlay": "yes",
-     "image_overlay": {
+     "poster": {
       "url": "{{mf-media:bb72ecad4d02f388:url}}",
       "id": "{{mf-media:bb72ecad4d02f388:id}}",
       "alt": "Designer story",
       "source": "library",
       "size": ""
      },
-     "lightbox": ""
+     "_css_classes": "mf-video-sound"
     },
     "elements": []
    }

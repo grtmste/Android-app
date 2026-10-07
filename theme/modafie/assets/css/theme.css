@@ -359,7 +359,7 @@ html.mf-lock, html.mf-lock body { overflow: hidden; }
 .mf-bg-layer {
 	position: absolute; inset: 0; z-index: -1; pointer-events: none;
 	background-size: cover; background-position: center; background-repeat: no-repeat;
-	transform-origin: 50% 60%; will-change: transform;
+	transform-origin: 50% 60%; backface-visibility: hidden;
 }
 .mf-hero > .mf-bg-layer { animation: mf-kenburns 14s var(--mf-ease) both; }
 @keyframes mf-kenburns { from { transform: scale(1.14); } to { transform: scale(1.02); } }
@@ -487,7 +487,7 @@ textarea.mf-input { min-height: 140px; resize: vertical; }
 
 /* Parallax image / background */
 .mf-parallax { overflow: hidden; }
-.mf-parallax img { transform: translate3d(0, var(--mf-py, 0px), 0) scale(1.18); will-change: transform; }
+.mf-parallax img { transform: translate3d(0, var(--mf-py, 0px), 0) scale(1.1); backface-visibility: hidden; }
 .mf-parallax-bg { position: relative; isolation: isolate; overflow: hidden !important; }
 .mf-parallax-bg > .mf-bg-layer { inset: -18% 0; transform: translate3d(0, var(--mf-py, 0px), 0); }
 
@@ -497,7 +497,23 @@ textarea.mf-input { min-height: 140px; resize: vertical; }
 .mf-zoom:hover img, .mf-zoom:focus-within img { transform: scale(1.06); }
 
 /* Elementor entrance animations: smoother easing to match the theme */
-.elementor-element.animated { animation-timing-function: var(--mf-ease); animation-duration: 1s; }
+.elementor-element.animated { animation-timing-function: var(--mf-ease); animation-duration: 1.1s; }
+/* Elementor's stock keyframes move elements by 100% of their own height (fadeInUp) or start at 30% size (zoomIn),
+   which looks chunky on large photos. These gentler versions keep the same names in the Elementor UI. */
+.elementor-element.animated.fadeInUp { animation-name: mf-fadeInUp; }
+.elementor-element.animated.fadeInDown { animation-name: mf-fadeInDown; }
+.elementor-element.animated.zoomIn { animation-name: mf-zoomIn; }
+@keyframes mf-fadeInUp { from { opacity: 0; transform: translate3d(0, 32px, 0); } to { opacity: 1; transform: none; } }
+@keyframes mf-fadeInDown { from { opacity: 0; transform: translate3d(0, -32px, 0); } to { opacity: 1; transform: none; } }
+@keyframes mf-zoomIn { from { opacity: 0; transform: scale(.96); } to { opacity: 1; transform: none; } }
+
+/* Parallax driven by the browser's compositor (smooth, no JavaScript) where scroll-driven animations are supported. */
+@supports (animation-timeline: view()) {
+	.mf-parallax img { transform: none; animation: mf-parallax-img linear both; animation-timeline: view(); animation-range: cover; }
+	.mf-parallax-bg > .mf-bg-layer { transform: none; animation: mf-parallax-layer linear both; animation-timeline: view(); animation-range: cover; }
+}
+@keyframes mf-parallax-img { from { transform: translate3d(0, -5%, 0) scale(1.1); } to { transform: translate3d(0, 5%, 0) scale(1.1); } }
+@keyframes mf-parallax-layer { from { transform: translate3d(0, -8%, 0); } to { transform: translate3d(0, 8%, 0); } }
 .elementor-element.animated.animated-fast { animation-duration: .6s; }
 .elementor-element.animated.animated-slow { animation-duration: 1.6s; }
 
@@ -569,3 +585,16 @@ textarea.mf-input { min-height: 140px; resize: vertical; }
 body a.mf-btn, body a.mf-btn:hover, body a.mf-btn:focus-visible { color: var(--mf-white); }
 body a.mf-btn.mf-btn-light, body .mf-btn-light a.mf-btn { color: var(--mf-primary); }
 body .mf-announcement a, body .mf-announcement a:hover { color: var(--mf-white); }
+
+
+/* Autoplaying video with sound: starts muted (browser rule), visitors can switch sound on */
+.mf-video-sound { position: relative; }
+.mf-video-sound .mf-sound-btn {
+	position: absolute; right: 16px; bottom: 16px; z-index: 2; display: inline-flex; align-items: center; gap: 8px;
+	min-height: 40px; padding: 0 16px; border: 0; border-radius: var(--mf-radius-pill); cursor: pointer;
+	background: rgba(11, 11, 11, .72); color: var(--mf-white); font: 700 .75rem/1 var(--mf-font-body); letter-spacing: .08em; text-transform: uppercase;
+	backdrop-filter: blur(6px); transition: background-color var(--mf-dur-ui);
+}
+.mf-video-sound .mf-sound-btn:hover, .mf-video-sound .mf-sound-btn:focus-visible { background: var(--mf-accent); color: var(--mf-white); }
+.mf-video-sound .mf-sound-btn::before { content: none; }
+.mf-video-sound .mf-sound-btn svg { width: 18px; height: 18px; }

@@ -112,8 +112,10 @@ def IMG(rec, alt=None, link=None, role=None):
     return b
 
 
-def VID(rec, poster=None, loop=False):
-    b = {"type": "video", "src": rec["url"], "mediaId": rec["id"], "file": rec["file"], "autoplay": loop, "loop": loop, "muted": loop, "controls": not loop}
+def VID(rec, poster=None, loop=False, sound=False):
+    """loop: silent background loop (no controls). sound: autoplays muted + loops, with controls and a "Sound on" button."""
+    auto = loop or sound
+    b = {"type": "video", "src": rec["url"], "mediaId": rec["id"], "file": rec["file"], "autoplay": auto, "loop": auto, "muted": auto, "controls": not loop, "sound": sound}
     if poster:
         b.update({"poster": poster["url"], "posterMediaId": poster["id"], "posterFile": poster["file"]})
     return b
@@ -304,7 +306,7 @@ def main():
         S([P("MODAFIE")], "marquee", variant="small", title="Small marquee"),
         S([VID(v_cut, v_cut_p, loop=True), H(eco_title), L([re.sub(r"^✓\s*", "", x) for x in eco_list["items"]]), BTN("WhatsApp us", WA), BTN("Get an offer", OFFER)],
           "split", reverse=True, title="Production ecosystem"),
-        S([VID(v_story, v_story_p)], "video", title="Designer story video"),
+        S([VID(v_story, v_story_p, sound=True)], "video", title="Designer story video"),
         S([P(slow["text"], slow.get("html"))], "generic", boxed=760, title="Slow fashion"),
         S([H("Start with 30 pieces."), P("Test the market. See what sells. Gather feedback. Then reinvest."), BTN("Get an offer", OFFER), BTN("WhatsApp us", WA)],
           "cta", variant="dark", title="Offer CTA"),

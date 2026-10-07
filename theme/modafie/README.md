@@ -88,7 +88,7 @@ Add a class under **Advanced → CSS Classes** on any widget or container, or ch
 |---|---|---|
 | `mf-reveal` | Heading | Line-by-line mask reveal when scrolled into view. It runs immediately inside a hero |
 | `mf-hero` | Container with a background image | Slow zoom-out ("Ken Burns") on the background, gentle parallax, and an automatic `mf-reveal` on its headings |
-| `mf-parallax` | Image widget | Image drifts against the scroll (strength: `--mf-parallax`, default 0.2) |
+| `mf-parallax` | Image widget | Image drifts gently against the scroll. It runs on the browser's compositor (CSS scroll-driven animation) where supported, otherwise a smoothed JS fallback (strength: `--mf-parallax`) |
 | `mf-parallax-bg` | Container with a background image | Background moves at a slower speed than the content |
 | `mf-marquee` | Heading or Text Editor | Turns the text into an infinite ticker. Separate items with `✦`, `•` or `\|`. Alternatively, use the *Modafie Marquee* widget |
 | `mf-zoom` | Image, card container, anything with an image | Image zooms to 106% on hover/focus |
@@ -99,11 +99,13 @@ Add a class under **Advanced → CSS Classes** on any widget or container, or ch
 | `mf-link` | Heading with a link | Small caps link with an animated underline (used for "View all") |
 | `mf-eyebrow` | Text Editor | Small, spaced, uppercase label |
 | `mf-on-dark` | Modafie Form | Light-on-dark fields and button |
+| `mf-video-sound` | Video widget (Self Hosted, Autoplay + Mute on) | Autoplays muted when scrolled into view, pauses when out of view, and adds a **Sound on / off** button. Browsers only allow autoplay without sound |
 | `mf-card-item` | Card container | 4:5 image on a grey background; the whole card is clickable via its heading link |
 
 **Built-in behaviours** (no class needed): the header hides on scroll down, shows on scroll up and shrinks after 80px; the mobile off-canvas menu traps focus and closes on Escape; mega-menu panels open on hover, keyboard focus or first tap on touch; the announcement bar is a marquee; buttons get a hover fill-slide.
 
 **Accessibility and performance:**
+- Elementor's *Fade In Up*, *Fade In Down* and *Zoom In* entrances are softened by the theme (32px slide, 96% zoom) so large photos don't jump.
 - With `prefers-reduced-motion: reduce`, reveals, parallax, zoom, marquee motion and the hero zoom are turned off, and content shows immediately.
 - Reveals only animate `transform`/`clip`, so there's no layout shift.
 - The theme JS has no dependencies (IntersectionObserver + `requestAnimationFrame`, about 7 KB gzipped) and is deferred.

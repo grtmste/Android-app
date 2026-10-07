@@ -3,7 +3,7 @@ Contributors: modafie
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 1.1.0
+Stable tag: 1.2.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,6 +36,10 @@ They all link to /whatsapp/. Set your number in Appearance → Customize → Mod
 They are e-mailed to the address set in the widget (default: the site admin) and listed under Appearance → Form submissions.
 
 == Changelog ==
+
+= 1.2.0 =
+* Smoother image animations: gentler entrance motion, compositor-driven parallax, no pixelation while moving.
+* Designer story video autoplays (muted, looping) when scrolled into view, with a Sound on/off button.
 
 = 1.1.0 =
 * Content from modafie.io (Home, About us, What we do, FAQ), new Get an offer page, WhatsApp/Instagram links, brand orange accent. No shop.
